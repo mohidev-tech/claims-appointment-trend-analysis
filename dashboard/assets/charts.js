@@ -1,6 +1,6 @@
 /* ============================================================================
  * charts.js — Lightweight, dependency-free SVG chart library
- * Built for the mohidev-tech analytics dashboards.
+ * Built for the Adithya Vasamsetti analytics dashboards.
  * No external libraries, no CDN. Fully self-contained & portable.
  * API: Charts.kpi / line / bars / groupedBars / stackedBars / donut / table
  * ==========================================================================*/

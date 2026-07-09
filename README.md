@@ -108,7 +108,7 @@ dashboard/
 screenshots/               rendered proof
 ```
 
-## Part of the mohidev-tech data-analytics portfolio
+## Part of Adithya's data-analytics portfolio
 
 | Project | Focus |
 |---|---|
