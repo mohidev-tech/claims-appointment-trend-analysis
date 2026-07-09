@@ -1,6 +1,6 @@
 /* ============================================================================
  * charts.js — Lightweight, dependency-free SVG chart library
- * Built for the Adithya Vasamsetti analytics dashboards.
+ * Built for the mohidev-tech analytics dashboards.
  * No external libraries, no CDN. Fully self-contained & portable.
  * API: Charts.kpi / line / bars / groupedBars / stackedBars / donut / table
  * ==========================================================================*/
@@ -280,5 +280,71 @@
     node.appendChild(t);
   }
 
-  global.Charts = { kpi, line, bars, groupedBars, stackedBars, donut, table, legend, fmt: { int: fmtInt, num: fmtNum, pct: fmtPct, money: fmtMoney } };
+  // ---- forecast: history + projected line with confidence band ------------
+  function forecast(node, o) {
+    clear(node);
+    const W = 720, H = 300, m = { t: 20, r: 24, b: 46, l: 60 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const svg = svgRoot(W, H);
+    const hist = o.histValues, pt = o.point, lo = o.lower, up = o.upper;
+    const labels = o.histLabels.concat(o.futureLabels);
+    const nH = hist.length, nAll = labels.length;
+    const yFmt = o.yFmt || fmtInt;
+    const all = hist.concat(pt, up, lo);
+    const maxY = niceMax(Math.max(...all) * 1.08);
+    const minY = Math.min(0, Math.min(...all));
+    const span = maxY - minY || 1;
+    drawAxes(svg, m.l, m.t + ih, iw, ih, maxY, yFmt, 5, minY);
+    const xStep = nAll > 1 ? iw / (nAll - 1) : iw;
+    const X = (i) => m.l + xStep * i;
+    const Y = (v) => m.t + ih - (ih * (v - minY)) / span;
+    labels.forEach((lb, i) => {
+      if (nAll <= 16 || i % Math.ceil(nAll / 12) === 0)
+        svg.appendChild(el("text", { x: X(i), y: m.t + ih + 22, class: "axis-lbl", "text-anchor": "middle" }, lb));
+    });
+    const color = o.color || "var(--c1)";
+    // forecast region shading + CI band
+    svg.appendChild(el("rect", { x: X(nH - 1), y: m.t, width: iw - (X(nH - 1) - m.l), height: ih, fill: color, opacity: 0.05 }));
+    const bandTop = pt.map((v, i) => [X(nH + i), Y(up[i])]);
+    const bandBot = pt.map((v, i) => [X(nH + i), Y(lo[i])]);
+    const startTop = [X(nH - 1), Y(hist[nH - 1])];
+    const bandPath = "M " + startTop[0] + " " + startTop[1] + " " +
+      bandTop.map(p => "L " + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ") + " " +
+      bandBot.reverse().map(p => "L " + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ") + " Z";
+    svg.appendChild(el("path", { d: bandPath, fill: color, opacity: 0.15 }));
+    // history line
+    const hp = hist.map((v, i) => [X(i), Y(v)]);
+    svg.appendChild(el("path", { d: hp.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" "), fill: "none", stroke: color, "stroke-width": 2.5 }));
+    // forecast line (dashed), connected to last history point
+    const fp = [[X(nH - 1), Y(hist[nH - 1])]].concat(pt.map((v, i) => [X(nH + i), Y(v)]));
+    svg.appendChild(el("path", { d: fp.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" "), fill: "none", stroke: color, "stroke-width": 2.5, "stroke-dasharray": "6 4" }));
+    hist.forEach((v, i) => { const c = el("circle", { cx: X(i), cy: Y(v), r: 3, fill: "#fff", stroke: color, "stroke-width": 2 }); hoverable(c, `${o.histLabels[i]}: <b>${yFmt(v)}</b>`); svg.appendChild(c); });
+    pt.forEach((v, i) => { const c = el("circle", { cx: X(nH + i), cy: Y(v), r: 3, fill: color, stroke: "#fff", "stroke-width": 1.5 }); hoverable(c, `${o.futureLabels[i]} (forecast): <b>${yFmt(v)}</b><br>range ${yFmt(lo[i])} – ${yFmt(up[i])}`); svg.appendChild(c); });
+    node.appendChild(svg);
+    legend(node, [{ label: "Actual", color }, { label: "Forecast (95% band)", color }]);
+  }
+
+  // ---- ROC curve (numeric 0..1 axes) --------------------------------------
+  function roc(node, o) {
+    clear(node);
+    const S = 300, m = 40, iw = S - m - 14, ih = S - m - 14;
+    const svg = svgRoot(S, S);
+    const X = (v) => m + iw * v, Y = (v) => (S - m) - ih * v;
+    for (let i = 0; i <= 5; i++) {
+      const g = i / 5;
+      svg.appendChild(el("line", { x1: X(g), y1: Y(0), x2: X(g), y2: Y(1), class: "grid" }));
+      svg.appendChild(el("line", { x1: X(0), y1: Y(g), x2: X(1), y2: Y(g), class: "grid" }));
+      svg.appendChild(el("text", { x: X(g), y: S - m + 16, class: "axis-lbl", "text-anchor": "middle" }, g.toFixed(1)));
+      svg.appendChild(el("text", { x: m - 8, y: Y(g) + 4, class: "axis-lbl", "text-anchor": "end" }, g.toFixed(1)));
+    }
+    svg.appendChild(el("line", { x1: X(0), y1: Y(0), x2: X(1), y2: Y(1), stroke: "#9ca3af", "stroke-width": 1.2, "stroke-dasharray": "5 4" }));
+    const color = o.color || "var(--c1)";
+    const d = o.points.map((p, i) => (i ? "L" : "M") + X(p[0]).toFixed(1) + " " + Y(p[1]).toFixed(1)).join(" ");
+    svg.appendChild(el("path", { d, fill: "none", stroke: color, "stroke-width": 2.6, "stroke-linejoin": "round" }));
+    svg.appendChild(el("text", { x: X(0.55), y: Y(0.22), fill: color, "font-size": 15, "font-weight": 800 }, "AUC " + o.auc));
+    svg.appendChild(el("text", { x: X(0.5), y: S - 4, class: "axis-lbl", "text-anchor": "middle" }, "False positive rate"));
+    node.appendChild(svg);
+  }
+
+  global.Charts = { kpi, line, bars, groupedBars, stackedBars, donut, table, forecast, roc, legend, fmt: { int: fmtInt, num: fmtNum, pct: fmtPct, money: fmtMoney } };
 })(window);

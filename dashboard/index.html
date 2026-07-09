@@ -55,6 +55,15 @@
     <div class="panel col-5"><h3>Avg processing days by department</h3><p class="hint">Latest month in range</p><div class="chart-host" id="c-procdept"></div></div>
   </div>
 
+  <div class="ai-band"><span class="ai-chip">🤖 AI &amp; Predictive Analytics</span><span class="ai-sub">Gradient-boosted claim-denial model · feature importance · processing-days forecast · auto-generated insights</span></div>
+  <div class="grid" style="margin-top:12px">
+    <div class="panel ai col-5"><h3>Claim-denial model — ROC</h3><p class="hint">Held-out test-set performance</p><div class="model-grid" id="ai-metrics" style="margin-bottom:14px"></div><div class="chart-host" id="ai-roc"></div></div>
+    <div class="panel ai col-4"><h3>Denial feature importance</h3><p class="hint">Permutation importance (drop in AUC when shuffled)</p><div class="chart-host" id="ai-imp"></div></div>
+    <div class="panel ai col-3"><h3>Confusion matrix</h3><p class="hint">Hold-out predictions</p><div id="ai-confusion"></div></div>
+    <div class="panel ai col-7"><h3>Processing-days forecast</h3><p class="hint">6-month Holt-Winters projection of the claim-count-weighted avg processing days — the bottleneck trend</p><div class="chart-host" id="ai-fc"></div></div>
+    <div class="panel ai col-5"><h3>🧠 AI-generated insights</h3><p class="hint">Automated narrative from the model &amp; data (Power BI Smart-Narrative style)</p><ul class="ai-insights" id="ai-insights"></ul><div class="recommendation" id="ai-rec"></div></div>
+  </div>
+
   <div class="section-title">Department scorecard</div>
   <div class="grid" style="margin-top:12px">
     <div class="panel col-12"><h3>Department trend scorecard</h3><p class="hint">Aggregated across the selected month range — cancellation, approval, processing and aging by department</p><div class="chart-host" id="c-score"></div></div>
@@ -74,7 +83,37 @@
 </div>
 
 <script src="data.js"></script>
+<script src="ai.js"></script>
 <script src="assets/charts.js"></script>
+<script>
+// ---- AI & Predictive Analytics section (consumes window.AI from ml/build_ai.py) ----
+(function () {
+  const A = window.AI; if (!A) return;
+  const fmt = Charts.fmt, $ = (id) => document.getElementById(id);
+  const acc = A.accent || "#0369a1";
+  const m = A.model;
+  $("ai-metrics").innerHTML = [
+    ["AUC", m.auc], ["Precision", m.precision], ["Recall", m.recall], ["F1", m.f1],
+  ].map(([l, v]) => `<div class="model-metric"><span class="mm-val">${v}</span><span class="mm-lbl">${l}</span></div>`).join("");
+  Charts.roc($("ai-roc"), { points: m.roc, auc: m.auc, color: acc });
+  const imp = A.importances.slice(0, 8);
+  Charts.bars($("ai-imp"), { labels: imp.map(d => d.feature.replace(/_/g, " ")), values: imp.map(d => d.importance),
+    color: acc, horizontal: true, yFmt: v => (v * 100).toFixed(0) + "%" });
+  const cm = m.confusion;
+  $("ai-confusion").innerHTML = `<div class="confusion">
+    <div style="background:#dcfce7"><b>${fmt.int(cm.tn)}</b>True paid</div>
+    <div style="background:#fef3c7"><b>${fmt.int(cm.fp)}</b>False denial</div>
+    <div style="background:#fee2e2"><b>${fmt.int(cm.fn)}</b>Missed denial</div>
+    <div style="background:#dbeafe"><b>${fmt.int(cm.tp)}</b>Caught denial</div></div>
+    <p class="hint" style="margin-top:8px">Base denial rate ${(m.base_rate*100).toFixed(1)}% · ${fmt.int(m.n_test)} test claims</p>`;
+  const F = A.forecast;
+  Charts.forecast($("ai-fc"), {
+    histLabels: F.histLabels, histValues: F.hist, futureLabels: F.futureLabels,
+    point: F.point, lower: F.lower, upper: F.upper, color: acc, yFmt: v => v.toFixed(1) + " d" });
+  $("ai-insights").innerHTML = A.insights.map(it => `<li><span class="ai-ico">${it.icon}</span><span>${it.text}</span></li>`).join("");
+  $("ai-rec").innerHTML = `<div class="rec-h">✅ Recommended action</div>${A.recommendation}`;
+})();
+</script>
 <script>
 (function () {
   const D = window.DATA, M = D.meta, A = D.appts, CL = D.claims, fmt = Charts.fmt;
