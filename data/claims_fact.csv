@@ -1,0 +1,3151 @@
+month,department,claim_type,claim_status,claim_count,claim_amount,avg_processing_days,aging_0_30,aging_31_60,aging_61_90,aging_90_plus
+2024-01,Cardiology,Professional,Submitted,10,5423.49,5.6,9,1,0,0
+2024-01,Cardiology,Professional,In Review,13,7040.95,26.7,5,5,2,1
+2024-01,Cardiology,Professional,Approved,16,7332.11,18.9,11,4,1,0
+2024-01,Cardiology,Professional,Denied,10,4547.67,36.3,1,3,3,3
+2024-01,Cardiology,Professional,Paid,42,20536.97,22.8,37,4,1,0
+2024-01,Cardiology,Facility,Submitted,8,24949.36,5.7,7,1,0,0
+2024-01,Cardiology,Facility,In Review,9,26265.28,22.9,4,3,1,1
+2024-01,Cardiology,Facility,Approved,12,32872.06,16.5,9,3,0,0
+2024-01,Cardiology,Facility,Denied,8,26595.22,45.3,1,2,3,2
+2024-01,Cardiology,Facility,Paid,37,120806.7,20.1,32,4,1,0
+2024-01,Cardiology,Pharmacy,Submitted,4,822.58,5.8,4,0,0,0
+2024-01,Cardiology,Pharmacy,In Review,7,1372.9,25.1,3,3,1,0
+2024-01,Cardiology,Pharmacy,Approved,9,2042.25,18.6,7,2,0,0
+2024-01,Cardiology,Pharmacy,Denied,5,902.29,43.2,0,2,2,1
+2024-01,Cardiology,Pharmacy,Paid,23,4497.8,21.1,20,3,0,0
+2024-01,Cardiology,Lab,Submitted,5,719.76,6.2,5,0,0,0
+2024-01,Cardiology,Lab,In Review,6,862.22,22.8,3,2,1,0
+2024-01,Cardiology,Lab,Approved,8,1224.59,16.0,6,2,0,0
+2024-01,Cardiology,Lab,Denied,5,677.8,42.8,0,2,2,1
+2024-01,Cardiology,Lab,Paid,22,3336.07,22.6,19,3,0,0
+2024-01,Cardiology,Imaging,Submitted,4,3080.72,6.3,4,0,0,0
+2024-01,Cardiology,Imaging,In Review,5,3365.97,23.6,2,2,1,0
+2024-01,Cardiology,Imaging,Approved,7,4838.52,17.5,5,2,0,0
+2024-01,Cardiology,Imaging,Denied,4,2637.98,44.0,0,1,2,1
+2024-01,Cardiology,Imaging,Paid,18,13761.88,19.8,16,2,0,0
+2024-01,Orthopedics,Professional,Submitted,8,4042.65,5.8,7,1,0,0
+2024-01,Orthopedics,Professional,In Review,14,6365.43,24.4,5,5,3,1
+2024-01,Orthopedics,Professional,Approved,16,7956.74,17.9,11,4,1,0
+2024-01,Orthopedics,Professional,Denied,10,4373.31,37.2,1,3,3,3
+2024-01,Orthopedics,Professional,Paid,41,22626.33,21.5,36,4,1,0
+2024-01,Orthopedics,Facility,Submitted,7,19174.27,5.9,6,1,0,0
+2024-01,Orthopedics,Facility,In Review,9,32382.14,25.2,4,3,1,1
+2024-01,Orthopedics,Facility,Approved,11,40210.11,16.0,8,3,0,0
+2024-01,Orthopedics,Facility,Denied,7,24747.91,45.2,1,2,3,1
+2024-01,Orthopedics,Facility,Paid,27,77132.51,22.9,24,3,0,0
+2024-01,Orthopedics,Pharmacy,Submitted,4,947.0,6.2,4,0,0,0
+2024-01,Orthopedics,Pharmacy,In Review,6,1222.23,21.9,3,2,1,0
+2024-01,Orthopedics,Pharmacy,Approved,7,1312.72,19.3,5,2,0,0
+2024-01,Orthopedics,Pharmacy,Denied,5,1059.56,39.8,0,2,2,1
+2024-01,Orthopedics,Pharmacy,Paid,22,5053.69,24.0,19,3,0,0
+2024-01,Orthopedics,Lab,Submitted,4,581.97,6.0,4,0,0,0
+2024-01,Orthopedics,Lab,In Review,6,840.34,23.4,3,2,1,0
+2024-01,Orthopedics,Lab,Approved,7,1020.69,18.2,5,2,0,0
+2024-01,Orthopedics,Lab,Denied,4,567.91,38.2,0,1,2,1
+2024-01,Orthopedics,Lab,Paid,20,2766.02,24.2,18,2,0,0
+2024-01,Orthopedics,Imaging,Submitted,3,2183.73,6.5,3,0,0,0
+2024-01,Orthopedics,Imaging,In Review,4,3234.19,24.2,2,2,0,0
+2024-01,Orthopedics,Imaging,Approved,6,4333.18,16.0,5,1,0,0
+2024-01,Orthopedics,Imaging,Denied,3,2006.78,39.5,0,1,1,1
+2024-01,Orthopedics,Imaging,Paid,15,10792.54,19.9,13,2,0,0
+2024-01,Pediatrics,Professional,Submitted,11,4790.36,6.2,10,1,0,0
+2024-01,Pediatrics,Professional,In Review,15,8024.51,22.3,6,5,3,1
+2024-01,Pediatrics,Professional,Approved,19,10148.04,17.1,13,4,2,0
+2024-01,Pediatrics,Professional,Denied,12,6553.2,45.4,2,3,4,3
+2024-01,Pediatrics,Professional,Paid,55,22986.0,22.5,48,6,1,0
+2024-01,Pediatrics,Facility,Submitted,10,28217.62,5.9,9,1,0,0
+2024-01,Pediatrics,Facility,In Review,12,34134.47,25.1,5,4,2,1
+2024-01,Pediatrics,Facility,Approved,16,48817.14,16.2,11,4,1,0
+2024-01,Pediatrics,Facility,Denied,10,28718.41,40.3,1,3,3,3
+2024-01,Pediatrics,Facility,Paid,40,145427.84,20.1,35,4,1,0
+2024-01,Pediatrics,Pharmacy,Submitted,5,916.55,5.6,5,0,0,0
+2024-01,Pediatrics,Pharmacy,In Review,7,1310.97,24.0,3,3,1,0
+2024-01,Pediatrics,Pharmacy,Approved,11,2024.03,17.7,8,3,0,0
+2024-01,Pediatrics,Pharmacy,Denied,6,1159.54,39.7,1,2,2,1
+2024-01,Pediatrics,Pharmacy,Paid,24,4616.84,21.8,21,3,0,0
+2024-01,Pediatrics,Lab,Submitted,6,995.18,5.9,5,1,0,0
+2024-01,Pediatrics,Lab,In Review,7,961.28,22.5,3,3,1,0
+2024-01,Pediatrics,Lab,Approved,9,1146.53,17.8,7,2,0,0
+2024-01,Pediatrics,Lab,Denied,6,786.57,43.1,1,2,2,1
+2024-01,Pediatrics,Lab,Paid,24,3847.35,20.6,21,3,0,0
+2024-01,Pediatrics,Imaging,Submitted,4,2875.94,5.5,4,0,0,0
+2024-01,Pediatrics,Imaging,In Review,6,4465.44,22.6,3,2,1,0
+2024-01,Pediatrics,Imaging,Approved,7,5689.81,16.0,5,2,0,0
+2024-01,Pediatrics,Imaging,Denied,5,3652.12,38.5,0,2,2,1
+2024-01,Pediatrics,Imaging,Paid,20,12619.03,23.2,18,2,0,0
+2024-01,Radiology,Professional,Submitted,10,4533.43,6.6,9,1,0,0
+2024-01,Radiology,Professional,In Review,15,8165.29,24.9,6,5,3,1
+2024-01,Radiology,Professional,Approved,19,9065.36,19.8,13,4,2,0
+2024-01,Radiology,Professional,Denied,11,5050.42,42.4,1,3,4,3
+2024-01,Radiology,Professional,Paid,49,20867.08,21.4,43,5,1,0
+2024-01,Radiology,Facility,Submitted,8,24669.51,6.5,7,1,0,0
+2024-01,Radiology,Facility,In Review,10,34433.61,21.9,4,3,2,1
+2024-01,Radiology,Facility,Approved,14,44538.72,17.0,10,3,1,0
+2024-01,Radiology,Facility,Denied,8,23795.79,39.7,1,2,3,2
+2024-01,Radiology,Facility,Paid,36,130738.28,22.9,31,4,1,0
+2024-01,Radiology,Pharmacy,Submitted,5,1153.38,6.5,5,0,0,0
+2024-01,Radiology,Pharmacy,In Review,7,1669.96,23.4,3,3,1,0
+2024-01,Radiology,Pharmacy,Approved,10,2394.1,18.9,7,3,0,0
+2024-01,Radiology,Pharmacy,Denied,5,1077.13,37.2,0,2,2,1
+2024-01,Radiology,Pharmacy,Paid,25,4905.57,23.0,22,3,0,0
+2024-01,Radiology,Lab,Submitted,4,561.36,6.2,4,0,0,0
+2024-01,Radiology,Lab,In Review,6,785.13,21.3,3,2,1,0
+2024-01,Radiology,Lab,Approved,8,1211.92,18.3,6,2,0,0
+2024-01,Radiology,Lab,Denied,5,714.28,39.7,0,2,2,1
+2024-01,Radiology,Lab,Paid,21,3254.44,21.0,19,2,0,0
+2024-01,Radiology,Imaging,Submitted,4,2913.93,6.2,4,0,0,0
+2024-01,Radiology,Imaging,In Review,5,3252.38,21.7,2,2,1,0
+2024-01,Radiology,Imaging,Approved,7,5547.91,16.6,5,2,0,0
+2024-01,Radiology,Imaging,Denied,4,2727.25,41.9,0,1,2,1
+2024-01,Radiology,Imaging,Paid,18,13686.1,24.1,16,2,0,0
+2024-01,Oncology,Professional,Submitted,7,3420.2,5.7,6,1,0,0
+2024-01,Oncology,Professional,In Review,10,4217.5,25.2,4,3,2,1
+2024-01,Oncology,Professional,Approved,12,6477.68,18.1,9,3,0,0
+2024-01,Oncology,Professional,Denied,7,3690.36,43.7,1,2,3,1
+2024-01,Oncology,Professional,Paid,31,16075.72,20.8,27,4,0,0
+2024-01,Oncology,Facility,Submitted,5,15126.33,6.0,5,0,0,0
+2024-01,Oncology,Facility,In Review,7,24403.98,26.2,3,3,1,0
+2024-01,Oncology,Facility,Approved,8,29413.16,16.5,6,2,0,0
+2024-01,Oncology,Facility,Denied,5,15900.51,43.9,0,2,2,1
+2024-01,Oncology,Facility,Paid,25,85547.35,22.7,22,3,0,0
+2024-01,Oncology,Pharmacy,Submitted,3,631.76,5.3,3,0,0,0
+2024-01,Oncology,Pharmacy,In Review,4,929.7,25.2,2,2,0,0
+2024-01,Oncology,Pharmacy,Approved,6,1218.6,18.1,5,1,0,0
+2024-01,Oncology,Pharmacy,Denied,3,607.89,40.7,0,1,1,1
+2024-01,Oncology,Pharmacy,Paid,14,2526.55,23.0,13,1,0,0
+2024-01,Oncology,Lab,Submitted,3,402.37,6.1,3,0,0,0
+2024-01,Oncology,Lab,In Review,4,575.47,24.5,2,2,0,0
+2024-01,Oncology,Lab,Approved,4,650.94,16.1,3,1,0,0
+2024-01,Oncology,Lab,Denied,3,396.81,41.2,0,1,1,1
+2024-01,Oncology,Lab,Paid,12,1927.92,21.5,11,1,0,0
+2024-01,Oncology,Imaging,Submitted,2,1232.38,5.9,2,0,0,0
+2024-01,Oncology,Imaging,In Review,3,2133.79,26.7,2,1,0,0
+2024-01,Oncology,Imaging,Approved,5,4135.32,17.1,4,1,0,0
+2024-01,Oncology,Imaging,Denied,3,2196.0,42.1,0,1,1,1
+2024-01,Oncology,Imaging,Paid,13,9792.4,24.1,12,1,0,0
+2024-01,General Surgery,Professional,Submitted,6,3052.3,6.0,5,1,0,0
+2024-01,General Surgery,Professional,In Review,9,4717.66,21.7,4,3,1,1
+2024-01,General Surgery,Professional,Approved,10,4180.24,18.0,7,3,0,0
+2024-01,General Surgery,Professional,Denied,6,3073.26,41.5,1,2,2,1
+2024-01,General Surgery,Professional,Paid,31,13897.01,22.1,27,4,0,0
+2024-01,General Surgery,Facility,Submitted,4,11552.02,5.4,4,0,0,0
+2024-01,General Surgery,Facility,In Review,5,17469.91,21.7,2,2,1,0
+2024-01,General Surgery,Facility,Approved,7,24054.34,19.1,5,2,0,0
+2024-01,General Surgery,Facility,Denied,4,11116.64,40.5,0,1,2,1
+2024-01,General Surgery,Facility,Paid,17,57652.1,21.2,15,2,0,0
+2024-01,General Surgery,Pharmacy,Submitted,3,642.77,5.5,3,0,0,0
+2024-01,General Surgery,Pharmacy,In Review,4,731.93,26.7,2,2,0,0
+2024-01,General Surgery,Pharmacy,Approved,5,949.74,15.9,4,1,0,0
+2024-01,General Surgery,Pharmacy,Denied,3,564.38,38.2,0,1,1,1
+2024-01,General Surgery,Pharmacy,Paid,14,3031.03,20.3,13,1,0,0
+2024-01,General Surgery,Lab,Submitted,2,331.43,5.3,2,0,0,0
+2024-01,General Surgery,Lab,In Review,4,627.5,21.5,2,2,0,0
+2024-01,General Surgery,Lab,Approved,4,559.87,19.6,3,1,0,0
+2024-01,General Surgery,Lab,Denied,3,455.27,43.8,0,1,1,1
+2024-01,General Surgery,Lab,Paid,12,1727.62,22.0,11,1,0,0
+2024-01,General Surgery,Imaging,Submitted,2,1593.14,5.3,2,0,0,0
+2024-01,General Surgery,Imaging,In Review,3,2354.53,23.1,2,1,0,0
+2024-01,General Surgery,Imaging,Approved,4,2609.36,18.1,3,1,0,0
+2024-01,General Surgery,Imaging,Denied,3,1881.78,36.4,0,1,1,1
+2024-01,General Surgery,Imaging,Paid,10,8185.36,20.8,9,1,0,0
+2024-01,Neurology,Professional,Submitted,8,3590.17,6.5,7,1,0,0
+2024-01,Neurology,Professional,In Review,11,5298.73,23.6,4,4,2,1
+2024-01,Neurology,Professional,Approved,15,7833.05,19.1,11,3,1,0
+2024-01,Neurology,Professional,Denied,9,4292.15,44.0,1,3,3,2
+2024-01,Neurology,Professional,Paid,39,17100.36,19.6,34,4,1,0
+2024-01,Neurology,Facility,Submitted,5,14987.7,6.3,5,0,0,0
+2024-01,Neurology,Facility,In Review,6,18366.9,24.7,3,2,1,0
+2024-01,Neurology,Facility,Approved,8,28645.94,16.5,6,2,0,0
+2024-01,Neurology,Facility,Denied,6,17566.4,45.9,1,2,2,1
+2024-01,Neurology,Facility,Paid,24,67223.31,19.7,21,3,0,0
+2024-01,Neurology,Pharmacy,Submitted,3,688.51,5.9,3,0,0,0
+2024-01,Neurology,Pharmacy,In Review,4,862.5,24.2,2,2,0,0
+2024-01,Neurology,Pharmacy,Approved,6,1249.34,18.9,5,1,0,0
+2024-01,Neurology,Pharmacy,Denied,4,802.28,36.2,0,1,2,1
+2024-01,Neurology,Pharmacy,Paid,14,2987.2,21.2,13,1,0,0
+2024-01,Neurology,Lab,Submitted,3,437.66,6.4,3,0,0,0
+2024-01,Neurology,Lab,In Review,4,635.63,21.1,2,2,0,0
+2024-01,Neurology,Lab,Approved,6,983.47,19.2,5,1,0,0
+2024-01,Neurology,Lab,Denied,4,562.07,44.2,0,1,2,1
+2024-01,Neurology,Lab,Paid,15,2252.35,19.7,13,2,0,0
+2024-01,Neurology,Imaging,Submitted,2,1249.4,6.3,2,0,0,0
+2024-01,Neurology,Imaging,In Review,4,3243.19,21.7,2,2,0,0
+2024-01,Neurology,Imaging,Approved,5,3133.03,17.9,4,1,0,0
+2024-01,Neurology,Imaging,Denied,3,1881.56,36.3,0,1,1,1
+2024-01,Neurology,Imaging,Paid,10,7224.34,23.6,9,1,0,0
+2024-02,Cardiology,Professional,Submitted,9,4408.84,5.7,8,1,0,0
+2024-02,Cardiology,Professional,In Review,14,7626.46,25.9,5,5,3,1
+2024-02,Cardiology,Professional,Approved,19,9173.59,19.7,13,4,2,0
+2024-02,Cardiology,Professional,Denied,10,4178.42,43.1,1,3,3,3
+2024-02,Cardiology,Professional,Paid,41,21997.21,23.3,36,4,1,0
+2024-02,Cardiology,Facility,Submitted,7,22306.98,6.4,6,1,0,0
+2024-02,Cardiology,Facility,In Review,10,32401.75,25.2,4,3,2,1
+2024-02,Cardiology,Facility,Approved,15,51523.73,16.6,11,3,1,0
+2024-02,Cardiology,Facility,Denied,9,29566.98,38.0,1,3,3,2
+2024-02,Cardiology,Facility,Paid,36,107735.24,20.2,31,4,1,0
+2024-02,Cardiology,Pharmacy,Submitted,5,1078.52,5.6,5,0,0,0
+2024-02,Cardiology,Pharmacy,In Review,7,1335.6,26.6,3,3,1,0
+2024-02,Cardiology,Pharmacy,Approved,8,1691.09,17.4,6,2,0,0
+2024-02,Cardiology,Pharmacy,Denied,5,1041.05,44.9,0,2,2,1
+2024-02,Cardiology,Pharmacy,Paid,25,4940.12,20.4,22,3,0,0
+2024-02,Cardiology,Lab,Submitted,4,527.98,6.5,4,0,0,0
+2024-02,Cardiology,Lab,In Review,6,910.04,23.5,3,2,1,0
+2024-02,Cardiology,Lab,Approved,8,1048.76,19.4,6,2,0,0
+2024-02,Cardiology,Lab,Denied,4,628.42,44.5,0,1,2,1
+2024-02,Cardiology,Lab,Paid,22,2730.09,21.1,19,3,0,0
+2024-02,Cardiology,Imaging,Submitted,4,3242.21,5.9,4,0,0,0
+2024-02,Cardiology,Imaging,In Review,5,3236.5,23.6,2,2,1,0
+2024-02,Cardiology,Imaging,Approved,6,4634.27,16.7,5,1,0,0
+2024-02,Cardiology,Imaging,Denied,4,3117.8,41.9,0,1,2,1
+2024-02,Cardiology,Imaging,Paid,15,9187.24,22.3,13,2,0,0
+2024-02,Orthopedics,Professional,Submitted,9,4467.22,5.7,8,1,0,0
+2024-02,Orthopedics,Professional,In Review,13,6013.99,22.5,5,5,2,1
+2024-02,Orthopedics,Professional,Approved,15,6631.62,16.2,11,3,1,0
+2024-02,Orthopedics,Professional,Denied,10,5378.81,44.8,1,3,3,3
+2024-02,Orthopedics,Professional,Paid,42,20618.64,22.6,37,4,1,0
+2024-02,Orthopedics,Facility,Submitted,7,21031.72,5.8,6,1,0,0
+2024-02,Orthopedics,Facility,In Review,9,27198.9,26.5,4,3,1,1
+2024-02,Orthopedics,Facility,Approved,14,39553.5,18.0,10,3,1,0
+2024-02,Orthopedics,Facility,Denied,8,25518.28,42.1,1,2,3,2
+2024-02,Orthopedics,Facility,Paid,30,105856.58,24.8,26,4,0,0
+2024-02,Orthopedics,Pharmacy,Submitted,5,1058.81,5.8,5,0,0,0
+2024-02,Orthopedics,Pharmacy,In Review,6,1291.78,21.7,3,2,1,0
+2024-02,Orthopedics,Pharmacy,Approved,9,1845.16,17.9,7,2,0,0
+2024-02,Orthopedics,Pharmacy,Denied,5,1197.85,38.3,0,2,2,1
+2024-02,Orthopedics,Pharmacy,Paid,20,3778.57,23.1,18,2,0,0
+2024-02,Orthopedics,Lab,Submitted,4,650.58,5.8,4,0,0,0
+2024-02,Orthopedics,Lab,In Review,6,750.07,24.3,3,2,1,0
+2024-02,Orthopedics,Lab,Approved,8,1172.64,17.1,6,2,0,0
+2024-02,Orthopedics,Lab,Denied,5,827.25,41.1,0,2,2,1
+2024-02,Orthopedics,Lab,Paid,20,3152.66,20.9,18,2,0,0
+2024-02,Orthopedics,Imaging,Submitted,3,2338.74,5.5,3,0,0,0
+2024-02,Orthopedics,Imaging,In Review,5,3636.31,24.5,2,2,1,0
+2024-02,Orthopedics,Imaging,Approved,7,5790.14,16.5,5,2,0,0
+2024-02,Orthopedics,Imaging,Denied,4,2756.96,41.3,0,1,2,1
+2024-02,Orthopedics,Imaging,Paid,17,13547.95,23.7,15,2,0,0
+2024-02,Pediatrics,Professional,Submitted,11,5467.03,6.0,10,1,0,0
+2024-02,Pediatrics,Professional,In Review,15,6978.54,23.8,6,5,3,1
+2024-02,Pediatrics,Professional,Approved,19,9821.26,17.5,13,4,2,0
+2024-02,Pediatrics,Professional,Denied,13,6269.45,45.3,2,4,4,3
+2024-02,Pediatrics,Professional,Paid,49,20798.24,21.2,43,5,1,0
+2024-02,Pediatrics,Facility,Submitted,8,27621.28,5.7,7,1,0,0
+2024-02,Pediatrics,Facility,In Review,11,34289.73,25.9,4,4,2,1
+2024-02,Pediatrics,Facility,Approved,16,54784.18,18.5,11,4,1,0
+2024-02,Pediatrics,Facility,Denied,10,33741.34,38.9,1,3,3,3
+2024-02,Pediatrics,Facility,Paid,40,138391.4,21.3,35,4,1,0
+2024-02,Pediatrics,Pharmacy,Submitted,6,1261.19,5.5,5,1,0,0
+2024-02,Pediatrics,Pharmacy,In Review,8,1864.31,22.2,3,3,1,1
+2024-02,Pediatrics,Pharmacy,Approved,10,1815.66,16.2,7,3,0,0
+2024-02,Pediatrics,Pharmacy,Denied,7,1467.12,40.1,1,2,3,1
+2024-02,Pediatrics,Pharmacy,Paid,26,6246.26,21.0,23,3,0,0
+2024-02,Pediatrics,Lab,Submitted,5,631.58,6.3,5,0,0,0
+2024-02,Pediatrics,Lab,In Review,7,1068.52,22.9,3,3,1,0
+2024-02,Pediatrics,Lab,Approved,10,1567.34,19.2,7,3,0,0
+2024-02,Pediatrics,Lab,Denied,5,769.31,46.4,0,2,2,1
+2024-02,Pediatrics,Lab,Paid,23,3109.13,24.0,20,3,0,0
+2024-02,Pediatrics,Imaging,Submitted,4,3100.34,5.4,4,0,0,0
+2024-02,Pediatrics,Imaging,In Review,6,4418.34,23.2,3,2,1,0
+2024-02,Pediatrics,Imaging,Approved,8,5177.23,17.6,6,2,0,0
+2024-02,Pediatrics,Imaging,Denied,5,3265.89,44.7,0,2,2,1
+2024-02,Pediatrics,Imaging,Paid,17,12200.45,20.0,15,2,0,0
+2024-02,Radiology,Professional,Submitted,12,6364.56,6.8,10,2,0,0
+2024-02,Radiology,Professional,In Review,16,8299.92,24.3,6,5,3,2
+2024-02,Radiology,Professional,Approved,22,11015.43,19.9,15,5,2,0
+2024-02,Radiology,Professional,Denied,12,5754.36,43.8,2,3,4,3
+2024-02,Radiology,Professional,Paid,49,21483.21,24.8,43,5,1,0
+2024-02,Radiology,Facility,Submitted,7,21267.44,5.9,6,1,0,0
+2024-02,Radiology,Facility,In Review,11,39667.03,27.1,4,4,2,1
+2024-02,Radiology,Facility,Approved,14,47486.96,17.5,10,3,1,0
+2024-02,Radiology,Facility,Denied,9,26361.78,37.6,1,3,3,2
+2024-02,Radiology,Facility,Paid,39,138433.35,21.2,34,4,1,0
+2024-02,Radiology,Pharmacy,Submitted,5,994.29,5.8,5,0,0,0
+2024-02,Radiology,Pharmacy,In Review,7,1491.75,24.0,3,3,1,0
+2024-02,Radiology,Pharmacy,Approved,9,1728.61,20.2,7,2,0,0
+2024-02,Radiology,Pharmacy,Denied,6,1411.05,37.6,1,2,2,1
+2024-02,Radiology,Pharmacy,Paid,25,5800.4,21.4,22,3,0,0
+2024-02,Radiology,Lab,Submitted,4,540.49,6.0,4,0,0,0
+2024-02,Radiology,Lab,In Review,6,810.3,25.2,3,2,1,0
+2024-02,Radiology,Lab,Approved,7,966.39,19.1,5,2,0,0
+2024-02,Radiology,Lab,Denied,4,531.44,38.5,0,1,2,1
+2024-02,Radiology,Lab,Paid,18,2589.46,19.8,16,2,0,0
+2024-02,Radiology,Imaging,Submitted,4,3241.49,5.7,4,0,0,0
+2024-02,Radiology,Imaging,In Review,5,3560.8,26.3,2,2,1,0
+2024-02,Radiology,Imaging,Approved,7,4474.88,16.6,5,2,0,0
+2024-02,Radiology,Imaging,Denied,4,3199.76,45.3,0,1,2,1
+2024-02,Radiology,Imaging,Paid,16,11776.77,20.4,14,2,0,0
+2024-02,Oncology,Professional,Submitted,8,3787.89,5.5,7,1,0,0
+2024-02,Oncology,Professional,In Review,10,4668.26,26.1,4,3,2,1
+2024-02,Oncology,Professional,Approved,12,6407.82,17.2,9,3,0,0
+2024-02,Oncology,Professional,Denied,7,3164.93,36.9,1,2,3,1
+2024-02,Oncology,Professional,Paid,31,15594.77,20.4,27,4,0,0
+2024-02,Oncology,Facility,Submitted,4,11177.8,6.6,4,0,0,0
+2024-02,Oncology,Facility,In Review,7,19352.89,25.8,3,3,1,0
+2024-02,Oncology,Facility,Approved,8,29416.26,17.6,6,2,0,0
+2024-02,Oncology,Facility,Denied,5,15774.79,45.1,0,2,2,1
+2024-02,Oncology,Facility,Paid,22,69800.69,20.9,19,3,0,0
+2024-02,Oncology,Pharmacy,Submitted,4,814.79,6.3,4,0,0,0
+2024-02,Oncology,Pharmacy,In Review,5,1043.23,24.5,2,2,1,0
+2024-02,Oncology,Pharmacy,Approved,6,1440.5,18.0,5,1,0,0
+2024-02,Oncology,Pharmacy,Denied,4,808.14,37.9,0,1,2,1
+2024-02,Oncology,Pharmacy,Paid,15,2759.19,21.9,13,2,0,0
+2024-02,Oncology,Lab,Submitted,3,473.31,5.7,3,0,0,0
+2024-02,Oncology,Lab,In Review,4,649.81,24.7,2,2,0,0
+2024-02,Oncology,Lab,Approved,4,552.99,18.6,3,1,0,0
+2024-02,Oncology,Lab,Denied,3,389.14,41.0,0,1,1,1
+2024-02,Oncology,Lab,Paid,13,1753.43,22.9,12,1,0,0
+2024-02,Oncology,Imaging,Submitted,2,1571.45,5.7,2,0,0,0
+2024-02,Oncology,Imaging,In Review,3,2101.7,23.2,2,1,0,0
+2024-02,Oncology,Imaging,Approved,4,2744.58,17.1,3,1,0,0
+2024-02,Oncology,Imaging,Denied,3,2319.37,43.3,0,1,1,1
+2024-02,Oncology,Imaging,Paid,10,6403.4,23.0,9,1,0,0
+2024-02,General Surgery,Professional,Submitted,5,2600.98,5.8,5,0,0,0
+2024-02,General Surgery,Professional,In Review,7,2892.72,24.0,3,3,1,0
+2024-02,General Surgery,Professional,Approved,10,5331.19,16.5,7,3,0,0
+2024-02,General Surgery,Professional,Denied,6,2905.75,40.2,1,2,2,1
+2024-02,General Surgery,Professional,Paid,27,14609.0,22.5,24,3,0,0
+2024-02,General Surgery,Facility,Submitted,5,13913.04,6.7,5,0,0,0
+2024-02,General Surgery,Facility,In Review,6,19221.64,26.8,3,2,1,0
+2024-02,General Surgery,Facility,Approved,7,21986.1,17.2,5,2,0,0
+2024-02,General Surgery,Facility,Denied,5,16334.3,38.7,0,2,2,1
+2024-02,General Surgery,Facility,Paid,20,66766.47,21.7,18,2,0,0
+2024-02,General Surgery,Pharmacy,Submitted,3,536.64,5.5,3,0,0,0
+2024-02,General Surgery,Pharmacy,In Review,4,734.64,23.0,2,2,0,0
+2024-02,General Surgery,Pharmacy,Approved,5,989.71,20.4,4,1,0,0
+2024-02,General Surgery,Pharmacy,Denied,3,646.12,46.2,0,1,1,1
+2024-02,General Surgery,Pharmacy,Paid,13,2581.68,23.6,12,1,0,0
+2024-02,General Surgery,Lab,Submitted,2,289.22,5.4,2,0,0,0
+2024-02,General Surgery,Lab,In Review,3,494.43,23.2,2,1,0,0
+2024-02,General Surgery,Lab,Approved,4,525.63,18.1,3,1,0,0
+2024-02,General Surgery,Lab,Denied,3,468.67,40.9,0,1,1,1
+2024-02,General Surgery,Lab,Paid,10,1252.54,22.1,9,1,0,0
+2024-02,General Surgery,Imaging,Submitted,2,1400.52,6.2,2,0,0,0
+2024-02,General Surgery,Imaging,In Review,3,2211.2,24.4,2,1,0,0
+2024-02,General Surgery,Imaging,Approved,4,2886.66,20.2,3,1,0,0
+2024-02,General Surgery,Imaging,Denied,2,1230.88,38.9,0,1,1,0
+2024-02,General Surgery,Imaging,Paid,10,7287.64,22.6,9,1,0,0
+2024-02,Neurology,Professional,Submitted,7,3526.22,6.4,6,1,0,0
+2024-02,Neurology,Professional,In Review,10,4659.12,22.4,4,3,2,1
+2024-02,Neurology,Professional,Approved,13,6776.92,20.0,9,3,1,0
+2024-02,Neurology,Professional,Denied,8,3608.87,43.3,1,2,3,2
+2024-02,Neurology,Professional,Paid,37,16866.03,24.0,32,4,1,0
+2024-02,Neurology,Facility,Submitted,4,11352.21,5.6,4,0,0,0
+2024-02,Neurology,Facility,In Review,7,21895.88,23.0,3,3,1,0
+2024-02,Neurology,Facility,Approved,9,27891.43,17.4,7,2,0,0
+2024-02,Neurology,Facility,Denied,5,16748.39,37.9,0,2,2,1
+2024-02,Neurology,Facility,Paid,24,69926.89,23.5,21,3,0,0
+2024-02,Neurology,Pharmacy,Submitted,3,551.89,6.7,3,0,0,0
+2024-02,Neurology,Pharmacy,In Review,5,1091.02,21.5,2,2,1,0
+2024-02,Neurology,Pharmacy,Approved,6,1262.04,19.9,5,1,0,0
+2024-02,Neurology,Pharmacy,Denied,4,909.35,43.1,0,1,2,1
+2024-02,Neurology,Pharmacy,Paid,16,3151.72,20.9,14,2,0,0
+2024-02,Neurology,Lab,Submitted,3,426.31,5.7,3,0,0,0
+2024-02,Neurology,Lab,In Review,4,594.7,24.4,2,2,0,0
+2024-02,Neurology,Lab,Approved,5,664.51,19.0,4,1,0,0
+2024-02,Neurology,Lab,Denied,3,417.18,38.0,0,1,1,1
+2024-02,Neurology,Lab,Paid,14,2092.52,21.4,13,1,0,0
+2024-02,Neurology,Imaging,Submitted,3,1906.67,6.4,3,0,0,0
+2024-02,Neurology,Imaging,In Review,4,3311.75,22.7,2,2,0,0
+2024-02,Neurology,Imaging,Approved,5,3537.47,17.2,4,1,0,0
+2024-02,Neurology,Imaging,Denied,3,2147.63,38.7,0,1,1,1
+2024-02,Neurology,Imaging,Paid,13,10451.72,23.8,12,1,0,0
+2024-03,Cardiology,Professional,Submitted,10,4339.04,6.7,9,1,0,0
+2024-03,Cardiology,Professional,In Review,15,7355.87,26.9,6,5,3,1
+2024-03,Cardiology,Professional,Approved,17,8606.73,17.2,12,4,1,0
+2024-03,Cardiology,Professional,Denied,11,5225.52,40.9,1,3,4,3
+2024-03,Cardiology,Professional,Paid,53,24096.61,24.3,46,6,1,0
+2024-03,Cardiology,Facility,Submitted,8,28828.68,6.0,7,1,0,0
+2024-03,Cardiology,Facility,In Review,10,28745.1,23.3,4,3,2,1
+2024-03,Cardiology,Facility,Approved,15,47631.1,17.8,11,3,1,0
+2024-03,Cardiology,Facility,Denied,8,25484.49,44.2,1,2,3,2
+2024-03,Cardiology,Facility,Paid,34,117211.87,23.3,30,3,1,0
+2024-03,Cardiology,Pharmacy,Submitted,5,1091.27,5.6,5,0,0,0
+2024-03,Cardiology,Pharmacy,In Review,7,1568.94,25.4,3,3,1,0
+2024-03,Cardiology,Pharmacy,Approved,9,2093.18,16.5,7,2,0,0
+2024-03,Cardiology,Pharmacy,Denied,6,1442.88,42.4,1,2,2,1
+2024-03,Cardiology,Pharmacy,Paid,25,5399.91,24.1,22,3,0,0
+2024-03,Cardiology,Lab,Submitted,5,665.8,6.5,5,0,0,0
+2024-03,Cardiology,Lab,In Review,6,995.45,23.0,3,2,1,0
+2024-03,Cardiology,Lab,Approved,7,1124.22,17.3,5,2,0,0
+2024-03,Cardiology,Lab,Denied,5,771.68,38.6,0,2,2,1
+2024-03,Cardiology,Lab,Paid,19,2743.73,21.2,17,2,0,0
+2024-03,Cardiology,Imaging,Submitted,3,2076.05,5.9,3,0,0,0
+2024-03,Cardiology,Imaging,In Review,4,2984.75,25.4,2,2,0,0
+2024-03,Cardiology,Imaging,Approved,6,4082.89,20.1,5,1,0,0
+2024-03,Cardiology,Imaging,Denied,4,2803.95,41.7,0,1,2,1
+2024-03,Cardiology,Imaging,Paid,16,12597.86,24.8,14,2,0,0
+2024-03,Orthopedics,Professional,Submitted,10,4527.47,5.7,9,1,0,0
+2024-03,Orthopedics,Professional,In Review,14,6382.94,25.4,5,5,3,1
+2024-03,Orthopedics,Professional,Approved,17,9186.68,16.7,12,4,1,0
+2024-03,Orthopedics,Professional,Denied,10,5311.12,44.1,1,3,3,3
+2024-03,Orthopedics,Professional,Paid,46,22712.59,21.1,40,5,1,0
+2024-03,Orthopedics,Facility,Submitted,6,18354.36,6.3,5,1,0,0
+2024-03,Orthopedics,Facility,In Review,8,26851.28,26.2,3,3,1,1
+2024-03,Orthopedics,Facility,Approved,11,30383.14,18.2,8,3,0,0
+2024-03,Orthopedics,Facility,Denied,7,23413.24,44.1,1,2,3,1
+2024-03,Orthopedics,Facility,Paid,29,85420.88,22.7,25,3,1,0
+2024-03,Orthopedics,Pharmacy,Submitted,4,763.64,5.8,4,0,0,0
+2024-03,Orthopedics,Pharmacy,In Review,6,1254.98,25.2,3,2,1,0
+2024-03,Orthopedics,Pharmacy,Approved,8,1891.41,20.0,6,2,0,0
+2024-03,Orthopedics,Pharmacy,Denied,5,1090.8,43.4,0,2,2,1
+2024-03,Orthopedics,Pharmacy,Paid,21,4323.85,21.6,19,2,0,0
+2024-03,Orthopedics,Lab,Submitted,4,494.3,6.7,4,0,0,0
+2024-03,Orthopedics,Lab,In Review,5,730.39,25.3,2,2,1,0
+2024-03,Orthopedics,Lab,Approved,7,1135.5,17.1,5,2,0,0
+2024-03,Orthopedics,Lab,Denied,5,782.2,39.4,0,2,2,1
+2024-03,Orthopedics,Lab,Paid,17,2329.1,22.0,15,2,0,0
+2024-03,Orthopedics,Imaging,Submitted,4,2646.42,6.6,4,0,0,0
+2024-03,Orthopedics,Imaging,In Review,4,3294.93,23.0,2,2,0,0
+2024-03,Orthopedics,Imaging,Approved,6,4395.9,16.8,5,1,0,0
+2024-03,Orthopedics,Imaging,Denied,4,2685.33,42.6,0,1,2,1
+2024-03,Orthopedics,Imaging,Paid,15,11132.56,20.2,13,2,0,0
+2024-03,Pediatrics,Professional,Submitted,11,4966.45,5.6,10,1,0,0
+2024-03,Pediatrics,Professional,In Review,18,8673.58,25.4,7,6,3,2
+2024-03,Pediatrics,Professional,Approved,20,8955.59,18.5,14,5,1,0
+2024-03,Pediatrics,Professional,Denied,12,5489.82,41.6,2,3,4,3
+2024-03,Pediatrics,Professional,Paid,55,30235.77,21.1,48,6,1,0
+2024-03,Pediatrics,Facility,Submitted,8,24447.99,6.5,7,1,0,0
+2024-03,Pediatrics,Facility,In Review,11,36059.07,24.1,4,4,2,1
+2024-03,Pediatrics,Facility,Approved,14,50620.53,18.1,10,3,1,0
+2024-03,Pediatrics,Facility,Denied,10,31196.61,46.5,1,3,3,3
+2024-03,Pediatrics,Facility,Paid,39,121513.92,24.0,34,4,1,0
+2024-03,Pediatrics,Pharmacy,Submitted,5,1205.87,6.2,5,0,0,0
+2024-03,Pediatrics,Pharmacy,In Review,8,1752.3,26.6,3,3,1,1
+2024-03,Pediatrics,Pharmacy,Approved,11,2353.84,17.6,8,3,0,0
+2024-03,Pediatrics,Pharmacy,Denied,6,1303.24,45.3,1,2,2,1
+2024-03,Pediatrics,Pharmacy,Paid,26,4910.79,21.4,23,3,0,0
+2024-03,Pediatrics,Lab,Submitted,5,653.61,6.3,5,0,0,0
+2024-03,Pediatrics,Lab,In Review,7,1147.78,22.4,3,3,1,0
+2024-03,Pediatrics,Lab,Approved,10,1494.14,19.6,7,3,0,0
+2024-03,Pediatrics,Lab,Denied,5,726.34,43.3,0,2,2,1
+2024-03,Pediatrics,Lab,Paid,23,3266.62,22.9,20,3,0,0
+2024-03,Pediatrics,Imaging,Submitted,4,2827.71,5.7,4,0,0,0
+2024-03,Pediatrics,Imaging,In Review,7,5760.59,23.4,3,3,1,0
+2024-03,Pediatrics,Imaging,Approved,7,4615.89,18.4,5,2,0,0
+2024-03,Pediatrics,Imaging,Denied,5,3600.04,37.6,0,2,2,1
+2024-03,Pediatrics,Imaging,Paid,19,12561.21,24.4,17,2,0,0
+2024-03,Radiology,Professional,Submitted,11,4993.25,6.8,10,1,0,0
+2024-03,Radiology,Professional,In Review,15,7923.48,27.0,6,5,3,1
+2024-03,Radiology,Professional,Approved,20,10735.55,17.5,14,5,1,0
+2024-03,Radiology,Professional,Denied,13,5468.67,41.8,2,4,4,3
+2024-03,Radiology,Professional,Paid,49,20434.86,19.9,43,5,1,0
+2024-03,Radiology,Facility,Submitted,8,25256.17,5.9,7,1,0,0
+2024-03,Radiology,Facility,In Review,11,39841.38,22.4,4,4,2,1
+2024-03,Radiology,Facility,Approved,13,43457.61,19.5,9,3,1,0
+2024-03,Radiology,Facility,Denied,8,27491.44,38.3,1,2,3,2
+2024-03,Radiology,Facility,Paid,34,115864.38,23.3,30,3,1,0
+2024-03,Radiology,Pharmacy,Submitted,5,947.43,5.5,5,0,0,0
+2024-03,Radiology,Pharmacy,In Review,7,1251.39,24.6,3,3,1,0
+2024-03,Radiology,Pharmacy,Approved,10,2199.47,18.0,7,3,0,0
+2024-03,Radiology,Pharmacy,Denied,5,1104.78,37.6,0,2,2,1
+2024-03,Radiology,Pharmacy,Paid,27,4858.03,22.7,24,3,0,0
+2024-03,Radiology,Lab,Submitted,5,748.58,6.4,5,0,0,0
+2024-03,Radiology,Lab,In Review,6,915.66,26.9,3,2,1,0
+2024-03,Radiology,Lab,Approved,9,1282.7,17.8,7,2,0,0
+2024-03,Radiology,Lab,Denied,6,881.19,39.6,1,2,2,1
+2024-03,Radiology,Lab,Paid,21,2743.76,22.3,19,2,0,0
+2024-03,Radiology,Imaging,Submitted,3,1869.75,6.8,3,0,0,0
+2024-03,Radiology,Imaging,In Review,5,3139.04,24.3,2,2,1,0
+2024-03,Radiology,Imaging,Approved,6,4919.65,20.3,5,1,0,0
+2024-03,Radiology,Imaging,Denied,4,2835.7,40.8,0,1,2,1
+2024-03,Radiology,Imaging,Paid,16,10804.08,20.5,14,2,0,0
+2024-03,Oncology,Professional,Submitted,6,2533.33,5.6,5,1,0,0
+2024-03,Oncology,Professional,In Review,9,4245.2,22.5,4,3,1,1
+2024-03,Oncology,Professional,Approved,10,4357.88,17.3,7,3,0,0
+2024-03,Oncology,Professional,Denied,7,3778.76,41.1,1,2,3,1
+2024-03,Oncology,Professional,Paid,30,15317.92,23.3,26,4,0,0
+2024-03,Oncology,Facility,Submitted,4,12560.43,6.3,4,0,0,0
+2024-03,Oncology,Facility,In Review,6,18009.26,23.5,3,2,1,0
+2024-03,Oncology,Facility,Approved,8,25298.65,19.1,6,2,0,0
+2024-03,Oncology,Facility,Denied,5,14566.99,38.1,0,2,2,1
+2024-03,Oncology,Facility,Paid,23,73143.05,20.2,20,3,0,0
+2024-03,Oncology,Pharmacy,Submitted,3,677.58,6.7,3,0,0,0
+2024-03,Oncology,Pharmacy,In Review,4,820.57,24.2,2,2,0,0
+2024-03,Oncology,Pharmacy,Approved,5,1097.5,18.8,4,1,0,0
+2024-03,Oncology,Pharmacy,Denied,3,702.89,40.7,0,1,1,1
+2024-03,Oncology,Pharmacy,Paid,13,2589.03,24.6,12,1,0,0
+2024-03,Oncology,Lab,Submitted,3,494.55,6.7,3,0,0,0
+2024-03,Oncology,Lab,In Review,4,642.59,23.9,2,2,0,0
+2024-03,Oncology,Lab,Approved,6,890.19,19.4,5,1,0,0
+2024-03,Oncology,Lab,Denied,3,465.2,46.7,0,1,1,1
+2024-03,Oncology,Lab,Paid,14,2326.07,21.9,13,1,0,0
+2024-03,Oncology,Imaging,Submitted,2,1563.1,6.2,2,0,0,0
+2024-03,Oncology,Imaging,In Review,3,2230.28,23.6,2,1,0,0
+2024-03,Oncology,Imaging,Approved,4,3193.34,19.2,3,1,0,0
+2024-03,Oncology,Imaging,Denied,3,2214.1,47.0,0,1,1,1
+2024-03,Oncology,Imaging,Paid,10,6686.55,20.4,9,1,0,0
+2024-03,General Surgery,Professional,Submitted,6,3075.23,5.9,5,1,0,0
+2024-03,General Surgery,Professional,In Review,8,3992.33,27.6,3,3,1,1
+2024-03,General Surgery,Professional,Approved,10,4344.87,17.5,7,3,0,0
+2024-03,General Surgery,Professional,Denied,7,3108.92,40.5,1,2,3,1
+2024-03,General Surgery,Professional,Paid,29,13272.84,22.0,25,3,1,0
+2024-03,General Surgery,Facility,Submitted,4,12442.44,5.9,4,0,0,0
+2024-03,General Surgery,Facility,In Review,5,16644.08,26.8,2,2,1,0
+2024-03,General Surgery,Facility,Approved,6,17156.77,16.9,5,1,0,0
+2024-03,General Surgery,Facility,Denied,4,14417.53,41.4,0,1,2,1
+2024-03,General Surgery,Facility,Paid,18,62193.73,23.9,16,2,0,0
+2024-03,General Surgery,Pharmacy,Submitted,3,603.13,6.6,3,0,0,0
+2024-03,General Surgery,Pharmacy,In Review,4,881.8,26.6,2,2,0,0
+2024-03,General Surgery,Pharmacy,Approved,5,999.5,16.4,4,1,0,0
+2024-03,General Surgery,Pharmacy,Denied,3,645.58,40.0,0,1,1,1
+2024-03,General Surgery,Pharmacy,Paid,12,2688.9,23.9,11,1,0,0
+2024-03,General Surgery,Lab,Submitted,2,325.95,6.5,2,0,0,0
+2024-03,General Surgery,Lab,In Review,4,606.26,27.0,2,2,0,0
+2024-03,General Surgery,Lab,Approved,5,745.8,18.1,4,1,0,0
+2024-03,General Surgery,Lab,Denied,3,476.64,43.5,0,1,1,1
+2024-03,General Surgery,Lab,Paid,11,1423.79,24.7,10,1,0,0
+2024-03,General Surgery,Imaging,Submitted,2,1408.83,6.6,2,0,0,0
+2024-03,General Surgery,Imaging,In Review,3,2040.57,22.5,2,1,0,0
+2024-03,General Surgery,Imaging,Approved,4,2474.11,18.9,3,1,0,0
+2024-03,General Surgery,Imaging,Denied,3,2277.8,39.6,0,1,1,1
+2024-03,General Surgery,Imaging,Paid,11,7246.17,24.4,10,1,0,0
+2024-03,Neurology,Professional,Submitted,7,3645.68,5.7,6,1,0,0
+2024-03,Neurology,Professional,In Review,9,4681.72,22.2,4,3,1,1
+2024-03,Neurology,Professional,Approved,12,5683.16,20.4,9,3,0,0
+2024-03,Neurology,Professional,Denied,8,3710.6,46.9,1,2,3,2
+2024-03,Neurology,Professional,Paid,33,15525.11,22.1,29,4,0,0
+2024-03,Neurology,Facility,Submitted,5,16901.62,5.5,5,0,0,0
+2024-03,Neurology,Facility,In Review,7,20392.09,23.9,3,3,1,0
+2024-03,Neurology,Facility,Approved,8,26005.13,19.5,6,2,0,0
+2024-03,Neurology,Facility,Denied,5,14384.4,39.3,0,2,2,1
+2024-03,Neurology,Facility,Paid,25,74423.57,24.1,22,3,0,0
+2024-03,Neurology,Pharmacy,Submitted,3,672.96,6.1,3,0,0,0
+2024-03,Neurology,Pharmacy,In Review,4,955.91,22.5,2,2,0,0
+2024-03,Neurology,Pharmacy,Approved,6,1216.45,18.4,5,1,0,0
+2024-03,Neurology,Pharmacy,Denied,4,715.53,46.4,0,1,2,1
+2024-03,Neurology,Pharmacy,Paid,16,3814.25,24.3,14,2,0,0
+2024-03,Neurology,Lab,Submitted,3,416.38,6.1,3,0,0,0
+2024-03,Neurology,Lab,In Review,5,709.11,26.0,2,2,1,0
+2024-03,Neurology,Lab,Approved,5,796.77,17.2,4,1,0,0
+2024-03,Neurology,Lab,Denied,4,520.06,38.3,0,1,2,1
+2024-03,Neurology,Lab,Paid,16,2541.82,23.9,14,2,0,0
+2024-03,Neurology,Imaging,Submitted,3,2371.67,5.9,3,0,0,0
+2024-03,Neurology,Imaging,In Review,4,2833.0,21.7,2,2,0,0
+2024-03,Neurology,Imaging,Approved,5,3867.31,17.0,4,1,0,0
+2024-03,Neurology,Imaging,Denied,3,2179.7,38.8,0,1,1,1
+2024-03,Neurology,Imaging,Paid,13,8494.92,20.2,12,1,0,0
+2024-04,Cardiology,Professional,Submitted,10,4232.95,6.6,9,1,0,0
+2024-04,Cardiology,Professional,In Review,14,7344.49,26.7,5,5,3,1
+2024-04,Cardiology,Professional,Approved,18,8687.64,16.9,13,4,1,0
+2024-04,Cardiology,Professional,Denied,12,5004.74,47.1,2,3,4,3
+2024-04,Cardiology,Professional,Paid,48,24304.17,20.8,42,5,1,0
+2024-04,Cardiology,Facility,Submitted,7,22891.21,7.0,6,1,0,0
+2024-04,Cardiology,Facility,In Review,9,24482.72,24.0,4,3,1,1
+2024-04,Cardiology,Facility,Approved,12,42821.8,20.6,9,3,0,0
+2024-04,Cardiology,Facility,Denied,8,22859.61,41.7,1,2,3,2
+2024-04,Cardiology,Facility,Paid,35,105703.73,23.7,31,3,1,0
+2024-04,Cardiology,Pharmacy,Submitted,5,1163.54,5.9,5,0,0,0
+2024-04,Cardiology,Pharmacy,In Review,7,1384.56,22.1,3,3,1,0
+2024-04,Cardiology,Pharmacy,Approved,8,1514.29,18.7,6,2,0,0
+2024-04,Cardiology,Pharmacy,Denied,5,1089.71,46.4,0,2,2,1
+2024-04,Cardiology,Pharmacy,Paid,22,4160.53,22.3,19,3,0,0
+2024-04,Cardiology,Lab,Submitted,5,638.25,6.3,5,0,0,0
+2024-04,Cardiology,Lab,In Review,6,824.88,22.6,3,2,1,0
+2024-04,Cardiology,Lab,Approved,9,1178.17,17.3,7,2,0,0
+2024-04,Cardiology,Lab,Denied,5,740.27,42.0,0,2,2,1
+2024-04,Cardiology,Lab,Paid,20,2838.6,23.8,18,2,0,0
+2024-04,Cardiology,Imaging,Submitted,4,2712.68,5.8,4,0,0,0
+2024-04,Cardiology,Imaging,In Review,5,3935.41,24.0,2,2,1,0
+2024-04,Cardiology,Imaging,Approved,7,5068.45,18.0,5,2,0,0
+2024-04,Cardiology,Imaging,Denied,4,3097.87,40.5,0,1,2,1
+2024-04,Cardiology,Imaging,Paid,17,11760.4,20.1,15,2,0,0
+2024-04,Orthopedics,Professional,Submitted,10,4941.74,6.4,9,1,0,0
+2024-04,Orthopedics,Professional,In Review,15,6746.5,27.8,6,5,3,1
+2024-04,Orthopedics,Professional,Approved,19,9587.64,18.5,13,4,2,0
+2024-04,Orthopedics,Professional,Denied,11,4589.93,41.1,1,3,4,3
+2024-04,Orthopedics,Professional,Paid,45,22650.33,24.9,39,5,1,0
+2024-04,Orthopedics,Facility,Submitted,6,20181.3,5.7,5,1,0,0
+2024-04,Orthopedics,Facility,In Review,10,30692.93,22.5,4,3,2,1
+2024-04,Orthopedics,Facility,Approved,11,39769.8,17.6,8,3,0,0
+2024-04,Orthopedics,Facility,Denied,7,20089.43,39.5,1,2,3,1
+2024-04,Orthopedics,Facility,Paid,33,94449.69,20.2,29,4,0,0
+2024-04,Orthopedics,Pharmacy,Submitted,5,995.19,5.7,5,0,0,0
+2024-04,Orthopedics,Pharmacy,In Review,7,1547.94,27.0,3,3,1,0
+2024-04,Orthopedics,Pharmacy,Approved,9,2002.4,18.2,7,2,0,0
+2024-04,Orthopedics,Pharmacy,Denied,5,1118.34,44.8,0,2,2,1
+2024-04,Orthopedics,Pharmacy,Paid,23,4929.49,21.7,20,3,0,0
+2024-04,Orthopedics,Lab,Submitted,4,567.25,6.7,4,0,0,0
+2024-04,Orthopedics,Lab,In Review,6,741.96,25.3,3,2,1,0
+2024-04,Orthopedics,Lab,Approved,7,1141.45,18.3,5,2,0,0
+2024-04,Orthopedics,Lab,Denied,4,575.65,42.9,0,1,2,1
+2024-04,Orthopedics,Lab,Paid,17,2758.79,25.1,15,2,0,0
+2024-04,Orthopedics,Imaging,Submitted,3,1873.3,6.4,3,0,0,0
+2024-04,Orthopedics,Imaging,In Review,5,3825.77,22.2,2,2,1,0
+2024-04,Orthopedics,Imaging,Approved,6,4043.81,19.4,5,1,0,0
+2024-04,Orthopedics,Imaging,Denied,4,2643.99,42.0,0,1,2,1
+2024-04,Orthopedics,Imaging,Paid,17,12627.73,20.5,15,2,0,0
+2024-04,Pediatrics,Professional,Submitted,12,6004.76,6.4,10,2,0,0
+2024-04,Pediatrics,Professional,In Review,15,7432.62,26.3,6,5,3,1
+2024-04,Pediatrics,Professional,Approved,23,9579.33,17.8,16,5,2,0
+2024-04,Pediatrics,Professional,Denied,13,5640.53,41.8,2,4,4,3
+2024-04,Pediatrics,Professional,Paid,53,22488.07,23.8,46,6,1,0
+2024-04,Pediatrics,Facility,Submitted,9,24895.66,6.3,8,1,0,0
+2024-04,Pediatrics,Facility,In Review,11,38336.02,26.6,4,4,2,1
+2024-04,Pediatrics,Facility,Approved,15,49767.08,17.5,11,3,1,0
+2024-04,Pediatrics,Facility,Denied,9,25182.13,41.9,1,3,3,2
+2024-04,Pediatrics,Facility,Paid,37,132017.7,22.6,32,4,1,0
+2024-04,Pediatrics,Pharmacy,Submitted,6,1180.14,5.8,5,1,0,0
+2024-04,Pediatrics,Pharmacy,In Review,9,2059.8,22.7,4,3,1,1
+2024-04,Pediatrics,Pharmacy,Approved,11,2253.54,16.5,8,3,0,0
+2024-04,Pediatrics,Pharmacy,Denied,7,1306.85,39.6,1,2,3,1
+2024-04,Pediatrics,Pharmacy,Paid,29,5646.3,25.0,25,3,1,0
+2024-04,Pediatrics,Lab,Submitted,6,900.06,6.8,5,1,0,0
+2024-04,Pediatrics,Lab,In Review,7,1029.96,25.0,3,3,1,0
+2024-04,Pediatrics,Lab,Approved,10,1304.24,19.0,7,3,0,0
+2024-04,Pediatrics,Lab,Denied,6,836.08,46.3,1,2,2,1
+2024-04,Pediatrics,Lab,Paid,24,3138.93,23.3,21,3,0,0
+2024-04,Pediatrics,Imaging,Submitted,4,2508.34,5.8,4,0,0,0
+2024-04,Pediatrics,Imaging,In Review,6,4828.08,25.2,3,2,1,0
+2024-04,Pediatrics,Imaging,Approved,7,5092.04,20.3,5,2,0,0
+2024-04,Pediatrics,Imaging,Denied,5,3374.39,38.7,0,2,2,1
+2024-04,Pediatrics,Imaging,Paid,22,17522.63,20.4,19,3,0,0
+2024-04,Radiology,Professional,Submitted,11,4588.24,6.6,10,1,0,0
+2024-04,Radiology,Professional,In Review,16,7483.12,27.3,6,5,3,2
+2024-04,Radiology,Professional,Approved,22,9158.55,19.2,15,5,2,0
+2024-04,Radiology,Professional,Denied,13,6334.52,47.5,2,4,4,3
+2024-04,Radiology,Professional,Paid,56,23687.81,21.2,49,6,1,0
+2024-04,Radiology,Facility,Submitted,9,25329.65,5.6,8,1,0,0
+2024-04,Radiology,Facility,In Review,12,33381.36,22.4,5,4,2,1
+2024-04,Radiology,Facility,Approved,16,55814.91,20.4,11,4,1,0
+2024-04,Radiology,Facility,Denied,9,27266.71,46.7,1,3,3,2
+2024-04,Radiology,Facility,Paid,37,110426.15,25.0,32,4,1,0
+2024-04,Radiology,Pharmacy,Submitted,6,1129.93,6.9,5,1,0,0
+2024-04,Radiology,Pharmacy,In Review,8,1764.69,27.4,3,3,1,1
+2024-04,Radiology,Pharmacy,Approved,9,2014.5,19.3,7,2,0,0
+2024-04,Radiology,Pharmacy,Denied,6,1410.04,44.4,1,2,2,1
+2024-04,Radiology,Pharmacy,Paid,23,4370.87,25.3,20,3,0,0
+2024-04,Radiology,Lab,Submitted,5,624.25,6.1,5,0,0,0
+2024-04,Radiology,Lab,In Review,7,1092.0,22.5,3,3,1,0
+2024-04,Radiology,Lab,Approved,9,1165.18,18.7,7,2,0,0
+2024-04,Radiology,Lab,Denied,5,627.81,38.3,0,2,2,1
+2024-04,Radiology,Lab,Paid,25,3891.05,25.2,22,3,0,0
+2024-04,Radiology,Imaging,Submitted,4,2757.66,6.4,4,0,0,0
+2024-04,Radiology,Imaging,In Review,5,3865.98,26.7,2,2,1,0
+2024-04,Radiology,Imaging,Approved,7,4651.12,18.8,5,2,0,0
+2024-04,Radiology,Imaging,Denied,4,2480.45,44.7,0,1,2,1
+2024-04,Radiology,Imaging,Paid,18,13830.63,20.6,16,2,0,0
+2024-04,Oncology,Professional,Submitted,8,3799.68,6.8,7,1,0,0
+2024-04,Oncology,Professional,In Review,10,5142.1,27.2,4,3,2,1
+2024-04,Oncology,Professional,Approved,14,7348.54,18.5,10,3,1,0
+2024-04,Oncology,Professional,Denied,9,4567.15,38.8,1,3,3,2
+2024-04,Oncology,Professional,Paid,32,16613.02,23.5,28,4,0,0
+2024-04,Oncology,Facility,Submitted,5,16766.03,6.1,5,0,0,0
+2024-04,Oncology,Facility,In Review,7,23107.24,26.5,3,3,1,0
+2024-04,Oncology,Facility,Approved,9,28875.69,19.7,7,2,0,0
+2024-04,Oncology,Facility,Denied,6,21102.8,38.1,1,2,2,1
+2024-04,Oncology,Facility,Paid,24,77117.04,20.5,21,3,0,0
+2024-04,Oncology,Pharmacy,Submitted,3,634.47,6.7,3,0,0,0
+2024-04,Oncology,Pharmacy,In Review,4,764.88,24.0,2,2,0,0
+2024-04,Oncology,Pharmacy,Approved,6,1334.06,20.2,5,1,0,0
+2024-04,Oncology,Pharmacy,Denied,4,757.84,41.2,0,1,2,1
+2024-04,Oncology,Pharmacy,Paid,15,3326.45,21.5,13,2,0,0
+2024-04,Oncology,Lab,Submitted,3,457.31,5.9,3,0,0,0
+2024-04,Oncology,Lab,In Review,4,606.69,25.2,2,2,0,0
+2024-04,Oncology,Lab,Approved,5,806.34,18.8,4,1,0,0
+2024-04,Oncology,Lab,Denied,3,395.65,41.3,0,1,1,1
+2024-04,Oncology,Lab,Paid,13,1755.35,23.2,12,1,0,0
+2024-04,Oncology,Imaging,Submitted,3,2445.99,5.8,3,0,0,0
+2024-04,Oncology,Imaging,In Review,3,2344.9,27.9,2,1,0,0
+2024-04,Oncology,Imaging,Approved,5,3085.59,17.6,4,1,0,0
+2024-04,Oncology,Imaging,Denied,2,1578.58,43.4,0,1,1,0
+2024-04,Oncology,Imaging,Paid,11,8049.37,21.5,10,1,0,0
+2024-04,General Surgery,Professional,Submitted,6,3006.15,6.6,5,1,0,0
+2024-04,General Surgery,Professional,In Review,9,4102.42,26.9,4,3,1,1
+2024-04,General Surgery,Professional,Approved,12,5117.7,17.3,9,3,0,0
+2024-04,General Surgery,Professional,Denied,7,3147.73,38.7,1,2,3,1
+2024-04,General Surgery,Professional,Paid,27,11659.92,22.7,24,3,0,0
+2024-04,General Surgery,Facility,Submitted,4,13615.99,5.9,4,0,0,0
+2024-04,General Surgery,Facility,In Review,6,17607.35,26.6,3,2,1,0
+2024-04,General Surgery,Facility,Approved,9,28735.2,16.6,7,2,0,0
+2024-04,General Surgery,Facility,Denied,5,14358.64,46.1,0,2,2,1
+2024-04,General Surgery,Facility,Paid,19,69308.53,23.3,17,2,0,0
+2024-04,General Surgery,Pharmacy,Submitted,3,540.71,6.6,3,0,0,0
+2024-04,General Surgery,Pharmacy,In Review,4,925.88,25.1,2,2,0,0
+2024-04,General Surgery,Pharmacy,Approved,5,1154.97,16.6,4,1,0,0
+2024-04,General Surgery,Pharmacy,Denied,3,686.29,42.2,0,1,1,1
+2024-04,General Surgery,Pharmacy,Paid,14,3059.45,23.5,13,1,0,0
+2024-04,General Surgery,Lab,Submitted,2,330.12,5.6,2,0,0,0
+2024-04,General Surgery,Lab,In Review,3,405.32,23.5,2,1,0,0
+2024-04,General Surgery,Lab,Approved,4,631.84,19.9,3,1,0,0
+2024-04,General Surgery,Lab,Denied,3,407.97,42.2,0,1,1,1
+2024-04,General Surgery,Lab,Paid,10,1557.38,21.8,9,1,0,0
+2024-04,General Surgery,Imaging,Submitted,2,1577.98,6.7,2,0,0,0
+2024-04,General Surgery,Imaging,In Review,3,1865.77,27.9,2,1,0,0
+2024-04,General Surgery,Imaging,Approved,4,2715.35,17.6,3,1,0,0
+2024-04,General Surgery,Imaging,Denied,2,1462.75,39.9,0,1,1,0
+2024-04,General Surgery,Imaging,Paid,10,7536.11,24.7,9,1,0,0
+2024-04,Neurology,Professional,Submitted,8,3434.18,6.7,7,1,0,0
+2024-04,Neurology,Professional,In Review,10,4460.44,22.3,4,3,2,1
+2024-04,Neurology,Professional,Approved,14,6454.64,19.4,10,3,1,0
+2024-04,Neurology,Professional,Denied,8,3789.01,42.2,1,2,3,2
+2024-04,Neurology,Professional,Paid,33,15508.44,23.6,29,4,0,0
+2024-04,Neurology,Facility,Submitted,5,16806.67,5.9,5,0,0,0
+2024-04,Neurology,Facility,In Review,7,20085.6,24.9,3,3,1,0
+2024-04,Neurology,Facility,Approved,9,30479.47,17.5,7,2,0,0
+2024-04,Neurology,Facility,Denied,6,17970.11,43.8,1,2,2,1
+2024-04,Neurology,Facility,Paid,26,80343.48,20.4,23,3,0,0
+2024-04,Neurology,Pharmacy,Submitted,4,958.19,5.8,4,0,0,0
+2024-04,Neurology,Pharmacy,In Review,5,1001.16,22.9,2,2,1,0
+2024-04,Neurology,Pharmacy,Approved,7,1470.38,18.9,5,2,0,0
+2024-04,Neurology,Pharmacy,Denied,4,798.81,44.3,0,1,2,1
+2024-04,Neurology,Pharmacy,Paid,16,2899.07,22.2,14,2,0,0
+2024-04,Neurology,Lab,Submitted,3,383.87,6.5,3,0,0,0
+2024-04,Neurology,Lab,In Review,5,813.73,25.4,2,2,1,0
+2024-04,Neurology,Lab,Approved,6,891.06,20.1,5,1,0,0
+2024-04,Neurology,Lab,Denied,4,635.48,42.1,0,1,2,1
+2024-04,Neurology,Lab,Paid,14,2072.13,21.0,13,1,0,0
+2024-04,Neurology,Imaging,Submitted,2,1507.12,6.8,2,0,0,0
+2024-04,Neurology,Imaging,In Review,4,3188.66,26.5,2,2,0,0
+2024-04,Neurology,Imaging,Approved,5,3070.95,19.3,4,1,0,0
+2024-04,Neurology,Imaging,Denied,2,1249.34,39.1,0,1,1,0
+2024-04,Neurology,Imaging,Paid,12,9272.06,25.3,11,1,0,0
+2024-05,Cardiology,Professional,Submitted,12,5125.7,6.9,10,2,0,0
+2024-05,Cardiology,Professional,In Review,17,9068.42,23.1,6,6,3,2
+2024-05,Cardiology,Professional,Approved,19,10279.54,17.4,13,4,2,0
+2024-05,Cardiology,Professional,Denied,12,5683.94,39.2,2,3,4,3
+2024-05,Cardiology,Professional,Paid,48,26455.15,25.2,42,5,1,0
+2024-05,Cardiology,Facility,Submitted,8,23450.38,6.2,7,1,0,0
+2024-05,Cardiology,Facility,In Review,11,29979.13,26.9,4,4,2,1
+2024-05,Cardiology,Facility,Approved,16,51640.69,18.4,11,4,1,0
+2024-05,Cardiology,Facility,Denied,9,25310.11,40.7,1,3,3,2
+2024-05,Cardiology,Facility,Paid,37,115979.24,23.4,32,4,1,0
+2024-05,Cardiology,Pharmacy,Submitted,5,901.21,5.6,5,0,0,0
+2024-05,Cardiology,Pharmacy,In Review,7,1501.08,27.1,3,3,1,0
+2024-05,Cardiology,Pharmacy,Approved,10,2185.12,18.5,7,3,0,0
+2024-05,Cardiology,Pharmacy,Denied,5,1018.95,41.4,0,2,2,1
+2024-05,Cardiology,Pharmacy,Paid,26,5438.25,21.6,23,3,0,0
+2024-05,Cardiology,Lab,Submitted,4,652.83,5.6,4,0,0,0
+2024-05,Cardiology,Lab,In Review,5,656.05,27.1,2,2,1,0
+2024-05,Cardiology,Lab,Approved,8,1203.79,18.3,6,2,0,0
+2024-05,Cardiology,Lab,Denied,4,641.97,39.9,0,1,2,1
+2024-05,Cardiology,Lab,Paid,18,2666.93,20.8,16,2,0,0
+2024-05,Cardiology,Imaging,Submitted,4,2872.75,5.9,4,0,0,0
+2024-05,Cardiology,Imaging,In Review,5,3847.58,22.6,2,2,1,0
+2024-05,Cardiology,Imaging,Approved,6,4470.68,19.4,5,1,0,0
+2024-05,Cardiology,Imaging,Denied,4,2771.61,38.6,0,1,2,1
+2024-05,Cardiology,Imaging,Paid,16,11998.13,21.1,14,2,0,0
+2024-05,Orthopedics,Professional,Submitted,9,4766.77,6.8,8,1,0,0
+2024-05,Orthopedics,Professional,In Review,13,7113.74,28.1,5,5,2,1
+2024-05,Orthopedics,Professional,Approved,16,7375.21,19.4,11,4,1,0
+2024-05,Orthopedics,Professional,Denied,10,4631.02,40.7,1,3,3,3
+2024-05,Orthopedics,Professional,Paid,50,23363.42,24.6,44,5,1,0
+2024-05,Orthopedics,Facility,Submitted,6,21291.75,5.6,5,1,0,0
+2024-05,Orthopedics,Facility,In Review,9,27628.28,26.4,4,3,1,1
+2024-05,Orthopedics,Facility,Approved,12,33403.92,18.1,9,3,0,0
+2024-05,Orthopedics,Facility,Denied,7,19076.42,43.5,1,2,3,1
+2024-05,Orthopedics,Facility,Paid,29,86883.9,23.9,25,3,1,0
+2024-05,Orthopedics,Pharmacy,Submitted,5,996.2,5.9,5,0,0,0
+2024-05,Orthopedics,Pharmacy,In Review,7,1333.52,23.3,3,3,1,0
+2024-05,Orthopedics,Pharmacy,Approved,8,1523.41,17.4,6,2,0,0
+2024-05,Orthopedics,Pharmacy,Denied,5,1094.15,44.3,0,2,2,1
+2024-05,Orthopedics,Pharmacy,Paid,23,5226.01,22.2,20,3,0,0
+2024-05,Orthopedics,Lab,Submitted,4,633.02,6.6,4,0,0,0
+2024-05,Orthopedics,Lab,In Review,6,813.37,24.8,3,2,1,0
+2024-05,Orthopedics,Lab,Approved,7,1000.16,16.9,5,2,0,0
+2024-05,Orthopedics,Lab,Denied,4,655.08,45.1,0,1,2,1
+2024-05,Orthopedics,Lab,Paid,20,2761.76,23.5,18,2,0,0
+2024-05,Orthopedics,Imaging,Submitted,4,2968.54,6.3,4,0,0,0
+2024-05,Orthopedics,Imaging,In Review,5,3814.43,28.2,2,2,1,0
+2024-05,Orthopedics,Imaging,Approved,6,4180.3,18.6,5,1,0,0
+2024-05,Orthopedics,Imaging,Denied,4,3303.9,45.3,0,1,2,1
+2024-05,Orthopedics,Imaging,Paid,17,11768.16,22.8,15,2,0,0
+2024-05,Pediatrics,Professional,Submitted,12,6298.07,6.6,10,2,0,0
+2024-05,Pediatrics,Professional,In Review,15,7692.55,26.6,6,5,3,1
+2024-05,Pediatrics,Professional,Approved,20,9953.88,19.4,14,5,1,0
+2024-05,Pediatrics,Professional,Denied,14,5986.32,40.0,2,4,5,3
+2024-05,Pediatrics,Professional,Paid,54,22375.27,22.7,47,6,1,0
+2024-05,Pediatrics,Facility,Submitted,9,28453.96,7.1,8,1,0,0
+2024-05,Pediatrics,Facility,In Review,13,41579.08,25.6,5,5,2,1
+2024-05,Pediatrics,Facility,Approved,15,42919.16,19.7,11,3,1,0
+2024-05,Pediatrics,Facility,Denied,10,29983.1,38.3,1,3,3,3
+2024-05,Pediatrics,Facility,Paid,46,126547.64,24.5,40,5,1,0
+2024-05,Pediatrics,Pharmacy,Submitted,6,1164.62,5.8,5,1,0,0
+2024-05,Pediatrics,Pharmacy,In Review,8,1778.59,23.4,3,3,1,1
+2024-05,Pediatrics,Pharmacy,Approved,10,2065.13,17.6,7,3,0,0
+2024-05,Pediatrics,Pharmacy,Denied,6,1126.16,43.2,1,2,2,1
+2024-05,Pediatrics,Pharmacy,Paid,25,5227.23,22.1,22,3,0,0
+2024-05,Pediatrics,Lab,Submitted,5,813.73,6.3,5,0,0,0
+2024-05,Pediatrics,Lab,In Review,8,1064.53,24.3,3,3,1,1
+2024-05,Pediatrics,Lab,Approved,8,1132.42,19.7,6,2,0,0
+2024-05,Pediatrics,Lab,Denied,6,887.2,44.6,1,2,2,1
+2024-05,Pediatrics,Lab,Paid,22,2747.11,24.8,19,3,0,0
+2024-05,Pediatrics,Imaging,Submitted,4,3258.05,7.0,4,0,0,0
+2024-05,Pediatrics,Imaging,In Review,6,4162.71,27.3,3,2,1,0
+2024-05,Pediatrics,Imaging,Approved,7,4933.24,18.3,5,2,0,0
+2024-05,Pediatrics,Imaging,Denied,5,4053.36,44.7,0,2,2,1
+2024-05,Pediatrics,Imaging,Paid,18,12890.77,21.7,16,2,0,0
+2024-05,Radiology,Professional,Submitted,11,4574.03,6.6,10,1,0,0
+2024-05,Radiology,Professional,In Review,16,8459.59,22.7,6,5,3,2
+2024-05,Radiology,Professional,Approved,22,9094.28,16.8,15,5,2,0
+2024-05,Radiology,Professional,Denied,13,5718.26,44.1,2,4,4,3
+2024-05,Radiology,Professional,Paid,50,20654.8,24.4,44,5,1,0
+2024-05,Radiology,Facility,Submitted,8,27519.4,5.6,7,1,0,0
+2024-05,Radiology,Facility,In Review,11,32754.53,24.6,4,4,2,1
+2024-05,Radiology,Facility,Approved,12,42301.02,19.2,9,3,0,0
+2024-05,Radiology,Facility,Denied,8,29198.5,41.4,1,2,3,2
+2024-05,Radiology,Facility,Paid,38,129614.21,25.5,33,4,1,0
+2024-05,Radiology,Pharmacy,Submitted,6,1120.77,6.8,5,1,0,0
+2024-05,Radiology,Pharmacy,In Review,8,1752.76,23.9,3,3,1,1
+2024-05,Radiology,Pharmacy,Approved,11,2105.16,18.9,8,3,0,0
+2024-05,Radiology,Pharmacy,Denied,6,1132.17,45.4,1,2,2,1
+2024-05,Radiology,Pharmacy,Paid,24,5331.96,25.1,21,3,0,0
+2024-05,Radiology,Lab,Submitted,5,650.35,6.8,5,0,0,0
+2024-05,Radiology,Lab,In Review,7,909.25,26.4,3,3,1,0
+2024-05,Radiology,Lab,Approved,8,1170.96,19.9,6,2,0,0
+2024-05,Radiology,Lab,Denied,5,746.82,40.3,0,2,2,1
+2024-05,Radiology,Lab,Paid,20,3217.76,21.0,18,2,0,0
+2024-05,Radiology,Imaging,Submitted,4,3179.41,6.4,4,0,0,0
+2024-05,Radiology,Imaging,In Review,5,3329.81,24.9,2,2,1,0
+2024-05,Radiology,Imaging,Approved,8,5775.91,18.8,6,2,0,0
+2024-05,Radiology,Imaging,Denied,5,3469.37,42.4,0,2,2,1
+2024-05,Radiology,Imaging,Paid,18,11602.78,24.3,16,2,0,0
+2024-05,Oncology,Professional,Submitted,8,4278.68,6.2,7,1,0,0
+2024-05,Oncology,Professional,In Review,10,4998.61,28.0,4,3,2,1
+2024-05,Oncology,Professional,Approved,14,6709.61,19.8,10,3,1,0
+2024-05,Oncology,Professional,Denied,9,4863.37,45.8,1,3,3,2
+2024-05,Oncology,Professional,Paid,34,15211.58,23.1,30,3,1,0
+2024-05,Oncology,Facility,Submitted,5,16038.24,6.3,5,0,0,0
+2024-05,Oncology,Facility,In Review,6,20002.98,25.4,3,2,1,0
+2024-05,Oncology,Facility,Approved,8,28435.52,18.3,6,2,0,0
+2024-05,Oncology,Facility,Denied,5,14587.2,43.7,0,2,2,1
+2024-05,Oncology,Facility,Paid,23,82016.13,20.6,20,3,0,0
+2024-05,Oncology,Pharmacy,Submitted,4,785.64,5.9,4,0,0,0
+2024-05,Oncology,Pharmacy,In Review,5,1168.35,24.0,2,2,1,0
+2024-05,Oncology,Pharmacy,Approved,6,1337.77,20.6,5,1,0,0
+2024-05,Oncology,Pharmacy,Denied,4,903.78,39.7,0,1,2,1
+2024-05,Oncology,Pharmacy,Paid,18,3525.67,21.1,16,2,0,0
+2024-05,Oncology,Lab,Submitted,3,387.58,6.5,3,0,0,0
+2024-05,Oncology,Lab,In Review,4,516.2,25.9,2,2,0,0
+2024-05,Oncology,Lab,Approved,6,946.52,17.4,5,1,0,0
+2024-05,Oncology,Lab,Denied,3,475.94,39.6,0,1,1,1
+2024-05,Oncology,Lab,Paid,14,1726.97,23.3,13,1,0,0
+2024-05,Oncology,Imaging,Submitted,2,1639.68,5.9,2,0,0,0
+2024-05,Oncology,Imaging,In Review,3,1973.27,22.3,2,1,0,0
+2024-05,Oncology,Imaging,Approved,4,2822.98,21.0,3,1,0,0
+2024-05,Oncology,Imaging,Denied,3,1938.05,42.6,0,1,1,1
+2024-05,Oncology,Imaging,Paid,10,8016.54,24.2,9,1,0,0
+2024-05,General Surgery,Professional,Submitted,6,3026.43,6.7,5,1,0,0
+2024-05,General Surgery,Professional,In Review,8,3289.94,22.9,3,3,1,1
+2024-05,General Surgery,Professional,Approved,10,4752.06,17.3,7,3,0,0
+2024-05,General Surgery,Professional,Denied,6,2829.56,39.1,1,2,2,1
+2024-05,General Surgery,Professional,Paid,30,14828.31,22.5,26,4,0,0
+2024-05,General Surgery,Facility,Submitted,4,14160.63,6.4,4,0,0,0
+2024-05,General Surgery,Facility,In Review,6,21566.7,27.3,3,2,1,0
+2024-05,General Surgery,Facility,Approved,8,23492.68,17.4,6,2,0,0
+2024-05,General Surgery,Facility,Denied,5,15849.48,45.0,0,2,2,1
+2024-05,General Surgery,Facility,Paid,21,63073.52,21.9,19,2,0,0
+2024-05,General Surgery,Pharmacy,Submitted,3,661.62,6.7,3,0,0,0
+2024-05,General Surgery,Pharmacy,In Review,4,896.4,25.3,2,2,0,0
+2024-05,General Surgery,Pharmacy,Approved,5,963.36,20.0,4,1,0,0
+2024-05,General Surgery,Pharmacy,Denied,3,585.89,43.7,0,1,1,1
+2024-05,General Surgery,Pharmacy,Paid,14,2719.08,24.4,13,1,0,0
+2024-05,General Surgery,Lab,Submitted,3,422.15,6.5,3,0,0,0
+2024-05,General Surgery,Lab,In Review,4,591.91,22.9,2,2,0,0
+2024-05,General Surgery,Lab,Approved,4,630.51,18.6,3,1,0,0
+2024-05,General Surgery,Lab,Denied,3,415.12,45.8,0,1,1,1
+2024-05,General Surgery,Lab,Paid,13,2093.39,24.4,12,1,0,0
+2024-05,General Surgery,Imaging,Submitted,3,2000.95,6.6,3,0,0,0
+2024-05,General Surgery,Imaging,In Review,3,2478.24,23.8,2,1,0,0
+2024-05,General Surgery,Imaging,Approved,4,3181.67,17.4,3,1,0,0
+2024-05,General Surgery,Imaging,Denied,3,1843.94,42.5,0,1,1,1
+2024-05,General Surgery,Imaging,Paid,11,7620.84,23.6,10,1,0,0
+2024-05,Neurology,Professional,Submitted,8,3931.31,6.9,7,1,0,0
+2024-05,Neurology,Professional,In Review,12,4966.39,27.9,5,4,2,1
+2024-05,Neurology,Professional,Approved,13,6406.16,19.3,9,3,1,0
+2024-05,Neurology,Professional,Denied,9,3864.38,39.8,1,3,3,2
+2024-05,Neurology,Professional,Paid,39,16751.62,23.0,34,4,1,0
+2024-05,Neurology,Facility,Submitted,6,17533.08,6.0,5,1,0,0
+2024-05,Neurology,Facility,In Review,8,25205.79,22.5,3,3,1,1
+2024-05,Neurology,Facility,Approved,9,27438.64,21.2,7,2,0,0
+2024-05,Neurology,Facility,Denied,6,16472.04,43.3,1,2,2,1
+2024-05,Neurology,Facility,Paid,24,71594.52,25.9,21,3,0,0
+2024-05,Neurology,Pharmacy,Submitted,3,620.3,5.8,3,0,0,0
+2024-05,Neurology,Pharmacy,In Review,5,1077.43,25.3,2,2,1,0
+2024-05,Neurology,Pharmacy,Approved,7,1643.01,17.8,5,2,0,0
+2024-05,Neurology,Pharmacy,Denied,4,844.53,40.6,0,1,2,1
+2024-05,Neurology,Pharmacy,Paid,18,3253.29,23.5,16,2,0,0
+2024-05,Neurology,Lab,Submitted,3,482.44,5.9,3,0,0,0
+2024-05,Neurology,Lab,In Review,5,633.33,23.2,2,2,1,0
+2024-05,Neurology,Lab,Approved,6,962.41,17.3,5,1,0,0
+2024-05,Neurology,Lab,Denied,4,532.97,42.6,0,1,2,1
+2024-05,Neurology,Lab,Paid,15,1925.83,25.6,13,2,0,0
+2024-05,Neurology,Imaging,Submitted,3,2208.77,6.3,3,0,0,0
+2024-05,Neurology,Imaging,In Review,4,3224.17,26.4,2,2,0,0
+2024-05,Neurology,Imaging,Approved,5,3756.8,19.4,4,1,0,0
+2024-05,Neurology,Imaging,Denied,3,2240.85,42.5,0,1,1,1
+2024-05,Neurology,Imaging,Paid,13,10676.71,25.7,12,1,0,0
+2024-06,Cardiology,Professional,Submitted,11,5674.94,5.9,10,1,0,0
+2024-06,Cardiology,Professional,In Review,16,7120.83,22.5,6,5,3,2
+2024-06,Cardiology,Professional,Approved,22,11712.67,19.2,15,5,2,0
+2024-06,Cardiology,Professional,Denied,12,6093.46,43.0,2,3,4,3
+2024-06,Cardiology,Professional,Paid,56,30908.11,22.6,49,6,1,0
+2024-06,Cardiology,Facility,Submitted,7,19667.29,6.2,6,1,0,0
+2024-06,Cardiology,Facility,In Review,9,25468.38,24.2,4,3,1,1
+2024-06,Cardiology,Facility,Approved,12,41074.47,17.4,9,3,0,0
+2024-06,Cardiology,Facility,Denied,8,23458.16,39.6,1,2,3,2
+2024-06,Cardiology,Facility,Paid,30,102197.9,22.1,26,4,0,0
+2024-06,Cardiology,Pharmacy,Submitted,5,1202.87,5.8,5,0,0,0
+2024-06,Cardiology,Pharmacy,In Review,7,1625.08,24.0,3,3,1,0
+2024-06,Cardiology,Pharmacy,Approved,9,2064.92,18.1,7,2,0,0
+2024-06,Cardiology,Pharmacy,Denied,5,1027.29,38.5,0,2,2,1
+2024-06,Cardiology,Pharmacy,Paid,25,5473.36,23.9,22,3,0,0
+2024-06,Cardiology,Lab,Submitted,4,610.84,5.7,4,0,0,0
+2024-06,Cardiology,Lab,In Review,6,890.73,27.3,3,2,1,0
+2024-06,Cardiology,Lab,Approved,7,899.91,20.1,5,2,0,0
+2024-06,Cardiology,Lab,Denied,5,700.21,38.7,0,2,2,1
+2024-06,Cardiology,Lab,Paid,21,2776.52,22.5,19,2,0,0
+2024-06,Cardiology,Imaging,Submitted,4,2510.2,5.7,4,0,0,0
+2024-06,Cardiology,Imaging,In Review,6,4075.55,26.5,3,2,1,0
+2024-06,Cardiology,Imaging,Approved,8,6052.81,19.3,6,2,0,0
+2024-06,Cardiology,Imaging,Denied,4,2773.66,44.7,0,1,2,1
+2024-06,Cardiology,Imaging,Paid,20,15644.35,23.0,18,2,0,0
+2024-06,Orthopedics,Professional,Submitted,10,4275.53,6.9,9,1,0,0
+2024-06,Orthopedics,Professional,In Review,13,6643.66,27.4,5,5,2,1
+2024-06,Orthopedics,Professional,Approved,17,7406.71,20.8,12,4,1,0
+2024-06,Orthopedics,Professional,Denied,10,4541.78,43.8,1,3,3,3
+2024-06,Orthopedics,Professional,Paid,44,22279.82,21.4,38,5,1,0
+2024-06,Orthopedics,Facility,Submitted,7,19282.34,6.3,6,1,0,0
+2024-06,Orthopedics,Facility,In Review,10,35722.03,26.1,4,3,2,1
+2024-06,Orthopedics,Facility,Approved,13,38139.18,18.5,9,3,1,0
+2024-06,Orthopedics,Facility,Denied,8,28564.29,44.3,1,2,3,2
+2024-06,Orthopedics,Facility,Paid,32,100896.79,20.9,28,4,0,0
+2024-06,Orthopedics,Pharmacy,Submitted,5,1036.22,6.1,5,0,0,0
+2024-06,Orthopedics,Pharmacy,In Review,7,1303.81,26.9,3,3,1,0
+2024-06,Orthopedics,Pharmacy,Approved,9,1739.24,19.7,7,2,0,0
+2024-06,Orthopedics,Pharmacy,Denied,6,1117.27,43.2,1,2,2,1
+2024-06,Orthopedics,Pharmacy,Paid,23,4347.19,23.6,20,3,0,0
+2024-06,Orthopedics,Lab,Submitted,4,519.92,6.9,4,0,0,0
+2024-06,Orthopedics,Lab,In Review,6,904.02,26.3,3,2,1,0
+2024-06,Orthopedics,Lab,Approved,8,1243.48,20.7,6,2,0,0
+2024-06,Orthopedics,Lab,Denied,5,714.01,42.5,0,2,2,1
+2024-06,Orthopedics,Lab,Paid,19,2687.55,21.3,17,2,0,0
+2024-06,Orthopedics,Imaging,Submitted,3,1858.4,6.0,3,0,0,0
+2024-06,Orthopedics,Imaging,In Review,5,3684.18,27.4,2,2,1,0
+2024-06,Orthopedics,Imaging,Approved,6,4778.89,20.5,5,1,0,0
+2024-06,Orthopedics,Imaging,Denied,3,2469.1,38.6,0,1,1,1
+2024-06,Orthopedics,Imaging,Paid,16,12530.92,22.5,14,2,0,0
+2024-06,Pediatrics,Professional,Submitted,12,5000.74,5.6,10,2,0,0
+2024-06,Pediatrics,Professional,In Review,16,6754.74,26.2,6,5,3,2
+2024-06,Pediatrics,Professional,Approved,23,10892.49,20.0,16,5,2,0
+2024-06,Pediatrics,Professional,Denied,13,5811.28,46.6,2,4,4,3
+2024-06,Pediatrics,Professional,Paid,65,30622.83,21.1,56,7,2,0
+2024-06,Pediatrics,Facility,Submitted,10,31171.14,6.0,9,1,0,0
+2024-06,Pediatrics,Facility,In Review,12,39449.27,28.1,5,4,2,1
+2024-06,Pediatrics,Facility,Approved,17,51417.5,19.8,12,4,1,0
+2024-06,Pediatrics,Facility,Denied,11,34944.77,47.0,1,3,4,3
+2024-06,Pediatrics,Facility,Paid,43,131346.31,23.9,37,5,1,0
+2024-06,Pediatrics,Pharmacy,Submitted,6,1266.2,6.2,5,1,0,0
+2024-06,Pediatrics,Pharmacy,In Review,8,1704.16,24.7,3,3,1,1
+2024-06,Pediatrics,Pharmacy,Approved,11,2227.3,18.6,8,3,0,0
+2024-06,Pediatrics,Pharmacy,Denied,7,1276.33,45.3,1,2,3,1
+2024-06,Pediatrics,Pharmacy,Paid,28,5797.14,24.7,25,3,0,0
+2024-06,Pediatrics,Lab,Submitted,6,837.32,6.1,5,1,0,0
+2024-06,Pediatrics,Lab,In Review,8,1188.47,26.4,3,3,1,1
+2024-06,Pediatrics,Lab,Approved,10,1568.62,17.7,7,3,0,0
+2024-06,Pediatrics,Lab,Denied,6,780.76,42.7,1,2,2,1
+2024-06,Pediatrics,Lab,Paid,26,3762.16,22.7,23,3,0,0
+2024-06,Pediatrics,Imaging,Submitted,5,3628.39,7.1,5,0,0,0
+2024-06,Pediatrics,Imaging,In Review,6,4693.34,23.5,3,2,1,0
+2024-06,Pediatrics,Imaging,Approved,8,5480.21,17.4,6,2,0,0
+2024-06,Pediatrics,Imaging,Denied,5,3267.64,45.1,0,2,2,1
+2024-06,Pediatrics,Imaging,Paid,21,13412.22,26.1,19,2,0,0
+2024-06,Radiology,Professional,Submitted,12,5742.53,5.7,10,2,0,0
+2024-06,Radiology,Professional,In Review,16,7814.39,22.6,6,5,3,2
+2024-06,Radiology,Professional,Approved,22,10940.07,20.3,15,5,2,0
+2024-06,Radiology,Professional,Denied,13,6461.65,41.1,2,4,4,3
+2024-06,Radiology,Professional,Paid,59,27476.52,21.5,51,6,2,0
+2024-06,Radiology,Facility,Submitted,8,29312.36,7.0,7,1,0,0
+2024-06,Radiology,Facility,In Review,11,40380.71,26.9,4,4,2,1
+2024-06,Radiology,Facility,Approved,13,42863.2,17.2,9,3,1,0
+2024-06,Radiology,Facility,Denied,8,24966.71,40.5,1,2,3,2
+2024-06,Radiology,Facility,Paid,37,136003.62,22.7,32,4,1,0
+2024-06,Radiology,Pharmacy,Submitted,5,936.45,6.1,5,0,0,0
+2024-06,Radiology,Pharmacy,In Review,7,1394.18,23.8,3,3,1,0
+2024-06,Radiology,Pharmacy,Approved,9,1729.78,21.0,7,2,0,0
+2024-06,Radiology,Pharmacy,Denied,5,994.8,44.0,0,2,2,1
+2024-06,Radiology,Pharmacy,Paid,25,5277.73,20.9,22,3,0,0
+2024-06,Radiology,Lab,Submitted,5,764.36,6.5,5,0,0,0
+2024-06,Radiology,Lab,In Review,6,830.89,23.9,3,2,1,0
+2024-06,Radiology,Lab,Approved,8,995.07,18.4,6,2,0,0
+2024-06,Radiology,Lab,Denied,5,639.9,39.1,0,2,2,1
+2024-06,Radiology,Lab,Paid,23,3232.72,25.1,20,3,0,0
+2024-06,Radiology,Imaging,Submitted,5,3519.64,6.0,5,0,0,0
+2024-06,Radiology,Imaging,In Review,6,4486.14,26.3,3,2,1,0
+2024-06,Radiology,Imaging,Approved,7,4380.39,17.8,5,2,0,0
+2024-06,Radiology,Imaging,Denied,4,2555.05,48.1,0,1,2,1
+2024-06,Radiology,Imaging,Paid,18,13356.02,25.9,16,2,0,0
+2024-06,Oncology,Professional,Submitted,7,3557.35,6.1,6,1,0,0
+2024-06,Oncology,Professional,In Review,10,5256.63,27.1,4,3,2,1
+2024-06,Oncology,Professional,Approved,13,7152.3,18.6,9,3,1,0
+2024-06,Oncology,Professional,Denied,8,3958.41,45.4,1,2,3,2
+2024-06,Oncology,Professional,Paid,34,17542.68,25.6,30,3,1,0
+2024-06,Oncology,Facility,Submitted,5,14945.39,6.5,5,0,0,0
+2024-06,Oncology,Facility,In Review,7,24355.53,25.1,3,3,1,0
+2024-06,Oncology,Facility,Approved,9,27364.46,17.6,7,2,0,0
+2024-06,Oncology,Facility,Denied,5,17978.26,41.7,0,2,2,1
+2024-06,Oncology,Facility,Paid,25,73795.47,24.7,22,3,0,0
+2024-06,Oncology,Pharmacy,Submitted,3,657.21,6.7,3,0,0,0
+2024-06,Oncology,Pharmacy,In Review,5,1069.99,22.9,2,2,1,0
+2024-06,Oncology,Pharmacy,Approved,6,1338.71,19.1,5,1,0,0
+2024-06,Oncology,Pharmacy,Denied,4,864.34,42.4,0,1,2,1
+2024-06,Oncology,Pharmacy,Paid,17,3809.41,24.6,15,2,0,0
+2024-06,Oncology,Lab,Submitted,3,447.45,7.1,3,0,0,0
+2024-06,Oncology,Lab,In Review,4,602.96,26.9,2,2,0,0
+2024-06,Oncology,Lab,Approved,5,678.94,19.4,4,1,0,0
+2024-06,Oncology,Lab,Denied,3,488.39,42.2,0,1,1,1
+2024-06,Oncology,Lab,Paid,13,1928.2,22.8,12,1,0,0
+2024-06,Oncology,Imaging,Submitted,2,1456.35,5.9,2,0,0,0
+2024-06,Oncology,Imaging,In Review,3,2203.65,27.2,2,1,0,0
+2024-06,Oncology,Imaging,Approved,4,2662.93,21.2,3,1,0,0
+2024-06,Oncology,Imaging,Denied,3,1853.59,47.0,0,1,1,1
+2024-06,Oncology,Imaging,Paid,10,7817.84,24.6,9,1,0,0
+2024-06,General Surgery,Professional,Submitted,7,3132.61,6.8,6,1,0,0
+2024-06,General Surgery,Professional,In Review,9,4487.44,26.2,4,3,1,1
+2024-06,General Surgery,Professional,Approved,11,4496.21,17.1,8,3,0,0
+2024-06,General Surgery,Professional,Denied,7,3115.71,47.9,1,2,3,1
+2024-06,General Surgery,Professional,Paid,31,16205.32,25.3,27,4,0,0
+2024-06,General Surgery,Facility,Submitted,4,14197.22,6.8,4,0,0,0
+2024-06,General Surgery,Facility,In Review,7,25098.58,26.2,3,3,1,0
+2024-06,General Surgery,Facility,Approved,8,28596.45,19.0,6,2,0,0
+2024-06,General Surgery,Facility,Denied,5,13858.46,38.4,0,2,2,1
+2024-06,General Surgery,Facility,Paid,21,58604.02,26.1,19,2,0,0
+2024-06,General Surgery,Pharmacy,Submitted,3,581.5,7.1,3,0,0,0
+2024-06,General Surgery,Pharmacy,In Review,4,720.88,22.7,2,2,0,0
+2024-06,General Surgery,Pharmacy,Approved,5,1203.31,21.4,4,1,0,0
+2024-06,General Surgery,Pharmacy,Denied,3,626.73,39.5,0,1,1,1
+2024-06,General Surgery,Pharmacy,Paid,13,2811.66,22.0,12,1,0,0
+2024-06,General Surgery,Lab,Submitted,3,369.87,6.0,3,0,0,0
+2024-06,General Surgery,Lab,In Review,3,385.92,23.5,2,1,0,0
+2024-06,General Surgery,Lab,Approved,5,638.59,20.3,4,1,0,0
+2024-06,General Surgery,Lab,Denied,3,490.67,45.3,0,1,1,1
+2024-06,General Surgery,Lab,Paid,11,1396.56,21.9,10,1,0,0
+2024-06,General Surgery,Imaging,Submitted,3,2083.48,6.1,3,0,0,0
+2024-06,General Surgery,Imaging,In Review,3,2025.01,28.5,2,1,0,0
+2024-06,General Surgery,Imaging,Approved,4,2766.94,18.8,3,1,0,0
+2024-06,General Surgery,Imaging,Denied,2,1389.38,47.4,0,1,1,0
+2024-06,General Surgery,Imaging,Paid,10,7381.49,22.9,9,1,0,0
+2024-06,Neurology,Professional,Submitted,6,2684.17,5.7,5,1,0,0
+2024-06,Neurology,Professional,In Review,10,5246.7,26.9,4,3,2,1
+2024-06,Neurology,Professional,Approved,14,6572.86,20.1,10,3,1,0
+2024-06,Neurology,Professional,Denied,8,3514.04,41.6,1,2,3,2
+2024-06,Neurology,Professional,Paid,34,17772.43,23.2,30,3,1,0
+2024-06,Neurology,Facility,Submitted,6,16985.73,7.1,5,1,0,0
+2024-06,Neurology,Facility,In Review,8,28202.7,27.4,3,3,1,1
+2024-06,Neurology,Facility,Approved,9,29945.51,20.3,7,2,0,0
+2024-06,Neurology,Facility,Denied,6,17884.22,40.3,1,2,2,1
+2024-06,Neurology,Facility,Paid,23,73154.97,23.8,20,3,0,0
+2024-06,Neurology,Pharmacy,Submitted,4,884.39,6.0,4,0,0,0
+2024-06,Neurology,Pharmacy,In Review,5,998.16,23.9,2,2,1,0
+2024-06,Neurology,Pharmacy,Approved,6,1199.32,18.0,5,1,0,0
+2024-06,Neurology,Pharmacy,Denied,4,729.7,41.2,0,1,2,1
+2024-06,Neurology,Pharmacy,Paid,16,3502.55,23.8,14,2,0,0
+2024-06,Neurology,Lab,Submitted,3,494.76,6.5,3,0,0,0
+2024-06,Neurology,Lab,In Review,4,585.45,27.4,2,2,0,0
+2024-06,Neurology,Lab,Approved,6,839.39,20.0,5,1,0,0
+2024-06,Neurology,Lab,Denied,3,454.82,42.6,0,1,1,1
+2024-06,Neurology,Lab,Paid,13,2142.6,25.5,12,1,0,0
+2024-06,Neurology,Imaging,Submitted,3,2041.5,6.3,3,0,0,0
+2024-06,Neurology,Imaging,In Review,4,2711.17,25.2,2,2,0,0
+2024-06,Neurology,Imaging,Approved,5,3200.9,18.8,4,1,0,0
+2024-06,Neurology,Imaging,Denied,3,2274.55,39.8,0,1,1,1
+2024-06,Neurology,Imaging,Paid,11,8422.23,21.5,10,1,0,0
+2024-07,Cardiology,Professional,Submitted,11,5700.5,5.8,10,1,0,0
+2024-07,Cardiology,Professional,In Review,16,8196.03,24.9,6,5,3,2
+2024-07,Cardiology,Professional,Approved,20,10257.5,19.9,14,5,1,0
+2024-07,Cardiology,Professional,Denied,12,6165.57,49.5,2,3,4,3
+2024-07,Cardiology,Professional,Paid,50,26222.77,25.1,44,5,1,0
+2024-07,Cardiology,Facility,Submitted,9,26148.24,5.9,8,1,0,0
+2024-07,Cardiology,Facility,In Review,11,34664.56,26.3,4,4,2,1
+2024-07,Cardiology,Facility,Approved,15,54216.69,19.0,11,3,1,0
+2024-07,Cardiology,Facility,Denied,9,26180.34,44.5,1,3,3,2
+2024-07,Cardiology,Facility,Paid,34,108922.42,24.0,30,3,1,0
+2024-07,Cardiology,Pharmacy,Submitted,5,1005.39,5.7,5,0,0,0
+2024-07,Cardiology,Pharmacy,In Review,7,1678.62,28.5,3,3,1,0
+2024-07,Cardiology,Pharmacy,Approved,9,1753.27,19.1,7,2,0,0
+2024-07,Cardiology,Pharmacy,Denied,6,1205.88,39.6,1,2,2,1
+2024-07,Cardiology,Pharmacy,Paid,24,4678.01,22.7,21,3,0,0
+2024-07,Cardiology,Lab,Submitted,4,584.63,6.1,4,0,0,0
+2024-07,Cardiology,Lab,In Review,6,868.1,27.7,3,2,1,0
+2024-07,Cardiology,Lab,Approved,8,1031.47,21.2,6,2,0,0
+2024-07,Cardiology,Lab,Denied,5,766.88,42.9,0,2,2,1
+2024-07,Cardiology,Lab,Paid,19,2346.41,26.5,17,2,0,0
+2024-07,Cardiology,Imaging,Submitted,4,2917.82,5.8,4,0,0,0
+2024-07,Cardiology,Imaging,In Review,5,3733.23,26.0,2,2,1,0
+2024-07,Cardiology,Imaging,Approved,7,5280.02,19.9,5,2,0,0
+2024-07,Cardiology,Imaging,Denied,4,2506.98,46.2,0,1,2,1
+2024-07,Cardiology,Imaging,Paid,19,12757.27,22.0,17,2,0,0
+2024-07,Orthopedics,Professional,Submitted,9,4350.82,5.9,8,1,0,0
+2024-07,Orthopedics,Professional,In Review,14,5923.84,22.9,5,5,3,1
+2024-07,Orthopedics,Professional,Approved,16,6970.04,21.7,11,4,1,0
+2024-07,Orthopedics,Professional,Denied,10,4399.77,41.0,1,3,3,3
+2024-07,Orthopedics,Professional,Paid,43,21295.42,25.3,37,5,1,0
+2024-07,Orthopedics,Facility,Submitted,7,22279.44,7.0,6,1,0,0
+2024-07,Orthopedics,Facility,In Review,10,29982.96,27.1,4,3,2,1
+2024-07,Orthopedics,Facility,Approved,13,41168.7,21.7,9,3,1,0
+2024-07,Orthopedics,Facility,Denied,8,23272.61,47.2,1,2,3,2
+2024-07,Orthopedics,Facility,Paid,33,106702.82,23.8,29,4,0,0
+2024-07,Orthopedics,Pharmacy,Submitted,5,1061.88,5.8,5,0,0,0
+2024-07,Orthopedics,Pharmacy,In Review,7,1649.95,27.2,3,3,1,0
+2024-07,Orthopedics,Pharmacy,Approved,8,1873.53,20.9,6,2,0,0
+2024-07,Orthopedics,Pharmacy,Denied,5,899.56,44.8,0,2,2,1
+2024-07,Orthopedics,Pharmacy,Paid,21,4172.36,24.4,19,2,0,0
+2024-07,Orthopedics,Lab,Submitted,4,642.64,7.1,4,0,0,0
+2024-07,Orthopedics,Lab,In Review,5,668.33,27.2,2,2,1,0
+2024-07,Orthopedics,Lab,Approved,8,1122.56,20.1,6,2,0,0
+2024-07,Orthopedics,Lab,Denied,5,777.15,46.5,0,2,2,1
+2024-07,Orthopedics,Lab,Paid,19,2472.54,21.6,17,2,0,0
+2024-07,Orthopedics,Imaging,Submitted,4,3136.96,5.9,4,0,0,0
+2024-07,Orthopedics,Imaging,In Review,5,3262.21,25.0,2,2,1,0
+2024-07,Orthopedics,Imaging,Approved,6,4746.29,17.7,5,1,0,0
+2024-07,Orthopedics,Imaging,Denied,4,3298.08,46.2,0,1,2,1
+2024-07,Orthopedics,Imaging,Paid,16,12929.53,24.5,14,2,0,0
+2024-07,Pediatrics,Professional,Submitted,13,6949.57,6.4,11,2,0,0
+2024-07,Pediatrics,Professional,In Review,18,8516.74,23.2,7,6,3,2
+2024-07,Pediatrics,Professional,Approved,24,10228.88,18.9,17,6,1,0
+2024-07,Pediatrics,Professional,Denied,13,5828.24,43.1,2,4,4,3
+2024-07,Pediatrics,Professional,Paid,60,27170.39,21.8,52,7,1,0
+2024-07,Pediatrics,Facility,Submitted,10,31602.4,6.2,9,1,0,0
+2024-07,Pediatrics,Facility,In Review,12,33064.53,25.2,5,4,2,1
+2024-07,Pediatrics,Facility,Approved,18,61586.64,18.7,13,4,1,0
+2024-07,Pediatrics,Facility,Denied,11,34447.68,41.8,1,3,4,3
+2024-07,Pediatrics,Facility,Paid,44,128615.59,25.9,38,5,1,0
+2024-07,Pediatrics,Pharmacy,Submitted,6,1218.06,7.1,5,1,0,0
+2024-07,Pediatrics,Pharmacy,In Review,8,1674.08,23.6,3,3,1,1
+2024-07,Pediatrics,Pharmacy,Approved,11,2342.44,18.4,8,3,0,0
+2024-07,Pediatrics,Pharmacy,Denied,7,1273.51,42.2,1,2,3,1
+2024-07,Pediatrics,Pharmacy,Paid,28,5597.43,23.6,25,3,0,0
+2024-07,Pediatrics,Lab,Submitted,5,624.27,5.9,5,0,0,0
+2024-07,Pediatrics,Lab,In Review,8,1186.24,25.8,3,3,1,1
+2024-07,Pediatrics,Lab,Approved,9,1386.6,17.7,7,2,0,0
+2024-07,Pediatrics,Lab,Denied,5,758.91,44.0,0,2,2,1
+2024-07,Pediatrics,Lab,Paid,25,4056.86,25.5,22,3,0,0
+2024-07,Pediatrics,Imaging,Submitted,4,2594.4,6.9,4,0,0,0
+2024-07,Pediatrics,Imaging,In Review,6,4871.38,24.6,3,2,1,0
+2024-07,Pediatrics,Imaging,Approved,8,5822.62,20.9,6,2,0,0
+2024-07,Pediatrics,Imaging,Denied,5,3217.56,39.7,0,2,2,1
+2024-07,Pediatrics,Imaging,Paid,22,15487.41,22.9,19,3,0,0
+2024-07,Radiology,Professional,Submitted,11,5984.87,5.8,10,1,0,0
+2024-07,Radiology,Professional,In Review,14,7303.94,26.2,5,5,3,1
+2024-07,Radiology,Professional,Approved,18,7433.32,18.1,13,4,1,0
+2024-07,Radiology,Professional,Denied,12,4920.56,41.2,2,3,4,3
+2024-07,Radiology,Professional,Paid,54,28683.85,26.0,47,6,1,0
+2024-07,Radiology,Facility,Submitted,8,29438.93,6.9,7,1,0,0
+2024-07,Radiology,Facility,In Review,11,32610.39,24.8,4,4,2,1
+2024-07,Radiology,Facility,Approved,14,45365.59,17.1,10,3,1,0
+2024-07,Radiology,Facility,Denied,9,29453.24,45.1,1,3,3,2
+2024-07,Radiology,Facility,Paid,35,120903.57,25.1,31,3,1,0
+2024-07,Radiology,Pharmacy,Submitted,5,1099.83,7.0,5,0,0,0
+2024-07,Radiology,Pharmacy,In Review,7,1636.54,25.6,3,3,1,0
+2024-07,Radiology,Pharmacy,Approved,8,1481.23,18.0,6,2,0,0
+2024-07,Radiology,Pharmacy,Denied,5,1048.87,46.8,0,2,2,1
+2024-07,Radiology,Pharmacy,Paid,22,5302.82,21.8,19,3,0,0
+2024-07,Radiology,Lab,Submitted,5,797.32,6.7,5,0,0,0
+2024-07,Radiology,Lab,In Review,7,903.62,22.8,3,3,1,0
+2024-07,Radiology,Lab,Approved,8,1017.15,18.7,6,2,0,0
+2024-07,Radiology,Lab,Denied,5,815.56,48.2,0,2,2,1
+2024-07,Radiology,Lab,Paid,24,3703.36,21.7,21,3,0,0
+2024-07,Radiology,Imaging,Submitted,4,3002.91,6.3,4,0,0,0
+2024-07,Radiology,Imaging,In Review,5,3588.28,24.2,2,2,1,0
+2024-07,Radiology,Imaging,Approved,6,4214.23,19.9,5,1,0,0
+2024-07,Radiology,Imaging,Denied,4,2913.25,46.6,0,1,2,1
+2024-07,Radiology,Imaging,Paid,18,11457.32,24.6,16,2,0,0
+2024-07,Oncology,Professional,Submitted,7,2894.72,7.1,6,1,0,0
+2024-07,Oncology,Professional,In Review,11,4493.52,24.1,4,4,2,1
+2024-07,Oncology,Professional,Approved,12,6246.09,19.9,9,3,0,0
+2024-07,Oncology,Professional,Denied,7,3676.48,42.6,1,2,3,1
+2024-07,Oncology,Professional,Paid,33,15304.48,23.8,29,4,0,0
+2024-07,Oncology,Facility,Submitted,5,15637.87,7.1,5,0,0,0
+2024-07,Oncology,Facility,In Review,7,25198.12,26.2,3,3,1,0
+2024-07,Oncology,Facility,Approved,9,27016.63,20.7,7,2,0,0
+2024-07,Oncology,Facility,Denied,5,13693.84,40.6,0,2,2,1
+2024-07,Oncology,Facility,Paid,21,76212.78,26.6,19,2,0,0
+2024-07,Oncology,Pharmacy,Submitted,3,705.4,6.8,3,0,0,0
+2024-07,Oncology,Pharmacy,In Review,5,1050.72,26.9,2,2,1,0
+2024-07,Oncology,Pharmacy,Approved,6,1260.58,20.5,5,1,0,0
+2024-07,Oncology,Pharmacy,Denied,4,825.84,44.5,0,1,2,1
+2024-07,Oncology,Pharmacy,Paid,17,4067.43,25.7,15,2,0,0
+2024-07,Oncology,Lab,Submitted,3,448.47,6.5,3,0,0,0
+2024-07,Oncology,Lab,In Review,4,614.5,27.2,2,2,0,0
+2024-07,Oncology,Lab,Approved,5,805.56,20.2,4,1,0,0
+2024-07,Oncology,Lab,Denied,3,372.32,39.5,0,1,1,1
+2024-07,Oncology,Lab,Paid,14,2006.92,21.8,13,1,0,0
+2024-07,Oncology,Imaging,Submitted,2,1561.18,6.9,2,0,0,0
+2024-07,Oncology,Imaging,In Review,3,1947.69,23.4,2,1,0,0
+2024-07,Oncology,Imaging,Approved,4,2786.07,17.3,3,1,0,0
+2024-07,Oncology,Imaging,Denied,3,2459.07,44.3,0,1,1,1
+2024-07,Oncology,Imaging,Paid,12,7679.06,22.4,11,1,0,0
+2024-07,General Surgery,Professional,Submitted,6,3008.22,7.2,5,1,0,0
+2024-07,General Surgery,Professional,In Review,9,4067.73,26.1,4,3,1,1
+2024-07,General Surgery,Professional,Approved,11,4665.99,17.1,8,3,0,0
+2024-07,General Surgery,Professional,Denied,8,4037.32,42.0,1,2,3,2
+2024-07,General Surgery,Professional,Paid,30,15190.89,26.1,26,4,0,0
+2024-07,General Surgery,Facility,Submitted,4,14160.28,7.1,4,0,0,0
+2024-07,General Surgery,Facility,In Review,6,18008.57,23.5,3,2,1,0
+2024-07,General Surgery,Facility,Approved,8,24031.47,21.2,6,2,0,0
+2024-07,General Surgery,Facility,Denied,4,13314.1,48.5,0,1,2,1
+2024-07,General Surgery,Facility,Paid,22,73570.76,26.3,19,3,0,0
+2024-07,General Surgery,Pharmacy,Submitted,3,537.15,7.2,3,0,0,0
+2024-07,General Surgery,Pharmacy,In Review,4,721.07,22.9,2,2,0,0
+2024-07,General Surgery,Pharmacy,Approved,5,973.94,21.0,4,1,0,0
+2024-07,General Surgery,Pharmacy,Denied,3,684.93,44.8,0,1,1,1
+2024-07,General Surgery,Pharmacy,Paid,12,2252.16,26.5,11,1,0,0
+2024-07,General Surgery,Lab,Submitted,3,418.18,7.1,3,0,0,0
+2024-07,General Surgery,Lab,In Review,4,634.15,26.6,2,2,0,0
+2024-07,General Surgery,Lab,Approved,5,681.34,20.3,4,1,0,0
+2024-07,General Surgery,Lab,Denied,3,448.05,49.5,0,1,1,1
+2024-07,General Surgery,Lab,Paid,13,1892.14,24.1,12,1,0,0
+2024-07,General Surgery,Imaging,Submitted,3,2340.54,5.8,3,0,0,0
+2024-07,General Surgery,Imaging,In Review,3,2416.97,27.5,2,1,0,0
+2024-07,General Surgery,Imaging,Approved,4,3025.09,19.0,3,1,0,0
+2024-07,General Surgery,Imaging,Denied,3,2360.19,42.0,0,1,1,1
+2024-07,General Surgery,Imaging,Paid,11,8457.47,25.7,10,1,0,0
+2024-07,Neurology,Professional,Submitted,8,3386.68,5.9,7,1,0,0
+2024-07,Neurology,Professional,In Review,10,4159.53,28.6,4,3,2,1
+2024-07,Neurology,Professional,Approved,14,5810.65,21.0,10,3,1,0
+2024-07,Neurology,Professional,Denied,8,4072.66,48.3,1,2,3,2
+2024-07,Neurology,Professional,Paid,35,14866.29,20.9,31,3,1,0
+2024-07,Neurology,Facility,Submitted,6,19618.3,6.3,5,1,0,0
+2024-07,Neurology,Facility,In Review,7,25188.66,24.8,3,3,1,0
+2024-07,Neurology,Facility,Approved,10,33864.68,18.3,7,3,0,0
+2024-07,Neurology,Facility,Denied,5,15448.0,42.2,0,2,2,1
+2024-07,Neurology,Facility,Paid,26,91181.77,22.1,23,3,0,0
+2024-07,Neurology,Pharmacy,Submitted,3,575.99,6.9,3,0,0,0
+2024-07,Neurology,Pharmacy,In Review,5,1137.07,23.6,2,2,1,0
+2024-07,Neurology,Pharmacy,Approved,7,1435.91,21.7,5,2,0,0
+2024-07,Neurology,Pharmacy,Denied,4,949.67,40.4,0,1,2,1
+2024-07,Neurology,Pharmacy,Paid,17,3860.89,23.0,15,2,0,0
+2024-07,Neurology,Lab,Submitted,3,499.2,6.0,3,0,0,0
+2024-07,Neurology,Lab,In Review,5,703.59,25.7,2,2,1,0
+2024-07,Neurology,Lab,Approved,6,808.76,21.6,5,1,0,0
+2024-07,Neurology,Lab,Denied,4,662.29,49.5,0,1,2,1
+2024-07,Neurology,Lab,Paid,16,2286.37,25.7,14,2,0,0
+2024-07,Neurology,Imaging,Submitted,3,2158.24,6.7,3,0,0,0
+2024-07,Neurology,Imaging,In Review,3,2074.87,23.0,2,1,0,0
+2024-07,Neurology,Imaging,Approved,4,2800.82,18.1,3,1,0,0
+2024-07,Neurology,Imaging,Denied,3,2214.52,42.3,0,1,1,1
+2024-07,Neurology,Imaging,Paid,12,7632.71,24.2,11,1,0,0
+2024-08,Cardiology,Professional,Submitted,10,4875.67,6.8,9,1,0,0
+2024-08,Cardiology,Professional,In Review,14,6739.1,24.2,5,5,3,1
+2024-08,Cardiology,Professional,Approved,18,8310.89,20.4,13,4,1,0
+2024-08,Cardiology,Professional,Denied,11,5722.48,43.9,1,3,4,3
+2024-08,Cardiology,Professional,Paid,45,20133.5,21.4,39,5,1,0
+2024-08,Cardiology,Facility,Submitted,8,27666.78,6.4,7,1,0,0
+2024-08,Cardiology,Facility,In Review,10,35489.45,23.4,4,3,2,1
+2024-08,Cardiology,Facility,Approved,14,49592.91,19.1,10,3,1,0
+2024-08,Cardiology,Facility,Denied,8,23802.49,45.8,1,2,3,2
+2024-08,Cardiology,Facility,Paid,34,113857.09,23.6,30,3,1,0
+2024-08,Cardiology,Pharmacy,Submitted,5,1151.85,6.4,5,0,0,0
+2024-08,Cardiology,Pharmacy,In Review,7,1443.7,23.6,3,3,1,0
+2024-08,Cardiology,Pharmacy,Approved,9,1894.36,19.4,7,2,0,0
+2024-08,Cardiology,Pharmacy,Denied,6,1415.3,47.8,1,2,2,1
+2024-08,Cardiology,Pharmacy,Paid,24,5102.67,24.8,21,3,0,0
+2024-08,Cardiology,Lab,Submitted,5,802.61,6.2,5,0,0,0
+2024-08,Cardiology,Lab,In Review,6,961.02,25.7,3,2,1,0
+2024-08,Cardiology,Lab,Approved,8,1027.91,17.4,6,2,0,0
+2024-08,Cardiology,Lab,Denied,5,739.23,43.1,0,2,2,1
+2024-08,Cardiology,Lab,Paid,22,2955.26,22.7,19,3,0,0
+2024-08,Cardiology,Imaging,Submitted,4,3076.61,6.4,4,0,0,0
+2024-08,Cardiology,Imaging,In Review,6,4568.08,23.4,3,2,1,0
+2024-08,Cardiology,Imaging,Approved,6,3786.27,21.8,5,1,0,0
+2024-08,Cardiology,Imaging,Denied,4,2817.45,41.5,0,1,2,1
+2024-08,Cardiology,Imaging,Paid,20,13110.72,25.2,18,2,0,0
+2024-08,Orthopedics,Professional,Submitted,10,4807.08,6.1,9,1,0,0
+2024-08,Orthopedics,Professional,In Review,14,7657.71,27.4,5,5,3,1
+2024-08,Orthopedics,Professional,Approved,20,9716.93,18.4,14,5,1,0
+2024-08,Orthopedics,Professional,Denied,12,5760.98,41.2,2,3,4,3
+2024-08,Orthopedics,Professional,Paid,48,23972.02,25.3,42,5,1,0
+2024-08,Orthopedics,Facility,Submitted,7,21590.58,6.2,6,1,0,0
+2024-08,Orthopedics,Facility,In Review,9,31428.04,25.3,4,3,1,1
+2024-08,Orthopedics,Facility,Approved,12,35206.88,20.5,9,3,0,0
+2024-08,Orthopedics,Facility,Denied,8,24366.79,49.5,1,2,3,2
+2024-08,Orthopedics,Facility,Paid,29,82581.14,24.5,25,3,1,0
+2024-08,Orthopedics,Pharmacy,Submitted,5,1067.03,6.3,5,0,0,0
+2024-08,Orthopedics,Pharmacy,In Review,7,1540.26,29.1,3,3,1,0
+2024-08,Orthopedics,Pharmacy,Approved,9,1974.04,20.0,7,2,0,0
+2024-08,Orthopedics,Pharmacy,Denied,5,972.22,49.9,0,2,2,1
+2024-08,Orthopedics,Pharmacy,Paid,21,4794.03,22.0,19,2,0,0
+2024-08,Orthopedics,Lab,Submitted,4,661.29,6.8,4,0,0,0
+2024-08,Orthopedics,Lab,In Review,6,920.42,26.8,3,2,1,0
+2024-08,Orthopedics,Lab,Approved,7,942.14,20.7,5,2,0,0
+2024-08,Orthopedics,Lab,Denied,5,687.42,48.8,0,2,2,1
+2024-08,Orthopedics,Lab,Paid,19,2399.49,24.6,17,2,0,0
+2024-08,Orthopedics,Imaging,Submitted,3,2164.66,6.2,3,0,0,0
+2024-08,Orthopedics,Imaging,In Review,4,3055.55,26.5,2,2,0,0
+2024-08,Orthopedics,Imaging,Approved,6,4425.29,19.6,5,1,0,0
+2024-08,Orthopedics,Imaging,Denied,3,2349.26,41.5,0,1,1,1
+2024-08,Orthopedics,Imaging,Paid,15,11906.75,25.4,13,2,0,0
+2024-08,Pediatrics,Professional,Submitted,12,5115.9,6.5,10,2,0,0
+2024-08,Pediatrics,Professional,In Review,19,9021.78,23.1,7,6,4,2
+2024-08,Pediatrics,Professional,Approved,22,10841.21,20.5,15,5,2,0
+2024-08,Pediatrics,Professional,Denied,13,5385.12,42.2,2,4,4,3
+2024-08,Pediatrics,Professional,Paid,56,27218.25,21.8,49,6,1,0
+2024-08,Pediatrics,Facility,Submitted,10,36516.96,7.2,9,1,0,0
+2024-08,Pediatrics,Facility,In Review,12,32978.8,25.1,5,4,2,1
+2024-08,Pediatrics,Facility,Approved,17,47215.96,19.0,12,4,1,0
+2024-08,Pediatrics,Facility,Denied,10,29305.72,46.9,1,3,3,3
+2024-08,Pediatrics,Facility,Paid,45,145533.34,26.4,39,5,1,0
+2024-08,Pediatrics,Pharmacy,Submitted,5,1013.29,6.8,5,0,0,0
+2024-08,Pediatrics,Pharmacy,In Review,8,1465.32,29.1,3,3,1,1
+2024-08,Pediatrics,Pharmacy,Approved,10,2011.15,20.2,7,3,0,0
+2024-08,Pediatrics,Pharmacy,Denied,7,1541.75,49.6,1,2,3,1
+2024-08,Pediatrics,Pharmacy,Paid,25,5437.13,25.9,22,3,0,0
+2024-08,Pediatrics,Lab,Submitted,5,830.43,6.0,5,0,0,0
+2024-08,Pediatrics,Lab,In Review,7,1128.69,28.7,3,3,1,0
+2024-08,Pediatrics,Lab,Approved,10,1617.41,17.5,7,3,0,0
+2024-08,Pediatrics,Lab,Denied,6,851.25,46.3,1,2,2,1
+2024-08,Pediatrics,Lab,Paid,24,3807.47,24.4,21,3,0,0
+2024-08,Pediatrics,Imaging,Submitted,4,2607.83,6.4,4,0,0,0
+2024-08,Pediatrics,Imaging,In Review,6,4569.94,24.9,3,2,1,0
+2024-08,Pediatrics,Imaging,Approved,9,5644.09,18.1,7,2,0,0
+2024-08,Pediatrics,Imaging,Denied,5,3390.12,41.7,0,2,2,1
+2024-08,Pediatrics,Imaging,Paid,21,13826.42,24.7,19,2,0,0
+2024-08,Radiology,Professional,Submitted,10,5070.56,6.6,9,1,0,0
+2024-08,Radiology,Professional,In Review,15,6661.96,28.9,6,5,3,1
+2024-08,Radiology,Professional,Approved,19,8537.13,21.5,13,4,2,0
+2024-08,Radiology,Professional,Denied,12,5956.9,48.9,2,3,4,3
+2024-08,Radiology,Professional,Paid,46,24316.79,25.0,40,5,1,0
+2024-08,Radiology,Facility,Submitted,7,19744.3,7.2,6,1,0,0
+2024-08,Radiology,Facility,In Review,10,29690.61,27.4,4,3,2,1
+2024-08,Radiology,Facility,Approved,15,43115.07,21.1,11,3,1,0
+2024-08,Radiology,Facility,Denied,9,31810.67,40.3,1,3,3,2
+2024-08,Radiology,Facility,Paid,33,109939.86,22.0,29,4,0,0
+2024-08,Radiology,Pharmacy,Submitted,5,1138.18,7.2,5,0,0,0
+2024-08,Radiology,Pharmacy,In Review,8,1911.01,28.7,3,3,1,1
+2024-08,Radiology,Pharmacy,Approved,10,2035.96,21.5,7,3,0,0
+2024-08,Radiology,Pharmacy,Denied,6,1438.73,47.6,1,2,2,1
+2024-08,Radiology,Pharmacy,Paid,24,5712.77,26.6,21,3,0,0
+2024-08,Radiology,Lab,Submitted,5,738.31,7.2,5,0,0,0
+2024-08,Radiology,Lab,In Review,6,964.99,23.4,3,2,1,0
+2024-08,Radiology,Lab,Approved,8,1033.09,19.5,6,2,0,0
+2024-08,Radiology,Lab,Denied,5,823.33,45.4,0,2,2,1
+2024-08,Radiology,Lab,Paid,24,3248.29,21.3,21,3,0,0
+2024-08,Radiology,Imaging,Submitted,4,2919.3,7.0,4,0,0,0
+2024-08,Radiology,Imaging,In Review,6,4433.92,29.1,3,2,1,0
+2024-08,Radiology,Imaging,Approved,8,6065.64,19.0,6,2,0,0
+2024-08,Radiology,Imaging,Denied,4,2656.17,47.5,0,1,2,1
+2024-08,Radiology,Imaging,Paid,20,13670.02,24.7,18,2,0,0
+2024-08,Oncology,Professional,Submitted,6,3266.56,6.4,5,1,0,0
+2024-08,Oncology,Professional,In Review,9,4303.29,25.5,4,3,1,1
+2024-08,Oncology,Professional,Approved,13,7105.08,20.1,9,3,1,0
+2024-08,Oncology,Professional,Denied,8,3684.29,45.4,1,2,3,2
+2024-08,Oncology,Professional,Paid,31,12652.88,26.1,27,4,0,0
+2024-08,Oncology,Facility,Submitted,5,14000.8,7.1,5,0,0,0
+2024-08,Oncology,Facility,In Review,6,18685.18,28.3,3,2,1,0
+2024-08,Oncology,Facility,Approved,9,32525.16,18.3,7,2,0,0
+2024-08,Oncology,Facility,Denied,6,21953.27,45.2,1,2,2,1
+2024-08,Oncology,Facility,Paid,24,74339.94,25.4,21,3,0,0
+2024-08,Oncology,Pharmacy,Submitted,4,949.85,6.7,4,0,0,0
+2024-08,Oncology,Pharmacy,In Review,5,988.46,27.5,2,2,1,0
+2024-08,Oncology,Pharmacy,Approved,7,1534.53,18.4,5,2,0,0
+2024-08,Oncology,Pharmacy,Denied,4,904.5,49.4,0,1,2,1
+2024-08,Oncology,Pharmacy,Paid,16,2984.52,23.5,14,2,0,0
+2024-08,Oncology,Lab,Submitted,3,425.12,6.6,3,0,0,0
+2024-08,Oncology,Lab,In Review,4,571.15,29.2,2,2,0,0
+2024-08,Oncology,Lab,Approved,5,618.17,18.4,4,1,0,0
+2024-08,Oncology,Lab,Denied,3,498.82,41.6,0,1,1,1
+2024-08,Oncology,Lab,Paid,13,1645.74,24.4,12,1,0,0
+2024-08,Oncology,Imaging,Submitted,3,2444.84,6.0,3,0,0,0
+2024-08,Oncology,Imaging,In Review,3,1902.12,25.2,2,1,0,0
+2024-08,Oncology,Imaging,Approved,4,2676.57,21.9,3,1,0,0
+2024-08,Oncology,Imaging,Denied,2,1595.07,40.2,0,1,1,0
+2024-08,Oncology,Imaging,Paid,11,7806.24,26.5,10,1,0,0
+2024-08,General Surgery,Professional,Submitted,6,3094.89,6.9,5,1,0,0
+2024-08,General Surgery,Professional,In Review,9,3705.86,24.7,4,3,1,1
+2024-08,General Surgery,Professional,Approved,11,5439.76,20.1,8,3,0,0
+2024-08,General Surgery,Professional,Denied,6,2672.79,49.5,1,2,2,1
+2024-08,General Surgery,Professional,Paid,29,12361.79,26.5,25,3,1,0
+2024-08,General Surgery,Facility,Submitted,4,12405.02,6.9,4,0,0,0
+2024-08,General Surgery,Facility,In Review,6,19653.57,27.5,3,2,1,0
+2024-08,General Surgery,Facility,Approved,8,29011.77,19.0,6,2,0,0
+2024-08,General Surgery,Facility,Denied,5,16952.87,45.9,0,2,2,1
+2024-08,General Surgery,Facility,Paid,21,70218.8,26.3,19,2,0,0
+2024-08,General Surgery,Pharmacy,Submitted,3,584.34,6.4,3,0,0,0
+2024-08,General Surgery,Pharmacy,In Review,4,725.14,27.9,2,2,0,0
+2024-08,General Surgery,Pharmacy,Approved,5,981.52,18.5,4,1,0,0
+2024-08,General Surgery,Pharmacy,Denied,3,599.38,45.8,0,1,1,1
+2024-08,General Surgery,Pharmacy,Paid,15,2919.15,22.3,13,2,0,0
+2024-08,General Surgery,Lab,Submitted,2,291.12,6.6,2,0,0,0
+2024-08,General Surgery,Lab,In Review,4,647.1,27.0,2,2,0,0
+2024-08,General Surgery,Lab,Approved,5,805.77,18.3,4,1,0,0
+2024-08,General Surgery,Lab,Denied,3,414.74,43.5,0,1,1,1
+2024-08,General Surgery,Lab,Paid,13,1733.74,22.4,12,1,0,0
+2024-08,General Surgery,Imaging,Submitted,2,1521.27,7.3,2,0,0,0
+2024-08,General Surgery,Imaging,In Review,3,2090.57,29.1,2,1,0,0
+2024-08,General Surgery,Imaging,Approved,4,2959.73,19.8,3,1,0,0
+2024-08,General Surgery,Imaging,Denied,2,1609.94,46.1,0,1,1,0
+2024-08,General Surgery,Imaging,Paid,10,7285.32,23.4,9,1,0,0
+2024-08,Neurology,Professional,Submitted,8,3851.02,5.8,7,1,0,0
+2024-08,Neurology,Professional,In Review,10,5417.19,25.4,4,3,2,1
+2024-08,Neurology,Professional,Approved,13,6472.06,21.1,9,3,1,0
+2024-08,Neurology,Professional,Denied,8,4243.26,40.6,1,2,3,2
+2024-08,Neurology,Professional,Paid,38,20450.26,24.1,33,4,1,0
+2024-08,Neurology,Facility,Submitted,5,15750.15,6.1,5,0,0,0
+2024-08,Neurology,Facility,In Review,7,25631.67,24.7,3,3,1,0
+2024-08,Neurology,Facility,Approved,10,30082.4,19.0,7,3,0,0
+2024-08,Neurology,Facility,Denied,6,18249.87,46.2,1,2,2,1
+2024-08,Neurology,Facility,Paid,28,87681.7,26.7,25,3,0,0
+2024-08,Neurology,Pharmacy,Submitted,4,773.75,5.9,4,0,0,0
+2024-08,Neurology,Pharmacy,In Review,6,1287.96,25.6,3,2,1,0
+2024-08,Neurology,Pharmacy,Approved,7,1386.47,21.0,5,2,0,0
+2024-08,Neurology,Pharmacy,Denied,4,946.06,42.2,0,1,2,1
+2024-08,Neurology,Pharmacy,Paid,16,3559.68,22.1,14,2,0,0
+2024-08,Neurology,Lab,Submitted,3,399.88,6.1,3,0,0,0
+2024-08,Neurology,Lab,In Review,5,748.46,28.6,2,2,1,0
+2024-08,Neurology,Lab,Approved,6,981.03,19.7,5,1,0,0
+2024-08,Neurology,Lab,Denied,4,557.88,40.0,0,1,2,1
+2024-08,Neurology,Lab,Paid,17,2830.76,23.2,15,2,0,0
+2024-08,Neurology,Imaging,Submitted,3,1936.24,5.9,3,0,0,0
+2024-08,Neurology,Imaging,In Review,4,2493.19,25.5,2,2,0,0
+2024-08,Neurology,Imaging,Approved,5,3848.97,21.2,4,1,0,0
+2024-08,Neurology,Imaging,Denied,3,1965.92,47.6,0,1,1,1
+2024-08,Neurology,Imaging,Paid,13,10088.64,24.4,12,1,0,0
+2024-09,Cardiology,Professional,Submitted,10,5271.61,7.3,9,1,0,0
+2024-09,Cardiology,Professional,In Review,15,8203.41,29.2,6,5,3,1
+2024-09,Cardiology,Professional,Approved,18,9239.3,19.1,13,4,1,0
+2024-09,Cardiology,Professional,Denied,12,5167.24,50.4,2,3,4,3
+2024-09,Cardiology,Professional,Paid,52,23214.61,23.5,45,6,1,0
+2024-09,Cardiology,Facility,Submitted,8,28869.36,6.3,7,1,0,0
+2024-09,Cardiology,Facility,In Review,11,36184.27,25.8,4,4,2,1
+2024-09,Cardiology,Facility,Approved,14,39500.71,18.3,10,3,1,0
+2024-09,Cardiology,Facility,Denied,8,28786.73,43.6,1,2,3,2
+2024-09,Cardiology,Facility,Paid,34,116727.02,26.9,30,3,1,0
+2024-09,Cardiology,Pharmacy,Submitted,5,1109.27,6.5,5,0,0,0
+2024-09,Cardiology,Pharmacy,In Review,7,1371.97,23.3,3,3,1,0
+2024-09,Cardiology,Pharmacy,Approved,9,2006.12,19.4,7,2,0,0
+2024-09,Cardiology,Pharmacy,Denied,5,1038.66,48.0,0,2,2,1
+2024-09,Cardiology,Pharmacy,Paid,22,4885.77,25.3,19,3,0,0
+2024-09,Cardiology,Lab,Submitted,5,810.85,6.3,5,0,0,0
+2024-09,Cardiology,Lab,In Review,6,819.97,24.6,3,2,1,0
+2024-09,Cardiology,Lab,Approved,8,1305.72,21.6,6,2,0,0
+2024-09,Cardiology,Lab,Denied,5,709.47,40.2,0,2,2,1
+2024-09,Cardiology,Lab,Paid,21,2646.14,26.8,19,2,0,0
+2024-09,Cardiology,Imaging,Submitted,4,3052.25,6.7,4,0,0,0
+2024-09,Cardiology,Imaging,In Review,6,4288.45,24.5,3,2,1,0
+2024-09,Cardiology,Imaging,Approved,8,5034.72,20.3,6,2,0,0
+2024-09,Cardiology,Imaging,Denied,4,3039.79,48.8,0,1,2,1
+2024-09,Cardiology,Imaging,Paid,18,12572.24,25.6,16,2,0,0
+2024-09,Orthopedics,Professional,Submitted,10,5047.45,6.4,9,1,0,0
+2024-09,Orthopedics,Professional,In Review,14,6741.49,27.3,5,5,3,1
+2024-09,Orthopedics,Professional,Approved,16,6581.36,17.7,11,4,1,0
+2024-09,Orthopedics,Professional,Denied,11,5886.11,48.6,1,3,4,3
+2024-09,Orthopedics,Professional,Paid,42,20313.97,26.0,37,4,1,0
+2024-09,Orthopedics,Facility,Submitted,7,25058.04,6.1,6,1,0,0
+2024-09,Orthopedics,Facility,In Review,9,32264.71,26.4,4,3,1,1
+2024-09,Orthopedics,Facility,Approved,13,42269.64,22.2,9,3,1,0
+2024-09,Orthopedics,Facility,Denied,7,24126.7,43.4,1,2,3,1
+2024-09,Orthopedics,Facility,Paid,31,96876.74,24.6,27,4,0,0
+2024-09,Orthopedics,Pharmacy,Submitted,4,874.19,6.7,4,0,0,0
+2024-09,Orthopedics,Pharmacy,In Review,7,1618.35,25.9,3,3,1,0
+2024-09,Orthopedics,Pharmacy,Approved,8,1678.33,20.2,6,2,0,0
+2024-09,Orthopedics,Pharmacy,Denied,5,990.98,41.7,0,2,2,1
+2024-09,Orthopedics,Pharmacy,Paid,21,5036.25,24.8,19,2,0,0
+2024-09,Orthopedics,Lab,Submitted,4,609.42,6.5,4,0,0,0
+2024-09,Orthopedics,Lab,In Review,6,922.57,23.7,3,2,1,0
+2024-09,Orthopedics,Lab,Approved,7,1029.41,21.1,5,2,0,0
+2024-09,Orthopedics,Lab,Denied,5,789.33,45.3,0,2,2,1
+2024-09,Orthopedics,Lab,Paid,18,2679.11,26.2,16,2,0,0
+2024-09,Orthopedics,Imaging,Submitted,4,2611.27,7.0,4,0,0,0
+2024-09,Orthopedics,Imaging,In Review,6,4554.6,27.7,3,2,1,0
+2024-09,Orthopedics,Imaging,Approved,7,5247.11,18.9,5,2,0,0
+2024-09,Orthopedics,Imaging,Denied,4,3163.15,50.1,0,1,2,1
+2024-09,Orthopedics,Imaging,Paid,19,12998.38,21.9,17,2,0,0
+2024-09,Pediatrics,Professional,Submitted,13,6531.68,7.4,11,2,0,0
+2024-09,Pediatrics,Professional,In Review,17,8286.0,28.3,6,6,3,2
+2024-09,Pediatrics,Professional,Approved,21,11483.41,20.3,15,5,1,0
+2024-09,Pediatrics,Professional,Denied,12,4939.46,49.4,2,3,4,3
+2024-09,Pediatrics,Professional,Paid,60,31072.95,25.9,52,7,1,0
+2024-09,Pediatrics,Facility,Submitted,9,32580.28,6.1,8,1,0,0
+2024-09,Pediatrics,Facility,In Review,13,39201.24,25.4,5,5,2,1
+2024-09,Pediatrics,Facility,Approved,16,56786.73,17.6,11,4,1,0
+2024-09,Pediatrics,Facility,Denied,10,33728.46,41.0,1,3,3,3
+2024-09,Pediatrics,Facility,Paid,44,159465.97,21.9,38,5,1,0
+2024-09,Pediatrics,Pharmacy,Submitted,6,1145.79,6.0,5,1,0,0
+2024-09,Pediatrics,Pharmacy,In Review,9,2112.62,27.5,4,3,1,1
+2024-09,Pediatrics,Pharmacy,Approved,10,2364.12,20.6,7,3,0,0
+2024-09,Pediatrics,Pharmacy,Denied,6,1389.91,46.9,1,2,2,1
+2024-09,Pediatrics,Pharmacy,Paid,27,5482.42,24.3,24,3,0,0
+2024-09,Pediatrics,Lab,Submitted,5,713.72,7.1,5,0,0,0
+2024-09,Pediatrics,Lab,In Review,7,870.53,25.1,3,3,1,0
+2024-09,Pediatrics,Lab,Approved,9,1419.94,19.6,7,2,0,0
+2024-09,Pediatrics,Lab,Denied,6,951.09,40.0,1,2,2,1
+2024-09,Pediatrics,Lab,Paid,23,3662.12,24.6,20,3,0,0
+2024-09,Pediatrics,Imaging,Submitted,5,4077.32,5.9,5,0,0,0
+2024-09,Pediatrics,Imaging,In Review,7,5355.65,24.6,3,3,1,0
+2024-09,Pediatrics,Imaging,Approved,9,6293.77,21.7,7,2,0,0
+2024-09,Pediatrics,Imaging,Denied,5,3628.89,41.5,0,2,2,1
+2024-09,Pediatrics,Imaging,Paid,24,17573.74,21.4,21,3,0,0
+2024-09,Radiology,Professional,Submitted,11,4744.51,6.8,10,1,0,0
+2024-09,Radiology,Professional,In Review,15,6723.43,26.9,6,5,3,1
+2024-09,Radiology,Professional,Approved,18,9796.85,21.6,13,4,1,0
+2024-09,Radiology,Professional,Denied,11,5325.64,45.3,1,3,4,3
+2024-09,Radiology,Professional,Paid,54,25095.97,24.6,47,6,1,0
+2024-09,Radiology,Facility,Submitted,8,25987.73,6.0,7,1,0,0
+2024-09,Radiology,Facility,In Review,12,36852.67,29.5,5,4,2,1
+2024-09,Radiology,Facility,Approved,15,42761.1,21.5,11,3,1,0
+2024-09,Radiology,Facility,Denied,10,33870.65,47.9,1,3,3,3
+2024-09,Radiology,Facility,Paid,39,130118.48,21.6,34,4,1,0
+2024-09,Radiology,Pharmacy,Submitted,6,1350.43,6.2,5,1,0,0
+2024-09,Radiology,Pharmacy,In Review,7,1667.97,24.0,3,3,1,0
+2024-09,Radiology,Pharmacy,Approved,9,1710.05,17.5,7,2,0,0
+2024-09,Radiology,Pharmacy,Denied,5,1199.37,43.5,0,2,2,1
+2024-09,Radiology,Pharmacy,Paid,24,5411.85,24.6,21,3,0,0
+2024-09,Radiology,Lab,Submitted,5,748.61,6.9,5,0,0,0
+2024-09,Radiology,Lab,In Review,7,1079.0,28.3,3,3,1,0
+2024-09,Radiology,Lab,Approved,8,1221.83,21.0,6,2,0,0
+2024-09,Radiology,Lab,Denied,5,806.47,43.1,0,2,2,1
+2024-09,Radiology,Lab,Paid,22,3541.31,22.8,19,3,0,0
+2024-09,Radiology,Imaging,Submitted,4,3223.93,6.6,4,0,0,0
+2024-09,Radiology,Imaging,In Review,6,4701.07,27.3,3,2,1,0
+2024-09,Radiology,Imaging,Approved,8,6282.73,19.4,6,2,0,0
+2024-09,Radiology,Imaging,Denied,5,3626.54,40.1,0,2,2,1
+2024-09,Radiology,Imaging,Paid,18,13433.28,22.3,16,2,0,0
+2024-09,Oncology,Professional,Submitted,7,3394.66,5.8,6,1,0,0
+2024-09,Oncology,Professional,In Review,11,5061.29,24.2,4,4,2,1
+2024-09,Oncology,Professional,Approved,13,6214.12,20.5,9,3,1,0
+2024-09,Oncology,Professional,Denied,8,3314.14,49.3,1,2,3,2
+2024-09,Oncology,Professional,Paid,34,14248.93,25.9,30,3,1,0
+2024-09,Oncology,Facility,Submitted,5,15649.19,6.5,5,0,0,0
+2024-09,Oncology,Facility,In Review,7,19379.99,25.2,3,3,1,0
+2024-09,Oncology,Facility,Approved,10,33557.05,19.5,7,3,0,0
+2024-09,Oncology,Facility,Denied,5,17177.0,42.6,0,2,2,1
+2024-09,Oncology,Facility,Paid,23,65971.69,25.6,20,3,0,0
+2024-09,Oncology,Pharmacy,Submitted,3,557.24,6.8,3,0,0,0
+2024-09,Oncology,Pharmacy,In Review,5,1108.59,24.4,2,2,1,0
+2024-09,Oncology,Pharmacy,Approved,6,1424.84,20.3,5,1,0,0
+2024-09,Oncology,Pharmacy,Denied,4,885.25,43.5,0,1,2,1
+2024-09,Oncology,Pharmacy,Paid,15,2963.21,26.6,13,2,0,0
+2024-09,Oncology,Lab,Submitted,3,436.13,6.6,3,0,0,0
+2024-09,Oncology,Lab,In Review,4,603.86,24.0,2,2,0,0
+2024-09,Oncology,Lab,Approved,5,672.87,19.4,4,1,0,0
+2024-09,Oncology,Lab,Denied,3,371.64,42.9,0,1,1,1
+2024-09,Oncology,Lab,Paid,15,1886.2,23.2,13,2,0,0
+2024-09,Oncology,Imaging,Submitted,2,1519.83,6.2,2,0,0,0
+2024-09,Oncology,Imaging,In Review,3,2253.87,25.4,2,1,0,0
+2024-09,Oncology,Imaging,Approved,5,4118.05,18.1,4,1,0,0
+2024-09,Oncology,Imaging,Denied,3,1970.77,41.8,0,1,1,1
+2024-09,Oncology,Imaging,Paid,12,8805.44,23.8,11,1,0,0
+2024-09,General Surgery,Professional,Submitted,6,3305.2,7.3,5,1,0,0
+2024-09,General Surgery,Professional,In Review,8,4020.35,26.2,3,3,1,1
+2024-09,General Surgery,Professional,Approved,11,5433.59,21.7,8,3,0,0
+2024-09,General Surgery,Professional,Denied,6,2750.05,50.5,1,2,2,1
+2024-09,General Surgery,Professional,Paid,27,11511.07,25.6,24,3,0,0
+2024-09,General Surgery,Facility,Submitted,5,17325.74,6.9,5,0,0,0
+2024-09,General Surgery,Facility,In Review,6,19823.36,28.2,3,2,1,0
+2024-09,General Surgery,Facility,Approved,9,26607.47,18.1,7,2,0,0
+2024-09,General Surgery,Facility,Denied,5,14831.43,40.2,0,2,2,1
+2024-09,General Surgery,Facility,Paid,23,73732.28,23.3,20,3,0,0
+2024-09,General Surgery,Pharmacy,Submitted,2,456.87,6.6,2,0,0,0
+2024-09,General Surgery,Pharmacy,In Review,4,804.34,24.4,2,2,0,0
+2024-09,General Surgery,Pharmacy,Approved,5,979.54,20.1,4,1,0,0
+2024-09,General Surgery,Pharmacy,Denied,3,600.45,45.0,0,1,1,1
+2024-09,General Surgery,Pharmacy,Paid,13,2425.85,21.6,12,1,0,0
+2024-09,General Surgery,Lab,Submitted,2,309.04,6.0,2,0,0,0
+2024-09,General Surgery,Lab,In Review,4,617.53,23.3,2,2,0,0
+2024-09,General Surgery,Lab,Approved,4,526.94,17.7,3,1,0,0
+2024-09,General Surgery,Lab,Denied,3,374.92,48.5,0,1,1,1
+2024-09,General Surgery,Lab,Paid,11,1704.08,25.7,10,1,0,0
+2024-09,General Surgery,Imaging,Submitted,2,1651.78,6.4,2,0,0,0
+2024-09,General Surgery,Imaging,In Review,3,2071.38,24.7,2,1,0,0
+2024-09,General Surgery,Imaging,Approved,4,2774.93,19.8,3,1,0,0
+2024-09,General Surgery,Imaging,Denied,3,2013.57,45.7,0,1,1,1
+2024-09,General Surgery,Imaging,Paid,10,7815.52,25.1,9,1,0,0
+2024-09,Neurology,Professional,Submitted,7,3027.52,7.0,6,1,0,0
+2024-09,Neurology,Professional,In Review,10,4658.14,27.7,4,3,2,1
+2024-09,Neurology,Professional,Approved,14,7281.95,20.1,10,3,1,0
+2024-09,Neurology,Professional,Denied,8,3740.83,48.4,1,2,3,2
+2024-09,Neurology,Professional,Paid,36,15399.73,22.8,31,4,1,0
+2024-09,Neurology,Facility,Submitted,5,15484.17,6.1,5,0,0,0
+2024-09,Neurology,Facility,In Review,7,19722.86,25.0,3,3,1,0
+2024-09,Neurology,Facility,Approved,10,31026.03,19.5,7,3,0,0
+2024-09,Neurology,Facility,Denied,6,21990.79,46.0,1,2,2,1
+2024-09,Neurology,Facility,Paid,23,64832.1,27.0,20,3,0,0
+2024-09,Neurology,Pharmacy,Submitted,4,884.29,6.1,4,0,0,0
+2024-09,Neurology,Pharmacy,In Review,5,1143.9,28.8,2,2,1,0
+2024-09,Neurology,Pharmacy,Approved,6,1296.27,18.2,5,1,0,0
+2024-09,Neurology,Pharmacy,Denied,4,777.56,47.7,0,1,2,1
+2024-09,Neurology,Pharmacy,Paid,17,3694.29,25.2,15,2,0,0
+2024-09,Neurology,Lab,Submitted,3,485.29,7.2,3,0,0,0
+2024-09,Neurology,Lab,In Review,4,622.52,26.9,2,2,0,0
+2024-09,Neurology,Lab,Approved,6,864.11,20.3,5,1,0,0
+2024-09,Neurology,Lab,Denied,3,423.1,41.7,0,1,1,1
+2024-09,Neurology,Lab,Paid,14,1803.34,22.6,13,1,0,0
+2024-09,Neurology,Imaging,Submitted,3,1851.32,7.1,3,0,0,0
+2024-09,Neurology,Imaging,In Review,4,3208.69,28.5,2,2,0,0
+2024-09,Neurology,Imaging,Approved,6,4431.98,22.1,5,1,0,0
+2024-09,Neurology,Imaging,Denied,3,2038.98,49.2,0,1,1,1
+2024-09,Neurology,Imaging,Paid,14,10914.02,26.6,13,1,0,0
+2024-10,Cardiology,Professional,Submitted,11,5501.84,7.1,10,1,0,0
+2024-10,Cardiology,Professional,In Review,16,8545.95,28.2,6,5,3,2
+2024-10,Cardiology,Professional,Approved,21,9108.17,22.3,15,5,1,0
+2024-10,Cardiology,Professional,Denied,11,5368.11,41.3,1,3,4,3
+2024-10,Cardiology,Professional,Paid,51,23672.97,22.1,44,6,1,0
+2024-10,Cardiology,Facility,Submitted,8,23097.74,7.0,7,1,0,0
+2024-10,Cardiology,Facility,In Review,10,28519.01,24.5,4,3,2,1
+2024-10,Cardiology,Facility,Approved,15,52014.59,20.6,11,3,1,0
+2024-10,Cardiology,Facility,Denied,9,29590.36,49.0,1,3,3,2
+2024-10,Cardiology,Facility,Paid,41,126908.18,22.5,36,4,1,0
+2024-10,Cardiology,Pharmacy,Submitted,5,1064.84,6.2,5,0,0,0
+2024-10,Cardiology,Pharmacy,In Review,7,1671.43,25.2,3,3,1,0
+2024-10,Cardiology,Pharmacy,Approved,8,1535.82,19.6,6,2,0,0
+2024-10,Cardiology,Pharmacy,Denied,6,1296.27,41.0,1,2,2,1
+2024-10,Cardiology,Pharmacy,Paid,23,4236.39,24.0,20,3,0,0
+2024-10,Cardiology,Lab,Submitted,5,735.76,7.3,5,0,0,0
+2024-10,Cardiology,Lab,In Review,6,941.51,23.7,3,2,1,0
+2024-10,Cardiology,Lab,Approved,8,1292.12,21.0,6,2,0,0
+2024-10,Cardiology,Lab,Denied,5,723.0,48.2,0,2,2,1
+2024-10,Cardiology,Lab,Paid,23,3469.39,21.8,20,3,0,0
+2024-10,Cardiology,Imaging,Submitted,4,2489.28,6.9,4,0,0,0
+2024-10,Cardiology,Imaging,In Review,6,3718.73,28.6,3,2,1,0
+2024-10,Cardiology,Imaging,Approved,7,5421.0,18.9,5,2,0,0
+2024-10,Cardiology,Imaging,Denied,4,2551.46,42.9,0,1,2,1
+2024-10,Cardiology,Imaging,Paid,17,11576.97,22.6,15,2,0,0
+2024-10,Orthopedics,Professional,Submitted,10,5208.81,6.4,9,1,0,0
+2024-10,Orthopedics,Professional,In Review,15,6636.07,26.2,6,5,3,1
+2024-10,Orthopedics,Professional,Approved,18,8491.96,18.8,13,4,1,0
+2024-10,Orthopedics,Professional,Denied,10,4801.04,47.1,1,3,3,3
+2024-10,Orthopedics,Professional,Paid,44,20684.74,23.2,38,5,1,0
+2024-10,Orthopedics,Facility,Submitted,7,24869.78,7.1,6,1,0,0
+2024-10,Orthopedics,Facility,In Review,10,34373.39,23.6,4,3,2,1
+2024-10,Orthopedics,Facility,Approved,12,37712.27,20.0,9,3,0,0
+2024-10,Orthopedics,Facility,Denied,8,29154.36,44.5,1,2,3,2
+2024-10,Orthopedics,Facility,Paid,33,109101.12,23.3,29,4,0,0
+2024-10,Orthopedics,Pharmacy,Submitted,5,1147.5,7.4,5,0,0,0
+2024-10,Orthopedics,Pharmacy,In Review,6,1077.73,26.4,3,2,1,0
+2024-10,Orthopedics,Pharmacy,Approved,9,1684.93,18.3,7,2,0,0
+2024-10,Orthopedics,Pharmacy,Denied,4,906.78,48.9,0,1,2,1
+2024-10,Orthopedics,Pharmacy,Paid,22,4000.86,25.9,19,3,0,0
+2024-10,Orthopedics,Lab,Submitted,4,544.35,6.7,4,0,0,0
+2024-10,Orthopedics,Lab,In Review,6,992.6,26.6,3,2,1,0
+2024-10,Orthopedics,Lab,Approved,7,1067.73,20.8,5,2,0,0
+2024-10,Orthopedics,Lab,Denied,4,600.61,43.0,0,1,2,1
+2024-10,Orthopedics,Lab,Paid,19,2925.55,24.9,17,2,0,0
+2024-10,Orthopedics,Imaging,Submitted,3,2163.55,6.4,3,0,0,0
+2024-10,Orthopedics,Imaging,In Review,5,3637.09,29.1,2,2,1,0
+2024-10,Orthopedics,Imaging,Approved,6,4744.36,18.0,5,1,0,0
+2024-10,Orthopedics,Imaging,Denied,4,2515.54,40.6,0,1,2,1
+2024-10,Orthopedics,Imaging,Paid,18,13803.19,25.3,16,2,0,0
+2024-10,Pediatrics,Professional,Submitted,13,6499.63,7.2,11,2,0,0
+2024-10,Pediatrics,Professional,In Review,19,9800.12,25.4,7,6,4,2
+2024-10,Pediatrics,Professional,Approved,26,10727.42,19.5,18,6,2,0
+2024-10,Pediatrics,Professional,Denied,15,6509.93,41.8,2,5,5,3
+2024-10,Pediatrics,Professional,Paid,59,27709.94,27.1,51,6,2,0
+2024-10,Pediatrics,Facility,Submitted,10,36540.56,6.9,9,1,0,0
+2024-10,Pediatrics,Facility,In Review,14,41387.01,26.7,5,5,3,1
+2024-10,Pediatrics,Facility,Approved,16,43656.4,21.1,11,4,1,0
+2024-10,Pediatrics,Facility,Denied,10,32458.96,47.9,1,3,3,3
+2024-10,Pediatrics,Facility,Paid,41,129182.46,25.6,36,4,1,0
+2024-10,Pediatrics,Pharmacy,Submitted,6,1439.25,7.3,5,1,0,0
+2024-10,Pediatrics,Pharmacy,In Review,9,1828.72,28.2,4,3,1,1
+2024-10,Pediatrics,Pharmacy,Approved,12,2371.29,22.5,9,3,0,0
+2024-10,Pediatrics,Pharmacy,Denied,8,1672.69,48.2,1,2,3,2
+2024-10,Pediatrics,Pharmacy,Paid,31,7019.6,26.5,27,4,0,0
+2024-10,Pediatrics,Lab,Submitted,5,689.43,7.4,5,0,0,0
+2024-10,Pediatrics,Lab,In Review,7,1133.0,26.6,3,3,1,0
+2024-10,Pediatrics,Lab,Approved,8,1299.42,20.4,6,2,0,0
+2024-10,Pediatrics,Lab,Denied,5,625.91,41.5,0,2,2,1
+2024-10,Pediatrics,Lab,Paid,21,2921.53,25.2,19,2,0,0
+2024-10,Pediatrics,Imaging,Submitted,4,2676.79,6.6,4,0,0,0
+2024-10,Pediatrics,Imaging,In Review,7,4878.2,24.2,3,3,1,0
+2024-10,Pediatrics,Imaging,Approved,8,6485.14,21.5,6,2,0,0
+2024-10,Pediatrics,Imaging,Denied,5,4062.49,47.3,0,2,2,1
+2024-10,Pediatrics,Imaging,Paid,23,14241.34,26.5,20,3,0,0
+2024-10,Radiology,Professional,Submitted,13,6199.13,7.2,11,2,0,0
+2024-10,Radiology,Professional,In Review,16,7917.61,25.9,6,5,3,2
+2024-10,Radiology,Professional,Approved,22,11116.18,19.4,15,5,2,0
+2024-10,Radiology,Professional,Denied,13,5906.2,47.6,2,4,4,3
+2024-10,Radiology,Professional,Paid,59,30370.23,22.4,51,6,2,0
+2024-10,Radiology,Facility,Submitted,9,24743.56,6.4,8,1,0,0
+2024-10,Radiology,Facility,In Review,12,36794.31,24.3,5,4,2,1
+2024-10,Radiology,Facility,Approved,14,38410.11,18.1,10,3,1,0
+2024-10,Radiology,Facility,Denied,9,31564.54,46.1,1,3,3,2
+2024-10,Radiology,Facility,Paid,40,134227.06,24.8,35,4,1,0
+2024-10,Radiology,Pharmacy,Submitted,5,962.59,6.9,5,0,0,0
+2024-10,Radiology,Pharmacy,In Review,7,1420.43,27.2,3,3,1,0
+2024-10,Radiology,Pharmacy,Approved,10,1982.94,20.2,7,3,0,0
+2024-10,Radiology,Pharmacy,Denied,6,1341.89,48.3,1,2,2,1
+2024-10,Radiology,Pharmacy,Paid,25,4779.89,24.3,22,3,0,0
+2024-10,Radiology,Lab,Submitted,5,830.33,6.5,5,0,0,0
+2024-10,Radiology,Lab,In Review,7,1007.24,26.4,3,3,1,0
+2024-10,Radiology,Lab,Approved,10,1300.04,20.4,7,3,0,0
+2024-10,Radiology,Lab,Denied,6,961.67,47.0,1,2,2,1
+2024-10,Radiology,Lab,Paid,26,4190.92,23.7,23,3,0,0
+2024-10,Radiology,Imaging,Submitted,5,3337.77,6.9,5,0,0,0
+2024-10,Radiology,Imaging,In Review,6,4513.84,24.2,3,2,1,0
+2024-10,Radiology,Imaging,Approved,8,5621.45,20.5,6,2,0,0
+2024-10,Radiology,Imaging,Denied,4,3048.86,45.7,0,1,2,1
+2024-10,Radiology,Imaging,Paid,21,14283.87,22.5,19,2,0,0
+2024-10,Oncology,Professional,Submitted,8,3526.42,7.0,7,1,0,0
+2024-10,Oncology,Professional,In Review,9,4602.66,25.1,4,3,1,1
+2024-10,Oncology,Professional,Approved,13,5992.43,18.2,9,3,1,0
+2024-10,Oncology,Professional,Denied,8,3667.34,46.0,1,2,3,2
+2024-10,Oncology,Professional,Paid,37,17600.25,27.0,32,4,1,0
+2024-10,Oncology,Facility,Submitted,5,14704.73,6.6,5,0,0,0
+2024-10,Oncology,Facility,In Review,7,24858.37,27.9,3,3,1,0
+2024-10,Oncology,Facility,Approved,9,28724.22,19.6,7,2,0,0
+2024-10,Oncology,Facility,Denied,6,17037.74,42.1,1,2,2,1
+2024-10,Oncology,Facility,Paid,23,66339.76,25.6,20,3,0,0
+2024-10,Oncology,Pharmacy,Submitted,3,706.09,7.5,3,0,0,0
+2024-10,Oncology,Pharmacy,In Review,4,838.83,28.6,2,2,0,0
+2024-10,Oncology,Pharmacy,Approved,5,1027.01,18.2,4,1,0,0
+2024-10,Oncology,Pharmacy,Denied,3,721.44,48.6,0,1,1,1
+2024-10,Oncology,Pharmacy,Paid,16,3608.02,25.2,14,2,0,0
+2024-10,Oncology,Lab,Submitted,3,430.31,6.4,3,0,0,0
+2024-10,Oncology,Lab,In Review,4,537.98,26.7,2,2,0,0
+2024-10,Oncology,Lab,Approved,5,739.22,18.9,4,1,0,0
+2024-10,Oncology,Lab,Denied,3,434.87,42.1,0,1,1,1
+2024-10,Oncology,Lab,Paid,16,2283.07,23.7,14,2,0,0
+2024-10,Oncology,Imaging,Submitted,3,2241.54,6.6,3,0,0,0
+2024-10,Oncology,Imaging,In Review,3,2318.85,29.7,2,1,0,0
+2024-10,Oncology,Imaging,Approved,4,2564.53,18.2,3,1,0,0
+2024-10,Oncology,Imaging,Denied,2,1545.39,51.1,0,1,1,0
+2024-10,Oncology,Imaging,Paid,12,9376.64,22.6,11,1,0,0
+2024-10,General Surgery,Professional,Submitted,7,3192.29,7.0,6,1,0,0
+2024-10,General Surgery,Professional,In Review,9,4742.2,30.0,4,3,1,1
+2024-10,General Surgery,Professional,Approved,13,6767.3,19.6,9,3,1,0
+2024-10,General Surgery,Professional,Denied,7,3655.01,46.8,1,2,3,1
+2024-10,General Surgery,Professional,Paid,35,14864.45,23.4,31,3,1,0
+2024-10,General Surgery,Facility,Submitted,5,17381.18,7.4,5,0,0,0
+2024-10,General Surgery,Facility,In Review,6,19163.35,23.8,3,2,1,0
+2024-10,General Surgery,Facility,Approved,8,24632.35,20.5,6,2,0,0
+2024-10,General Surgery,Facility,Denied,5,15349.48,47.1,0,2,2,1
+2024-10,General Surgery,Facility,Paid,22,64944.31,23.6,19,3,0,0
+2024-10,General Surgery,Pharmacy,Submitted,3,691.5,6.2,3,0,0,0
+2024-10,General Surgery,Pharmacy,In Review,4,940.8,26.1,2,2,0,0
+2024-10,General Surgery,Pharmacy,Approved,5,1202.72,18.2,4,1,0,0
+2024-10,General Surgery,Pharmacy,Denied,4,928.25,41.9,0,1,2,1
+2024-10,General Surgery,Pharmacy,Paid,15,3121.4,26.6,13,2,0,0
+2024-10,General Surgery,Lab,Submitted,3,378.15,7.1,3,0,0,0
+2024-10,General Surgery,Lab,In Review,4,601.11,27.4,2,2,0,0
+2024-10,General Surgery,Lab,Approved,5,802.44,17.9,4,1,0,0
+2024-10,General Surgery,Lab,Denied,3,490.58,50.7,0,1,1,1
+2024-10,General Surgery,Lab,Paid,14,2015.63,22.7,13,1,0,0
+2024-10,General Surgery,Imaging,Submitted,2,1600.94,6.8,2,0,0,0
+2024-10,General Surgery,Imaging,In Review,3,1887.54,26.2,2,1,0,0
+2024-10,General Surgery,Imaging,Approved,4,3055.74,18.1,3,1,0,0
+2024-10,General Surgery,Imaging,Denied,2,1393.48,41.4,0,1,1,0
+2024-10,General Surgery,Imaging,Paid,11,8281.85,22.2,10,1,0,0
+2024-10,Neurology,Professional,Submitted,8,3546.09,6.8,7,1,0,0
+2024-10,Neurology,Professional,In Review,10,4750.17,29.0,4,3,2,1
+2024-10,Neurology,Professional,Approved,16,7317.25,20.8,11,4,1,0
+2024-10,Neurology,Professional,Denied,8,3909.37,43.1,1,2,3,2
+2024-10,Neurology,Professional,Paid,39,16876.39,27.2,34,4,1,0
+2024-10,Neurology,Facility,Submitted,6,20793.58,6.0,5,1,0,0
+2024-10,Neurology,Facility,In Review,9,26920.45,24.5,4,3,1,1
+2024-10,Neurology,Facility,Approved,11,34881.16,20.2,8,3,0,0
+2024-10,Neurology,Facility,Denied,6,16662.42,40.8,1,2,2,1
+2024-10,Neurology,Facility,Paid,28,92929.48,21.9,25,3,0,0
+2024-10,Neurology,Pharmacy,Submitted,4,879.48,7.2,4,0,0,0
+2024-10,Neurology,Pharmacy,In Review,5,1065.2,27.3,2,2,1,0
+2024-10,Neurology,Pharmacy,Approved,6,1091.35,17.7,5,1,0,0
+2024-10,Neurology,Pharmacy,Denied,4,764.46,47.2,0,1,2,1
+2024-10,Neurology,Pharmacy,Paid,17,3462.51,26.5,15,2,0,0
+2024-10,Neurology,Lab,Submitted,3,471.11,6.7,3,0,0,0
+2024-10,Neurology,Lab,In Review,4,619.48,28.0,2,2,0,0
+2024-10,Neurology,Lab,Approved,6,996.07,20.8,5,1,0,0
+2024-10,Neurology,Lab,Denied,4,505.16,43.4,0,1,2,1
+2024-10,Neurology,Lab,Paid,15,2260.23,24.6,13,2,0,0
+2024-10,Neurology,Imaging,Submitted,3,2291.0,7.2,3,0,0,0
+2024-10,Neurology,Imaging,In Review,4,3114.01,29.3,2,2,0,0
+2024-10,Neurology,Imaging,Approved,5,3812.97,22.4,4,1,0,0
+2024-10,Neurology,Imaging,Denied,3,1976.82,51.3,0,1,1,1
+2024-10,Neurology,Imaging,Paid,13,8898.25,22.6,12,1,0,0
+2024-11,Cardiology,Professional,Submitted,11,5266.13,7.5,10,1,0,0
+2024-11,Cardiology,Professional,In Review,15,7231.59,29.6,6,5,3,1
+2024-11,Cardiology,Professional,Approved,21,9292.92,18.0,15,5,1,0
+2024-11,Cardiology,Professional,Denied,12,6355.9,46.9,2,3,4,3
+2024-11,Cardiology,Professional,Paid,49,25223.0,25.9,43,5,1,0
+2024-11,Cardiology,Facility,Submitted,8,27782.98,7.0,7,1,0,0
+2024-11,Cardiology,Facility,In Review,11,36912.86,27.3,4,4,2,1
+2024-11,Cardiology,Facility,Approved,14,47617.03,20.9,10,3,1,0
+2024-11,Cardiology,Facility,Denied,9,25574.35,48.6,1,3,3,2
+2024-11,Cardiology,Facility,Paid,38,115845.22,24.0,33,4,1,0
+2024-11,Cardiology,Pharmacy,Submitted,5,1163.46,6.9,5,0,0,0
+2024-11,Cardiology,Pharmacy,In Review,7,1574.44,27.3,3,3,1,0
+2024-11,Cardiology,Pharmacy,Approved,10,1819.73,18.1,7,3,0,0
+2024-11,Cardiology,Pharmacy,Denied,6,1147.84,47.5,1,2,2,1
+2024-11,Cardiology,Pharmacy,Paid,25,4680.02,24.5,22,3,0,0
+2024-11,Cardiology,Lab,Submitted,5,724.2,6.3,5,0,0,0
+2024-11,Cardiology,Lab,In Review,7,1001.15,28.9,3,3,1,0
+2024-11,Cardiology,Lab,Approved,9,1218.64,21.6,7,2,0,0
+2024-11,Cardiology,Lab,Denied,5,654.87,47.0,0,2,2,1
+2024-11,Cardiology,Lab,Paid,24,3694.56,23.6,21,3,0,0
+2024-11,Cardiology,Imaging,Submitted,4,2916.88,6.8,4,0,0,0
+2024-11,Cardiology,Imaging,In Review,5,3435.71,30.0,2,2,1,0
+2024-11,Cardiology,Imaging,Approved,7,5495.15,21.1,5,2,0,0
+2024-11,Cardiology,Imaging,Denied,4,2566.81,43.0,0,1,2,1
+2024-11,Cardiology,Imaging,Paid,18,13297.46,27.7,16,2,0,0
+2024-11,Orthopedics,Professional,Submitted,10,4474.17,6.2,9,1,0,0
+2024-11,Orthopedics,Professional,In Review,17,7512.77,25.2,6,6,3,2
+2024-11,Orthopedics,Professional,Approved,20,9761.82,19.0,14,5,1,0
+2024-11,Orthopedics,Professional,Denied,12,5063.63,41.0,2,3,4,3
+2024-11,Orthopedics,Professional,Paid,46,21184.89,27.7,40,5,1,0
+2024-11,Orthopedics,Facility,Submitted,8,24229.09,7.1,7,1,0,0
+2024-11,Orthopedics,Facility,In Review,11,33697.96,30.4,4,4,2,1
+2024-11,Orthopedics,Facility,Approved,13,44702.42,19.1,9,3,1,0
+2024-11,Orthopedics,Facility,Denied,8,25684.53,51.4,1,2,3,2
+2024-11,Orthopedics,Facility,Paid,37,114729.81,27.5,32,4,1,0
+2024-11,Orthopedics,Pharmacy,Submitted,5,918.37,6.2,5,0,0,0
+2024-11,Orthopedics,Pharmacy,In Review,7,1297.12,30.2,3,3,1,0
+2024-11,Orthopedics,Pharmacy,Approved,9,1998.21,21.0,7,2,0,0
+2024-11,Orthopedics,Pharmacy,Denied,6,1149.13,47.2,1,2,2,1
+2024-11,Orthopedics,Pharmacy,Paid,24,5146.45,23.0,21,3,0,0
+2024-11,Orthopedics,Lab,Submitted,4,595.87,6.7,4,0,0,0
+2024-11,Orthopedics,Lab,In Review,6,950.23,25.0,3,2,1,0
+2024-11,Orthopedics,Lab,Approved,8,1293.83,19.6,6,2,0,0
+2024-11,Orthopedics,Lab,Denied,5,646.15,50.9,0,2,2,1
+2024-11,Orthopedics,Lab,Paid,21,2617.28,24.9,19,2,0,0
+2024-11,Orthopedics,Imaging,Submitted,3,2165.81,6.1,3,0,0,0
+2024-11,Orthopedics,Imaging,In Review,5,3343.3,27.4,2,2,1,0
+2024-11,Orthopedics,Imaging,Approved,6,4919.15,20.3,5,1,0,0
+2024-11,Orthopedics,Imaging,Denied,4,2754.6,50.3,0,1,2,1
+2024-11,Orthopedics,Imaging,Paid,15,11472.23,22.4,13,2,0,0
+2024-11,Pediatrics,Professional,Submitted,15,7075.18,6.8,13,2,0,0
+2024-11,Pediatrics,Professional,In Review,20,8952.11,28.2,7,7,4,2
+2024-11,Pediatrics,Professional,Approved,26,12573.89,18.6,18,6,2,0
+2024-11,Pediatrics,Professional,Denied,17,7217.63,47.7,3,5,5,4
+2024-11,Pediatrics,Professional,Paid,61,26171.35,22.0,53,7,1,0
+2024-11,Pediatrics,Facility,Submitted,9,28986.14,7.1,8,1,0,0
+2024-11,Pediatrics,Facility,In Review,13,37109.37,24.2,5,5,2,1
+2024-11,Pediatrics,Facility,Approved,17,56900.62,20.6,12,4,1,0
+2024-11,Pediatrics,Facility,Denied,9,31485.01,41.6,1,3,3,2
+2024-11,Pediatrics,Facility,Paid,43,121930.59,25.8,37,5,1,0
+2024-11,Pediatrics,Pharmacy,Submitted,6,1090.73,6.9,5,1,0,0
+2024-11,Pediatrics,Pharmacy,In Review,8,1771.92,24.6,3,3,1,1
+2024-11,Pediatrics,Pharmacy,Approved,10,2234.27,18.2,7,3,0,0
+2024-11,Pediatrics,Pharmacy,Denied,6,1382.75,49.7,1,2,2,1
+2024-11,Pediatrics,Pharmacy,Paid,30,5971.33,25.0,26,4,0,0
+2024-11,Pediatrics,Lab,Submitted,5,773.81,6.1,5,0,0,0
+2024-11,Pediatrics,Lab,In Review,8,1207.78,27.1,3,3,1,1
+2024-11,Pediatrics,Lab,Approved,10,1311.39,19.6,7,3,0,0
+2024-11,Pediatrics,Lab,Denied,6,880.69,46.6,1,2,2,1
+2024-11,Pediatrics,Lab,Paid,25,3832.02,24.2,22,3,0,0
+2024-11,Pediatrics,Imaging,Submitted,5,3607.34,6.8,5,0,0,0
+2024-11,Pediatrics,Imaging,In Review,7,4838.01,30.0,3,3,1,0
+2024-11,Pediatrics,Imaging,Approved,8,5989.99,19.0,6,2,0,0
+2024-11,Pediatrics,Imaging,Denied,4,2826.25,40.9,0,1,2,1
+2024-11,Pediatrics,Imaging,Paid,19,14071.22,26.2,17,2,0,0
+2024-11,Radiology,Professional,Submitted,11,5992.37,7.2,10,1,0,0
+2024-11,Radiology,Professional,In Review,16,8142.44,25.3,6,5,3,2
+2024-11,Radiology,Professional,Approved,19,10349.19,21.1,13,4,2,0
+2024-11,Radiology,Professional,Denied,13,7117.4,43.3,2,4,4,3
+2024-11,Radiology,Professional,Paid,50,25042.57,22.0,44,5,1,0
+2024-11,Radiology,Facility,Submitted,9,29754.23,6.4,8,1,0,0
+2024-11,Radiology,Facility,In Review,12,34322.28,29.7,5,4,2,1
+2024-11,Radiology,Facility,Approved,14,49685.32,20.3,10,3,1,0
+2024-11,Radiology,Facility,Denied,9,28805.72,43.0,1,3,3,2
+2024-11,Radiology,Facility,Paid,39,137893.51,26.6,34,4,1,0
+2024-11,Radiology,Pharmacy,Submitted,5,1162.4,7.3,5,0,0,0
+2024-11,Radiology,Pharmacy,In Review,7,1270.71,29.9,3,3,1,0
+2024-11,Radiology,Pharmacy,Approved,9,1811.17,21.6,7,2,0,0
+2024-11,Radiology,Pharmacy,Denied,5,1155.45,41.6,0,2,2,1
+2024-11,Radiology,Pharmacy,Paid,25,5983.62,27.8,22,3,0,0
+2024-11,Radiology,Lab,Submitted,5,676.91,7.5,5,0,0,0
+2024-11,Radiology,Lab,In Review,8,1171.96,26.5,3,3,1,1
+2024-11,Radiology,Lab,Approved,8,1191.54,21.3,6,2,0,0
+2024-11,Radiology,Lab,Denied,5,704.56,47.1,0,2,2,1
+2024-11,Radiology,Lab,Paid,22,3628.18,23.6,19,3,0,0
+2024-11,Radiology,Imaging,Submitted,3,2391.27,7.4,3,0,0,0
+2024-11,Radiology,Imaging,In Review,5,3224.42,26.8,2,2,1,0
+2024-11,Radiology,Imaging,Approved,7,5396.56,18.2,5,2,0,0
+2024-11,Radiology,Imaging,Denied,4,2778.73,45.9,0,1,2,1
+2024-11,Radiology,Imaging,Paid,18,11611.48,23.2,16,2,0,0
+2024-11,Oncology,Professional,Submitted,6,3292.9,6.4,5,1,0,0
+2024-11,Oncology,Professional,In Review,9,3836.73,28.8,4,3,1,1
+2024-11,Oncology,Professional,Approved,13,6782.41,20.9,9,3,1,0
+2024-11,Oncology,Professional,Denied,8,3729.67,50.3,1,2,3,2
+2024-11,Oncology,Professional,Paid,34,13880.44,24.8,30,3,1,0
+2024-11,Oncology,Facility,Submitted,5,17661.74,6.0,5,0,0,0
+2024-11,Oncology,Facility,In Review,7,25680.65,27.0,3,3,1,0
+2024-11,Oncology,Facility,Approved,9,29714.4,21.8,7,2,0,0
+2024-11,Oncology,Facility,Denied,5,14803.37,47.5,0,2,2,1
+2024-11,Oncology,Facility,Paid,25,75162.56,24.1,22,3,0,0
+2024-11,Oncology,Pharmacy,Submitted,3,550.05,6.9,3,0,0,0
+2024-11,Oncology,Pharmacy,In Review,5,949.34,27.9,2,2,1,0
+2024-11,Oncology,Pharmacy,Approved,7,1474.6,19.8,5,2,0,0
+2024-11,Oncology,Pharmacy,Denied,4,876.13,49.7,0,1,2,1
+2024-11,Oncology,Pharmacy,Paid,18,3966.88,27.2,16,2,0,0
+2024-11,Oncology,Lab,Submitted,3,494.6,7.4,3,0,0,0
+2024-11,Oncology,Lab,In Review,4,496.51,27.8,2,2,0,0
+2024-11,Oncology,Lab,Approved,6,935.14,20.4,5,1,0,0
+2024-11,Oncology,Lab,Denied,3,401.68,50.6,0,1,1,1
+2024-11,Oncology,Lab,Paid,13,2018.84,23.6,12,1,0,0
+2024-11,Oncology,Imaging,Submitted,3,1998.05,7.0,3,0,0,0
+2024-11,Oncology,Imaging,In Review,4,2521.49,26.3,2,2,0,0
+2024-11,Oncology,Imaging,Approved,5,3839.37,20.5,4,1,0,0
+2024-11,Oncology,Imaging,Denied,3,1905.75,42.1,0,1,1,1
+2024-11,Oncology,Imaging,Paid,12,9141.12,26.7,11,1,0,0
+2024-11,General Surgery,Professional,Submitted,6,3018.96,6.3,5,1,0,0
+2024-11,General Surgery,Professional,In Review,9,4499.42,25.2,4,3,1,1
+2024-11,General Surgery,Professional,Approved,11,4830.68,22.3,8,3,0,0
+2024-11,General Surgery,Professional,Denied,6,2552.4,41.1,1,2,2,1
+2024-11,General Surgery,Professional,Paid,26,11325.3,25.5,23,3,0,0
+2024-11,General Surgery,Facility,Submitted,4,11103.36,6.6,4,0,0,0
+2024-11,General Surgery,Facility,In Review,5,16516.2,28.3,2,2,1,0
+2024-11,General Surgery,Facility,Approved,8,23482.96,22.1,6,2,0,0
+2024-11,General Surgery,Facility,Denied,5,13871.92,45.6,0,2,2,1
+2024-11,General Surgery,Facility,Paid,21,63387.62,24.1,19,2,0,0
+2024-11,General Surgery,Pharmacy,Submitted,3,718.25,6.2,3,0,0,0
+2024-11,General Surgery,Pharmacy,In Review,4,715.34,26.5,2,2,0,0
+2024-11,General Surgery,Pharmacy,Approved,6,1380.87,22.3,5,1,0,0
+2024-11,General Surgery,Pharmacy,Denied,3,620.31,45.0,0,1,1,1
+2024-11,General Surgery,Pharmacy,Paid,13,3065.4,24.8,12,1,0,0
+2024-11,General Surgery,Lab,Submitted,3,473.39,6.3,3,0,0,0
+2024-11,General Surgery,Lab,In Review,4,616.67,29.4,2,2,0,0
+2024-11,General Surgery,Lab,Approved,4,522.65,20.2,3,1,0,0
+2024-11,General Surgery,Lab,Denied,3,495.7,47.4,0,1,1,1
+2024-11,General Surgery,Lab,Paid,12,1575.35,25.7,11,1,0,0
+2024-11,General Surgery,Imaging,Submitted,2,1584.64,6.6,2,0,0,0
+2024-11,General Surgery,Imaging,In Review,3,1859.42,25.5,2,1,0,0
+2024-11,General Surgery,Imaging,Approved,4,2759.38,18.7,3,1,0,0
+2024-11,General Surgery,Imaging,Denied,2,1265.06,48.1,0,1,1,0
+2024-11,General Surgery,Imaging,Paid,10,7240.01,24.8,9,1,0,0
+2024-11,Neurology,Professional,Submitted,7,2916.42,7.5,6,1,0,0
+2024-11,Neurology,Professional,In Review,9,4220.9,23.9,4,3,1,1
+2024-11,Neurology,Professional,Approved,14,6047.0,22.4,10,3,1,0
+2024-11,Neurology,Professional,Denied,7,3683.35,48.0,1,2,3,1
+2024-11,Neurology,Professional,Paid,33,14425.9,24.0,29,4,0,0
+2024-11,Neurology,Facility,Submitted,6,17329.64,6.5,5,1,0,0
+2024-11,Neurology,Facility,In Review,8,22701.9,28.1,3,3,1,1
+2024-11,Neurology,Facility,Approved,10,29363.69,22.1,7,3,0,0
+2024-11,Neurology,Facility,Denied,7,24239.67,41.2,1,2,3,1
+2024-11,Neurology,Facility,Paid,30,98152.47,24.9,26,4,0,0
+2024-11,Neurology,Pharmacy,Submitted,4,851.06,7.3,4,0,0,0
+2024-11,Neurology,Pharmacy,In Review,5,1143.46,28.4,2,2,1,0
+2024-11,Neurology,Pharmacy,Approved,7,1348.94,18.9,5,2,0,0
+2024-11,Neurology,Pharmacy,Denied,4,840.35,47.4,0,1,2,1
+2024-11,Neurology,Pharmacy,Paid,17,3620.8,26.6,15,2,0,0
+2024-11,Neurology,Lab,Submitted,3,383.8,7.0,3,0,0,0
+2024-11,Neurology,Lab,In Review,5,671.21,26.0,2,2,1,0
+2024-11,Neurology,Lab,Approved,5,738.98,19.9,4,1,0,0
+2024-11,Neurology,Lab,Denied,3,486.06,43.0,0,1,1,1
+2024-11,Neurology,Lab,Paid,15,2236.86,22.1,13,2,0,0
+2024-11,Neurology,Imaging,Submitted,3,2266.6,6.0,3,0,0,0
+2024-11,Neurology,Imaging,In Review,4,2887.38,24.3,2,2,0,0
+2024-11,Neurology,Imaging,Approved,5,3599.3,18.9,4,1,0,0
+2024-11,Neurology,Imaging,Denied,3,2024.81,43.9,0,1,1,1
+2024-11,Neurology,Imaging,Paid,12,9333.25,26.1,11,1,0,0
+2024-12,Cardiology,Professional,Submitted,11,5733.6,7.0,10,1,0,0
+2024-12,Cardiology,Professional,In Review,16,6609.69,29.5,6,5,3,2
+2024-12,Cardiology,Professional,Approved,20,9979.42,20.8,14,5,1,0
+2024-12,Cardiology,Professional,Denied,12,6614.23,50.4,2,3,4,3
+2024-12,Cardiology,Professional,Paid,56,28334.27,25.0,49,6,1,0
+2024-12,Cardiology,Facility,Submitted,8,25187.98,6.6,7,1,0,0
+2024-12,Cardiology,Facility,In Review,11,34676.99,25.1,4,4,2,1
+2024-12,Cardiology,Facility,Approved,16,43757.96,18.1,11,4,1,0
+2024-12,Cardiology,Facility,Denied,9,29840.05,43.2,1,3,3,2
+2024-12,Cardiology,Facility,Paid,39,133140.58,22.7,34,4,1,0
+2024-12,Cardiology,Pharmacy,Submitted,5,1094.86,6.2,5,0,0,0
+2024-12,Cardiology,Pharmacy,In Review,8,1851.59,24.8,3,3,1,1
+2024-12,Cardiology,Pharmacy,Approved,9,1765.85,18.2,7,2,0,0
+2024-12,Cardiology,Pharmacy,Denied,7,1513.39,48.0,1,2,3,1
+2024-12,Cardiology,Pharmacy,Paid,29,6696.62,27.0,25,3,1,0
+2024-12,Cardiology,Lab,Submitted,4,543.76,6.6,4,0,0,0
+2024-12,Cardiology,Lab,In Review,6,776.04,26.5,3,2,1,0
+2024-12,Cardiology,Lab,Approved,8,1093.65,18.9,6,2,0,0
+2024-12,Cardiology,Lab,Denied,5,720.85,49.3,0,2,2,1
+2024-12,Cardiology,Lab,Paid,22,2905.48,22.3,19,3,0,0
+2024-12,Cardiology,Imaging,Submitted,4,2789.96,7.6,4,0,0,0
+2024-12,Cardiology,Imaging,In Review,5,3404.38,28.9,2,2,1,0
+2024-12,Cardiology,Imaging,Approved,7,4350.42,18.9,5,2,0,0
+2024-12,Cardiology,Imaging,Denied,5,3171.42,48.4,0,2,2,1
+2024-12,Cardiology,Imaging,Paid,19,12717.36,26.5,17,2,0,0
+2024-12,Orthopedics,Professional,Submitted,9,4076.12,7.7,8,1,0,0
+2024-12,Orthopedics,Professional,In Review,13,5545.88,30.2,5,5,2,1
+2024-12,Orthopedics,Professional,Approved,16,8553.86,21.3,11,4,1,0
+2024-12,Orthopedics,Professional,Denied,11,5678.12,49.4,1,3,4,3
+2024-12,Orthopedics,Professional,Paid,42,23180.77,27.8,37,4,1,0
+2024-12,Orthopedics,Facility,Submitted,8,25775.04,6.9,7,1,0,0
+2024-12,Orthopedics,Facility,In Review,10,31994.91,28.2,4,3,2,1
+2024-12,Orthopedics,Facility,Approved,14,42543.95,20.4,10,3,1,0
+2024-12,Orthopedics,Facility,Denied,9,28180.56,52.0,1,3,3,2
+2024-12,Orthopedics,Facility,Paid,38,103406.47,22.3,33,4,1,0
+2024-12,Orthopedics,Pharmacy,Submitted,5,1156.93,6.3,5,0,0,0
+2024-12,Orthopedics,Pharmacy,In Review,6,1217.7,29.0,3,2,1,0
+2024-12,Orthopedics,Pharmacy,Approved,10,2341.7,20.5,7,3,0,0
+2024-12,Orthopedics,Pharmacy,Denied,6,1097.58,47.6,1,2,2,1
+2024-12,Orthopedics,Pharmacy,Paid,25,5086.81,27.9,22,3,0,0
+2024-12,Orthopedics,Lab,Submitted,4,584.31,7.5,4,0,0,0
+2024-12,Orthopedics,Lab,In Review,5,790.28,25.2,2,2,1,0
+2024-12,Orthopedics,Lab,Approved,8,1179.85,19.0,6,2,0,0
+2024-12,Orthopedics,Lab,Denied,5,771.49,47.0,0,2,2,1
+2024-12,Orthopedics,Lab,Paid,18,2322.09,27.9,16,2,0,0
+2024-12,Orthopedics,Imaging,Submitted,4,3050.18,7.4,4,0,0,0
+2024-12,Orthopedics,Imaging,In Review,5,3596.71,28.5,2,2,1,0
+2024-12,Orthopedics,Imaging,Approved,6,3866.34,21.2,5,1,0,0
+2024-12,Orthopedics,Imaging,Denied,4,3018.6,41.6,0,1,2,1
+2024-12,Orthopedics,Imaging,Paid,19,12200.54,23.5,17,2,0,0
+2024-12,Pediatrics,Professional,Submitted,15,8143.01,7.4,13,2,0,0
+2024-12,Pediatrics,Professional,In Review,20,8979.51,26.3,7,7,4,2
+2024-12,Pediatrics,Professional,Approved,28,14894.04,19.9,20,6,2,0
+2024-12,Pediatrics,Professional,Denied,15,6763.02,44.9,2,5,5,3
+2024-12,Pediatrics,Professional,Paid,71,29075.42,24.7,62,7,2,0
+2024-12,Pediatrics,Facility,Submitted,10,31524.28,6.5,9,1,0,0
+2024-12,Pediatrics,Facility,In Review,13,38161.59,24.7,5,5,2,1
+2024-12,Pediatrics,Facility,Approved,17,48908.59,19.6,12,4,1,0
+2024-12,Pediatrics,Facility,Denied,10,36321.38,42.6,1,3,3,3
+2024-12,Pediatrics,Facility,Paid,46,163959.94,22.8,40,5,1,0
+2024-12,Pediatrics,Pharmacy,Submitted,7,1495.12,6.4,6,1,0,0
+2024-12,Pediatrics,Pharmacy,In Review,9,1992.82,26.5,4,3,1,1
+2024-12,Pediatrics,Pharmacy,Approved,10,1789.95,22.2,7,3,0,0
+2024-12,Pediatrics,Pharmacy,Denied,7,1310.26,47.0,1,2,3,1
+2024-12,Pediatrics,Pharmacy,Paid,31,5550.06,22.5,27,4,0,0
+2024-12,Pediatrics,Lab,Submitted,6,863.76,7.5,5,1,0,0
+2024-12,Pediatrics,Lab,In Review,7,966.32,26.4,3,3,1,0
+2024-12,Pediatrics,Lab,Approved,9,1300.18,22.0,7,2,0,0
+2024-12,Pediatrics,Lab,Denied,6,933.81,42.9,1,2,2,1
+2024-12,Pediatrics,Lab,Paid,25,3489.16,25.4,22,3,0,0
+2024-12,Pediatrics,Imaging,Submitted,5,4038.71,7.4,5,0,0,0
+2024-12,Pediatrics,Imaging,In Review,7,4505.79,27.4,3,3,1,0
+2024-12,Pediatrics,Imaging,Approved,8,6429.4,19.0,6,2,0,0
+2024-12,Pediatrics,Imaging,Denied,5,3801.65,42.2,0,2,2,1
+2024-12,Pediatrics,Imaging,Paid,21,14068.23,26.1,19,2,0,0
+2024-12,Radiology,Professional,Submitted,13,5702.14,6.1,11,2,0,0
+2024-12,Radiology,Professional,In Review,16,6732.62,27.9,6,5,3,2
+2024-12,Radiology,Professional,Approved,22,9746.16,19.2,15,5,2,0
+2024-12,Radiology,Professional,Denied,15,6376.64,44.6,2,5,5,3
+2024-12,Radiology,Professional,Paid,58,23667.75,27.7,50,6,2,0
+2024-12,Radiology,Facility,Submitted,8,26589.69,7.4,7,1,0,0
+2024-12,Radiology,Facility,In Review,11,38044.73,26.9,4,4,2,1
+2024-12,Radiology,Facility,Approved,14,47510.34,20.9,10,3,1,0
+2024-12,Radiology,Facility,Denied,9,26256.02,44.1,1,3,3,2
+2024-12,Radiology,Facility,Paid,35,95511.96,24.6,31,3,1,0
+2024-12,Radiology,Pharmacy,Submitted,5,1114.27,7.0,5,0,0,0
+2024-12,Radiology,Pharmacy,In Review,7,1249.51,24.5,3,3,1,0
+2024-12,Radiology,Pharmacy,Approved,9,2061.74,21.6,7,2,0,0
+2024-12,Radiology,Pharmacy,Denied,6,1338.39,49.5,1,2,2,1
+2024-12,Radiology,Pharmacy,Paid,25,5624.86,22.6,22,3,0,0
+2024-12,Radiology,Lab,Submitted,4,584.8,7.3,4,0,0,0
+2024-12,Radiology,Lab,In Review,6,811.31,29.3,3,2,1,0
+2024-12,Radiology,Lab,Approved,8,1271.65,19.0,6,2,0,0
+2024-12,Radiology,Lab,Denied,5,703.48,44.6,0,2,2,1
+2024-12,Radiology,Lab,Paid,19,2536.4,24.2,17,2,0,0
+2024-12,Radiology,Imaging,Submitted,4,2488.93,6.7,4,0,0,0
+2024-12,Radiology,Imaging,In Review,5,4065.1,29.3,2,2,1,0
+2024-12,Radiology,Imaging,Approved,8,6468.76,19.7,6,2,0,0
+2024-12,Radiology,Imaging,Denied,5,3391.08,51.2,0,2,2,1
+2024-12,Radiology,Imaging,Paid,18,12477.45,27.6,16,2,0,0
+2024-12,Oncology,Professional,Submitted,8,3340.59,6.4,7,1,0,0
+2024-12,Oncology,Professional,In Review,10,4691.07,27.2,4,3,2,1
+2024-12,Oncology,Professional,Approved,13,6783.72,19.2,9,3,1,0
+2024-12,Oncology,Professional,Denied,9,4775.89,48.0,1,3,3,2
+2024-12,Oncology,Professional,Paid,35,15226.97,22.9,31,3,1,0
+2024-12,Oncology,Facility,Submitted,5,13822.33,7.7,5,0,0,0
+2024-12,Oncology,Facility,In Review,8,28243.32,27.0,3,3,1,1
+2024-12,Oncology,Facility,Approved,11,32026.98,19.0,8,3,0,0
+2024-12,Oncology,Facility,Denied,6,21456.29,46.8,1,2,2,1
+2024-12,Oncology,Facility,Paid,23,69299.18,26.7,20,3,0,0
+2024-12,Oncology,Pharmacy,Submitted,4,729.43,7.1,4,0,0,0
+2024-12,Oncology,Pharmacy,In Review,5,1026.06,28.0,2,2,1,0
+2024-12,Oncology,Pharmacy,Approved,7,1357.54,20.9,5,2,0,0
+2024-12,Oncology,Pharmacy,Denied,4,852.38,51.0,0,1,2,1
+2024-12,Oncology,Pharmacy,Paid,17,3578.45,22.9,15,2,0,0
+2024-12,Oncology,Lab,Submitted,3,373.22,6.8,3,0,0,0
+2024-12,Oncology,Lab,In Review,4,666.84,28.8,2,2,0,0
+2024-12,Oncology,Lab,Approved,6,829.91,20.6,5,1,0,0
+2024-12,Oncology,Lab,Denied,4,565.63,50.3,0,1,2,1
+2024-12,Oncology,Lab,Paid,15,1994.89,25.6,13,2,0,0
+2024-12,Oncology,Imaging,Submitted,2,1325.91,6.3,2,0,0,0
+2024-12,Oncology,Imaging,In Review,3,2411.81,26.7,2,1,0,0
+2024-12,Oncology,Imaging,Approved,5,3660.06,18.1,4,1,0,0
+2024-12,Oncology,Imaging,Denied,3,2439.47,48.0,0,1,1,1
+2024-12,Oncology,Imaging,Paid,13,8826.82,26.4,12,1,0,0
+2024-12,General Surgery,Professional,Submitted,7,2874.32,7.6,6,1,0,0
+2024-12,General Surgery,Professional,In Review,9,4758.04,27.7,4,3,1,1
+2024-12,General Surgery,Professional,Approved,12,5517.0,22.2,9,3,0,0
+2024-12,General Surgery,Professional,Denied,7,3352.18,47.5,1,2,3,1
+2024-12,General Surgery,Professional,Paid,33,15705.21,26.2,29,4,0,0
+2024-12,General Surgery,Facility,Submitted,5,16835.89,7.2,5,0,0,0
+2024-12,General Surgery,Facility,In Review,7,22673.66,25.4,3,3,1,0
+2024-12,General Surgery,Facility,Approved,8,22352.27,19.2,6,2,0,0
+2024-12,General Surgery,Facility,Denied,5,15688.34,46.8,0,2,2,1
+2024-12,General Surgery,Facility,Paid,23,67752.61,22.2,20,3,0,0
+2024-12,General Surgery,Pharmacy,Submitted,3,672.7,7.3,3,0,0,0
+2024-12,General Surgery,Pharmacy,In Review,4,778.27,27.6,2,2,0,0
+2024-12,General Surgery,Pharmacy,Approved,5,1107.27,21.1,4,1,0,0
+2024-12,General Surgery,Pharmacy,Denied,3,689.92,49.8,0,1,1,1
+2024-12,General Surgery,Pharmacy,Paid,13,2840.87,25.7,12,1,0,0
+2024-12,General Surgery,Lab,Submitted,2,305.94,7.6,2,0,0,0
+2024-12,General Surgery,Lab,In Review,4,591.8,28.4,2,2,0,0
+2024-12,General Surgery,Lab,Approved,4,502.43,20.1,3,1,0,0
+2024-12,General Surgery,Lab,Denied,3,474.8,51.6,0,1,1,1
+2024-12,General Surgery,Lab,Paid,11,1597.85,25.6,10,1,0,0
+2024-12,General Surgery,Imaging,Submitted,2,1561.84,7.1,2,0,0,0
+2024-12,General Surgery,Imaging,In Review,3,2009.01,27.5,2,1,0,0
+2024-12,General Surgery,Imaging,Approved,4,2560.27,20.7,3,1,0,0
+2024-12,General Surgery,Imaging,Denied,2,1641.17,46.5,0,1,1,0
+2024-12,General Surgery,Imaging,Paid,9,5542.69,26.5,8,1,0,0
+2024-12,Neurology,Professional,Submitted,7,3283.2,6.5,6,1,0,0
+2024-12,Neurology,Professional,In Review,11,5257.34,24.9,4,4,2,1
+2024-12,Neurology,Professional,Approved,14,6570.53,21.1,10,3,1,0
+2024-12,Neurology,Professional,Denied,7,3487.41,44.4,1,2,3,1
+2024-12,Neurology,Professional,Paid,35,15780.51,28.1,31,3,1,0
+2024-12,Neurology,Facility,Submitted,6,21607.49,6.7,5,1,0,0
+2024-12,Neurology,Facility,In Review,7,21600.56,30.6,3,3,1,0
+2024-12,Neurology,Facility,Approved,10,32429.89,18.3,7,3,0,0
+2024-12,Neurology,Facility,Denied,6,16802.72,41.7,1,2,2,1
+2024-12,Neurology,Facility,Paid,24,76242.17,27.5,21,3,0,0
+2024-12,Neurology,Pharmacy,Submitted,4,807.76,7.3,4,0,0,0
+2024-12,Neurology,Pharmacy,In Review,5,947.46,26.7,2,2,1,0
+2024-12,Neurology,Pharmacy,Approved,7,1678.69,21.4,5,2,0,0
+2024-12,Neurology,Pharmacy,Denied,4,891.66,44.0,0,1,2,1
+2024-12,Neurology,Pharmacy,Paid,20,4053.7,23.3,18,2,0,0
+2024-12,Neurology,Lab,Submitted,3,400.52,7.0,3,0,0,0
+2024-12,Neurology,Lab,In Review,5,797.85,26.7,2,2,1,0
+2024-12,Neurology,Lab,Approved,5,721.51,20.2,4,1,0,0
+2024-12,Neurology,Lab,Denied,3,486.7,52.2,0,1,1,1
+2024-12,Neurology,Lab,Paid,14,2210.11,26.0,13,1,0,0
+2024-12,Neurology,Imaging,Submitted,3,1919.36,6.1,3,0,0,0
+2024-12,Neurology,Imaging,In Review,4,2997.82,25.8,2,2,0,0
+2024-12,Neurology,Imaging,Approved,5,4086.1,20.3,4,1,0,0
+2024-12,Neurology,Imaging,Denied,3,2398.99,45.1,0,1,1,1
+2024-12,Neurology,Imaging,Paid,13,9810.68,26.8,12,1,0,0
+2025-01,Cardiology,Professional,Submitted,10,4326.3,7.1,9,1,0,0
+2025-01,Cardiology,Professional,In Review,16,8269.94,28.3,6,5,3,2
+2025-01,Cardiology,Professional,Approved,18,7388.81,22.2,13,4,1,0
+2025-01,Cardiology,Professional,Denied,12,6248.53,43.5,2,3,4,3
+2025-01,Cardiology,Professional,Paid,51,27558.38,23.4,44,6,1,0
+2025-01,Cardiology,Facility,Submitted,8,26326.04,7.7,7,1,0,0
+2025-01,Cardiology,Facility,In Review,11,37833.98,24.5,4,4,2,1
+2025-01,Cardiology,Facility,Approved,13,46543.35,20.5,9,3,1,0
+2025-01,Cardiology,Facility,Denied,9,30117.5,42.9,1,3,3,2
+2025-01,Cardiology,Facility,Paid,35,118572.74,22.8,31,3,1,0
+2025-01,Cardiology,Pharmacy,Submitted,5,941.98,6.7,5,0,0,0
+2025-01,Cardiology,Pharmacy,In Review,7,1591.51,27.9,3,3,1,0
+2025-01,Cardiology,Pharmacy,Approved,10,2367.96,20.7,7,3,0,0
+2025-01,Cardiology,Pharmacy,Denied,5,1135.97,44.4,0,2,2,1
+2025-01,Cardiology,Pharmacy,Paid,26,5602.74,24.8,23,3,0,0
+2025-01,Cardiology,Lab,Submitted,5,817.38,6.5,5,0,0,0
+2025-01,Cardiology,Lab,In Review,7,872.29,29.5,3,3,1,0
+2025-01,Cardiology,Lab,Approved,9,1263.52,18.7,7,2,0,0
+2025-01,Cardiology,Lab,Denied,5,799.57,45.5,0,2,2,1
+2025-01,Cardiology,Lab,Paid,22,3486.16,23.5,19,3,0,0
+2025-01,Cardiology,Imaging,Submitted,4,2598.7,7.5,4,0,0,0
+2025-01,Cardiology,Imaging,In Review,5,4069.18,28.2,2,2,1,0
+2025-01,Cardiology,Imaging,Approved,7,4924.04,20.3,5,2,0,0
+2025-01,Cardiology,Imaging,Denied,5,3791.7,50.5,0,2,2,1
+2025-01,Cardiology,Imaging,Paid,19,12700.94,22.9,17,2,0,0
+2025-01,Orthopedics,Professional,Submitted,11,5294.61,6.9,10,1,0,0
+2025-01,Orthopedics,Professional,In Review,15,7597.22,28.5,6,5,3,1
+2025-01,Orthopedics,Professional,Approved,21,8988.05,21.2,15,5,1,0
+2025-01,Orthopedics,Professional,Denied,11,5767.74,48.7,1,3,4,3
+2025-01,Orthopedics,Professional,Paid,50,26176.1,25.1,44,5,1,0
+2025-01,Orthopedics,Facility,Submitted,7,19515.99,7.6,6,1,0,0
+2025-01,Orthopedics,Facility,In Review,10,34499.03,30.2,4,3,2,1
+2025-01,Orthopedics,Facility,Approved,13,40749.52,18.9,9,3,1,0
+2025-01,Orthopedics,Facility,Denied,7,25317.05,52.5,1,2,3,1
+2025-01,Orthopedics,Facility,Paid,34,99152.61,23.6,30,3,1,0
+2025-01,Orthopedics,Pharmacy,Submitted,5,1076.5,6.7,5,0,0,0
+2025-01,Orthopedics,Pharmacy,In Review,7,1548.23,30.8,3,3,1,0
+2025-01,Orthopedics,Pharmacy,Approved,10,2091.28,20.5,7,3,0,0
+2025-01,Orthopedics,Pharmacy,Denied,6,1289.52,47.3,1,2,2,1
+2025-01,Orthopedics,Pharmacy,Paid,25,4836.02,22.8,22,3,0,0
+2025-01,Orthopedics,Lab,Submitted,5,652.11,6.6,5,0,0,0
+2025-01,Orthopedics,Lab,In Review,7,1055.93,28.6,3,3,1,0
+2025-01,Orthopedics,Lab,Approved,7,1157.81,22.8,5,2,0,0
+2025-01,Orthopedics,Lab,Denied,5,683.54,49.6,0,2,2,1
+2025-01,Orthopedics,Lab,Paid,22,3463.82,28.3,19,3,0,0
+2025-01,Orthopedics,Imaging,Submitted,4,2878.21,7.5,4,0,0,0
+2025-01,Orthopedics,Imaging,In Review,5,3309.92,29.2,2,2,1,0
+2025-01,Orthopedics,Imaging,Approved,7,5518.65,19.0,5,2,0,0
+2025-01,Orthopedics,Imaging,Denied,4,2679.64,49.6,0,1,2,1
+2025-01,Orthopedics,Imaging,Paid,18,12788.94,25.3,16,2,0,0
+2025-01,Pediatrics,Professional,Submitted,13,7161.62,7.4,11,2,0,0
+2025-01,Pediatrics,Professional,In Review,16,7963.67,26.4,6,5,3,2
+2025-01,Pediatrics,Professional,Approved,20,8677.89,18.8,14,5,1,0
+2025-01,Pediatrics,Professional,Denied,13,6793.37,45.0,2,4,4,3
+2025-01,Pediatrics,Professional,Paid,62,33767.44,25.9,54,7,1,0
+2025-01,Pediatrics,Facility,Submitted,10,28132.07,6.8,9,1,0,0
+2025-01,Pediatrics,Facility,In Review,13,45731.52,29.8,5,5,2,1
+2025-01,Pediatrics,Facility,Approved,18,61019.24,20.9,13,4,1,0
+2025-01,Pediatrics,Facility,Denied,11,39141.86,47.1,1,3,4,3
+2025-01,Pediatrics,Facility,Paid,48,170871.62,25.5,42,5,1,0
+2025-01,Pediatrics,Pharmacy,Submitted,5,1137.07,6.3,5,0,0,0
+2025-01,Pediatrics,Pharmacy,In Review,8,1732.85,30.2,3,3,1,1
+2025-01,Pediatrics,Pharmacy,Approved,11,2493.14,20.3,8,3,0,0
+2025-01,Pediatrics,Pharmacy,Denied,6,1324.13,43.7,1,2,2,1
+2025-01,Pediatrics,Pharmacy,Paid,28,6727.92,25.7,25,3,0,0
+2025-01,Pediatrics,Lab,Submitted,6,956.23,6.8,5,1,0,0
+2025-01,Pediatrics,Lab,In Review,8,1047.24,28.5,3,3,1,1
+2025-01,Pediatrics,Lab,Approved,10,1453.32,22.1,7,3,0,0
+2025-01,Pediatrics,Lab,Denied,6,886.68,43.7,1,2,2,1
+2025-01,Pediatrics,Lab,Paid,25,3119.0,23.4,22,3,0,0
+2025-01,Pediatrics,Imaging,Submitted,6,4604.92,7.1,5,1,0,0
+2025-01,Pediatrics,Imaging,In Review,7,5639.59,27.9,3,3,1,0
+2025-01,Pediatrics,Imaging,Approved,8,6121.84,23.2,6,2,0,0
+2025-01,Pediatrics,Imaging,Denied,5,3560.54,45.8,0,2,2,1
+2025-01,Pediatrics,Imaging,Paid,23,17659.92,24.7,20,3,0,0
+2025-01,Radiology,Professional,Submitted,13,5355.76,7.5,11,2,0,0
+2025-01,Radiology,Professional,In Review,19,9165.13,27.7,7,6,4,2
+2025-01,Radiology,Professional,Approved,24,11260.06,19.1,17,6,1,0
+2025-01,Radiology,Professional,Denied,13,5800.46,49.4,2,4,4,3
+2025-01,Radiology,Professional,Paid,55,27546.6,25.2,48,6,1,0
+2025-01,Radiology,Facility,Submitted,9,32513.51,7.6,8,1,0,0
+2025-01,Radiology,Facility,In Review,11,37165.92,25.8,4,4,2,1
+2025-01,Radiology,Facility,Approved,17,56615.0,19.8,12,4,1,0
+2025-01,Radiology,Facility,Denied,9,28191.55,50.8,1,3,3,2
+2025-01,Radiology,Facility,Paid,44,121089.81,24.2,38,5,1,0
+2025-01,Radiology,Pharmacy,Submitted,6,1127.52,6.7,5,1,0,0
+2025-01,Radiology,Pharmacy,In Review,8,1668.18,29.4,3,3,1,1
+2025-01,Radiology,Pharmacy,Approved,10,2077.94,21.4,7,3,0,0
+2025-01,Radiology,Pharmacy,Denied,6,1165.43,52.9,1,2,2,1
+2025-01,Radiology,Pharmacy,Paid,28,6299.4,23.2,25,3,0,0
+2025-01,Radiology,Lab,Submitted,4,656.17,7.5,4,0,0,0
+2025-01,Radiology,Lab,In Review,6,992.35,25.4,3,2,1,0
+2025-01,Radiology,Lab,Approved,8,1049.76,19.8,6,2,0,0
+2025-01,Radiology,Lab,Denied,5,805.1,42.8,0,2,2,1
+2025-01,Radiology,Lab,Paid,20,2982.22,22.7,18,2,0,0
+2025-01,Radiology,Imaging,Submitted,4,2699.4,6.6,4,0,0,0
+2025-01,Radiology,Imaging,In Review,6,4884.64,27.0,3,2,1,0
+2025-01,Radiology,Imaging,Approved,8,5417.12,21.8,6,2,0,0
+2025-01,Radiology,Imaging,Denied,4,2509.9,50.1,0,1,2,1
+2025-01,Radiology,Imaging,Paid,21,14054.05,24.5,19,2,0,0
+2025-01,Oncology,Professional,Submitted,7,3040.61,6.8,6,1,0,0
+2025-01,Oncology,Professional,In Review,11,5516.03,29.0,4,4,2,1
+2025-01,Oncology,Professional,Approved,14,6944.17,20.5,10,3,1,0
+2025-01,Oncology,Professional,Denied,9,3726.56,45.2,1,3,3,2
+2025-01,Oncology,Professional,Paid,39,17763.29,22.8,34,4,1,0
+2025-01,Oncology,Facility,Submitted,5,14185.53,7.3,5,0,0,0
+2025-01,Oncology,Facility,In Review,8,26639.11,26.0,3,3,1,1
+2025-01,Oncology,Facility,Approved,10,29258.65,22.8,7,3,0,0
+2025-01,Oncology,Facility,Denied,6,16635.19,50.8,1,2,2,1
+2025-01,Oncology,Facility,Paid,24,75709.03,24.9,21,3,0,0
+2025-01,Oncology,Pharmacy,Submitted,4,939.79,6.6,4,0,0,0
+2025-01,Oncology,Pharmacy,In Review,5,1108.7,28.9,2,2,1,0
+2025-01,Oncology,Pharmacy,Approved,6,1218.81,22.1,5,1,0,0
+2025-01,Oncology,Pharmacy,Denied,4,766.43,47.9,0,1,2,1
+2025-01,Oncology,Pharmacy,Paid,16,2889.5,22.7,14,2,0,0
+2025-01,Oncology,Lab,Submitted,3,429.09,6.3,3,0,0,0
+2025-01,Oncology,Lab,In Review,5,673.11,31.0,2,2,1,0
+2025-01,Oncology,Lab,Approved,6,800.22,20.8,5,1,0,0
+2025-01,Oncology,Lab,Denied,3,471.47,42.9,0,1,1,1
+2025-01,Oncology,Lab,Paid,16,2506.07,27.6,14,2,0,0
+2025-01,Oncology,Imaging,Submitted,3,2173.61,7.5,3,0,0,0
+2025-01,Oncology,Imaging,In Review,4,2500.19,26.3,2,2,0,0
+2025-01,Oncology,Imaging,Approved,5,3999.67,20.6,4,1,0,0
+2025-01,Oncology,Imaging,Denied,3,2459.45,45.1,0,1,1,1
+2025-01,Oncology,Imaging,Paid,14,8636.84,23.0,13,1,0,0
+2025-01,General Surgery,Professional,Submitted,6,2796.18,6.9,5,1,0,0
+2025-01,General Surgery,Professional,In Review,8,3340.28,28.9,3,3,1,1
+2025-01,General Surgery,Professional,Approved,10,5245.64,22.9,7,3,0,0
+2025-01,General Surgery,Professional,Denied,7,3456.73,49.2,1,2,3,1
+2025-01,General Surgery,Professional,Paid,30,16264.97,28.2,26,4,0,0
+2025-01,General Surgery,Facility,Submitted,5,17453.47,6.1,5,0,0,0
+2025-01,General Surgery,Facility,In Review,6,20080.57,29.2,3,2,1,0
+2025-01,General Surgery,Facility,Approved,8,24030.55,19.2,6,2,0,0
+2025-01,General Surgery,Facility,Denied,5,18012.66,51.9,0,2,2,1
+2025-01,General Surgery,Facility,Paid,21,62318.36,27.2,19,2,0,0
+2025-01,General Surgery,Pharmacy,Submitted,3,609.03,6.3,3,0,0,0
+2025-01,General Surgery,Pharmacy,In Review,5,1087.0,26.9,2,2,1,0
+2025-01,General Surgery,Pharmacy,Approved,6,1320.36,22.9,5,1,0,0
+2025-01,General Surgery,Pharmacy,Denied,3,621.42,52.3,0,1,1,1
+2025-01,General Surgery,Pharmacy,Paid,16,3824.45,27.4,14,2,0,0
+2025-01,General Surgery,Lab,Submitted,3,419.79,7.7,3,0,0,0
+2025-01,General Surgery,Lab,In Review,4,624.67,30.5,2,2,0,0
+2025-01,General Surgery,Lab,Approved,5,822.37,21.1,4,1,0,0
+2025-01,General Surgery,Lab,Denied,3,498.64,44.2,0,1,1,1
+2025-01,General Surgery,Lab,Paid,12,1981.78,26.6,11,1,0,0
+2025-01,General Surgery,Imaging,Submitted,2,1445.72,7.7,2,0,0,0
+2025-01,General Surgery,Imaging,In Review,3,2098.2,28.1,2,1,0,0
+2025-01,General Surgery,Imaging,Approved,4,3236.7,20.3,3,1,0,0
+2025-01,General Surgery,Imaging,Denied,3,2016.92,46.8,0,1,1,1
+2025-01,General Surgery,Imaging,Paid,10,7267.98,25.9,9,1,0,0
+2025-01,Neurology,Professional,Submitted,7,3008.23,6.3,6,1,0,0
+2025-01,Neurology,Professional,In Review,11,4839.07,25.2,4,4,2,1
+2025-01,Neurology,Professional,Approved,15,6681.42,22.8,11,3,1,0
+2025-01,Neurology,Professional,Denied,9,4598.73,48.1,1,3,3,2
+2025-01,Neurology,Professional,Paid,34,18019.16,27.4,30,3,1,0
+2025-01,Neurology,Facility,Submitted,6,19447.91,7.6,5,1,0,0
+2025-01,Neurology,Facility,In Review,8,22074.85,30.3,3,3,1,1
+2025-01,Neurology,Facility,Approved,11,37757.17,18.9,8,3,0,0
+2025-01,Neurology,Facility,Denied,6,20049.54,45.5,1,2,2,1
+2025-01,Neurology,Facility,Paid,28,91362.43,27.6,25,3,0,0
+2025-01,Neurology,Pharmacy,Submitted,4,959.7,7.0,4,0,0,0
+2025-01,Neurology,Pharmacy,In Review,5,1019.61,25.3,2,2,1,0
+2025-01,Neurology,Pharmacy,Approved,7,1439.48,23.0,5,2,0,0
+2025-01,Neurology,Pharmacy,Denied,5,1134.31,44.4,0,2,2,1
+2025-01,Neurology,Pharmacy,Paid,19,3415.94,27.4,17,2,0,0
+2025-01,Neurology,Lab,Submitted,4,558.73,6.5,4,0,0,0
+2025-01,Neurology,Lab,In Review,5,731.67,30.1,2,2,1,0
+2025-01,Neurology,Lab,Approved,6,874.82,20.6,5,1,0,0
+2025-01,Neurology,Lab,Denied,4,640.51,52.6,0,1,2,1
+2025-01,Neurology,Lab,Paid,15,2330.71,24.1,13,2,0,0
+2025-01,Neurology,Imaging,Submitted,3,2410.44,6.8,3,0,0,0
+2025-01,Neurology,Imaging,In Review,4,2666.98,25.3,2,2,0,0
+2025-01,Neurology,Imaging,Approved,5,4001.74,20.4,4,1,0,0
+2025-01,Neurology,Imaging,Denied,3,2314.96,44.1,0,1,1,1
+2025-01,Neurology,Imaging,Paid,13,10584.03,22.9,12,1,0,0
+2025-02,Cardiology,Professional,Submitted,11,4852.73,6.6,10,1,0,0
+2025-02,Cardiology,Professional,In Review,15,6865.6,30.7,6,5,3,1
+2025-02,Cardiology,Professional,Approved,20,9363.35,20.5,14,5,1,0
+2025-02,Cardiology,Professional,Denied,13,5523.58,52.2,2,4,4,3
+2025-02,Cardiology,Professional,Paid,51,27832.62,24.6,44,6,1,0
+2025-02,Cardiology,Facility,Submitted,7,20571.26,7.4,6,1,0,0
+2025-02,Cardiology,Facility,In Review,11,37169.11,26.0,4,4,2,1
+2025-02,Cardiology,Facility,Approved,14,42264.29,23.5,10,3,1,0
+2025-02,Cardiology,Facility,Denied,9,29581.16,52.1,1,3,3,2
+2025-02,Cardiology,Facility,Paid,36,117023.04,24.1,31,4,1,0
+2025-02,Cardiology,Pharmacy,Submitted,5,906.07,7.5,5,0,0,0
+2025-02,Cardiology,Pharmacy,In Review,7,1545.98,25.7,3,3,1,0
+2025-02,Cardiology,Pharmacy,Approved,10,2326.23,19.0,7,3,0,0
+2025-02,Cardiology,Pharmacy,Denied,6,1302.57,52.1,1,2,2,1
+2025-02,Cardiology,Pharmacy,Paid,24,5493.28,25.4,21,3,0,0
+2025-02,Cardiology,Lab,Submitted,4,560.09,7.0,4,0,0,0
+2025-02,Cardiology,Lab,In Review,6,850.44,29.1,3,2,1,0
+2025-02,Cardiology,Lab,Approved,8,1043.71,20.3,6,2,0,0
+2025-02,Cardiology,Lab,Denied,5,761.73,52.5,0,2,2,1
+2025-02,Cardiology,Lab,Paid,22,3358.78,23.1,19,3,0,0
+2025-02,Cardiology,Imaging,Submitted,4,2754.11,6.5,4,0,0,0
+2025-02,Cardiology,Imaging,In Review,5,3913.25,26.3,2,2,1,0
+2025-02,Cardiology,Imaging,Approved,7,4558.88,23.4,5,2,0,0
+2025-02,Cardiology,Imaging,Denied,5,4064.29,52.1,0,2,2,1
+2025-02,Cardiology,Imaging,Paid,22,15740.37,23.7,19,3,0,0
+2025-02,Orthopedics,Professional,Submitted,10,5112.67,6.2,9,1,0,0
+2025-02,Orthopedics,Professional,In Review,13,6582.36,25.5,5,5,2,1
+2025-02,Orthopedics,Professional,Approved,17,7203.36,22.0,12,4,1,0
+2025-02,Orthopedics,Professional,Denied,10,4290.68,44.8,1,3,3,3
+2025-02,Orthopedics,Professional,Paid,50,21842.54,22.8,44,5,1,0
+2025-02,Orthopedics,Facility,Submitted,8,23179.41,6.6,7,1,0,0
+2025-02,Orthopedics,Facility,In Review,10,34107.53,26.4,4,3,2,1
+2025-02,Orthopedics,Facility,Approved,15,52718.03,21.5,11,3,1,0
+2025-02,Orthopedics,Facility,Denied,8,28546.58,50.5,1,2,3,2
+2025-02,Orthopedics,Facility,Paid,39,108769.14,27.0,34,4,1,0
+2025-02,Orthopedics,Pharmacy,Submitted,6,1290.42,7.0,5,1,0,0
+2025-02,Orthopedics,Pharmacy,In Review,7,1558.77,30.9,3,3,1,0
+2025-02,Orthopedics,Pharmacy,Approved,9,1735.37,18.6,7,2,0,0
+2025-02,Orthopedics,Pharmacy,Denied,6,1397.82,42.9,1,2,2,1
+2025-02,Orthopedics,Pharmacy,Paid,24,5705.35,25.7,21,3,0,0
+2025-02,Orthopedics,Lab,Submitted,4,564.02,6.4,4,0,0,0
+2025-02,Orthopedics,Lab,In Review,6,894.05,29.0,3,2,1,0
+2025-02,Orthopedics,Lab,Approved,8,991.8,19.4,6,2,0,0
+2025-02,Orthopedics,Lab,Denied,4,510.04,50.6,0,1,2,1
+2025-02,Orthopedics,Lab,Paid,18,2741.7,23.7,16,2,0,0
+2025-02,Orthopedics,Imaging,Submitted,3,2165.45,7.3,3,0,0,0
+2025-02,Orthopedics,Imaging,In Review,5,3198.85,28.8,2,2,1,0
+2025-02,Orthopedics,Imaging,Approved,7,4756.36,18.9,5,2,0,0
+2025-02,Orthopedics,Imaging,Denied,4,2527.11,52.3,0,1,2,1
+2025-02,Orthopedics,Imaging,Paid,16,11600.69,27.4,14,2,0,0
+2025-02,Pediatrics,Professional,Submitted,13,5447.54,7.0,11,2,0,0
+2025-02,Pediatrics,Professional,In Review,17,7543.8,26.6,6,6,3,2
+2025-02,Pediatrics,Professional,Approved,25,12626.78,22.3,18,5,2,0
+2025-02,Pediatrics,Professional,Denied,13,7164.61,42.8,2,4,4,3
+2025-02,Pediatrics,Professional,Paid,65,33448.92,26.3,56,7,2,0
+2025-02,Pediatrics,Facility,Submitted,10,34302.63,6.4,9,1,0,0
+2025-02,Pediatrics,Facility,In Review,14,39135.81,28.0,5,5,3,1
+2025-02,Pediatrics,Facility,Approved,17,59649.96,20.8,12,4,1,0
+2025-02,Pediatrics,Facility,Denied,10,31910.33,45.0,1,3,3,3
+2025-02,Pediatrics,Facility,Paid,44,139216.35,27.4,38,5,1,0
+2025-02,Pediatrics,Pharmacy,Submitted,6,1250.24,6.3,5,1,0,0
+2025-02,Pediatrics,Pharmacy,In Review,8,1606.27,28.0,3,3,1,1
+2025-02,Pediatrics,Pharmacy,Approved,10,2138.2,22.9,7,3,0,0
+2025-02,Pediatrics,Pharmacy,Denied,7,1376.0,42.9,1,2,3,1
+2025-02,Pediatrics,Pharmacy,Paid,26,5560.27,26.8,23,3,0,0
+2025-02,Pediatrics,Lab,Submitted,5,685.65,6.7,5,0,0,0
+2025-02,Pediatrics,Lab,In Review,8,1056.91,25.1,3,3,1,1
+2025-02,Pediatrics,Lab,Approved,9,1161.88,19.1,7,2,0,0
+2025-02,Pediatrics,Lab,Denied,5,682.89,43.2,0,2,2,1
+2025-02,Pediatrics,Lab,Paid,24,3481.77,23.1,21,3,0,0
+2025-02,Pediatrics,Imaging,Submitted,5,4098.29,7.7,5,0,0,0
+2025-02,Pediatrics,Imaging,In Review,7,4629.59,30.3,3,3,1,0
+2025-02,Pediatrics,Imaging,Approved,9,5825.94,21.3,7,2,0,0
+2025-02,Pediatrics,Imaging,Denied,5,3978.02,50.5,0,2,2,1
+2025-02,Pediatrics,Imaging,Paid,25,19267.4,26.6,22,3,0,0
+2025-02,Radiology,Professional,Submitted,13,7099.56,7.6,11,2,0,0
+2025-02,Radiology,Professional,In Review,18,8841.03,26.4,7,6,3,2
+2025-02,Radiology,Professional,Approved,23,9419.82,19.7,16,5,2,0
+2025-02,Radiology,Professional,Denied,13,6401.29,48.6,2,4,4,3
+2025-02,Radiology,Professional,Paid,52,22000.73,24.0,45,6,1,0
+2025-02,Radiology,Facility,Submitted,7,23693.3,6.6,6,1,0,0
+2025-02,Radiology,Facility,In Review,11,33456.56,28.1,4,4,2,1
+2025-02,Radiology,Facility,Approved,16,45814.63,20.2,11,4,1,0
+2025-02,Radiology,Facility,Denied,9,24862.16,51.7,1,3,3,2
+2025-02,Radiology,Facility,Paid,42,138739.93,28.5,37,4,1,0
+2025-02,Radiology,Pharmacy,Submitted,5,925.97,6.2,5,0,0,0
+2025-02,Radiology,Pharmacy,In Review,7,1460.35,28.1,3,3,1,0
+2025-02,Radiology,Pharmacy,Approved,9,1953.96,19.4,7,2,0,0
+2025-02,Radiology,Pharmacy,Denied,6,1144.98,50.2,1,2,2,1
+2025-02,Radiology,Pharmacy,Paid,26,5846.73,23.0,23,3,0,0
+2025-02,Radiology,Lab,Submitted,5,627.91,6.9,5,0,0,0
+2025-02,Radiology,Lab,In Review,6,777.78,27.8,3,2,1,0
+2025-02,Radiology,Lab,Approved,8,1166.53,23.2,6,2,0,0
+2025-02,Radiology,Lab,Denied,5,639.56,51.6,0,2,2,1
+2025-02,Radiology,Lab,Paid,22,3556.16,24.5,19,3,0,0
+2025-02,Radiology,Imaging,Submitted,5,3245.43,7.5,5,0,0,0
+2025-02,Radiology,Imaging,In Review,6,4725.58,25.8,3,2,1,0
+2025-02,Radiology,Imaging,Approved,8,5118.63,23.4,6,2,0,0
+2025-02,Radiology,Imaging,Denied,4,2504.58,52.5,0,1,2,1
+2025-02,Radiology,Imaging,Paid,19,14078.17,24.4,17,2,0,0
+2025-02,Oncology,Professional,Submitted,7,3318.54,7.1,6,1,0,0
+2025-02,Oncology,Professional,In Review,10,4442.45,25.6,4,3,2,1
+2025-02,Oncology,Professional,Approved,14,6051.26,20.0,10,3,1,0
+2025-02,Oncology,Professional,Denied,8,3787.43,50.2,1,2,3,2
+2025-02,Oncology,Professional,Paid,35,18670.31,26.8,31,3,1,0
+2025-02,Oncology,Facility,Submitted,6,17176.12,7.8,5,1,0,0
+2025-02,Oncology,Facility,In Review,8,26158.5,25.8,3,3,1,1
+2025-02,Oncology,Facility,Approved,9,29787.82,20.6,7,2,0,0
+2025-02,Oncology,Facility,Denied,6,18465.18,48.0,1,2,2,1
+2025-02,Oncology,Facility,Paid,24,68855.83,23.1,21,3,0,0
+2025-02,Oncology,Pharmacy,Submitted,4,952.68,7.4,4,0,0,0
+2025-02,Oncology,Pharmacy,In Review,5,1052.85,30.2,2,2,1,0
+2025-02,Oncology,Pharmacy,Approved,7,1567.79,19.0,5,2,0,0
+2025-02,Oncology,Pharmacy,Denied,4,744.35,43.0,0,1,2,1
+2025-02,Oncology,Pharmacy,Paid,18,4159.65,23.6,16,2,0,0
+2025-02,Oncology,Lab,Submitted,3,387.0,6.2,3,0,0,0
+2025-02,Oncology,Lab,In Review,4,640.5,28.1,2,2,0,0
+2025-02,Oncology,Lab,Approved,5,689.52,19.7,4,1,0,0
+2025-02,Oncology,Lab,Denied,3,480.58,45.8,0,1,1,1
+2025-02,Oncology,Lab,Paid,13,1753.69,22.9,12,1,0,0
+2025-02,Oncology,Imaging,Submitted,2,1564.59,6.6,2,0,0,0
+2025-02,Oncology,Imaging,In Review,4,2917.31,30.3,2,2,0,0
+2025-02,Oncology,Imaging,Approved,5,3456.67,19.0,4,1,0,0
+2025-02,Oncology,Imaging,Denied,3,1849.8,44.7,0,1,1,1
+2025-02,Oncology,Imaging,Paid,11,8866.0,22.6,10,1,0,0
+2025-02,General Surgery,Professional,Submitted,6,3011.97,6.7,5,1,0,0
+2025-02,General Surgery,Professional,In Review,10,5137.46,27.6,4,3,2,1
+2025-02,General Surgery,Professional,Approved,11,5780.37,22.3,8,3,0,0
+2025-02,General Surgery,Professional,Denied,7,3200.1,42.6,1,2,3,1
+2025-02,General Surgery,Professional,Paid,28,11641.4,22.8,25,3,0,0
+2025-02,General Surgery,Facility,Submitted,5,17431.16,7.6,5,0,0,0
+2025-02,General Surgery,Facility,In Review,6,19914.6,25.5,3,2,1,0
+2025-02,General Surgery,Facility,Approved,8,23910.6,21.1,6,2,0,0
+2025-02,General Surgery,Facility,Denied,5,17778.95,44.8,0,2,2,1
+2025-02,General Surgery,Facility,Paid,21,59218.47,22.8,19,2,0,0
+2025-02,General Surgery,Pharmacy,Submitted,3,666.85,6.8,3,0,0,0
+2025-02,General Surgery,Pharmacy,In Review,4,962.98,28.3,2,2,0,0
+2025-02,General Surgery,Pharmacy,Approved,5,1055.94,21.1,4,1,0,0
+2025-02,General Surgery,Pharmacy,Denied,3,651.35,52.3,0,1,1,1
+2025-02,General Surgery,Pharmacy,Paid,13,2719.33,22.6,12,1,0,0
+2025-02,General Surgery,Lab,Submitted,3,405.15,7.8,3,0,0,0
+2025-02,General Surgery,Lab,In Review,4,514.41,26.5,2,2,0,0
+2025-02,General Surgery,Lab,Approved,5,830.72,20.7,4,1,0,0
+2025-02,General Surgery,Lab,Denied,3,444.1,46.8,0,1,1,1
+2025-02,General Surgery,Lab,Paid,12,1928.4,22.7,11,1,0,0
+2025-02,General Surgery,Imaging,Submitted,3,1885.13,7.4,3,0,0,0
+2025-02,General Surgery,Imaging,In Review,4,2968.39,28.6,2,2,0,0
+2025-02,General Surgery,Imaging,Approved,4,2499.4,22.2,3,1,0,0
+2025-02,General Surgery,Imaging,Denied,2,1328.48,47.9,0,1,1,0
+2025-02,General Surgery,Imaging,Paid,11,8608.66,27.6,10,1,0,0
+2025-02,Neurology,Professional,Submitted,8,3756.91,7.6,7,1,0,0
+2025-02,Neurology,Professional,In Review,12,6098.38,28.6,5,4,2,1
+2025-02,Neurology,Professional,Approved,15,6717.03,21.8,11,3,1,0
+2025-02,Neurology,Professional,Denied,9,4786.72,48.8,1,3,3,2
+2025-02,Neurology,Professional,Paid,37,18844.4,25.3,32,4,1,0
+2025-02,Neurology,Facility,Submitted,6,20465.17,7.2,5,1,0,0
+2025-02,Neurology,Facility,In Review,8,25936.92,27.6,3,3,1,1
+2025-02,Neurology,Facility,Approved,9,25805.29,20.7,7,2,0,0
+2025-02,Neurology,Facility,Denied,6,20543.88,47.2,1,2,2,1
+2025-02,Neurology,Facility,Paid,26,91499.66,28.7,23,3,0,0
+2025-02,Neurology,Pharmacy,Submitted,4,917.12,6.3,4,0,0,0
+2025-02,Neurology,Pharmacy,In Review,5,961.5,29.1,2,2,1,0
+2025-02,Neurology,Pharmacy,Approved,7,1467.73,22.4,5,2,0,0
+2025-02,Neurology,Pharmacy,Denied,4,810.45,52.1,0,1,2,1
+2025-02,Neurology,Pharmacy,Paid,19,4320.8,24.0,17,2,0,0
+2025-02,Neurology,Lab,Submitted,3,424.92,6.6,3,0,0,0
+2025-02,Neurology,Lab,In Review,5,762.13,27.5,2,2,1,0
+2025-02,Neurology,Lab,Approved,5,699.04,20.9,4,1,0,0
+2025-02,Neurology,Lab,Denied,4,508.55,51.9,0,1,2,1
+2025-02,Neurology,Lab,Paid,13,1750.67,28.7,12,1,0,0
+2025-02,Neurology,Imaging,Submitted,2,1499.79,6.8,2,0,0,0
+2025-02,Neurology,Imaging,In Review,3,1838.43,25.2,2,1,0,0
+2025-02,Neurology,Imaging,Approved,5,3309.36,22.4,4,1,0,0
+2025-02,Neurology,Imaging,Denied,3,1929.85,46.0,0,1,1,1
+2025-02,Neurology,Imaging,Paid,12,8087.11,24.1,11,1,0,0
+2025-03,Cardiology,Professional,Submitted,12,5752.34,7.4,10,2,0,0
+2025-03,Cardiology,Professional,In Review,18,8124.73,26.4,7,6,3,2
+2025-03,Cardiology,Professional,Approved,23,10444.33,22.1,16,5,2,0
+2025-03,Cardiology,Professional,Denied,14,6748.28,45.3,2,4,5,3
+2025-03,Cardiology,Professional,Paid,52,24862.78,26.1,45,6,1,0
+2025-03,Cardiology,Facility,Submitted,9,32360.04,7.9,8,1,0,0
+2025-03,Cardiology,Facility,In Review,12,33521.41,27.7,5,4,2,1
+2025-03,Cardiology,Facility,Approved,15,49298.81,19.6,11,3,1,0
+2025-03,Cardiology,Facility,Denied,9,27501.24,46.6,1,3,3,2
+2025-03,Cardiology,Facility,Paid,42,131252.34,26.2,37,4,1,0
+2025-03,Cardiology,Pharmacy,Submitted,5,959.63,7.3,5,0,0,0
+2025-03,Cardiology,Pharmacy,In Review,7,1538.36,25.9,3,3,1,0
+2025-03,Cardiology,Pharmacy,Approved,11,2498.53,20.8,8,3,0,0
+2025-03,Cardiology,Pharmacy,Denied,6,1217.59,51.0,1,2,2,1
+2025-03,Cardiology,Pharmacy,Paid,26,5791.03,28.4,23,3,0,0
+2025-03,Cardiology,Lab,Submitted,5,712.28,7.3,5,0,0,0
+2025-03,Cardiology,Lab,In Review,6,942.21,25.0,3,2,1,0
+2025-03,Cardiology,Lab,Approved,8,1089.16,23.5,6,2,0,0
+2025-03,Cardiology,Lab,Denied,5,695.5,47.3,0,2,2,1
+2025-03,Cardiology,Lab,Paid,22,3542.01,28.9,19,3,0,0
+2025-03,Cardiology,Imaging,Submitted,5,3274.94,6.7,5,0,0,0
+2025-03,Cardiology,Imaging,In Review,6,4522.35,26.3,3,2,1,0
+2025-03,Cardiology,Imaging,Approved,8,5241.54,20.1,6,2,0,0
+2025-03,Cardiology,Imaging,Denied,4,3178.94,51.1,0,1,2,1
+2025-03,Cardiology,Imaging,Paid,20,15781.32,27.9,18,2,0,0
+2025-03,Orthopedics,Professional,Submitted,11,4814.69,7.1,10,1,0,0
+2025-03,Orthopedics,Professional,In Review,13,6102.96,28.5,5,5,2,1
+2025-03,Orthopedics,Professional,Approved,17,8068.48,22.0,12,4,1,0
+2025-03,Orthopedics,Professional,Denied,12,4989.92,43.7,2,3,4,3
+2025-03,Orthopedics,Professional,Paid,47,24879.3,28.3,41,5,1,0
+2025-03,Orthopedics,Facility,Submitted,7,22920.06,7.9,6,1,0,0
+2025-03,Orthopedics,Facility,In Review,9,29213.69,29.0,4,3,1,1
+2025-03,Orthopedics,Facility,Approved,12,33180.9,19.0,9,3,0,0
+2025-03,Orthopedics,Facility,Denied,8,27078.2,50.8,1,2,3,2
+2025-03,Orthopedics,Facility,Paid,32,113396.9,25.2,28,4,0,0
+2025-03,Orthopedics,Pharmacy,Submitted,5,1155.98,7.8,5,0,0,0
+2025-03,Orthopedics,Pharmacy,In Review,8,1835.66,27.4,3,3,1,1
+2025-03,Orthopedics,Pharmacy,Approved,10,2149.99,20.9,7,3,0,0
+2025-03,Orthopedics,Pharmacy,Denied,6,1180.79,47.4,1,2,2,1
+2025-03,Orthopedics,Pharmacy,Paid,27,5311.1,23.8,24,3,0,0
+2025-03,Orthopedics,Lab,Submitted,4,642.61,6.4,4,0,0,0
+2025-03,Orthopedics,Lab,In Review,6,887.56,29.5,3,2,1,0
+2025-03,Orthopedics,Lab,Approved,8,1319.89,20.5,6,2,0,0
+2025-03,Orthopedics,Lab,Denied,4,594.13,47.6,0,1,2,1
+2025-03,Orthopedics,Lab,Paid,20,2525.27,23.8,18,2,0,0
+2025-03,Orthopedics,Imaging,Submitted,4,2957.89,7.5,4,0,0,0
+2025-03,Orthopedics,Imaging,In Review,5,3300.57,27.5,2,2,1,0
+2025-03,Orthopedics,Imaging,Approved,7,4800.49,22.0,5,2,0,0
+2025-03,Orthopedics,Imaging,Denied,4,2470.02,42.6,0,1,2,1
+2025-03,Orthopedics,Imaging,Paid,18,12422.14,28.8,16,2,0,0
+2025-03,Pediatrics,Professional,Submitted,13,6385.67,7.4,11,2,0,0
+2025-03,Pediatrics,Professional,In Review,18,7365.1,29.2,7,6,3,2
+2025-03,Pediatrics,Professional,Approved,22,11424.45,19.7,15,5,2,0
+2025-03,Pediatrics,Professional,Denied,14,6973.0,50.2,2,4,5,3
+2025-03,Pediatrics,Professional,Paid,55,27739.86,27.5,48,6,1,0
+2025-03,Pediatrics,Facility,Submitted,9,25919.03,6.7,8,1,0,0
+2025-03,Pediatrics,Facility,In Review,14,43582.35,29.7,5,5,3,1
+2025-03,Pediatrics,Facility,Approved,18,60609.66,22.1,13,4,1,0
+2025-03,Pediatrics,Facility,Denied,11,35394.54,44.9,1,3,4,3
+2025-03,Pediatrics,Facility,Paid,48,174993.29,25.8,42,5,1,0
+2025-03,Pediatrics,Pharmacy,Submitted,7,1463.91,7.5,6,1,0,0
+2025-03,Pediatrics,Pharmacy,In Review,10,1934.48,25.3,4,3,2,1
+2025-03,Pediatrics,Pharmacy,Approved,12,2737.13,20.4,9,3,0,0
+2025-03,Pediatrics,Pharmacy,Denied,8,1758.02,50.7,1,2,3,2
+2025-03,Pediatrics,Pharmacy,Paid,30,6243.39,24.0,26,4,0,0
+2025-03,Pediatrics,Lab,Submitted,5,643.82,6.6,5,0,0,0
+2025-03,Pediatrics,Lab,In Review,8,1139.54,26.8,3,3,1,1
+2025-03,Pediatrics,Lab,Approved,10,1460.94,23.4,7,3,0,0
+2025-03,Pediatrics,Lab,Denied,6,743.62,53.2,1,2,2,1
+2025-03,Pediatrics,Lab,Paid,27,4073.88,26.2,24,3,0,0
+2025-03,Pediatrics,Imaging,Submitted,5,3890.76,7.1,5,0,0,0
+2025-03,Pediatrics,Imaging,In Review,6,3747.4,25.8,3,2,1,0
+2025-03,Pediatrics,Imaging,Approved,8,5531.44,23.3,6,2,0,0
+2025-03,Pediatrics,Imaging,Denied,5,3405.17,45.2,0,2,2,1
+2025-03,Pediatrics,Imaging,Paid,22,16396.4,26.2,19,3,0,0
+2025-03,Radiology,Professional,Submitted,14,7400.19,7.6,12,2,0,0
+2025-03,Radiology,Professional,In Review,17,8355.31,27.3,6,6,3,2
+2025-03,Radiology,Professional,Approved,24,10385.85,19.8,17,6,1,0
+2025-03,Radiology,Professional,Denied,13,6443.94,50.6,2,4,4,3
+2025-03,Radiology,Professional,Paid,54,26003.87,25.2,47,6,1,0
+2025-03,Radiology,Facility,Submitted,8,22132.98,7.3,7,1,0,0
+2025-03,Radiology,Facility,In Review,13,45732.0,29.0,5,5,2,1
+2025-03,Radiology,Facility,Approved,17,51370.76,20.7,12,4,1,0
+2025-03,Radiology,Facility,Denied,11,31055.46,51.9,1,3,4,3
+2025-03,Radiology,Facility,Paid,37,117920.95,23.8,32,4,1,0
+2025-03,Radiology,Pharmacy,Submitted,6,1083.49,6.5,5,1,0,0
+2025-03,Radiology,Pharmacy,In Review,8,1556.92,27.6,3,3,1,1
+2025-03,Radiology,Pharmacy,Approved,11,2033.64,20.9,8,3,0,0
+2025-03,Radiology,Pharmacy,Denied,6,1176.97,45.9,1,2,2,1
+2025-03,Radiology,Pharmacy,Paid,28,6087.88,27.9,25,3,0,0
+2025-03,Radiology,Lab,Submitted,5,810.61,7.7,5,0,0,0
+2025-03,Radiology,Lab,In Review,7,944.65,31.7,3,3,1,0
+2025-03,Radiology,Lab,Approved,9,1420.42,22.1,7,2,0,0
+2025-03,Radiology,Lab,Denied,6,854.75,51.2,1,2,2,1
+2025-03,Radiology,Lab,Paid,24,3722.3,27.6,21,3,0,0
+2025-03,Radiology,Imaging,Submitted,4,2786.91,7.5,4,0,0,0
+2025-03,Radiology,Imaging,In Review,6,4752.04,30.3,3,2,1,0
+2025-03,Radiology,Imaging,Approved,7,4495.6,22.0,5,2,0,0
+2025-03,Radiology,Imaging,Denied,5,3754.63,53.0,0,2,2,1
+2025-03,Radiology,Imaging,Paid,21,14481.34,27.4,19,2,0,0
+2025-03,Oncology,Professional,Submitted,7,3097.79,6.7,6,1,0,0
+2025-03,Oncology,Professional,In Review,10,4989.34,25.9,4,3,2,1
+2025-03,Oncology,Professional,Approved,13,6283.68,20.9,9,3,1,0
+2025-03,Oncology,Professional,Denied,9,4246.35,43.6,1,3,3,2
+2025-03,Oncology,Professional,Paid,39,20657.43,27.0,34,4,1,0
+2025-03,Oncology,Facility,Submitted,5,17276.39,6.6,5,0,0,0
+2025-03,Oncology,Facility,In Review,8,23126.91,30.1,3,3,1,1
+2025-03,Oncology,Facility,Approved,9,26667.72,19.3,7,2,0,0
+2025-03,Oncology,Facility,Denied,6,18024.07,48.6,1,2,2,1
+2025-03,Oncology,Facility,Paid,25,86592.83,24.3,22,3,0,0
+2025-03,Oncology,Pharmacy,Submitted,4,740.17,6.6,4,0,0,0
+2025-03,Oncology,Pharmacy,In Review,5,1040.15,26.6,2,2,1,0
+2025-03,Oncology,Pharmacy,Approved,7,1477.55,19.9,5,2,0,0
+2025-03,Oncology,Pharmacy,Denied,4,763.39,44.7,0,1,2,1
+2025-03,Oncology,Pharmacy,Paid,17,3150.49,24.0,15,2,0,0
+2025-03,Oncology,Lab,Submitted,3,489.95,6.7,3,0,0,0
+2025-03,Oncology,Lab,In Review,5,695.04,25.9,2,2,1,0
+2025-03,Oncology,Lab,Approved,6,755.07,20.8,5,1,0,0
+2025-03,Oncology,Lab,Denied,4,600.39,48.6,0,1,2,1
+2025-03,Oncology,Lab,Paid,15,1897.72,29.0,13,2,0,0
+2025-03,Oncology,Imaging,Submitted,2,1325.92,7.8,2,0,0,0
+2025-03,Oncology,Imaging,In Review,4,2843.13,31.4,2,2,0,0
+2025-03,Oncology,Imaging,Approved,4,3220.13,19.0,3,1,0,0
+2025-03,Oncology,Imaging,Denied,3,1871.0,54.2,0,1,1,1
+2025-03,Oncology,Imaging,Paid,13,9598.12,24.2,12,1,0,0
+2025-03,General Surgery,Professional,Submitted,6,2726.88,6.3,5,1,0,0
+2025-03,General Surgery,Professional,In Review,9,4467.0,31.1,4,3,1,1
+2025-03,General Surgery,Professional,Approved,11,5034.02,21.3,8,3,0,0
+2025-03,General Surgery,Professional,Denied,7,3486.54,51.6,1,2,3,1
+2025-03,General Surgery,Professional,Paid,28,12707.72,28.3,25,3,0,0
+2025-03,General Surgery,Facility,Submitted,5,17067.56,7.2,5,0,0,0
+2025-03,General Surgery,Facility,In Review,6,20950.82,31.2,3,2,1,0
+2025-03,General Surgery,Facility,Approved,8,22691.2,22.3,6,2,0,0
+2025-03,General Surgery,Facility,Denied,5,15436.08,48.9,0,2,2,1
+2025-03,General Surgery,Facility,Paid,23,73698.84,23.7,20,3,0,0
+2025-03,General Surgery,Pharmacy,Submitted,3,709.93,7.2,3,0,0,0
+2025-03,General Surgery,Pharmacy,In Review,4,942.99,27.6,2,2,0,0
+2025-03,General Surgery,Pharmacy,Approved,5,929.2,22.5,4,1,0,0
+2025-03,General Surgery,Pharmacy,Denied,3,685.61,46.4,0,1,1,1
+2025-03,General Surgery,Pharmacy,Paid,13,2458.37,28.9,12,1,0,0
+2025-03,General Surgery,Lab,Submitted,3,461.79,6.5,3,0,0,0
+2025-03,General Surgery,Lab,In Review,3,375.38,28.7,2,1,0,0
+2025-03,General Surgery,Lab,Approved,5,709.75,23.8,4,1,0,0
+2025-03,General Surgery,Lab,Denied,3,420.97,53.1,0,1,1,1
+2025-03,General Surgery,Lab,Paid,13,1785.24,27.1,12,1,0,0
+2025-03,General Surgery,Imaging,Submitted,3,2243.25,6.5,3,0,0,0
+2025-03,General Surgery,Imaging,In Review,3,2234.28,28.4,2,1,0,0
+2025-03,General Surgery,Imaging,Approved,4,2700.95,20.7,3,1,0,0
+2025-03,General Surgery,Imaging,Denied,3,2088.89,47.1,0,1,1,1
+2025-03,General Surgery,Imaging,Paid,11,8788.64,26.7,10,1,0,0
+2025-03,Neurology,Professional,Submitted,8,3744.06,7.3,7,1,0,0
+2025-03,Neurology,Professional,In Review,11,5510.03,29.7,4,4,2,1
+2025-03,Neurology,Professional,Approved,13,5874.81,18.8,9,3,1,0
+2025-03,Neurology,Professional,Denied,8,3758.7,51.2,1,2,3,2
+2025-03,Neurology,Professional,Paid,33,16464.86,24.8,29,4,0,0
+2025-03,Neurology,Facility,Submitted,6,16732.12,6.8,5,1,0,0
+2025-03,Neurology,Facility,In Review,8,27256.95,26.3,3,3,1,1
+2025-03,Neurology,Facility,Approved,11,40456.37,22.9,8,3,0,0
+2025-03,Neurology,Facility,Denied,6,20143.87,43.6,1,2,2,1
+2025-03,Neurology,Facility,Paid,28,90029.89,24.0,25,3,0,0
+2025-03,Neurology,Pharmacy,Submitted,4,933.3,7.1,4,0,0,0
+2025-03,Neurology,Pharmacy,In Review,5,1128.98,30.6,2,2,1,0
+2025-03,Neurology,Pharmacy,Approved,7,1419.03,22.0,5,2,0,0
+2025-03,Neurology,Pharmacy,Denied,4,752.24,47.1,0,1,2,1
+2025-03,Neurology,Pharmacy,Paid,16,3268.15,27.7,14,2,0,0
+2025-03,Neurology,Lab,Submitted,3,374.52,7.8,3,0,0,0
+2025-03,Neurology,Lab,In Review,5,730.31,29.7,2,2,1,0
+2025-03,Neurology,Lab,Approved,5,800.08,22.4,4,1,0,0
+2025-03,Neurology,Lab,Denied,3,497.73,42.9,0,1,1,1
+2025-03,Neurology,Lab,Paid,15,1960.82,27.4,13,2,0,0
+2025-03,Neurology,Imaging,Submitted,2,1425.44,7.9,2,0,0,0
+2025-03,Neurology,Imaging,In Review,4,2977.22,28.5,2,2,0,0
+2025-03,Neurology,Imaging,Approved,5,3371.68,21.5,4,1,0,0
+2025-03,Neurology,Imaging,Denied,3,2051.52,47.7,0,1,1,1
+2025-03,Neurology,Imaging,Paid,13,8889.66,25.2,12,1,0,0
+2025-04,Cardiology,Professional,Submitted,12,6503.71,7.4,10,2,0,0
+2025-04,Cardiology,Professional,In Review,16,7426.57,25.3,6,5,3,2
+2025-04,Cardiology,Professional,Approved,19,8155.39,19.5,13,4,2,0
+2025-04,Cardiology,Professional,Denied,13,5559.25,44.1,2,4,4,3
+2025-04,Cardiology,Professional,Paid,51,22636.82,24.0,44,6,1,0
+2025-04,Cardiology,Facility,Submitted,7,22647.63,7.6,6,1,0,0
+2025-04,Cardiology,Facility,In Review,11,37854.97,29.5,4,4,2,1
+2025-04,Cardiology,Facility,Approved,15,48284.21,22.2,11,3,1,0
+2025-04,Cardiology,Facility,Denied,8,24274.31,47.0,1,2,3,2
+2025-04,Cardiology,Facility,Paid,33,114996.21,23.5,29,4,0,0
+2025-04,Cardiology,Pharmacy,Submitted,6,1259.03,6.4,5,1,0,0
+2025-04,Cardiology,Pharmacy,In Review,8,1600.99,32.0,3,3,1,1
+2025-04,Cardiology,Pharmacy,Approved,10,2239.46,21.6,7,3,0,0
+2025-04,Cardiology,Pharmacy,Denied,6,1344.13,43.9,1,2,2,1
+2025-04,Cardiology,Pharmacy,Paid,25,4482.92,26.3,22,3,0,0
+2025-04,Cardiology,Lab,Submitted,5,725.05,7.9,5,0,0,0
+2025-04,Cardiology,Lab,In Review,7,885.47,31.5,3,3,1,0
+2025-04,Cardiology,Lab,Approved,10,1529.59,20.2,7,3,0,0
+2025-04,Cardiology,Lab,Denied,6,939.26,51.0,1,2,2,1
+2025-04,Cardiology,Lab,Paid,22,3202.53,28.3,19,3,0,0
+2025-04,Cardiology,Imaging,Submitted,4,2899.69,7.5,4,0,0,0
+2025-04,Cardiology,Imaging,In Review,6,4213.31,25.8,3,2,1,0
+2025-04,Cardiology,Imaging,Approved,7,5433.54,19.0,5,2,0,0
+2025-04,Cardiology,Imaging,Denied,4,3229.61,51.4,0,1,2,1
+2025-04,Cardiology,Imaging,Paid,18,12229.22,27.9,16,2,0,0
+2025-04,Orthopedics,Professional,Submitted,10,4740.67,6.7,9,1,0,0
+2025-04,Orthopedics,Professional,In Review,15,6342.49,28.7,6,5,3,1
+2025-04,Orthopedics,Professional,Approved,17,7049.91,19.7,12,4,1,0
+2025-04,Orthopedics,Professional,Denied,12,5200.38,46.4,2,3,4,3
+2025-04,Orthopedics,Professional,Paid,45,23126.33,25.9,39,5,1,0
+2025-04,Orthopedics,Facility,Submitted,8,25841.07,7.4,7,1,0,0
+2025-04,Orthopedics,Facility,In Review,10,36326.34,31.8,4,3,2,1
+2025-04,Orthopedics,Facility,Approved,14,46524.29,20.0,10,3,1,0
+2025-04,Orthopedics,Facility,Denied,9,31139.62,54.1,1,3,3,2
+2025-04,Orthopedics,Facility,Paid,36,121887.54,27.6,31,4,1,0
+2025-04,Orthopedics,Pharmacy,Submitted,5,1098.96,7.6,5,0,0,0
+2025-04,Orthopedics,Pharmacy,In Review,7,1267.24,26.6,3,3,1,0
+2025-04,Orthopedics,Pharmacy,Approved,8,1505.83,21.3,6,2,0,0
+2025-04,Orthopedics,Pharmacy,Denied,6,1240.62,50.9,1,2,2,1
+2025-04,Orthopedics,Pharmacy,Paid,22,4370.05,28.4,19,3,0,0
+2025-04,Orthopedics,Lab,Submitted,4,652.06,7.2,4,0,0,0
+2025-04,Orthopedics,Lab,In Review,6,865.62,29.9,3,2,1,0
+2025-04,Orthopedics,Lab,Approved,8,1279.64,21.7,6,2,0,0
+2025-04,Orthopedics,Lab,Denied,5,803.02,48.5,0,2,2,1
+2025-04,Orthopedics,Lab,Paid,21,2682.99,25.4,19,2,0,0
+2025-04,Orthopedics,Imaging,Submitted,3,2216.91,6.6,3,0,0,0
+2025-04,Orthopedics,Imaging,In Review,5,3665.98,27.1,2,2,1,0
+2025-04,Orthopedics,Imaging,Approved,7,5328.06,20.5,5,2,0,0
+2025-04,Orthopedics,Imaging,Denied,4,2870.89,44.2,0,1,2,1
+2025-04,Orthopedics,Imaging,Paid,17,13070.67,27.0,15,2,0,0
+2025-04,Pediatrics,Professional,Submitted,15,6339.77,7.8,13,2,0,0
+2025-04,Pediatrics,Professional,In Review,20,9368.85,26.3,7,7,4,2
+2025-04,Pediatrics,Professional,Approved,22,11896.28,20.1,15,5,2,0
+2025-04,Pediatrics,Professional,Denied,16,7687.59,48.5,2,5,5,4
+2025-04,Pediatrics,Professional,Paid,65,28532.77,25.8,56,7,2,0
+2025-04,Pediatrics,Facility,Submitted,10,36047.2,8.0,9,1,0,0
+2025-04,Pediatrics,Facility,In Review,13,41991.61,26.4,5,5,2,1
+2025-04,Pediatrics,Facility,Approved,19,69729.26,23.5,13,4,2,0
+2025-04,Pediatrics,Facility,Denied,12,35097.79,49.5,2,3,4,3
+2025-04,Pediatrics,Facility,Paid,45,161255.15,24.3,39,5,1,0
+2025-04,Pediatrics,Pharmacy,Submitted,5,949.81,6.6,5,0,0,0
+2025-04,Pediatrics,Pharmacy,In Review,8,1865.34,30.6,3,3,1,1
+2025-04,Pediatrics,Pharmacy,Approved,10,2278.45,21.1,7,3,0,0
+2025-04,Pediatrics,Pharmacy,Denied,7,1391.95,49.7,1,2,3,1
+2025-04,Pediatrics,Pharmacy,Paid,28,5329.06,26.8,25,3,0,0
+2025-04,Pediatrics,Lab,Submitted,6,832.49,7.2,5,1,0,0
+2025-04,Pediatrics,Lab,In Review,9,1130.59,25.7,4,3,1,1
+2025-04,Pediatrics,Lab,Approved,10,1329.71,20.8,7,3,0,0
+2025-04,Pediatrics,Lab,Denied,6,894.01,51.0,1,2,2,1
+2025-04,Pediatrics,Lab,Paid,29,4394.88,25.6,25,3,1,0
+2025-04,Pediatrics,Imaging,Submitted,5,3629.9,6.7,5,0,0,0
+2025-04,Pediatrics,Imaging,In Review,7,5178.68,29.9,3,3,1,0
+2025-04,Pediatrics,Imaging,Approved,10,8096.51,23.8,7,3,0,0
+2025-04,Pediatrics,Imaging,Denied,6,4923.88,53.8,1,2,2,1
+2025-04,Pediatrics,Imaging,Paid,22,16493.96,24.2,19,3,0,0
+2025-04,Radiology,Professional,Submitted,11,5253.28,6.3,10,1,0,0
+2025-04,Radiology,Professional,In Review,15,6182.9,29.7,6,5,3,1
+2025-04,Radiology,Professional,Approved,23,12688.68,21.2,16,5,2,0
+2025-04,Radiology,Professional,Denied,12,6370.16,44.4,2,3,4,3
+2025-04,Radiology,Professional,Paid,60,30656.2,26.3,52,7,1,0
+2025-04,Radiology,Facility,Submitted,7,22699.26,7.0,6,1,0,0
+2025-04,Radiology,Facility,In Review,12,40039.36,28.2,5,4,2,1
+2025-04,Radiology,Facility,Approved,14,44536.87,19.8,10,3,1,0
+2025-04,Radiology,Facility,Denied,9,29713.5,52.6,1,3,3,2
+2025-04,Radiology,Facility,Paid,37,110537.6,28.4,32,4,1,0
+2025-04,Radiology,Pharmacy,Submitted,6,1270.62,7.8,5,1,0,0
+2025-04,Radiology,Pharmacy,In Review,8,1630.45,30.7,3,3,1,1
+2025-04,Radiology,Pharmacy,Approved,10,2294.11,20.7,7,3,0,0
+2025-04,Radiology,Pharmacy,Denied,6,1100.92,53.0,1,2,2,1
+2025-04,Radiology,Pharmacy,Paid,29,5702.75,23.9,25,3,1,0
+2025-04,Radiology,Lab,Submitted,4,620.55,6.7,4,0,0,0
+2025-04,Radiology,Lab,In Review,6,747.92,29.3,3,2,1,0
+2025-04,Radiology,Lab,Approved,9,1365.09,21.8,7,2,0,0
+2025-04,Radiology,Lab,Denied,6,862.88,53.2,1,2,2,1
+2025-04,Radiology,Lab,Paid,23,2918.95,28.2,20,3,0,0
+2025-04,Radiology,Imaging,Submitted,4,2603.72,7.1,4,0,0,0
+2025-04,Radiology,Imaging,In Review,6,3951.2,25.2,3,2,1,0
+2025-04,Radiology,Imaging,Approved,7,5021.16,23.2,5,2,0,0
+2025-04,Radiology,Imaging,Denied,5,4052.59,48.4,0,2,2,1
+2025-04,Radiology,Imaging,Paid,20,13239.73,24.5,18,2,0,0
+2025-04,Oncology,Professional,Submitted,7,3100.66,7.8,6,1,0,0
+2025-04,Oncology,Professional,In Review,11,4561.79,30.1,4,4,2,1
+2025-04,Oncology,Professional,Approved,14,7434.72,22.4,10,3,1,0
+2025-04,Oncology,Professional,Denied,8,3501.01,46.1,1,2,3,2
+2025-04,Oncology,Professional,Paid,38,18290.97,27.8,33,4,1,0
+2025-04,Oncology,Facility,Submitted,5,14097.57,6.7,5,0,0,0
+2025-04,Oncology,Facility,In Review,7,22745.77,31.7,3,3,1,0
+2025-04,Oncology,Facility,Approved,9,30234.97,19.7,7,2,0,0
+2025-04,Oncology,Facility,Denied,6,16385.32,50.8,1,2,2,1
+2025-04,Oncology,Facility,Paid,23,66541.56,26.6,20,3,0,0
+2025-04,Oncology,Pharmacy,Submitted,3,593.88,7.9,3,0,0,0
+2025-04,Oncology,Pharmacy,In Review,5,1063.24,31.1,2,2,1,0
+2025-04,Oncology,Pharmacy,Approved,6,1193.01,21.8,5,1,0,0
+2025-04,Oncology,Pharmacy,Denied,4,851.51,48.2,0,1,2,1
+2025-04,Oncology,Pharmacy,Paid,17,3942.6,24.4,15,2,0,0
+2025-04,Oncology,Lab,Submitted,3,439.46,7.0,3,0,0,0
+2025-04,Oncology,Lab,In Review,4,580.98,31.7,2,2,0,0
+2025-04,Oncology,Lab,Approved,5,634.19,20.5,4,1,0,0
+2025-04,Oncology,Lab,Denied,3,403.16,46.2,0,1,1,1
+2025-04,Oncology,Lab,Paid,13,2024.19,29.0,12,1,0,0
+2025-04,Oncology,Imaging,Submitted,2,1405.72,6.9,2,0,0,0
+2025-04,Oncology,Imaging,In Review,4,2848.78,29.9,2,2,0,0
+2025-04,Oncology,Imaging,Approved,5,3739.39,20.2,4,1,0,0
+2025-04,Oncology,Imaging,Denied,3,2096.42,48.0,0,1,1,1
+2025-04,Oncology,Imaging,Paid,13,8738.28,26.1,12,1,0,0
+2025-04,General Surgery,Professional,Submitted,6,2969.41,7.6,5,1,0,0
+2025-04,General Surgery,Professional,In Review,9,4098.75,25.6,4,3,1,1
+2025-04,General Surgery,Professional,Approved,11,5286.76,22.9,8,3,0,0
+2025-04,General Surgery,Professional,Denied,7,3734.23,52.3,1,2,3,1
+2025-04,General Surgery,Professional,Paid,29,14472.16,27.8,25,3,1,0
+2025-04,General Surgery,Facility,Submitted,5,16711.75,7.0,5,0,0,0
+2025-04,General Surgery,Facility,In Review,7,25168.59,31.5,3,3,1,0
+2025-04,General Surgery,Facility,Approved,8,23327.46,22.8,6,2,0,0
+2025-04,General Surgery,Facility,Denied,6,21533.42,46.8,1,2,2,1
+2025-04,General Surgery,Facility,Paid,25,84410.62,24.4,22,3,0,0
+2025-04,General Surgery,Pharmacy,Submitted,3,565.45,7.7,3,0,0,0
+2025-04,General Surgery,Pharmacy,In Review,4,834.17,27.1,2,2,0,0
+2025-04,General Surgery,Pharmacy,Approved,6,1343.98,22.9,5,1,0,0
+2025-04,General Surgery,Pharmacy,Denied,3,645.88,54.1,0,1,1,1
+2025-04,General Surgery,Pharmacy,Paid,14,2957.68,24.8,13,1,0,0
+2025-04,General Surgery,Lab,Submitted,3,413.44,7.6,3,0,0,0
+2025-04,General Surgery,Lab,In Review,4,569.44,25.9,2,2,0,0
+2025-04,General Surgery,Lab,Approved,5,618.32,23.0,4,1,0,0
+2025-04,General Surgery,Lab,Denied,3,433.66,49.8,0,1,1,1
+2025-04,General Surgery,Lab,Paid,12,1648.01,24.9,11,1,0,0
+2025-04,General Surgery,Imaging,Submitted,2,1282.48,6.9,2,0,0,0
+2025-04,General Surgery,Imaging,In Review,3,2112.78,26.1,2,1,0,0
+2025-04,General Surgery,Imaging,Approved,4,2537.4,22.3,3,1,0,0
+2025-04,General Surgery,Imaging,Denied,2,1427.99,45.4,0,1,1,0
+2025-04,General Surgery,Imaging,Paid,11,8985.1,24.5,10,1,0,0
+2025-04,Neurology,Professional,Submitted,8,3906.64,7.5,7,1,0,0
+2025-04,Neurology,Professional,In Review,11,5192.51,25.7,4,4,2,1
+2025-04,Neurology,Professional,Approved,16,7487.88,23.5,11,4,1,0
+2025-04,Neurology,Professional,Denied,9,4868.99,44.7,1,3,3,2
+2025-04,Neurology,Professional,Paid,42,18997.62,24.3,37,4,1,0
+2025-04,Neurology,Facility,Submitted,6,17663.05,7.3,5,1,0,0
+2025-04,Neurology,Facility,In Review,8,24186.59,25.5,3,3,1,1
+2025-04,Neurology,Facility,Approved,9,25510.94,21.3,7,2,0,0
+2025-04,Neurology,Facility,Denied,6,18027.52,44.8,1,2,2,1
+2025-04,Neurology,Facility,Paid,26,78237.46,26.7,23,3,0,0
+2025-04,Neurology,Pharmacy,Submitted,4,843.15,7.7,4,0,0,0
+2025-04,Neurology,Pharmacy,In Review,6,1355.06,30.5,3,2,1,0
+2025-04,Neurology,Pharmacy,Approved,7,1485.9,22.6,5,2,0,0
+2025-04,Neurology,Pharmacy,Denied,5,1103.57,47.6,0,2,2,1
+2025-04,Neurology,Pharmacy,Paid,21,4061.0,24.1,19,2,0,0
+2025-04,Neurology,Lab,Submitted,3,456.3,6.7,3,0,0,0
+2025-04,Neurology,Lab,In Review,5,727.88,26.3,2,2,1,0
+2025-04,Neurology,Lab,Approved,6,875.67,22.7,5,1,0,0
+2025-04,Neurology,Lab,Denied,4,533.51,46.6,0,1,2,1
+2025-04,Neurology,Lab,Paid,14,1740.82,29.3,13,1,0,0
+2025-04,Neurology,Imaging,Submitted,2,1600.26,7.4,2,0,0,0
+2025-04,Neurology,Imaging,In Review,4,3008.76,31.7,2,2,0,0
+2025-04,Neurology,Imaging,Approved,4,2658.57,23.4,3,1,0,0
+2025-04,Neurology,Imaging,Denied,3,2480.28,46.8,0,1,1,1
+2025-04,Neurology,Imaging,Paid,14,9607.32,27.6,13,1,0,0
+2025-05,Cardiology,Professional,Submitted,11,4813.73,7.4,10,1,0,0
+2025-05,Cardiology,Professional,In Review,18,7548.64,31.4,7,6,3,2
+2025-05,Cardiology,Professional,Approved,21,9796.43,20.9,15,5,1,0
+2025-05,Cardiology,Professional,Denied,15,6402.52,50.4,2,5,5,3
+2025-05,Cardiology,Professional,Paid,54,29252.75,28.5,47,6,1,0
+2025-05,Cardiology,Facility,Submitted,7,21603.78,7.1,6,1,0,0
+2025-05,Cardiology,Facility,In Review,12,39143.42,28.5,5,4,2,1
+2025-05,Cardiology,Facility,Approved,15,47393.25,19.8,11,3,1,0
+2025-05,Cardiology,Facility,Denied,8,24263.35,50.7,1,2,3,2
+2025-05,Cardiology,Facility,Paid,34,110436.38,25.1,30,3,1,0
+2025-05,Cardiology,Pharmacy,Submitted,5,1040.24,6.5,5,0,0,0
+2025-05,Cardiology,Pharmacy,In Review,8,1435.85,28.8,3,3,1,1
+2025-05,Cardiology,Pharmacy,Approved,11,2032.95,23.0,8,3,0,0
+2025-05,Cardiology,Pharmacy,Denied,6,1261.74,50.7,1,2,2,1
+2025-05,Cardiology,Pharmacy,Paid,25,5581.28,28.3,22,3,0,0
+2025-05,Cardiology,Lab,Submitted,5,758.47,6.6,5,0,0,0
+2025-05,Cardiology,Lab,In Review,7,863.55,26.8,3,3,1,0
+2025-05,Cardiology,Lab,Approved,9,1451.56,19.4,7,2,0,0
+2025-05,Cardiology,Lab,Denied,6,905.7,54.6,1,2,2,1
+2025-05,Cardiology,Lab,Paid,24,3065.57,24.3,21,3,0,0
+2025-05,Cardiology,Imaging,Submitted,4,3250.06,8.0,4,0,0,0
+2025-05,Cardiology,Imaging,In Review,6,4051.67,30.5,3,2,1,0
+2025-05,Cardiology,Imaging,Approved,8,4957.52,20.5,6,2,0,0
+2025-05,Cardiology,Imaging,Denied,4,2768.38,54.9,0,1,2,1
+2025-05,Cardiology,Imaging,Paid,21,14182.97,26.7,19,2,0,0
+2025-05,Orthopedics,Professional,Submitted,10,4173.6,7.5,9,1,0,0
+2025-05,Orthopedics,Professional,In Review,15,7931.16,31.6,6,5,3,1
+2025-05,Orthopedics,Professional,Approved,17,8754.96,19.8,12,4,1,0
+2025-05,Orthopedics,Professional,Denied,11,5304.61,44.1,1,3,4,3
+2025-05,Orthopedics,Professional,Paid,44,19669.79,24.2,38,5,1,0
+2025-05,Orthopedics,Facility,Submitted,8,25609.0,8.1,7,1,0,0
+2025-05,Orthopedics,Facility,In Review,11,34265.4,32.0,4,4,2,1
+2025-05,Orthopedics,Facility,Approved,14,40492.49,21.9,10,3,1,0
+2025-05,Orthopedics,Facility,Denied,9,31365.96,44.0,1,3,3,2
+2025-05,Orthopedics,Facility,Paid,39,132687.83,29.6,34,4,1,0
+2025-05,Orthopedics,Pharmacy,Submitted,4,948.98,7.5,4,0,0,0
+2025-05,Orthopedics,Pharmacy,In Review,6,1100.24,31.0,3,2,1,0
+2025-05,Orthopedics,Pharmacy,Approved,9,1927.09,23.7,7,2,0,0
+2025-05,Orthopedics,Pharmacy,Denied,5,943.04,50.8,0,2,2,1
+2025-05,Orthopedics,Pharmacy,Paid,24,4685.06,27.7,21,3,0,0
+2025-05,Orthopedics,Lab,Submitted,4,649.86,6.6,4,0,0,0
+2025-05,Orthopedics,Lab,In Review,5,784.8,28.0,2,2,1,0
+2025-05,Orthopedics,Lab,Approved,7,1106.31,20.1,5,2,0,0
+2025-05,Orthopedics,Lab,Denied,5,684.44,44.8,0,2,2,1
+2025-05,Orthopedics,Lab,Paid,20,2742.24,28.9,18,2,0,0
+2025-05,Orthopedics,Imaging,Submitted,4,2726.51,6.8,4,0,0,0
+2025-05,Orthopedics,Imaging,In Review,6,4259.02,30.4,3,2,1,0
+2025-05,Orthopedics,Imaging,Approved,8,5375.84,19.7,6,2,0,0
+2025-05,Orthopedics,Imaging,Denied,5,3697.41,46.8,0,2,2,1
+2025-05,Orthopedics,Imaging,Paid,19,14871.63,25.6,17,2,0,0
+2025-05,Pediatrics,Professional,Submitted,14,7296.32,8.0,12,2,0,0
+2025-05,Pediatrics,Professional,In Review,17,9112.92,30.8,6,6,3,2
+2025-05,Pediatrics,Professional,Approved,24,10873.91,19.2,17,6,1,0
+2025-05,Pediatrics,Professional,Denied,14,6288.11,47.0,2,4,5,3
+2025-05,Pediatrics,Professional,Paid,67,28811.84,29.3,58,7,2,0
+2025-05,Pediatrics,Facility,Submitted,10,29922.44,7.5,9,1,0,0
+2025-05,Pediatrics,Facility,In Review,14,50500.79,26.7,5,5,3,1
+2025-05,Pediatrics,Facility,Approved,16,58096.09,19.6,11,4,1,0
+2025-05,Pediatrics,Facility,Denied,11,30559.56,44.5,1,3,4,3
+2025-05,Pediatrics,Facility,Paid,46,149468.41,27.0,40,5,1,0
+2025-05,Pediatrics,Pharmacy,Submitted,7,1687.06,6.9,6,1,0,0
+2025-05,Pediatrics,Pharmacy,In Review,9,1789.67,30.8,4,3,1,1
+2025-05,Pediatrics,Pharmacy,Approved,11,2432.48,21.4,8,3,0,0
+2025-05,Pediatrics,Pharmacy,Denied,7,1615.1,49.7,1,2,3,1
+2025-05,Pediatrics,Pharmacy,Paid,30,5859.58,26.7,26,4,0,0
+2025-05,Pediatrics,Lab,Submitted,6,840.99,6.6,5,1,0,0
+2025-05,Pediatrics,Lab,In Review,7,1025.53,31.9,3,3,1,0
+2025-05,Pediatrics,Lab,Approved,9,1212.76,21.2,7,2,0,0
+2025-05,Pediatrics,Lab,Denied,6,960.1,45.3,1,2,2,1
+2025-05,Pediatrics,Lab,Paid,26,4100.1,28.3,23,3,0,0
+2025-05,Pediatrics,Imaging,Submitted,5,3690.27,6.7,5,0,0,0
+2025-05,Pediatrics,Imaging,In Review,6,4150.87,25.9,3,2,1,0
+2025-05,Pediatrics,Imaging,Approved,8,6328.3,23.5,6,2,0,0
+2025-05,Pediatrics,Imaging,Denied,5,3135.1,51.5,0,2,2,1
+2025-05,Pediatrics,Imaging,Paid,23,14818.01,28.5,20,3,0,0
+2025-05,Radiology,Professional,Submitted,11,5675.22,7.4,10,1,0,0
+2025-05,Radiology,Professional,In Review,16,8124.04,31.8,6,5,3,2
+2025-05,Radiology,Professional,Approved,19,9469.33,20.3,13,4,2,0
+2025-05,Radiology,Professional,Denied,13,6097.69,48.2,2,4,4,3
+2025-05,Radiology,Professional,Paid,51,26702.66,25.8,44,6,1,0
+2025-05,Radiology,Facility,Submitted,9,31735.12,7.3,8,1,0,0
+2025-05,Radiology,Facility,In Review,12,40750.45,31.0,5,4,2,1
+2025-05,Radiology,Facility,Approved,16,50054.46,22.1,11,4,1,0
+2025-05,Radiology,Facility,Denied,10,31284.6,52.5,1,3,3,3
+2025-05,Radiology,Facility,Paid,42,132504.89,27.2,37,4,1,0
+2025-05,Radiology,Pharmacy,Submitted,6,1158.68,6.7,5,1,0,0
+2025-05,Radiology,Pharmacy,In Review,9,1861.14,28.2,4,3,1,1
+2025-05,Radiology,Pharmacy,Approved,10,2346.42,21.4,7,3,0,0
+2025-05,Radiology,Pharmacy,Denied,7,1299.13,44.8,1,2,3,1
+2025-05,Radiology,Pharmacy,Paid,26,5242.71,26.4,23,3,0,0
+2025-05,Radiology,Lab,Submitted,5,617.61,7.0,5,0,0,0
+2025-05,Radiology,Lab,In Review,6,773.01,25.5,3,2,1,0
+2025-05,Radiology,Lab,Approved,9,1473.85,22.4,7,2,0,0
+2025-05,Radiology,Lab,Denied,5,831.5,55.1,0,2,2,1
+2025-05,Radiology,Lab,Paid,22,2814.73,28.0,19,3,0,0
+2025-05,Radiology,Imaging,Submitted,5,3734.14,7.4,5,0,0,0
+2025-05,Radiology,Imaging,In Review,7,4394.56,26.5,3,3,1,0
+2025-05,Radiology,Imaging,Approved,9,5790.1,21.1,7,2,0,0
+2025-05,Radiology,Imaging,Denied,5,3322.92,43.9,0,2,2,1
+2025-05,Radiology,Imaging,Paid,22,15370.69,26.9,19,3,0,0
+2025-05,Oncology,Professional,Submitted,8,3945.23,8.0,7,1,0,0
+2025-05,Oncology,Professional,In Review,10,4083.3,30.9,4,3,2,1
+2025-05,Oncology,Professional,Approved,14,5830.35,22.4,10,3,1,0
+2025-05,Oncology,Professional,Denied,8,3431.89,50.1,1,2,3,2
+2025-05,Oncology,Professional,Paid,33,13542.18,28.9,29,4,0,0
+2025-05,Oncology,Facility,Submitted,6,20483.86,8.1,5,1,0,0
+2025-05,Oncology,Facility,In Review,7,21913.14,27.5,3,3,1,0
+2025-05,Oncology,Facility,Approved,10,31866.68,22.9,7,3,0,0
+2025-05,Oncology,Facility,Denied,6,17073.67,53.8,1,2,2,1
+2025-05,Oncology,Facility,Paid,27,82537.92,27.8,24,3,0,0
+2025-05,Oncology,Pharmacy,Submitted,4,812.31,7.3,4,0,0,0
+2025-05,Oncology,Pharmacy,In Review,5,947.6,30.9,2,2,1,0
+2025-05,Oncology,Pharmacy,Approved,6,1084.27,20.0,5,1,0,0
+2025-05,Oncology,Pharmacy,Denied,4,894.91,47.9,0,1,2,1
+2025-05,Oncology,Pharmacy,Paid,18,4186.04,25.5,16,2,0,0
+2025-05,Oncology,Lab,Submitted,3,423.94,6.5,3,0,0,0
+2025-05,Oncology,Lab,In Review,4,504.23,26.2,2,2,0,0
+2025-05,Oncology,Lab,Approved,6,881.4,24.1,5,1,0,0
+2025-05,Oncology,Lab,Denied,4,602.4,45.7,0,1,2,1
+2025-05,Oncology,Lab,Paid,16,2240.17,29.3,14,2,0,0
+2025-05,Oncology,Imaging,Submitted,3,2237.84,7.5,3,0,0,0
+2025-05,Oncology,Imaging,In Review,4,2555.42,30.0,2,2,0,0
+2025-05,Oncology,Imaging,Approved,5,3432.84,21.8,4,1,0,0
+2025-05,Oncology,Imaging,Denied,3,2439.09,44.9,0,1,1,1
+2025-05,Oncology,Imaging,Paid,13,8794.13,28.6,12,1,0,0
+2025-05,General Surgery,Professional,Submitted,6,2606.6,7.7,5,1,0,0
+2025-05,General Surgery,Professional,In Review,9,3705.97,32.2,4,3,1,1
+2025-05,General Surgery,Professional,Approved,12,5778.09,20.4,9,3,0,0
+2025-05,General Surgery,Professional,Denied,8,4158.79,48.3,1,2,3,2
+2025-05,General Surgery,Professional,Paid,34,18322.82,28.6,30,3,1,0
+2025-05,General Surgery,Facility,Submitted,5,17857.02,6.4,5,0,0,0
+2025-05,General Surgery,Facility,In Review,6,17505.38,31.2,3,2,1,0
+2025-05,General Surgery,Facility,Approved,8,23950.94,22.4,6,2,0,0
+2025-05,General Surgery,Facility,Denied,5,15054.96,49.1,0,2,2,1
+2025-05,General Surgery,Facility,Paid,21,77127.06,24.4,19,2,0,0
+2025-05,General Surgery,Pharmacy,Submitted,3,559.9,6.6,3,0,0,0
+2025-05,General Surgery,Pharmacy,In Review,5,1003.86,27.1,2,2,1,0
+2025-05,General Surgery,Pharmacy,Approved,7,1453.85,24.0,5,2,0,0
+2025-05,General Surgery,Pharmacy,Denied,3,570.18,50.6,0,1,1,1
+2025-05,General Surgery,Pharmacy,Paid,15,2852.27,24.0,13,2,0,0
+2025-05,General Surgery,Lab,Submitted,3,406.57,8.1,3,0,0,0
+2025-05,General Surgery,Lab,In Review,3,416.01,28.1,2,1,0,0
+2025-05,General Surgery,Lab,Approved,5,805.61,23.5,4,1,0,0
+2025-05,General Surgery,Lab,Denied,3,423.16,53.4,0,1,1,1
+2025-05,General Surgery,Lab,Paid,11,1611.1,25.0,10,1,0,0
+2025-05,General Surgery,Imaging,Submitted,2,1393.24,7.9,2,0,0,0
+2025-05,General Surgery,Imaging,In Review,3,2421.63,30.5,2,1,0,0
+2025-05,General Surgery,Imaging,Approved,4,2874.44,21.2,3,1,0,0
+2025-05,General Surgery,Imaging,Denied,3,1957.56,54.7,0,1,1,1
+2025-05,General Surgery,Imaging,Paid,11,8185.54,26.7,10,1,0,0
+2025-05,Neurology,Professional,Submitted,9,4520.93,6.7,8,1,0,0
+2025-05,Neurology,Professional,In Review,12,5508.79,29.9,5,4,2,1
+2025-05,Neurology,Professional,Approved,15,6508.11,23.0,11,3,1,0
+2025-05,Neurology,Professional,Denied,9,4386.67,51.5,1,3,3,2
+2025-05,Neurology,Professional,Paid,40,20633.83,24.7,35,4,1,0
+2025-05,Neurology,Facility,Submitted,6,17679.27,6.6,5,1,0,0
+2025-05,Neurology,Facility,In Review,7,21142.02,32.4,3,3,1,0
+2025-05,Neurology,Facility,Approved,9,27059.36,23.9,7,2,0,0
+2025-05,Neurology,Facility,Denied,7,20577.83,54.0,1,2,3,1
+2025-05,Neurology,Facility,Paid,24,82825.8,23.5,21,3,0,0
+2025-05,Neurology,Pharmacy,Submitted,4,891.41,6.4,4,0,0,0
+2025-05,Neurology,Pharmacy,In Review,5,1111.97,25.8,2,2,1,0
+2025-05,Neurology,Pharmacy,Approved,7,1408.79,20.0,5,2,0,0
+2025-05,Neurology,Pharmacy,Denied,4,799.4,45.9,0,1,2,1
+2025-05,Neurology,Pharmacy,Paid,18,3930.74,26.1,16,2,0,0
+2025-05,Neurology,Lab,Submitted,4,545.38,7.5,4,0,0,0
+2025-05,Neurology,Lab,In Review,5,664.43,29.8,2,2,1,0
+2025-05,Neurology,Lab,Approved,7,1024.07,24.2,5,2,0,0
+2025-05,Neurology,Lab,Denied,4,591.19,47.2,0,1,2,1
+2025-05,Neurology,Lab,Paid,14,2332.86,24.9,13,1,0,0
+2025-05,Neurology,Imaging,Submitted,3,2421.75,8.1,3,0,0,0
+2025-05,Neurology,Imaging,In Review,4,3311.73,30.8,2,2,0,0
+2025-05,Neurology,Imaging,Approved,6,4520.81,20.1,5,1,0,0
+2025-05,Neurology,Imaging,Denied,3,2002.4,48.7,0,1,1,1
+2025-05,Neurology,Imaging,Paid,14,10122.44,27.6,13,1,0,0
+2025-06,Cardiology,Professional,Submitted,13,7112.95,8.0,11,2,0,0
+2025-06,Cardiology,Professional,In Review,17,7439.71,32.4,6,6,3,2
+2025-06,Cardiology,Professional,Approved,20,8596.11,21.0,14,5,1,0
+2025-06,Cardiology,Professional,Denied,13,6579.72,44.2,2,4,4,3
+2025-06,Cardiology,Professional,Paid,59,25558.97,25.5,51,6,2,0
+2025-06,Cardiology,Facility,Submitted,8,27599.62,6.5,7,1,0,0
+2025-06,Cardiology,Facility,In Review,10,27414.26,31.2,4,3,2,1
+2025-06,Cardiology,Facility,Approved,16,53650.64,22.4,11,4,1,0
+2025-06,Cardiology,Facility,Denied,9,26682.8,44.8,1,3,3,2
+2025-06,Cardiology,Facility,Paid,38,112857.52,26.5,33,4,1,0
+2025-06,Cardiology,Pharmacy,Submitted,5,1045.69,7.1,5,0,0,0
+2025-06,Cardiology,Pharmacy,In Review,7,1631.73,30.7,3,3,1,0
+2025-06,Cardiology,Pharmacy,Approved,9,1672.15,19.8,7,2,0,0
+2025-06,Cardiology,Pharmacy,Denied,5,911.1,45.9,0,2,2,1
+2025-06,Cardiology,Pharmacy,Paid,27,6228.32,28.7,24,3,0,0
+2025-06,Cardiology,Lab,Submitted,5,776.87,8.0,5,0,0,0
+2025-06,Cardiology,Lab,In Review,7,1087.0,31.4,3,3,1,0
+2025-06,Cardiology,Lab,Approved,9,1192.65,19.8,7,2,0,0
+2025-06,Cardiology,Lab,Denied,5,636.19,46.1,0,2,2,1
+2025-06,Cardiology,Lab,Paid,21,2862.49,29.9,19,2,0,0
+2025-06,Cardiology,Imaging,Submitted,4,2796.58,7.0,4,0,0,0
+2025-06,Cardiology,Imaging,In Review,6,4494.27,26.0,3,2,1,0
+2025-06,Cardiology,Imaging,Approved,7,4338.73,22.9,5,2,0,0
+2025-06,Cardiology,Imaging,Denied,5,4040.09,46.5,0,2,2,1
+2025-06,Cardiology,Imaging,Paid,20,15666.04,29.2,18,2,0,0
+2025-06,Orthopedics,Professional,Submitted,10,4398.97,6.5,9,1,0,0
+2025-06,Orthopedics,Professional,In Review,15,7051.96,27.5,6,5,3,1
+2025-06,Orthopedics,Professional,Approved,20,9587.56,24.6,14,5,1,0
+2025-06,Orthopedics,Professional,Denied,12,6398.0,53.3,2,3,4,3
+2025-06,Orthopedics,Professional,Paid,45,18781.39,29.5,39,5,1,0
+2025-06,Orthopedics,Facility,Submitted,7,23138.6,6.8,6,1,0,0
+2025-06,Orthopedics,Facility,In Review,9,28508.33,28.3,4,3,1,1
+2025-06,Orthopedics,Facility,Approved,13,36296.95,21.9,9,3,1,0
+2025-06,Orthopedics,Facility,Denied,7,23117.19,45.4,1,2,3,1
+2025-06,Orthopedics,Facility,Paid,31,108243.74,25.1,27,4,0,0
+2025-06,Orthopedics,Pharmacy,Submitted,5,966.53,7.0,5,0,0,0
+2025-06,Orthopedics,Pharmacy,In Review,8,1628.17,27.5,3,3,1,1
+2025-06,Orthopedics,Pharmacy,Approved,9,1825.16,23.5,7,2,0,0
+2025-06,Orthopedics,Pharmacy,Denied,6,1270.05,49.4,1,2,2,1
+2025-06,Orthopedics,Pharmacy,Paid,24,5755.69,26.7,21,3,0,0
+2025-06,Orthopedics,Lab,Submitted,5,825.24,7.2,5,0,0,0
+2025-06,Orthopedics,Lab,In Review,6,917.09,31.6,3,2,1,0
+2025-06,Orthopedics,Lab,Approved,8,1101.12,20.9,6,2,0,0
+2025-06,Orthopedics,Lab,Denied,4,513.54,53.4,0,1,2,1
+2025-06,Orthopedics,Lab,Paid,18,2530.38,29.0,16,2,0,0
+2025-06,Orthopedics,Imaging,Submitted,4,3267.29,6.7,4,0,0,0
+2025-06,Orthopedics,Imaging,In Review,6,3752.45,28.7,3,2,1,0
+2025-06,Orthopedics,Imaging,Approved,7,4843.5,22.1,5,2,0,0
+2025-06,Orthopedics,Imaging,Denied,4,2939.65,45.6,0,1,2,1
+2025-06,Orthopedics,Imaging,Paid,19,14023.87,26.7,17,2,0,0
+2025-06,Pediatrics,Professional,Submitted,13,6359.0,6.9,11,2,0,0
+2025-06,Pediatrics,Professional,In Review,18,7542.98,27.2,7,6,3,2
+2025-06,Pediatrics,Professional,Approved,24,10300.8,20.6,17,6,1,0
+2025-06,Pediatrics,Professional,Denied,14,7181.34,44.6,2,4,5,3
+2025-06,Pediatrics,Professional,Paid,55,25973.25,27.4,48,6,1,0
+2025-06,Pediatrics,Facility,Submitted,10,34457.53,8.1,9,1,0,0
+2025-06,Pediatrics,Facility,In Review,13,37395.55,27.6,5,5,2,1
+2025-06,Pediatrics,Facility,Approved,16,49575.61,23.9,11,4,1,0
+2025-06,Pediatrics,Facility,Denied,10,28628.7,50.3,1,3,3,3
+2025-06,Pediatrics,Facility,Paid,50,145032.7,28.6,44,5,1,0
+2025-06,Pediatrics,Pharmacy,Submitted,7,1522.72,7.2,6,1,0,0
+2025-06,Pediatrics,Pharmacy,In Review,9,1848.11,26.4,4,3,1,1
+2025-06,Pediatrics,Pharmacy,Approved,13,2999.61,20.9,9,3,1,0
+2025-06,Pediatrics,Pharmacy,Denied,8,1545.0,45.5,1,2,3,2
+2025-06,Pediatrics,Pharmacy,Paid,33,6169.31,28.7,29,4,0,0
+2025-06,Pediatrics,Lab,Submitted,6,835.68,7.1,5,1,0,0
+2025-06,Pediatrics,Lab,In Review,8,1163.57,27.2,3,3,1,1
+2025-06,Pediatrics,Lab,Approved,10,1380.47,19.9,7,3,0,0
+2025-06,Pediatrics,Lab,Denied,6,889.3,51.3,1,2,2,1
+2025-06,Pediatrics,Lab,Paid,27,3963.63,25.1,24,3,0,0
+2025-06,Pediatrics,Imaging,Submitted,4,3083.84,6.6,4,0,0,0
+2025-06,Pediatrics,Imaging,In Review,7,5186.58,31.3,3,3,1,0
+2025-06,Pediatrics,Imaging,Approved,8,5246.63,24.1,6,2,0,0
+2025-06,Pediatrics,Imaging,Denied,5,3554.31,53.0,0,2,2,1
+2025-06,Pediatrics,Imaging,Paid,24,16051.44,29.4,21,3,0,0
+2025-06,Radiology,Professional,Submitted,13,5612.6,6.9,11,2,0,0
+2025-06,Radiology,Professional,In Review,15,7855.94,32.7,6,5,3,1
+2025-06,Radiology,Professional,Approved,20,9097.76,20.8,14,5,1,0
+2025-06,Radiology,Professional,Denied,12,6256.7,44.7,2,3,4,3
+2025-06,Radiology,Professional,Paid,59,31950.47,24.4,51,6,2,0
+2025-06,Radiology,Facility,Submitted,10,35385.14,7.7,9,1,0,0
+2025-06,Radiology,Facility,In Review,11,30642.07,31.3,4,4,2,1
+2025-06,Radiology,Facility,Approved,15,50425.42,23.2,11,3,1,0
+2025-06,Radiology,Facility,Denied,9,25718.82,48.7,1,3,3,2
+2025-06,Radiology,Facility,Paid,44,133665.06,24.0,38,5,1,0
+2025-06,Radiology,Pharmacy,Submitted,6,1275.44,7.9,5,1,0,0
+2025-06,Radiology,Pharmacy,In Review,8,1924.5,31.8,3,3,1,1
+2025-06,Radiology,Pharmacy,Approved,11,2220.64,20.8,8,3,0,0
+2025-06,Radiology,Pharmacy,Denied,7,1531.45,50.3,1,2,3,1
+2025-06,Radiology,Pharmacy,Paid,32,6664.11,28.7,28,4,0,0
+2025-06,Radiology,Lab,Submitted,5,625.41,7.6,5,0,0,0
+2025-06,Radiology,Lab,In Review,7,900.77,31.4,3,3,1,0
+2025-06,Radiology,Lab,Approved,9,1236.15,23.7,7,2,0,0
+2025-06,Radiology,Lab,Denied,5,751.5,51.4,0,2,2,1
+2025-06,Radiology,Lab,Paid,22,3116.15,25.1,19,3,0,0
+2025-06,Radiology,Imaging,Submitted,4,2457.86,8.1,4,0,0,0
+2025-06,Radiology,Imaging,In Review,6,4059.25,32.2,3,2,1,0
+2025-06,Radiology,Imaging,Approved,7,5212.86,23.0,5,2,0,0
+2025-06,Radiology,Imaging,Denied,5,3200.12,45.0,0,2,2,1
+2025-06,Radiology,Imaging,Paid,21,12892.3,28.2,19,2,0,0
+2025-06,Oncology,Professional,Submitted,8,4169.27,8.2,7,1,0,0
+2025-06,Oncology,Professional,In Review,10,4964.92,30.8,4,3,2,1
+2025-06,Oncology,Professional,Approved,14,7512.01,21.7,10,3,1,0
+2025-06,Oncology,Professional,Denied,8,4248.28,55.3,1,2,3,2
+2025-06,Oncology,Professional,Paid,34,17552.23,25.0,30,3,1,0
+2025-06,Oncology,Facility,Submitted,5,17703.57,6.7,5,0,0,0
+2025-06,Oncology,Facility,In Review,6,20576.91,28.6,3,2,1,0
+2025-06,Oncology,Facility,Approved,8,23526.4,23.5,6,2,0,0
+2025-06,Oncology,Facility,Denied,6,20702.95,45.2,1,2,2,1
+2025-06,Oncology,Facility,Paid,23,80160.11,25.3,20,3,0,0
+2025-06,Oncology,Pharmacy,Submitted,3,598.51,6.8,3,0,0,0
+2025-06,Oncology,Pharmacy,In Review,5,1044.68,30.0,2,2,1,0
+2025-06,Oncology,Pharmacy,Approved,6,1301.59,22.3,5,1,0,0
+2025-06,Oncology,Pharmacy,Denied,4,817.9,53.4,0,1,2,1
+2025-06,Oncology,Pharmacy,Paid,15,3224.6,29.6,13,2,0,0
+2025-06,Oncology,Lab,Submitted,3,484.07,8.1,3,0,0,0
+2025-06,Oncology,Lab,In Review,4,527.08,29.6,2,2,0,0
+2025-06,Oncology,Lab,Approved,6,867.43,21.1,5,1,0,0
+2025-06,Oncology,Lab,Denied,4,504.2,46.1,0,1,2,1
+2025-06,Oncology,Lab,Paid,14,1742.5,28.3,13,1,0,0
+2025-06,Oncology,Imaging,Submitted,2,1445.29,7.0,2,0,0,0
+2025-06,Oncology,Imaging,In Review,4,2720.62,25.8,2,2,0,0
+2025-06,Oncology,Imaging,Approved,5,3179.55,20.5,4,1,0,0
+2025-06,Oncology,Imaging,Denied,3,2050.73,45.9,0,1,1,1
+2025-06,Oncology,Imaging,Paid,12,7974.54,24.0,11,1,0,0
+2025-06,General Surgery,Professional,Submitted,7,2952.04,7.4,6,1,0,0
+2025-06,General Surgery,Professional,In Review,9,4673.93,26.2,4,3,1,1
+2025-06,General Surgery,Professional,Approved,13,7070.84,20.2,9,3,1,0
+2025-06,General Surgery,Professional,Denied,7,3461.27,55.8,1,2,3,1
+2025-06,General Surgery,Professional,Paid,33,16546.36,24.6,29,4,0,0
+2025-06,General Surgery,Facility,Submitted,5,16543.78,6.6,5,0,0,0
+2025-06,General Surgery,Facility,In Review,7,20635.36,30.6,3,3,1,0
+2025-06,General Surgery,Facility,Approved,9,31807.95,24.6,7,2,0,0
+2025-06,General Surgery,Facility,Denied,5,16818.85,44.2,0,2,2,1
+2025-06,General Surgery,Facility,Paid,25,82777.84,26.3,22,3,0,0
+2025-06,General Surgery,Pharmacy,Submitted,3,693.03,7.9,3,0,0,0
+2025-06,General Surgery,Pharmacy,In Review,4,807.53,32.4,2,2,0,0
+2025-06,General Surgery,Pharmacy,Approved,6,1276.5,22.5,5,1,0,0
+2025-06,General Surgery,Pharmacy,Denied,4,893.69,50.7,0,1,2,1
+2025-06,General Surgery,Pharmacy,Paid,16,3722.59,26.5,14,2,0,0
+2025-06,General Surgery,Lab,Submitted,3,450.76,7.4,3,0,0,0
+2025-06,General Surgery,Lab,In Review,4,509.19,27.8,2,2,0,0
+2025-06,General Surgery,Lab,Approved,5,820.57,21.6,4,1,0,0
+2025-06,General Surgery,Lab,Denied,3,424.6,49.5,0,1,1,1
+2025-06,General Surgery,Lab,Paid,12,1622.21,25.6,11,1,0,0
+2025-06,General Surgery,Imaging,Submitted,2,1510.03,7.1,2,0,0,0
+2025-06,General Surgery,Imaging,In Review,3,2063.8,32.5,2,1,0,0
+2025-06,General Surgery,Imaging,Approved,4,2971.7,22.1,3,1,0,0
+2025-06,General Surgery,Imaging,Denied,3,2075.19,49.2,0,1,1,1
+2025-06,General Surgery,Imaging,Paid,12,7761.2,27.4,11,1,0,0
+2025-06,Neurology,Professional,Submitted,9,4606.91,6.5,8,1,0,0
+2025-06,Neurology,Professional,In Review,12,6111.09,29.7,5,4,2,1
+2025-06,Neurology,Professional,Approved,14,6013.02,22.6,10,3,1,0
+2025-06,Neurology,Professional,Denied,9,4788.66,47.2,1,3,3,2
+2025-06,Neurology,Professional,Paid,39,17309.5,27.7,34,4,1,0
+2025-06,Neurology,Facility,Submitted,5,14428.89,7.5,5,0,0,0
+2025-06,Neurology,Facility,In Review,7,24224.7,26.6,3,3,1,0
+2025-06,Neurology,Facility,Approved,10,32899.31,19.4,7,3,0,0
+2025-06,Neurology,Facility,Denied,5,15079.55,51.3,0,2,2,1
+2025-06,Neurology,Facility,Paid,28,78600.26,28.1,25,3,0,0
+2025-06,Neurology,Pharmacy,Submitted,4,844.07,8.1,4,0,0,0
+2025-06,Neurology,Pharmacy,In Review,6,1387.88,27.6,3,2,1,0
+2025-06,Neurology,Pharmacy,Approved,8,1930.26,24.1,6,2,0,0
+2025-06,Neurology,Pharmacy,Denied,4,927.23,45.2,0,1,2,1
+2025-06,Neurology,Pharmacy,Paid,19,3801.05,27.9,17,2,0,0
+2025-06,Neurology,Lab,Submitted,3,399.93,6.5,3,0,0,0
+2025-06,Neurology,Lab,In Review,5,798.97,31.0,2,2,1,0
+2025-06,Neurology,Lab,Approved,6,950.18,21.3,5,1,0,0
+2025-06,Neurology,Lab,Denied,4,581.47,45.4,0,1,2,1
+2025-06,Neurology,Lab,Paid,16,2473.25,27.6,14,2,0,0
+2025-06,Neurology,Imaging,Submitted,3,2329.39,6.8,3,0,0,0
+2025-06,Neurology,Imaging,In Review,5,3324.53,29.2,2,2,1,0
+2025-06,Neurology,Imaging,Approved,5,3350.36,21.2,4,1,0,0
+2025-06,Neurology,Imaging,Denied,3,2205.43,55.0,0,1,1,1
+2025-06,Neurology,Imaging,Paid,14,10104.38,29.2,13,1,0,0

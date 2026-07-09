@@ -1,0 +1,6 @@
+# Normalise line endings
+* text=auto eol=lf
+
+# Keep generated data out of language stats
+dashboard/data.js linguist-generated=true
+data/*.csv linguist-generated=true

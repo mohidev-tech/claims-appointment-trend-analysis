@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generated SQLite databases (regenerate with sql/load_and_validate.py)
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tmp

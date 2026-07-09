@@ -1,0 +1,1891 @@
+month,department,service_category,appointment_status,appointments,avg_lead_time_days
+2024-01,Cardiology,Outpatient,Completed,190,12.7
+2024-01,Cardiology,Outpatient,Cancelled,53,12.4
+2024-01,Cardiology,Outpatient,No-Show,23,17.8
+2024-01,Cardiology,Inpatient,Completed,66,11.8
+2024-01,Cardiology,Inpatient,Cancelled,20,13.6
+2024-01,Cardiology,Inpatient,No-Show,7,17.6
+2024-01,Cardiology,Diagnostic,Completed,111,8.3
+2024-01,Cardiology,Diagnostic,Cancelled,33,10.8
+2024-01,Cardiology,Diagnostic,No-Show,12,10.2
+2024-01,Cardiology,Emergency,Completed,47,1.4
+2024-01,Cardiology,Emergency,Cancelled,14,2.0
+2024-01,Cardiology,Emergency,No-Show,6,2.2
+2024-01,Cardiology,Elective,Completed,58,24.2
+2024-01,Cardiology,Elective,Cancelled,15,29.6
+2024-01,Cardiology,Elective,No-Show,6,38.4
+2024-01,Orthopedics,Outpatient,Completed,172,11.5
+2024-01,Orthopedics,Outpatient,Cancelled,53,14.0
+2024-01,Orthopedics,Outpatient,No-Show,19,14.1
+2024-01,Orthopedics,Inpatient,Completed,56,12.6
+2024-01,Orthopedics,Inpatient,Cancelled,16,13.9
+2024-01,Orthopedics,Inpatient,No-Show,6,17.2
+2024-01,Orthopedics,Diagnostic,Completed,104,9.8
+2024-01,Orthopedics,Diagnostic,Cancelled,29,10.3
+2024-01,Orthopedics,Diagnostic,No-Show,12,11.0
+2024-01,Orthopedics,Emergency,Completed,44,1.3
+2024-01,Orthopedics,Emergency,Cancelled,12,1.9
+2024-01,Orthopedics,Emergency,No-Show,5,2.0
+2024-01,Orthopedics,Elective,Completed,52,28.6
+2024-01,Orthopedics,Elective,Cancelled,15,29.5
+2024-01,Orthopedics,Elective,No-Show,6,32.2
+2024-01,Pediatrics,Outpatient,Completed,222,13.0
+2024-01,Pediatrics,Outpatient,Cancelled,62,14.7
+2024-01,Pediatrics,Outpatient,No-Show,25,15.9
+2024-01,Pediatrics,Inpatient,Completed,78,11.8
+2024-01,Pediatrics,Inpatient,Cancelled,21,12.9
+2024-01,Pediatrics,Inpatient,No-Show,8,15.2
+2024-01,Pediatrics,Diagnostic,Completed,139,8.4
+2024-01,Pediatrics,Diagnostic,Cancelled,37,10.0
+2024-01,Pediatrics,Diagnostic,No-Show,14,12.3
+2024-01,Pediatrics,Emergency,Completed,54,1.5
+2024-01,Pediatrics,Emergency,Cancelled,16,1.9
+2024-01,Pediatrics,Emergency,No-Show,6,1.8
+2024-01,Pediatrics,Elective,Completed,62,27.7
+2024-01,Pediatrics,Elective,Cancelled,16,29.7
+2024-01,Pediatrics,Elective,No-Show,7,36.4
+2024-01,Radiology,Outpatient,Completed,182,11.6
+2024-01,Radiology,Outpatient,Cancelled,53,13.3
+2024-01,Radiology,Outpatient,No-Show,20,16.2
+2024-01,Radiology,Inpatient,Completed,68,13.7
+2024-01,Radiology,Inpatient,Cancelled,17,15.9
+2024-01,Radiology,Inpatient,No-Show,7,16.5
+2024-01,Radiology,Diagnostic,Completed,109,9.6
+2024-01,Radiology,Diagnostic,Cancelled,34,10.5
+2024-01,Radiology,Diagnostic,No-Show,13,10.9
+2024-01,Radiology,Emergency,Completed,45,1.4
+2024-01,Radiology,Emergency,Cancelled,14,1.7
+2024-01,Radiology,Emergency,No-Show,5,2.0
+2024-01,Radiology,Elective,Completed,54,29.8
+2024-01,Radiology,Elective,Cancelled,16,32.4
+2024-01,Radiology,Elective,No-Show,6,37.8
+2024-01,Oncology,Outpatient,Completed,123,11.7
+2024-01,Oncology,Outpatient,Cancelled,35,12.2
+2024-01,Oncology,Outpatient,No-Show,13,15.6
+2024-01,Oncology,Inpatient,Completed,42,12.3
+2024-01,Oncology,Inpatient,Cancelled,11,12.8
+2024-01,Oncology,Inpatient,No-Show,4,17.6
+2024-01,Oncology,Diagnostic,Completed,74,7.7
+2024-01,Oncology,Diagnostic,Cancelled,20,12.1
+2024-01,Oncology,Diagnostic,No-Show,8,11.6
+2024-01,Oncology,Emergency,Completed,32,1.5
+2024-01,Oncology,Emergency,Cancelled,8,2.0
+2024-01,Oncology,Emergency,No-Show,3,2.0
+2024-01,Oncology,Elective,Completed,37,28.2
+2024-01,Oncology,Elective,Cancelled,10,32.4
+2024-01,Oncology,Elective,No-Show,4,31.2
+2024-01,General Surgery,Outpatient,Completed,110,12.2
+2024-01,General Surgery,Outpatient,Cancelled,33,12.5
+2024-01,General Surgery,Outpatient,No-Show,11,16.4
+2024-01,General Surgery,Inpatient,Completed,36,13.0
+2024-01,General Surgery,Inpatient,Cancelled,10,12.5
+2024-01,General Surgery,Inpatient,No-Show,4,17.5
+2024-01,General Surgery,Diagnostic,Completed,63,8.7
+2024-01,General Surgery,Diagnostic,Cancelled,16,11.7
+2024-01,General Surgery,Diagnostic,No-Show,7,12.8
+2024-01,General Surgery,Emergency,Completed,26,1.5
+2024-01,General Surgery,Emergency,Cancelled,8,1.6
+2024-01,General Surgery,Emergency,No-Show,3,2.2
+2024-01,General Surgery,Elective,Completed,31,32.1
+2024-01,General Surgery,Elective,Cancelled,8,36.9
+2024-01,General Surgery,Elective,No-Show,3,39.1
+2024-01,Neurology,Outpatient,Completed,135,11.3
+2024-01,Neurology,Outpatient,Cancelled,41,15.3
+2024-01,Neurology,Outpatient,No-Show,15,16.4
+2024-01,Neurology,Inpatient,Completed,45,11.1
+2024-01,Neurology,Inpatient,Cancelled,12,16.0
+2024-01,Neurology,Inpatient,No-Show,5,14.4
+2024-01,Neurology,Diagnostic,Completed,74,8.1
+2024-01,Neurology,Diagnostic,Cancelled,22,10.9
+2024-01,Neurology,Diagnostic,No-Show,8,13.0
+2024-01,Neurology,Emergency,Completed,31,1.7
+2024-01,Neurology,Emergency,Cancelled,9,1.8
+2024-01,Neurology,Emergency,No-Show,4,1.7
+2024-01,Neurology,Elective,Completed,37,29.5
+2024-01,Neurology,Elective,Cancelled,10,29.3
+2024-01,Neurology,Elective,No-Show,4,36.5
+2024-02,Cardiology,Outpatient,Completed,191,13.1
+2024-02,Cardiology,Outpatient,Cancelled,54,15.1
+2024-02,Cardiology,Outpatient,No-Show,20,16.7
+2024-02,Cardiology,Inpatient,Completed,62,11.6
+2024-02,Cardiology,Inpatient,Cancelled,16,13.3
+2024-02,Cardiology,Inpatient,No-Show,7,15.5
+2024-02,Cardiology,Diagnostic,Completed,112,10.1
+2024-02,Cardiology,Diagnostic,Cancelled,34,9.1
+2024-02,Cardiology,Diagnostic,No-Show,12,11.9
+2024-02,Cardiology,Emergency,Completed,48,1.5
+2024-02,Cardiology,Emergency,Cancelled,12,2.0
+2024-02,Cardiology,Emergency,No-Show,5,2.0
+2024-02,Cardiology,Elective,Completed,58,30.4
+2024-02,Cardiology,Elective,Cancelled,17,28.3
+2024-02,Cardiology,Elective,No-Show,7,32.1
+2024-02,Orthopedics,Outpatient,Completed,177,12.1
+2024-02,Orthopedics,Outpatient,Cancelled,53,14.6
+2024-02,Orthopedics,Outpatient,No-Show,19,17.3
+2024-02,Orthopedics,Inpatient,Completed,61,11.7
+2024-02,Orthopedics,Inpatient,Cancelled,17,14.8
+2024-02,Orthopedics,Inpatient,No-Show,7,17.3
+2024-02,Orthopedics,Diagnostic,Completed,103,9.7
+2024-02,Orthopedics,Diagnostic,Cancelled,28,11.6
+2024-02,Orthopedics,Diagnostic,No-Show,11,10.3
+2024-02,Orthopedics,Emergency,Completed,40,1.6
+2024-02,Orthopedics,Emergency,Cancelled,11,1.7
+2024-02,Orthopedics,Emergency,No-Show,4,1.7
+2024-02,Orthopedics,Elective,Completed,55,25.1
+2024-02,Orthopedics,Elective,Cancelled,14,29.2
+2024-02,Orthopedics,Elective,No-Show,6,31.2
+2024-02,Pediatrics,Outpatient,Completed,210,12.3
+2024-02,Pediatrics,Outpatient,Cancelled,55,14.9
+2024-02,Pediatrics,Outpatient,No-Show,21,15.1
+2024-02,Pediatrics,Inpatient,Completed,74,13.3
+2024-02,Pediatrics,Inpatient,Cancelled,21,12.2
+2024-02,Pediatrics,Inpatient,No-Show,9,14.1
+2024-02,Pediatrics,Diagnostic,Completed,128,8.8
+2024-02,Pediatrics,Diagnostic,Cancelled,34,9.2
+2024-02,Pediatrics,Diagnostic,No-Show,14,11.3
+2024-02,Pediatrics,Emergency,Completed,55,1.3
+2024-02,Pediatrics,Emergency,Cancelled,14,2.0
+2024-02,Pediatrics,Emergency,No-Show,7,1.7
+2024-02,Pediatrics,Elective,Completed,67,30.5
+2024-02,Pediatrics,Elective,Cancelled,21,35.8
+2024-02,Pediatrics,Elective,No-Show,8,38.0
+2024-02,Radiology,Outpatient,Completed,205,12.1
+2024-02,Radiology,Outpatient,Cancelled,54,15.7
+2024-02,Radiology,Outpatient,No-Show,23,15.4
+2024-02,Radiology,Inpatient,Completed,67,10.7
+2024-02,Radiology,Inpatient,Cancelled,19,14.1
+2024-02,Radiology,Inpatient,No-Show,7,15.2
+2024-02,Radiology,Diagnostic,Completed,113,8.5
+2024-02,Radiology,Diagnostic,Cancelled,31,10.2
+2024-02,Radiology,Diagnostic,No-Show,12,12.4
+2024-02,Radiology,Emergency,Completed,46,1.5
+2024-02,Radiology,Emergency,Cancelled,14,1.7
+2024-02,Radiology,Emergency,No-Show,6,2.0
+2024-02,Radiology,Elective,Completed,60,28.3
+2024-02,Radiology,Elective,Cancelled,18,34.4
+2024-02,Radiology,Elective,No-Show,7,34.1
+2024-02,Oncology,Outpatient,Completed,127,13.3
+2024-02,Oncology,Outpatient,Cancelled,34,12.6
+2024-02,Oncology,Outpatient,No-Show,15,16.1
+2024-02,Oncology,Inpatient,Completed,40,13.6
+2024-02,Oncology,Inpatient,Cancelled,12,12.6
+2024-02,Oncology,Inpatient,No-Show,4,17.7
+2024-02,Oncology,Diagnostic,Completed,76,9.8
+2024-02,Oncology,Diagnostic,Cancelled,22,12.0
+2024-02,Oncology,Diagnostic,No-Show,9,10.8
+2024-02,Oncology,Emergency,Completed,31,1.4
+2024-02,Oncology,Emergency,Cancelled,8,1.8
+2024-02,Oncology,Emergency,No-Show,4,2.0
+2024-02,Oncology,Elective,Completed,36,30.5
+2024-02,Oncology,Elective,Cancelled,10,33.0
+2024-02,Oncology,Elective,No-Show,4,37.5
+2024-02,General Surgery,Outpatient,Completed,117,10.5
+2024-02,General Surgery,Outpatient,Cancelled,30,14.8
+2024-02,General Surgery,Outpatient,No-Show,12,15.2
+2024-02,General Surgery,Inpatient,Completed,39,13.4
+2024-02,General Surgery,Inpatient,Cancelled,11,15.3
+2024-02,General Surgery,Inpatient,No-Show,4,14.5
+2024-02,General Surgery,Diagnostic,Completed,64,8.0
+2024-02,General Surgery,Diagnostic,Cancelled,17,12.0
+2024-02,General Surgery,Diagnostic,No-Show,7,11.5
+2024-02,General Surgery,Emergency,Completed,26,1.7
+2024-02,General Surgery,Emergency,Cancelled,8,1.9
+2024-02,General Surgery,Emergency,No-Show,3,1.9
+2024-02,General Surgery,Elective,Completed,31,31.8
+2024-02,General Surgery,Elective,Cancelled,10,29.3
+2024-02,General Surgery,Elective,No-Show,4,40.2
+2024-02,Neurology,Outpatient,Completed,136,12.7
+2024-02,Neurology,Outpatient,Cancelled,36,12.1
+2024-02,Neurology,Outpatient,No-Show,15,15.4
+2024-02,Neurology,Inpatient,Completed,49,11.8
+2024-02,Neurology,Inpatient,Cancelled,13,13.3
+2024-02,Neurology,Inpatient,No-Show,5,17.6
+2024-02,Neurology,Diagnostic,Completed,83,10.0
+2024-02,Neurology,Diagnostic,Cancelled,22,9.9
+2024-02,Neurology,Diagnostic,No-Show,10,12.9
+2024-02,Neurology,Emergency,Completed,30,1.6
+2024-02,Neurology,Emergency,Cancelled,9,1.6
+2024-02,Neurology,Emergency,No-Show,4,2.2
+2024-02,Neurology,Elective,Completed,38,30.3
+2024-02,Neurology,Elective,Cancelled,10,30.0
+2024-02,Neurology,Elective,No-Show,4,40.9
+2024-03,Cardiology,Outpatient,Completed,206,10.4
+2024-03,Cardiology,Outpatient,Cancelled,42,14.6
+2024-03,Cardiology,Outpatient,No-Show,18,17.0
+2024-03,Cardiology,Inpatient,Completed,66,13.1
+2024-03,Cardiology,Inpatient,Cancelled,16,16.0
+2024-03,Cardiology,Inpatient,No-Show,6,16.9
+2024-03,Cardiology,Diagnostic,Completed,120,8.2
+2024-03,Cardiology,Diagnostic,Cancelled,29,9.4
+2024-03,Cardiology,Diagnostic,No-Show,11,11.7
+2024-03,Cardiology,Emergency,Completed,50,1.3
+2024-03,Cardiology,Emergency,Cancelled,12,1.9
+2024-03,Cardiology,Emergency,No-Show,5,1.8
+2024-03,Cardiology,Elective,Completed,56,28.9
+2024-03,Cardiology,Elective,Cancelled,13,28.6
+2024-03,Cardiology,Elective,No-Show,6,37.7
+2024-03,Orthopedics,Outpatient,Completed,166,10.8
+2024-03,Orthopedics,Outpatient,Cancelled,41,12.4
+2024-03,Orthopedics,Outpatient,No-Show,17,14.1
+2024-03,Orthopedics,Inpatient,Completed,67,12.5
+2024-03,Orthopedics,Inpatient,Cancelled,15,14.5
+2024-03,Orthopedics,Inpatient,No-Show,7,13.9
+2024-03,Orthopedics,Diagnostic,Completed,116,9.5
+2024-03,Orthopedics,Diagnostic,Cancelled,25,11.1
+2024-03,Orthopedics,Diagnostic,No-Show,12,13.2
+2024-03,Orthopedics,Emergency,Completed,43,1.5
+2024-03,Orthopedics,Emergency,Cancelled,10,1.6
+2024-03,Orthopedics,Emergency,No-Show,4,1.7
+2024-03,Orthopedics,Elective,Completed,53,28.9
+2024-03,Orthopedics,Elective,Cancelled,12,34.4
+2024-03,Orthopedics,Elective,No-Show,5,35.4
+2024-03,Pediatrics,Outpatient,Completed,230,11.3
+2024-03,Pediatrics,Outpatient,Cancelled,50,12.2
+2024-03,Pediatrics,Outpatient,No-Show,23,15.2
+2024-03,Pediatrics,Inpatient,Completed,81,12.2
+2024-03,Pediatrics,Inpatient,Cancelled,18,15.0
+2024-03,Pediatrics,Inpatient,No-Show,8,16.3
+2024-03,Pediatrics,Diagnostic,Completed,142,9.1
+2024-03,Pediatrics,Diagnostic,Cancelled,32,10.4
+2024-03,Pediatrics,Diagnostic,No-Show,15,12.1
+2024-03,Pediatrics,Emergency,Completed,56,1.7
+2024-03,Pediatrics,Emergency,Cancelled,13,2.0
+2024-03,Pediatrics,Emergency,No-Show,6,2.0
+2024-03,Pediatrics,Elective,Completed,69,30.8
+2024-03,Pediatrics,Elective,Cancelled,17,33.0
+2024-03,Pediatrics,Elective,No-Show,7,32.2
+2024-03,Radiology,Outpatient,Completed,193,11.2
+2024-03,Radiology,Outpatient,Cancelled,47,13.5
+2024-03,Radiology,Outpatient,No-Show,17,14.1
+2024-03,Radiology,Inpatient,Completed,70,13.2
+2024-03,Radiology,Inpatient,Cancelled,17,15.7
+2024-03,Radiology,Inpatient,No-Show,6,15.0
+2024-03,Radiology,Diagnostic,Completed,118,8.6
+2024-03,Radiology,Diagnostic,Cancelled,27,12.1
+2024-03,Radiology,Diagnostic,No-Show,11,13.4
+2024-03,Radiology,Emergency,Completed,54,1.6
+2024-03,Radiology,Emergency,Cancelled,12,1.7
+2024-03,Radiology,Emergency,No-Show,5,2.0
+2024-03,Radiology,Elective,Completed,58,25.2
+2024-03,Radiology,Elective,Cancelled,13,29.7
+2024-03,Radiology,Elective,No-Show,6,40.1
+2024-03,Oncology,Outpatient,Completed,137,13.8
+2024-03,Oncology,Outpatient,Cancelled,32,12.6
+2024-03,Oncology,Outpatient,No-Show,15,15.4
+2024-03,Oncology,Inpatient,Completed,45,11.8
+2024-03,Oncology,Inpatient,Cancelled,10,14.0
+2024-03,Oncology,Inpatient,No-Show,5,14.0
+2024-03,Oncology,Diagnostic,Completed,74,8.3
+2024-03,Oncology,Diagnostic,Cancelled,18,10.0
+2024-03,Oncology,Diagnostic,No-Show,7,11.7
+2024-03,Oncology,Emergency,Completed,33,1.4
+2024-03,Oncology,Emergency,Cancelled,7,2.0
+2024-03,Oncology,Emergency,No-Show,3,2.0
+2024-03,Oncology,Elective,Completed,39,24.3
+2024-03,Oncology,Elective,Cancelled,9,31.7
+2024-03,Oncology,Elective,No-Show,4,36.8
+2024-03,General Surgery,Outpatient,Completed,110,13.0
+2024-03,General Surgery,Outpatient,Cancelled,27,15.7
+2024-03,General Surgery,Outpatient,No-Show,11,15.6
+2024-03,General Surgery,Inpatient,Completed,42,11.4
+2024-03,General Surgery,Inpatient,Cancelled,10,14.2
+2024-03,General Surgery,Inpatient,No-Show,4,15.7
+2024-03,General Surgery,Diagnostic,Completed,64,9.4
+2024-03,General Surgery,Diagnostic,Cancelled,15,9.6
+2024-03,General Surgery,Diagnostic,No-Show,7,11.1
+2024-03,General Surgery,Emergency,Completed,27,1.5
+2024-03,General Surgery,Emergency,Cancelled,6,1.7
+2024-03,General Surgery,Emergency,No-Show,3,2.0
+2024-03,General Surgery,Elective,Completed,32,29.1
+2024-03,General Surgery,Elective,Cancelled,7,37.8
+2024-03,General Surgery,Elective,No-Show,3,37.7
+2024-03,Neurology,Outpatient,Completed,136,12.8
+2024-03,Neurology,Outpatient,Cancelled,33,16.1
+2024-03,Neurology,Outpatient,No-Show,15,16.9
+2024-03,Neurology,Inpatient,Completed,52,11.8
+2024-03,Neurology,Inpatient,Cancelled,11,14.4
+2024-03,Neurology,Inpatient,No-Show,5,16.3
+2024-03,Neurology,Diagnostic,Completed,88,9.6
+2024-03,Neurology,Diagnostic,Cancelled,22,11.4
+2024-03,Neurology,Diagnostic,No-Show,8,11.2
+2024-03,Neurology,Emergency,Completed,33,1.5
+2024-03,Neurology,Emergency,Cancelled,7,2.0
+2024-03,Neurology,Emergency,No-Show,3,1.9
+2024-03,Neurology,Elective,Completed,44,24.5
+2024-03,Neurology,Elective,Cancelled,10,33.6
+2024-03,Neurology,Elective,No-Show,5,39.7
+2024-04,Cardiology,Outpatient,Completed,216,11.5
+2024-04,Cardiology,Outpatient,Cancelled,44,12.2
+2024-04,Cardiology,Outpatient,No-Show,18,13.8
+2024-04,Cardiology,Inpatient,Completed,73,13.3
+2024-04,Cardiology,Inpatient,Cancelled,15,15.2
+2024-04,Cardiology,Inpatient,No-Show,7,17.0
+2024-04,Cardiology,Diagnostic,Completed,116,10.0
+2024-04,Cardiology,Diagnostic,Cancelled,21,9.0
+2024-04,Cardiology,Diagnostic,No-Show,11,11.8
+2024-04,Cardiology,Emergency,Completed,53,1.7
+2024-04,Cardiology,Emergency,Cancelled,9,1.9
+2024-04,Cardiology,Emergency,No-Show,5,1.8
+2024-04,Cardiology,Elective,Completed,64,26.3
+2024-04,Cardiology,Elective,Cancelled,12,33.9
+2024-04,Cardiology,Elective,No-Show,6,35.3
+2024-04,Orthopedics,Outpatient,Completed,181,10.5
+2024-04,Orthopedics,Outpatient,Cancelled,37,13.5
+2024-04,Orthopedics,Outpatient,No-Show,15,16.6
+2024-04,Orthopedics,Inpatient,Completed,68,11.7
+2024-04,Orthopedics,Inpatient,Cancelled,14,12.6
+2024-04,Orthopedics,Inpatient,No-Show,6,16.0
+2024-04,Orthopedics,Diagnostic,Completed,120,8.7
+2024-04,Orthopedics,Diagnostic,Cancelled,24,11.9
+2024-04,Orthopedics,Diagnostic,No-Show,11,11.7
+2024-04,Orthopedics,Emergency,Completed,45,1.4
+2024-04,Orthopedics,Emergency,Cancelled,8,1.5
+2024-04,Orthopedics,Emergency,No-Show,4,1.9
+2024-04,Orthopedics,Elective,Completed,58,31.9
+2024-04,Orthopedics,Elective,Cancelled,11,35.5
+2024-04,Orthopedics,Elective,No-Show,5,36.8
+2024-04,Pediatrics,Outpatient,Completed,232,11.4
+2024-04,Pediatrics,Outpatient,Cancelled,48,15.9
+2024-04,Pediatrics,Outpatient,No-Show,20,15.7
+2024-04,Pediatrics,Inpatient,Completed,87,11.3
+2024-04,Pediatrics,Inpatient,Cancelled,17,13.1
+2024-04,Pediatrics,Inpatient,No-Show,8,14.8
+2024-04,Pediatrics,Diagnostic,Completed,137,9.2
+2024-04,Pediatrics,Diagnostic,Cancelled,28,11.6
+2024-04,Pediatrics,Diagnostic,No-Show,12,12.7
+2024-04,Pediatrics,Emergency,Completed,59,1.6
+2024-04,Pediatrics,Emergency,Cancelled,11,1.9
+2024-04,Pediatrics,Emergency,No-Show,6,2.2
+2024-04,Pediatrics,Elective,Completed,76,24.7
+2024-04,Pediatrics,Elective,Cancelled,14,34.6
+2024-04,Pediatrics,Elective,No-Show,7,41.4
+2024-04,Radiology,Outpatient,Completed,217,13.7
+2024-04,Radiology,Outpatient,Cancelled,41,12.5
+2024-04,Radiology,Outpatient,No-Show,18,13.5
+2024-04,Radiology,Inpatient,Completed,74,12.1
+2024-04,Radiology,Inpatient,Cancelled,13,13.4
+2024-04,Radiology,Inpatient,No-Show,6,13.5
+2024-04,Radiology,Diagnostic,Completed,123,9.5
+2024-04,Radiology,Diagnostic,Cancelled,23,9.7
+2024-04,Radiology,Diagnostic,No-Show,10,11.0
+2024-04,Radiology,Emergency,Completed,54,1.3
+2024-04,Radiology,Emergency,Cancelled,10,2.0
+2024-04,Radiology,Emergency,No-Show,4,1.7
+2024-04,Radiology,Elective,Completed,65,27.4
+2024-04,Radiology,Elective,Cancelled,12,35.8
+2024-04,Radiology,Elective,No-Show,6,40.1
+2024-04,Oncology,Outpatient,Completed,132,11.9
+2024-04,Oncology,Outpatient,Cancelled,24,14.9
+2024-04,Oncology,Outpatient,No-Show,11,14.3
+2024-04,Oncology,Inpatient,Completed,46,11.9
+2024-04,Oncology,Inpatient,Cancelled,9,15.1
+2024-04,Oncology,Inpatient,No-Show,4,14.0
+2024-04,Oncology,Diagnostic,Completed,76,7.7
+2024-04,Oncology,Diagnostic,Cancelled,14,9.6
+2024-04,Oncology,Diagnostic,No-Show,7,10.1
+2024-04,Oncology,Emergency,Completed,32,1.5
+2024-04,Oncology,Emergency,Cancelled,6,1.8
+2024-04,Oncology,Emergency,No-Show,3,2.2
+2024-04,Oncology,Elective,Completed,37,25.2
+2024-04,Oncology,Elective,Cancelled,8,35.7
+2024-04,Oncology,Elective,No-Show,3,40.3
+2024-04,General Surgery,Outpatient,Completed,113,12.4
+2024-04,General Surgery,Outpatient,Cancelled,24,16.2
+2024-04,General Surgery,Outpatient,No-Show,10,15.0
+2024-04,General Surgery,Inpatient,Completed,43,12.4
+2024-04,General Surgery,Inpatient,Cancelled,8,13.0
+2024-04,General Surgery,Inpatient,No-Show,4,15.2
+2024-04,General Surgery,Diagnostic,Completed,71,8.6
+2024-04,General Surgery,Diagnostic,Cancelled,12,9.1
+2024-04,General Surgery,Diagnostic,No-Show,6,10.5
+2024-04,General Surgery,Emergency,Completed,30,1.4
+2024-04,General Surgery,Emergency,Cancelled,6,2.0
+2024-04,General Surgery,Emergency,No-Show,3,2.0
+2024-04,General Surgery,Elective,Completed,34,25.3
+2024-04,General Surgery,Elective,Cancelled,6,33.1
+2024-04,General Surgery,Elective,No-Show,3,41.8
+2024-04,Neurology,Outpatient,Completed,136,12.3
+2024-04,Neurology,Outpatient,Cancelled,24,12.6
+2024-04,Neurology,Outpatient,No-Show,13,17.5
+2024-04,Neurology,Inpatient,Completed,53,11.2
+2024-04,Neurology,Inpatient,Cancelled,10,12.3
+2024-04,Neurology,Inpatient,No-Show,5,16.0
+2024-04,Neurology,Diagnostic,Completed,84,7.7
+2024-04,Neurology,Diagnostic,Cancelled,17,10.9
+2024-04,Neurology,Diagnostic,No-Show,8,10.8
+2024-04,Neurology,Emergency,Completed,38,1.5
+2024-04,Neurology,Emergency,Cancelled,7,1.7
+2024-04,Neurology,Emergency,No-Show,4,2.1
+2024-04,Neurology,Elective,Completed,45,32.1
+2024-04,Neurology,Elective,Cancelled,9,32.2
+2024-04,Neurology,Elective,No-Show,4,36.6
+2024-05,Cardiology,Outpatient,Completed,190,11.7
+2024-05,Cardiology,Outpatient,Cancelled,39,12.4
+2024-05,Cardiology,Outpatient,No-Show,17,17.4
+2024-05,Cardiology,Inpatient,Completed,71,13.7
+2024-05,Cardiology,Inpatient,Cancelled,14,12.8
+2024-05,Cardiology,Inpatient,No-Show,6,14.2
+2024-05,Cardiology,Diagnostic,Completed,129,8.9
+2024-05,Cardiology,Diagnostic,Cancelled,27,11.4
+2024-05,Cardiology,Diagnostic,No-Show,11,13.0
+2024-05,Cardiology,Emergency,Completed,50,1.6
+2024-05,Cardiology,Emergency,Cancelled,10,1.9
+2024-05,Cardiology,Emergency,No-Show,5,2.0
+2024-05,Cardiology,Elective,Completed,57,30.5
+2024-05,Cardiology,Elective,Cancelled,12,29.1
+2024-05,Cardiology,Elective,No-Show,6,33.2
+2024-05,Orthopedics,Outpatient,Completed,197,11.6
+2024-05,Orthopedics,Outpatient,Cancelled,35,15.1
+2024-05,Orthopedics,Outpatient,No-Show,19,17.4
+2024-05,Orthopedics,Inpatient,Completed,66,12.3
+2024-05,Orthopedics,Inpatient,Cancelled,12,13.8
+2024-05,Orthopedics,Inpatient,No-Show,6,16.1
+2024-05,Orthopedics,Diagnostic,Completed,122,8.7
+2024-05,Orthopedics,Diagnostic,Cancelled,23,10.3
+2024-05,Orthopedics,Diagnostic,No-Show,10,10.4
+2024-05,Orthopedics,Emergency,Completed,45,1.7
+2024-05,Orthopedics,Emergency,Cancelled,9,1.6
+2024-05,Orthopedics,Emergency,No-Show,4,1.7
+2024-05,Orthopedics,Elective,Completed,58,25.5
+2024-05,Orthopedics,Elective,Cancelled,12,29.9
+2024-05,Orthopedics,Elective,No-Show,5,36.6
+2024-05,Pediatrics,Outpatient,Completed,246,11.9
+2024-05,Pediatrics,Outpatient,Cancelled,45,16.1
+2024-05,Pediatrics,Outpatient,No-Show,20,16.3
+2024-05,Pediatrics,Inpatient,Completed,87,11.3
+2024-05,Pediatrics,Inpatient,Cancelled,15,15.3
+2024-05,Pediatrics,Inpatient,No-Show,7,17.4
+2024-05,Pediatrics,Diagnostic,Completed,151,10.2
+2024-05,Pediatrics,Diagnostic,Cancelled,32,9.3
+2024-05,Pediatrics,Diagnostic,No-Show,15,10.4
+2024-05,Pediatrics,Emergency,Completed,60,1.7
+2024-05,Pediatrics,Emergency,Cancelled,11,1.8
+2024-05,Pediatrics,Emergency,No-Show,5,2.0
+2024-05,Pediatrics,Elective,Completed,71,31.0
+2024-05,Pediatrics,Elective,Cancelled,13,33.9
+2024-05,Pediatrics,Elective,No-Show,6,39.0
+2024-05,Radiology,Outpatient,Completed,212,12.9
+2024-05,Radiology,Outpatient,Cancelled,40,15.3
+2024-05,Radiology,Outpatient,No-Show,19,14.2
+2024-05,Radiology,Inpatient,Completed,81,10.6
+2024-05,Radiology,Inpatient,Cancelled,15,13.2
+2024-05,Radiology,Inpatient,No-Show,8,17.2
+2024-05,Radiology,Diagnostic,Completed,125,8.3
+2024-05,Radiology,Diagnostic,Cancelled,24,11.3
+2024-05,Radiology,Diagnostic,No-Show,11,12.9
+2024-05,Radiology,Emergency,Completed,57,1.4
+2024-05,Radiology,Emergency,Cancelled,11,1.6
+2024-05,Radiology,Emergency,No-Show,5,1.8
+2024-05,Radiology,Elective,Completed,68,28.1
+2024-05,Radiology,Elective,Cancelled,14,32.9
+2024-05,Radiology,Elective,No-Show,7,36.7
+2024-05,Oncology,Outpatient,Completed,138,10.7
+2024-05,Oncology,Outpatient,Cancelled,26,16.1
+2024-05,Oncology,Outpatient,No-Show,11,15.5
+2024-05,Oncology,Inpatient,Completed,51,10.9
+2024-05,Oncology,Inpatient,Cancelled,9,13.1
+2024-05,Oncology,Inpatient,No-Show,5,13.4
+2024-05,Oncology,Diagnostic,Completed,77,9.3
+2024-05,Oncology,Diagnostic,Cancelled,16,10.5
+2024-05,Oncology,Diagnostic,No-Show,7,11.4
+2024-05,Oncology,Emergency,Completed,34,1.6
+2024-05,Oncology,Emergency,Cancelled,6,1.9
+2024-05,Oncology,Emergency,No-Show,3,1.9
+2024-05,Oncology,Elective,Completed,38,24.2
+2024-05,Oncology,Elective,Cancelled,8,31.5
+2024-05,Oncology,Elective,No-Show,3,39.6
+2024-05,General Surgery,Outpatient,Completed,120,11.0
+2024-05,General Surgery,Outpatient,Cancelled,24,16.0
+2024-05,General Surgery,Outpatient,No-Show,12,15.3
+2024-05,General Surgery,Inpatient,Completed,43,11.2
+2024-05,General Surgery,Inpatient,Cancelled,8,12.3
+2024-05,General Surgery,Inpatient,No-Show,4,15.4
+2024-05,General Surgery,Diagnostic,Completed,69,8.7
+2024-05,General Surgery,Diagnostic,Cancelled,12,12.0
+2024-05,General Surgery,Diagnostic,No-Show,6,11.1
+2024-05,General Surgery,Emergency,Completed,31,1.5
+2024-05,General Surgery,Emergency,Cancelled,6,1.8
+2024-05,General Surgery,Emergency,No-Show,3,2.2
+2024-05,General Surgery,Elective,Completed,35,30.9
+2024-05,General Surgery,Elective,Cancelled,6,28.5
+2024-05,General Surgery,Elective,No-Show,3,35.8
+2024-05,Neurology,Outpatient,Completed,152,12.1
+2024-05,Neurology,Outpatient,Cancelled,31,14.8
+2024-05,Neurology,Outpatient,No-Show,15,14.7
+2024-05,Neurology,Inpatient,Completed,54,11.7
+2024-05,Neurology,Inpatient,Cancelled,10,14.4
+2024-05,Neurology,Inpatient,No-Show,5,16.6
+2024-05,Neurology,Diagnostic,Completed,87,9.4
+2024-05,Neurology,Diagnostic,Cancelled,18,10.1
+2024-05,Neurology,Diagnostic,No-Show,8,11.4
+2024-05,Neurology,Emergency,Completed,37,1.6
+2024-05,Neurology,Emergency,Cancelled,7,1.9
+2024-05,Neurology,Emergency,No-Show,3,2.0
+2024-05,Neurology,Elective,Completed,41,30.3
+2024-05,Neurology,Elective,Cancelled,8,36.6
+2024-05,Neurology,Elective,No-Show,3,33.6
+2024-06,Cardiology,Outpatient,Completed,221,10.7
+2024-06,Cardiology,Outpatient,Cancelled,35,13.2
+2024-06,Cardiology,Outpatient,No-Show,18,16.4
+2024-06,Cardiology,Inpatient,Completed,79,12.7
+2024-06,Cardiology,Inpatient,Cancelled,13,16.1
+2024-06,Cardiology,Inpatient,No-Show,7,16.1
+2024-06,Cardiology,Diagnostic,Completed,123,10.3
+2024-06,Cardiology,Diagnostic,Cancelled,21,10.3
+2024-06,Cardiology,Diagnostic,No-Show,10,12.4
+2024-06,Cardiology,Emergency,Completed,49,1.5
+2024-06,Cardiology,Emergency,Cancelled,8,1.7
+2024-06,Cardiology,Emergency,No-Show,4,2.2
+2024-06,Cardiology,Elective,Completed,67,27.9
+2024-06,Cardiology,Elective,Cancelled,11,34.4
+2024-06,Cardiology,Elective,No-Show,6,34.6
+2024-06,Orthopedics,Outpatient,Completed,185,13.2
+2024-06,Orthopedics,Outpatient,Cancelled,34,16.2
+2024-06,Orthopedics,Outpatient,No-Show,17,16.7
+2024-06,Orthopedics,Inpatient,Completed,71,11.8
+2024-06,Orthopedics,Inpatient,Cancelled,13,13.1
+2024-06,Orthopedics,Inpatient,No-Show,6,16.3
+2024-06,Orthopedics,Diagnostic,Completed,115,8.8
+2024-06,Orthopedics,Diagnostic,Cancelled,19,9.7
+2024-06,Orthopedics,Diagnostic,No-Show,10,12.8
+2024-06,Orthopedics,Emergency,Completed,52,1.4
+2024-06,Orthopedics,Emergency,Cancelled,8,1.9
+2024-06,Orthopedics,Emergency,No-Show,4,2.1
+2024-06,Orthopedics,Elective,Completed,56,27.1
+2024-06,Orthopedics,Elective,Cancelled,10,38.0
+2024-06,Orthopedics,Elective,No-Show,4,33.0
+2024-06,Pediatrics,Outpatient,Completed,239,13.6
+2024-06,Pediatrics,Outpatient,Cancelled,40,16.2
+2024-06,Pediatrics,Outpatient,No-Show,21,13.6
+2024-06,Pediatrics,Inpatient,Completed,83,13.4
+2024-06,Pediatrics,Inpatient,Cancelled,15,14.9
+2024-06,Pediatrics,Inpatient,No-Show,7,13.8
+2024-06,Pediatrics,Diagnostic,Completed,159,9.1
+2024-06,Pediatrics,Diagnostic,Cancelled,25,10.6
+2024-06,Pediatrics,Diagnostic,No-Show,13,12.4
+2024-06,Pediatrics,Emergency,Completed,63,1.5
+2024-06,Pediatrics,Emergency,Cancelled,12,1.6
+2024-06,Pediatrics,Emergency,No-Show,6,2.1
+2024-06,Pediatrics,Elective,Completed,81,27.4
+2024-06,Pediatrics,Elective,Cancelled,13,28.6
+2024-06,Pediatrics,Elective,No-Show,7,38.3
+2024-06,Radiology,Outpatient,Completed,216,13.2
+2024-06,Radiology,Outpatient,Cancelled,39,13.8
+2024-06,Radiology,Outpatient,No-Show,20,14.8
+2024-06,Radiology,Inpatient,Completed,80,13.4
+2024-06,Radiology,Inpatient,Cancelled,14,12.6
+2024-06,Radiology,Inpatient,No-Show,7,17.4
+2024-06,Radiology,Diagnostic,Completed,128,7.8
+2024-06,Radiology,Diagnostic,Cancelled,20,9.2
+2024-06,Radiology,Diagnostic,No-Show,11,9.9
+2024-06,Radiology,Emergency,Completed,55,1.6
+2024-06,Radiology,Emergency,Cancelled,10,1.9
+2024-06,Radiology,Emergency,No-Show,4,1.8
+2024-06,Radiology,Elective,Completed,63,28.3
+2024-06,Radiology,Elective,Cancelled,11,36.2
+2024-06,Radiology,Elective,No-Show,6,32.0
+2024-06,Oncology,Outpatient,Completed,138,12.9
+2024-06,Oncology,Outpatient,Cancelled,24,14.2
+2024-06,Oncology,Outpatient,No-Show,11,16.8
+2024-06,Oncology,Inpatient,Completed,49,11.0
+2024-06,Oncology,Inpatient,Cancelled,8,15.2
+2024-06,Oncology,Inpatient,No-Show,4,13.8
+2024-06,Oncology,Diagnostic,Completed,80,9.9
+2024-06,Oncology,Diagnostic,Cancelled,13,10.3
+2024-06,Oncology,Diagnostic,No-Show,6,13.4
+2024-06,Oncology,Emergency,Completed,33,1.5
+2024-06,Oncology,Emergency,Cancelled,6,2.0
+2024-06,Oncology,Emergency,No-Show,3,2.2
+2024-06,Oncology,Elective,Completed,45,29.3
+2024-06,Oncology,Elective,Cancelled,7,30.9
+2024-06,Oncology,Elective,No-Show,4,39.0
+2024-06,General Surgery,Outpatient,Completed,124,12.8
+2024-06,General Surgery,Outpatient,Cancelled,21,12.1
+2024-06,General Surgery,Outpatient,No-Show,11,13.5
+2024-06,General Surgery,Inpatient,Completed,44,11.7
+2024-06,General Surgery,Inpatient,Cancelled,7,15.3
+2024-06,General Surgery,Inpatient,No-Show,4,17.1
+2024-06,General Surgery,Diagnostic,Completed,75,9.1
+2024-06,General Surgery,Diagnostic,Cancelled,12,10.0
+2024-06,General Surgery,Diagnostic,No-Show,6,11.9
+2024-06,General Surgery,Emergency,Completed,32,1.4
+2024-06,General Surgery,Emergency,Cancelled,5,2.0
+2024-06,General Surgery,Emergency,No-Show,2,2.0
+2024-06,General Surgery,Elective,Completed,35,27.8
+2024-06,General Surgery,Elective,Cancelled,6,37.4
+2024-06,General Surgery,Elective,No-Show,3,31.6
+2024-06,Neurology,Outpatient,Completed,145,12.6
+2024-06,Neurology,Outpatient,Cancelled,25,12.9
+2024-06,Neurology,Outpatient,No-Show,11,13.7
+2024-06,Neurology,Inpatient,Completed,51,10.7
+2024-06,Neurology,Inpatient,Cancelled,8,15.7
+2024-06,Neurology,Inpatient,No-Show,4,14.8
+2024-06,Neurology,Diagnostic,Completed,90,8.4
+2024-06,Neurology,Diagnostic,Cancelled,14,11.0
+2024-06,Neurology,Diagnostic,No-Show,7,10.7
+2024-06,Neurology,Emergency,Completed,40,1.3
+2024-06,Neurology,Emergency,Cancelled,7,1.6
+2024-06,Neurology,Emergency,No-Show,3,2.0
+2024-06,Neurology,Elective,Completed,42,30.7
+2024-06,Neurology,Elective,Cancelled,8,33.3
+2024-06,Neurology,Elective,No-Show,4,41.8
+2024-07,Cardiology,Outpatient,Completed,202,13.6
+2024-07,Cardiology,Outpatient,Cancelled,33,14.5
+2024-07,Cardiology,Outpatient,No-Show,16,17.0
+2024-07,Cardiology,Inpatient,Completed,71,12.0
+2024-07,Cardiology,Inpatient,Cancelled,13,16.2
+2024-07,Cardiology,Inpatient,No-Show,6,15.0
+2024-07,Cardiology,Diagnostic,Completed,127,8.5
+2024-07,Cardiology,Diagnostic,Cancelled,22,9.6
+2024-07,Cardiology,Diagnostic,No-Show,10,10.3
+2024-07,Cardiology,Emergency,Completed,56,1.5
+2024-07,Cardiology,Emergency,Cancelled,10,1.7
+2024-07,Cardiology,Emergency,No-Show,5,2.0
+2024-07,Cardiology,Elective,Completed,67,26.6
+2024-07,Cardiology,Elective,Cancelled,12,32.6
+2024-07,Cardiology,Elective,No-Show,6,37.1
+2024-07,Orthopedics,Outpatient,Completed,195,11.4
+2024-07,Orthopedics,Outpatient,Cancelled,34,13.5
+2024-07,Orthopedics,Outpatient,No-Show,17,15.0
+2024-07,Orthopedics,Inpatient,Completed,65,11.6
+2024-07,Orthopedics,Inpatient,Cancelled,10,12.9
+2024-07,Orthopedics,Inpatient,No-Show,6,15.9
+2024-07,Orthopedics,Diagnostic,Completed,123,10.2
+2024-07,Orthopedics,Diagnostic,Cancelled,20,10.9
+2024-07,Orthopedics,Diagnostic,No-Show,11,12.3
+2024-07,Orthopedics,Emergency,Completed,46,1.7
+2024-07,Orthopedics,Emergency,Cancelled,8,1.8
+2024-07,Orthopedics,Emergency,No-Show,4,1.7
+2024-07,Orthopedics,Elective,Completed,55,24.0
+2024-07,Orthopedics,Elective,Cancelled,10,35.5
+2024-07,Orthopedics,Elective,No-Show,5,40.2
+2024-07,Pediatrics,Outpatient,Completed,255,13.0
+2024-07,Pediatrics,Outpatient,Cancelled,43,13.4
+2024-07,Pediatrics,Outpatient,No-Show,19,17.4
+2024-07,Pediatrics,Inpatient,Completed,87,10.8
+2024-07,Pediatrics,Inpatient,Cancelled,15,15.3
+2024-07,Pediatrics,Inpatient,No-Show,7,15.6
+2024-07,Pediatrics,Diagnostic,Completed,149,10.0
+2024-07,Pediatrics,Diagnostic,Cancelled,28,9.6
+2024-07,Pediatrics,Diagnostic,No-Show,14,12.0
+2024-07,Pediatrics,Emergency,Completed,67,1.6
+2024-07,Pediatrics,Emergency,Cancelled,11,1.8
+2024-07,Pediatrics,Emergency,No-Show,5,2.0
+2024-07,Pediatrics,Elective,Completed,81,26.9
+2024-07,Pediatrics,Elective,Cancelled,14,32.2
+2024-07,Pediatrics,Elective,No-Show,7,32.2
+2024-07,Radiology,Outpatient,Completed,233,11.3
+2024-07,Radiology,Outpatient,Cancelled,42,15.8
+2024-07,Radiology,Outpatient,No-Show,19,13.4
+2024-07,Radiology,Inpatient,Completed,79,10.8
+2024-07,Radiology,Inpatient,Cancelled,13,14.9
+2024-07,Radiology,Inpatient,No-Show,7,15.0
+2024-07,Radiology,Diagnostic,Completed,139,9.1
+2024-07,Radiology,Diagnostic,Cancelled,22,9.7
+2024-07,Radiology,Diagnostic,No-Show,11,10.4
+2024-07,Radiology,Emergency,Completed,54,1.7
+2024-07,Radiology,Emergency,Cancelled,9,1.7
+2024-07,Radiology,Emergency,No-Show,4,2.1
+2024-07,Radiology,Elective,Completed,73,31.1
+2024-07,Radiology,Elective,Cancelled,11,34.4
+2024-07,Radiology,Elective,No-Show,6,35.6
+2024-07,Oncology,Outpatient,Completed,142,13.8
+2024-07,Oncology,Outpatient,Cancelled,22,16.1
+2024-07,Oncology,Outpatient,No-Show,12,13.4
+2024-07,Oncology,Inpatient,Completed,51,10.4
+2024-07,Oncology,Inpatient,Cancelled,8,16.0
+2024-07,Oncology,Inpatient,No-Show,5,17.2
+2024-07,Oncology,Diagnostic,Completed,81,8.1
+2024-07,Oncology,Diagnostic,Cancelled,13,10.7
+2024-07,Oncology,Diagnostic,No-Show,7,13.2
+2024-07,Oncology,Emergency,Completed,36,1.3
+2024-07,Oncology,Emergency,Cancelled,6,2.0
+2024-07,Oncology,Emergency,No-Show,3,1.8
+2024-07,Oncology,Elective,Completed,41,24.6
+2024-07,Oncology,Elective,Cancelled,7,36.7
+2024-07,Oncology,Elective,No-Show,4,38.7
+2024-07,General Surgery,Outpatient,Completed,128,13.6
+2024-07,General Surgery,Outpatient,Cancelled,24,12.6
+2024-07,General Surgery,Outpatient,No-Show,12,17.0
+2024-07,General Surgery,Inpatient,Completed,43,13.7
+2024-07,General Surgery,Inpatient,Cancelled,7,15.0
+2024-07,General Surgery,Inpatient,No-Show,4,15.5
+2024-07,General Surgery,Diagnostic,Completed,75,8.7
+2024-07,General Surgery,Diagnostic,Cancelled,12,9.3
+2024-07,General Surgery,Diagnostic,No-Show,6,10.2
+2024-07,General Surgery,Emergency,Completed,32,1.6
+2024-07,General Surgery,Emergency,Cancelled,5,1.5
+2024-07,General Surgery,Emergency,No-Show,3,1.7
+2024-07,General Surgery,Elective,Completed,35,28.1
+2024-07,General Surgery,Elective,Cancelled,7,37.4
+2024-07,General Surgery,Elective,No-Show,3,41.6
+2024-07,Neurology,Outpatient,Completed,149,10.4
+2024-07,Neurology,Outpatient,Cancelled,23,12.9
+2024-07,Neurology,Outpatient,No-Show,11,15.9
+2024-07,Neurology,Inpatient,Completed,56,10.9
+2024-07,Neurology,Inpatient,Cancelled,10,15.4
+2024-07,Neurology,Inpatient,No-Show,5,16.2
+2024-07,Neurology,Diagnostic,Completed,95,7.9
+2024-07,Neurology,Diagnostic,Cancelled,17,9.7
+2024-07,Neurology,Diagnostic,No-Show,8,11.5
+2024-07,Neurology,Emergency,Completed,40,1.5
+2024-07,Neurology,Emergency,Cancelled,7,1.6
+2024-07,Neurology,Emergency,No-Show,4,1.8
+2024-07,Neurology,Elective,Completed,46,25.7
+2024-07,Neurology,Elective,Cancelled,8,35.2
+2024-07,Neurology,Elective,No-Show,4,32.8
+2024-08,Cardiology,Outpatient,Completed,233,12.0
+2024-08,Cardiology,Outpatient,Cancelled,37,14.2
+2024-08,Cardiology,Outpatient,No-Show,18,15.6
+2024-08,Cardiology,Inpatient,Completed,74,11.9
+2024-08,Cardiology,Inpatient,Cancelled,14,13.8
+2024-08,Cardiology,Inpatient,No-Show,6,13.6
+2024-08,Cardiology,Diagnostic,Completed,132,7.8
+2024-08,Cardiology,Diagnostic,Cancelled,21,12.2
+2024-08,Cardiology,Diagnostic,No-Show,11,11.6
+2024-08,Cardiology,Emergency,Completed,57,1.6
+2024-08,Cardiology,Emergency,Cancelled,10,1.8
+2024-08,Cardiology,Emergency,No-Show,4,2.1
+2024-08,Cardiology,Elective,Completed,64,29.1
+2024-08,Cardiology,Elective,Cancelled,11,31.5
+2024-08,Cardiology,Elective,No-Show,6,38.2
+2024-08,Orthopedics,Outpatient,Completed,201,11.7
+2024-08,Orthopedics,Outpatient,Cancelled,37,15.5
+2024-08,Orthopedics,Outpatient,No-Show,17,15.6
+2024-08,Orthopedics,Inpatient,Completed,72,12.9
+2024-08,Orthopedics,Inpatient,Cancelled,12,12.6
+2024-08,Orthopedics,Inpatient,No-Show,6,14.2
+2024-08,Orthopedics,Diagnostic,Completed,120,8.4
+2024-08,Orthopedics,Diagnostic,Cancelled,21,9.4
+2024-08,Orthopedics,Diagnostic,No-Show,11,13.3
+2024-08,Orthopedics,Emergency,Completed,48,1.5
+2024-08,Orthopedics,Emergency,Cancelled,8,2.0
+2024-08,Orthopedics,Emergency,No-Show,4,2.1
+2024-08,Orthopedics,Elective,Completed,62,27.8
+2024-08,Orthopedics,Elective,Cancelled,10,29.5
+2024-08,Orthopedics,Elective,No-Show,5,33.9
+2024-08,Pediatrics,Outpatient,Completed,250,12.7
+2024-08,Pediatrics,Outpatient,Cancelled,39,12.3
+2024-08,Pediatrics,Outpatient,No-Show,21,15.5
+2024-08,Pediatrics,Inpatient,Completed,92,11.8
+2024-08,Pediatrics,Inpatient,Cancelled,16,15.5
+2024-08,Pediatrics,Inpatient,No-Show,8,14.4
+2024-08,Pediatrics,Diagnostic,Completed,151,8.7
+2024-08,Pediatrics,Diagnostic,Cancelled,24,9.8
+2024-08,Pediatrics,Diagnostic,No-Show,13,12.6
+2024-08,Pediatrics,Emergency,Completed,63,1.5
+2024-08,Pediatrics,Emergency,Cancelled,10,1.7
+2024-08,Pediatrics,Emergency,No-Show,5,1.9
+2024-08,Pediatrics,Elective,Completed,73,28.0
+2024-08,Pediatrics,Elective,Cancelled,13,34.5
+2024-08,Pediatrics,Elective,No-Show,7,40.4
+2024-08,Radiology,Outpatient,Completed,240,13.5
+2024-08,Radiology,Outpatient,Cancelled,42,15.4
+2024-08,Radiology,Outpatient,No-Show,22,15.4
+2024-08,Radiology,Inpatient,Completed,76,12.0
+2024-08,Radiology,Inpatient,Cancelled,12,13.8
+2024-08,Radiology,Inpatient,No-Show,6,15.9
+2024-08,Radiology,Diagnostic,Completed,137,8.3
+2024-08,Radiology,Diagnostic,Cancelled,24,11.6
+2024-08,Radiology,Diagnostic,No-Show,11,12.9
+2024-08,Radiology,Emergency,Completed,60,1.4
+2024-08,Radiology,Emergency,Cancelled,11,1.7
+2024-08,Radiology,Emergency,No-Show,6,1.8
+2024-08,Radiology,Elective,Completed,68,28.5
+2024-08,Radiology,Elective,Cancelled,13,31.0
+2024-08,Radiology,Elective,No-Show,6,32.8
+2024-08,Oncology,Outpatient,Completed,137,11.7
+2024-08,Oncology,Outpatient,Cancelled,21,15.6
+2024-08,Oncology,Outpatient,No-Show,13,16.4
+2024-08,Oncology,Inpatient,Completed,48,11.2
+2024-08,Oncology,Inpatient,Cancelled,8,15.9
+2024-08,Oncology,Inpatient,No-Show,4,13.9
+2024-08,Oncology,Diagnostic,Completed,87,8.4
+2024-08,Oncology,Diagnostic,Cancelled,16,12.1
+2024-08,Oncology,Diagnostic,No-Show,7,10.9
+2024-08,Oncology,Emergency,Completed,36,1.6
+2024-08,Oncology,Emergency,Cancelled,6,1.9
+2024-08,Oncology,Emergency,No-Show,3,1.9
+2024-08,Oncology,Elective,Completed,45,28.6
+2024-08,Oncology,Elective,Cancelled,7,37.9
+2024-08,Oncology,Elective,No-Show,3,31.4
+2024-08,General Surgery,Outpatient,Completed,119,10.5
+2024-08,General Surgery,Outpatient,Cancelled,20,13.7
+2024-08,General Surgery,Outpatient,No-Show,11,16.8
+2024-08,General Surgery,Inpatient,Completed,44,11.7
+2024-08,General Surgery,Inpatient,Cancelled,7,14.1
+2024-08,General Surgery,Inpatient,No-Show,3,17.3
+2024-08,General Surgery,Diagnostic,Completed,76,8.8
+2024-08,General Surgery,Diagnostic,Cancelled,13,10.3
+2024-08,General Surgery,Diagnostic,No-Show,7,13.2
+2024-08,General Surgery,Emergency,Completed,30,1.3
+2024-08,General Surgery,Emergency,Cancelled,5,1.8
+2024-08,General Surgery,Emergency,No-Show,3,1.8
+2024-08,General Surgery,Elective,Completed,36,30.5
+2024-08,General Surgery,Elective,Cancelled,6,37.1
+2024-08,General Surgery,Elective,No-Show,3,39.7
+2024-08,Neurology,Outpatient,Completed,150,10.7
+2024-08,Neurology,Outpatient,Cancelled,24,16.0
+2024-08,Neurology,Outpatient,No-Show,12,15.1
+2024-08,Neurology,Inpatient,Completed,51,10.3
+2024-08,Neurology,Inpatient,Cancelled,9,12.7
+2024-08,Neurology,Inpatient,No-Show,4,16.3
+2024-08,Neurology,Diagnostic,Completed,96,9.9
+2024-08,Neurology,Diagnostic,Cancelled,15,11.7
+2024-08,Neurology,Diagnostic,No-Show,9,10.7
+2024-08,Neurology,Emergency,Completed,36,1.6
+2024-08,Neurology,Emergency,Cancelled,6,1.9
+2024-08,Neurology,Emergency,No-Show,3,1.7
+2024-08,Neurology,Elective,Completed,47,27.5
+2024-08,Neurology,Elective,Cancelled,9,36.8
+2024-08,Neurology,Elective,No-Show,4,36.7
+2024-09,Cardiology,Outpatient,Completed,217,11.2
+2024-09,Cardiology,Outpatient,Cancelled,45,12.5
+2024-09,Cardiology,Outpatient,No-Show,21,14.4
+2024-09,Cardiology,Inpatient,Completed,74,11.6
+2024-09,Cardiology,Inpatient,Cancelled,14,15.4
+2024-09,Cardiology,Inpatient,No-Show,7,17.5
+2024-09,Cardiology,Diagnostic,Completed,122,9.1
+2024-09,Cardiology,Diagnostic,Cancelled,25,9.6
+2024-09,Cardiology,Diagnostic,No-Show,11,12.7
+2024-09,Cardiology,Emergency,Completed,56,1.7
+2024-09,Cardiology,Emergency,Cancelled,11,1.7
+2024-09,Cardiology,Emergency,No-Show,6,2.0
+2024-09,Cardiology,Elective,Completed,63,27.3
+2024-09,Cardiology,Elective,Cancelled,13,36.8
+2024-09,Cardiology,Elective,No-Show,5,34.0
+2024-09,Orthopedics,Outpatient,Completed,203,13.4
+2024-09,Orthopedics,Outpatient,Cancelled,38,13.3
+2024-09,Orthopedics,Outpatient,No-Show,20,16.9
+2024-09,Orthopedics,Inpatient,Completed,67,13.2
+2024-09,Orthopedics,Inpatient,Cancelled,13,12.1
+2024-09,Orthopedics,Inpatient,No-Show,6,14.3
+2024-09,Orthopedics,Diagnostic,Completed,121,7.8
+2024-09,Orthopedics,Diagnostic,Cancelled,24,10.1
+2024-09,Orthopedics,Diagnostic,No-Show,11,13.0
+2024-09,Orthopedics,Emergency,Completed,46,1.3
+2024-09,Orthopedics,Emergency,Cancelled,9,1.9
+2024-09,Orthopedics,Emergency,No-Show,4,1.8
+2024-09,Orthopedics,Elective,Completed,61,25.6
+2024-09,Orthopedics,Elective,Cancelled,12,33.4
+2024-09,Orthopedics,Elective,No-Show,6,39.4
+2024-09,Pediatrics,Outpatient,Completed,246,13.7
+2024-09,Pediatrics,Outpatient,Cancelled,45,15.1
+2024-09,Pediatrics,Outpatient,No-Show,20,16.2
+2024-09,Pediatrics,Inpatient,Completed,91,11.8
+2024-09,Pediatrics,Inpatient,Cancelled,18,14.8
+2024-09,Pediatrics,Inpatient,No-Show,8,14.2
+2024-09,Pediatrics,Diagnostic,Completed,158,9.2
+2024-09,Pediatrics,Diagnostic,Cancelled,32,9.5
+2024-09,Pediatrics,Diagnostic,No-Show,14,13.4
+2024-09,Pediatrics,Emergency,Completed,66,1.4
+2024-09,Pediatrics,Emergency,Cancelled,14,1.6
+2024-09,Pediatrics,Emergency,No-Show,6,1.7
+2024-09,Pediatrics,Elective,Completed,72,24.4
+2024-09,Pediatrics,Elective,Cancelled,13,29.4
+2024-09,Pediatrics,Elective,No-Show,7,40.0
+2024-09,Radiology,Outpatient,Completed,224,13.4
+2024-09,Radiology,Outpatient,Cancelled,45,14.7
+2024-09,Radiology,Outpatient,No-Show,21,15.7
+2024-09,Radiology,Inpatient,Completed,81,11.9
+2024-09,Radiology,Inpatient,Cancelled,15,12.8
+2024-09,Radiology,Inpatient,No-Show,7,17.0
+2024-09,Radiology,Diagnostic,Completed,132,9.9
+2024-09,Radiology,Diagnostic,Cancelled,24,10.1
+2024-09,Radiology,Diagnostic,No-Show,11,12.4
+2024-09,Radiology,Emergency,Completed,59,1.4
+2024-09,Radiology,Emergency,Cancelled,11,1.6
+2024-09,Radiology,Emergency,No-Show,6,2.1
+2024-09,Radiology,Elective,Completed,71,26.2
+2024-09,Radiology,Elective,Cancelled,13,33.6
+2024-09,Radiology,Elective,No-Show,6,37.7
+2024-09,Oncology,Outpatient,Completed,143,12.7
+2024-09,Oncology,Outpatient,Cancelled,28,14.9
+2024-09,Oncology,Outpatient,No-Show,12,16.5
+2024-09,Oncology,Inpatient,Completed,46,10.5
+2024-09,Oncology,Inpatient,Cancelled,9,13.0
+2024-09,Oncology,Inpatient,No-Show,4,15.3
+2024-09,Oncology,Diagnostic,Completed,87,9.1
+2024-09,Oncology,Diagnostic,Cancelled,16,11.4
+2024-09,Oncology,Diagnostic,No-Show,8,11.6
+2024-09,Oncology,Emergency,Completed,35,1.5
+2024-09,Oncology,Emergency,Cancelled,7,1.8
+2024-09,Oncology,Emergency,No-Show,3,2.0
+2024-09,Oncology,Elective,Completed,44,27.8
+2024-09,Oncology,Elective,Cancelled,8,37.2
+2024-09,Oncology,Elective,No-Show,4,36.3
+2024-09,General Surgery,Outpatient,Completed,121,10.9
+2024-09,General Surgery,Outpatient,Cancelled,25,13.0
+2024-09,General Surgery,Outpatient,No-Show,11,13.7
+2024-09,General Surgery,Inpatient,Completed,40,12.8
+2024-09,General Surgery,Inpatient,Cancelled,8,12.2
+2024-09,General Surgery,Inpatient,No-Show,4,15.9
+2024-09,General Surgery,Diagnostic,Completed,70,9.3
+2024-09,General Surgery,Diagnostic,Cancelled,15,10.1
+2024-09,General Surgery,Diagnostic,No-Show,6,12.2
+2024-09,General Surgery,Emergency,Completed,30,1.7
+2024-09,General Surgery,Emergency,Cancelled,6,1.8
+2024-09,General Surgery,Emergency,No-Show,3,2.1
+2024-09,General Surgery,Elective,Completed,38,26.2
+2024-09,General Surgery,Elective,Cancelled,8,30.6
+2024-09,General Surgery,Elective,No-Show,3,33.8
+2024-09,Neurology,Outpatient,Completed,149,12.1
+2024-09,Neurology,Outpatient,Cancelled,32,14.8
+2024-09,Neurology,Outpatient,No-Show,15,17.3
+2024-09,Neurology,Inpatient,Completed,57,13.2
+2024-09,Neurology,Inpatient,Cancelled,10,13.3
+2024-09,Neurology,Inpatient,No-Show,5,15.3
+2024-09,Neurology,Diagnostic,Completed,95,9.8
+2024-09,Neurology,Diagnostic,Cancelled,20,9.9
+2024-09,Neurology,Diagnostic,No-Show,9,11.1
+2024-09,Neurology,Emergency,Completed,38,1.6
+2024-09,Neurology,Emergency,Cancelled,7,1.7
+2024-09,Neurology,Emergency,No-Show,3,2.1
+2024-09,Neurology,Elective,Completed,45,25.4
+2024-09,Neurology,Elective,Cancelled,8,36.5
+2024-09,Neurology,Elective,No-Show,4,35.8
+2024-10,Cardiology,Outpatient,Completed,204,10.3
+2024-10,Cardiology,Outpatient,Cancelled,41,13.4
+2024-10,Cardiology,Outpatient,No-Show,19,14.1
+2024-10,Cardiology,Inpatient,Completed,78,10.4
+2024-10,Cardiology,Inpatient,Cancelled,14,14.5
+2024-10,Cardiology,Inpatient,No-Show,6,13.4
+2024-10,Cardiology,Diagnostic,Completed,136,8.9
+2024-10,Cardiology,Diagnostic,Cancelled,25,10.4
+2024-10,Cardiology,Diagnostic,No-Show,12,10.2
+2024-10,Cardiology,Emergency,Completed,56,1.4
+2024-10,Cardiology,Emergency,Cancelled,11,2.0
+2024-10,Cardiology,Emergency,No-Show,5,2.0
+2024-10,Cardiology,Elective,Completed,62,29.9
+2024-10,Cardiology,Elective,Cancelled,11,34.0
+2024-10,Cardiology,Elective,No-Show,6,41.3
+2024-10,Orthopedics,Outpatient,Completed,198,11.5
+2024-10,Orthopedics,Outpatient,Cancelled,37,13.0
+2024-10,Orthopedics,Outpatient,No-Show,18,13.5
+2024-10,Orthopedics,Inpatient,Completed,68,11.8
+2024-10,Orthopedics,Inpatient,Cancelled,13,14.8
+2024-10,Orthopedics,Inpatient,No-Show,5,16.1
+2024-10,Orthopedics,Diagnostic,Completed,121,7.9
+2024-10,Orthopedics,Diagnostic,Cancelled,25,10.5
+2024-10,Orthopedics,Diagnostic,No-Show,12,12.1
+2024-10,Orthopedics,Emergency,Completed,48,1.5
+2024-10,Orthopedics,Emergency,Cancelled,8,1.7
+2024-10,Orthopedics,Emergency,No-Show,4,1.8
+2024-10,Orthopedics,Elective,Completed,61,31.6
+2024-10,Orthopedics,Elective,Cancelled,13,28.3
+2024-10,Orthopedics,Elective,No-Show,5,41.0
+2024-10,Pediatrics,Outpatient,Completed,272,13.7
+2024-10,Pediatrics,Outpatient,Cancelled,48,15.9
+2024-10,Pediatrics,Outpatient,No-Show,25,17.8
+2024-10,Pediatrics,Inpatient,Completed,90,12.4
+2024-10,Pediatrics,Inpatient,Cancelled,16,14.6
+2024-10,Pediatrics,Inpatient,No-Show,9,15.2
+2024-10,Pediatrics,Diagnostic,Completed,154,7.9
+2024-10,Pediatrics,Diagnostic,Cancelled,28,11.4
+2024-10,Pediatrics,Diagnostic,No-Show,14,12.9
+2024-10,Pediatrics,Emergency,Completed,63,1.7
+2024-10,Pediatrics,Emergency,Cancelled,12,1.9
+2024-10,Pediatrics,Emergency,No-Show,5,1.9
+2024-10,Pediatrics,Elective,Completed,73,31.7
+2024-10,Pediatrics,Elective,Cancelled,13,35.4
+2024-10,Pediatrics,Elective,No-Show,6,33.3
+2024-10,Radiology,Outpatient,Completed,236,11.1
+2024-10,Radiology,Outpatient,Cancelled,45,14.7
+2024-10,Radiology,Outpatient,No-Show,23,17.6
+2024-10,Radiology,Inpatient,Completed,75,10.7
+2024-10,Radiology,Inpatient,Cancelled,15,12.4
+2024-10,Radiology,Inpatient,No-Show,8,16.4
+2024-10,Radiology,Diagnostic,Completed,134,9.7
+2024-10,Radiology,Diagnostic,Cancelled,24,9.9
+2024-10,Radiology,Diagnostic,No-Show,12,11.1
+2024-10,Radiology,Emergency,Completed,59,1.5
+2024-10,Radiology,Emergency,Cancelled,11,2.0
+2024-10,Radiology,Emergency,No-Show,6,2.0
+2024-10,Radiology,Elective,Completed,63,25.0
+2024-10,Radiology,Elective,Cancelled,13,29.6
+2024-10,Radiology,Elective,No-Show,6,38.4
+2024-10,Oncology,Outpatient,Completed,134,11.8
+2024-10,Oncology,Outpatient,Cancelled,25,13.8
+2024-10,Oncology,Outpatient,No-Show,11,15.7
+2024-10,Oncology,Inpatient,Completed,49,11.5
+2024-10,Oncology,Inpatient,Cancelled,9,14.8
+2024-10,Oncology,Inpatient,No-Show,4,13.8
+2024-10,Oncology,Diagnostic,Completed,80,8.7
+2024-10,Oncology,Diagnostic,Cancelled,15,11.6
+2024-10,Oncology,Diagnostic,No-Show,7,11.3
+2024-10,Oncology,Emergency,Completed,36,1.5
+2024-10,Oncology,Emergency,Cancelled,7,1.7
+2024-10,Oncology,Emergency,No-Show,3,1.9
+2024-10,Oncology,Elective,Completed,39,24.0
+2024-10,Oncology,Elective,Cancelled,8,34.0
+2024-10,Oncology,Elective,No-Show,4,39.3
+2024-10,General Surgery,Outpatient,Completed,119,13.5
+2024-10,General Surgery,Outpatient,Cancelled,24,16.2
+2024-10,General Surgery,Outpatient,No-Show,11,13.5
+2024-10,General Surgery,Inpatient,Completed,43,11.4
+2024-10,General Surgery,Inpatient,Cancelled,8,16.2
+2024-10,General Surgery,Inpatient,No-Show,4,13.3
+2024-10,General Surgery,Diagnostic,Completed,74,8.9
+2024-10,General Surgery,Diagnostic,Cancelled,15,12.1
+2024-10,General Surgery,Diagnostic,No-Show,6,11.6
+2024-10,General Surgery,Emergency,Completed,30,1.4
+2024-10,General Surgery,Emergency,Cancelled,5,1.8
+2024-10,General Surgery,Emergency,No-Show,3,1.7
+2024-10,General Surgery,Elective,Completed,36,32.0
+2024-10,General Surgery,Elective,Cancelled,8,30.6
+2024-10,General Surgery,Elective,No-Show,3,36.4
+2024-10,Neurology,Outpatient,Completed,161,13.3
+2024-10,Neurology,Outpatient,Cancelled,31,13.7
+2024-10,Neurology,Outpatient,No-Show,14,15.7
+2024-10,Neurology,Inpatient,Completed,58,10.3
+2024-10,Neurology,Inpatient,Cancelled,10,13.7
+2024-10,Neurology,Inpatient,No-Show,5,14.2
+2024-10,Neurology,Diagnostic,Completed,94,8.4
+2024-10,Neurology,Diagnostic,Cancelled,17,10.2
+2024-10,Neurology,Diagnostic,No-Show,9,11.2
+2024-10,Neurology,Emergency,Completed,39,1.7
+2024-10,Neurology,Emergency,Cancelled,8,1.8
+2024-10,Neurology,Emergency,No-Show,3,1.8
+2024-10,Neurology,Elective,Completed,49,28.0
+2024-10,Neurology,Elective,Cancelled,9,29.3
+2024-10,Neurology,Elective,No-Show,4,33.5
+2024-11,Cardiology,Outpatient,Completed,218,13.6
+2024-11,Cardiology,Outpatient,Cancelled,47,14.6
+2024-11,Cardiology,Outpatient,No-Show,23,16.6
+2024-11,Cardiology,Inpatient,Completed,74,10.8
+2024-11,Cardiology,Inpatient,Cancelled,19,14.2
+2024-11,Cardiology,Inpatient,No-Show,7,15.8
+2024-11,Cardiology,Diagnostic,Completed,120,10.2
+2024-11,Cardiology,Diagnostic,Cancelled,28,9.9
+2024-11,Cardiology,Diagnostic,No-Show,11,10.1
+2024-11,Cardiology,Emergency,Completed,50,1.3
+2024-11,Cardiology,Emergency,Cancelled,11,1.7
+2024-11,Cardiology,Emergency,No-Show,5,1.8
+2024-11,Cardiology,Elective,Completed,62,26.6
+2024-11,Cardiology,Elective,Cancelled,14,29.0
+2024-11,Cardiology,Elective,No-Show,6,31.2
+2024-11,Orthopedics,Outpatient,Completed,181,13.5
+2024-11,Orthopedics,Outpatient,Cancelled,44,14.2
+2024-11,Orthopedics,Outpatient,No-Show,20,15.7
+2024-11,Orthopedics,Inpatient,Completed,64,13.2
+2024-11,Orthopedics,Inpatient,Cancelled,16,15.8
+2024-11,Orthopedics,Inpatient,No-Show,7,15.3
+2024-11,Orthopedics,Diagnostic,Completed,119,10.2
+2024-11,Orthopedics,Diagnostic,Cancelled,29,9.3
+2024-11,Orthopedics,Diagnostic,No-Show,11,13.4
+2024-11,Orthopedics,Emergency,Completed,50,1.3
+2024-11,Orthopedics,Emergency,Cancelled,11,1.9
+2024-11,Orthopedics,Emergency,No-Show,5,2.1
+2024-11,Orthopedics,Elective,Completed,58,26.1
+2024-11,Orthopedics,Elective,Cancelled,14,32.2
+2024-11,Orthopedics,Elective,No-Show,5,31.4
+2024-11,Pediatrics,Outpatient,Completed,247,11.7
+2024-11,Pediatrics,Outpatient,Cancelled,54,15.8
+2024-11,Pediatrics,Outpatient,No-Show,24,14.5
+2024-11,Pediatrics,Inpatient,Completed,92,12.0
+2024-11,Pediatrics,Inpatient,Cancelled,21,13.8
+2024-11,Pediatrics,Inpatient,No-Show,9,14.5
+2024-11,Pediatrics,Diagnostic,Completed,150,9.2
+2024-11,Pediatrics,Diagnostic,Cancelled,32,10.3
+2024-11,Pediatrics,Diagnostic,No-Show,14,12.8
+2024-11,Pediatrics,Emergency,Completed,58,1.7
+2024-11,Pediatrics,Emergency,Cancelled,15,1.9
+2024-11,Pediatrics,Emergency,No-Show,6,1.7
+2024-11,Pediatrics,Elective,Completed,75,28.7
+2024-11,Pediatrics,Elective,Cancelled,16,30.7
+2024-11,Pediatrics,Elective,No-Show,8,41.1
+2024-11,Radiology,Outpatient,Completed,206,10.4
+2024-11,Radiology,Outpatient,Cancelled,48,14.6
+2024-11,Radiology,Outpatient,No-Show,21,17.1
+2024-11,Radiology,Inpatient,Completed,72,12.6
+2024-11,Radiology,Inpatient,Cancelled,17,12.5
+2024-11,Radiology,Inpatient,No-Show,7,17.6
+2024-11,Radiology,Diagnostic,Completed,141,9.2
+2024-11,Radiology,Diagnostic,Cancelled,30,11.3
+2024-11,Radiology,Diagnostic,No-Show,13,11.5
+2024-11,Radiology,Emergency,Completed,52,1.5
+2024-11,Radiology,Emergency,Cancelled,11,2.0
+2024-11,Radiology,Emergency,No-Show,6,1.9
+2024-11,Radiology,Elective,Completed,71,31.6
+2024-11,Radiology,Elective,Cancelled,15,37.5
+2024-11,Radiology,Elective,No-Show,6,34.4
+2024-11,Oncology,Outpatient,Completed,135,10.9
+2024-11,Oncology,Outpatient,Cancelled,31,15.9
+2024-11,Oncology,Outpatient,No-Show,13,14.4
+2024-11,Oncology,Inpatient,Completed,51,12.6
+2024-11,Oncology,Inpatient,Cancelled,11,13.5
+2024-11,Oncology,Inpatient,No-Show,4,16.3
+2024-11,Oncology,Diagnostic,Completed,76,10.0
+2024-11,Oncology,Diagnostic,Cancelled,19,9.5
+2024-11,Oncology,Diagnostic,No-Show,8,11.1
+2024-11,Oncology,Emergency,Completed,34,1.3
+2024-11,Oncology,Emergency,Cancelled,8,1.7
+2024-11,Oncology,Emergency,No-Show,3,1.8
+2024-11,Oncology,Elective,Completed,41,29.1
+2024-11,Oncology,Elective,Cancelled,9,31.9
+2024-11,Oncology,Elective,No-Show,4,34.7
+2024-11,General Surgery,Outpatient,Completed,121,12.3
+2024-11,General Surgery,Outpatient,Cancelled,29,16.1
+2024-11,General Surgery,Outpatient,No-Show,12,15.7
+2024-11,General Surgery,Inpatient,Completed,45,11.7
+2024-11,General Surgery,Inpatient,Cancelled,11,15.0
+2024-11,General Surgery,Inpatient,No-Show,4,17.9
+2024-11,General Surgery,Diagnostic,Completed,73,8.0
+2024-11,General Surgery,Diagnostic,Cancelled,15,11.4
+2024-11,General Surgery,Diagnostic,No-Show,7,11.7
+2024-11,General Surgery,Emergency,Completed,31,1.6
+2024-11,General Surgery,Emergency,Cancelled,8,1.9
+2024-11,General Surgery,Emergency,No-Show,3,2.2
+2024-11,General Surgery,Elective,Completed,39,25.6
+2024-11,General Surgery,Elective,Cancelled,8,36.6
+2024-11,General Surgery,Elective,No-Show,4,38.0
+2024-11,Neurology,Outpatient,Completed,149,12.7
+2024-11,Neurology,Outpatient,Cancelled,32,12.9
+2024-11,Neurology,Outpatient,No-Show,14,13.7
+2024-11,Neurology,Inpatient,Completed,54,11.3
+2024-11,Neurology,Inpatient,Cancelled,13,16.2
+2024-11,Neurology,Inpatient,No-Show,5,16.6
+2024-11,Neurology,Diagnostic,Completed,91,7.8
+2024-11,Neurology,Diagnostic,Cancelled,20,11.3
+2024-11,Neurology,Diagnostic,No-Show,9,10.1
+2024-11,Neurology,Emergency,Completed,34,1.6
+2024-11,Neurology,Emergency,Cancelled,8,1.8
+2024-11,Neurology,Emergency,No-Show,4,1.9
+2024-11,Neurology,Elective,Completed,44,27.4
+2024-11,Neurology,Elective,Cancelled,10,34.0
+2024-11,Neurology,Elective,No-Show,4,40.7
+2024-12,Cardiology,Outpatient,Completed,219,10.9
+2024-12,Cardiology,Outpatient,Cancelled,56,13.5
+2024-12,Cardiology,Outpatient,No-Show,23,14.6
+2024-12,Cardiology,Inpatient,Completed,66,13.5
+2024-12,Cardiology,Inpatient,Cancelled,20,12.2
+2024-12,Cardiology,Inpatient,No-Show,7,13.6
+2024-12,Cardiology,Diagnostic,Completed,121,10.3
+2024-12,Cardiology,Diagnostic,Cancelled,31,9.7
+2024-12,Cardiology,Diagnostic,No-Show,13,10.6
+2024-12,Cardiology,Emergency,Completed,51,1.4
+2024-12,Cardiology,Emergency,Cancelled,14,1.9
+2024-12,Cardiology,Emergency,No-Show,6,1.7
+2024-12,Cardiology,Elective,Completed,59,26.9
+2024-12,Cardiology,Elective,Cancelled,17,33.7
+2024-12,Cardiology,Elective,No-Show,7,31.7
+2024-12,Orthopedics,Outpatient,Completed,178,11.2
+2024-12,Orthopedics,Outpatient,Cancelled,46,15.1
+2024-12,Orthopedics,Outpatient,No-Show,20,13.6
+2024-12,Orthopedics,Inpatient,Completed,67,10.3
+2024-12,Orthopedics,Inpatient,Cancelled,20,12.3
+2024-12,Orthopedics,Inpatient,No-Show,7,17.3
+2024-12,Orthopedics,Diagnostic,Completed,106,9.8
+2024-12,Orthopedics,Diagnostic,Cancelled,30,10.6
+2024-12,Orthopedics,Diagnostic,No-Show,12,11.7
+2024-12,Orthopedics,Emergency,Completed,50,1.3
+2024-12,Orthopedics,Emergency,Cancelled,13,1.8
+2024-12,Orthopedics,Emergency,No-Show,6,2.2
+2024-12,Orthopedics,Elective,Completed,56,27.3
+2024-12,Orthopedics,Elective,Cancelled,16,31.7
+2024-12,Orthopedics,Elective,No-Show,6,36.6
+2024-12,Pediatrics,Outpatient,Completed,238,11.1
+2024-12,Pediatrics,Outpatient,Cancelled,65,13.6
+2024-12,Pediatrics,Outpatient,No-Show,25,14.0
+2024-12,Pediatrics,Inpatient,Completed,87,12.7
+2024-12,Pediatrics,Inpatient,Cancelled,25,15.6
+2024-12,Pediatrics,Inpatient,No-Show,9,14.4
+2024-12,Pediatrics,Diagnostic,Completed,139,9.7
+2024-12,Pediatrics,Diagnostic,Cancelled,35,12.2
+2024-12,Pediatrics,Diagnostic,No-Show,14,10.1
+2024-12,Pediatrics,Emergency,Completed,62,1.6
+2024-12,Pediatrics,Emergency,Cancelled,16,1.7
+2024-12,Pediatrics,Emergency,No-Show,7,1.7
+2024-12,Pediatrics,Elective,Completed,71,25.4
+2024-12,Pediatrics,Elective,Cancelled,22,29.3
+2024-12,Pediatrics,Elective,No-Show,8,37.0
+2024-12,Radiology,Outpatient,Completed,209,13.4
+2024-12,Radiology,Outpatient,Cancelled,63,15.5
+2024-12,Radiology,Outpatient,No-Show,25,14.4
+2024-12,Radiology,Inpatient,Completed,75,13.6
+2024-12,Radiology,Inpatient,Cancelled,20,14.9
+2024-12,Radiology,Inpatient,No-Show,8,17.8
+2024-12,Radiology,Diagnostic,Completed,125,7.9
+2024-12,Radiology,Diagnostic,Cancelled,35,9.8
+2024-12,Radiology,Diagnostic,No-Show,14,11.8
+2024-12,Radiology,Emergency,Completed,49,1.4
+2024-12,Radiology,Emergency,Cancelled,15,1.9
+2024-12,Radiology,Emergency,No-Show,5,1.7
+2024-12,Radiology,Elective,Completed,67,29.6
+2024-12,Radiology,Elective,Cancelled,19,34.3
+2024-12,Radiology,Elective,No-Show,7,39.2
+2024-12,Oncology,Outpatient,Completed,137,11.4
+2024-12,Oncology,Outpatient,Cancelled,40,15.0
+2024-12,Oncology,Outpatient,No-Show,16,17.7
+2024-12,Oncology,Inpatient,Completed,47,12.9
+2024-12,Oncology,Inpatient,Cancelled,14,16.3
+2024-12,Oncology,Inpatient,No-Show,5,14.0
+2024-12,Oncology,Diagnostic,Completed,76,9.2
+2024-12,Oncology,Diagnostic,Cancelled,22,9.2
+2024-12,Oncology,Diagnostic,No-Show,8,11.4
+2024-12,Oncology,Emergency,Completed,33,1.6
+2024-12,Oncology,Emergency,Cancelled,10,1.8
+2024-12,Oncology,Emergency,No-Show,4,2.1
+2024-12,Oncology,Elective,Completed,40,24.7
+2024-12,Oncology,Elective,Cancelled,11,30.8
+2024-12,Oncology,Elective,No-Show,5,36.7
+2024-12,General Surgery,Outpatient,Completed,122,12.3
+2024-12,General Surgery,Outpatient,Cancelled,35,13.0
+2024-12,General Surgery,Outpatient,No-Show,12,16.7
+2024-12,General Surgery,Inpatient,Completed,42,11.4
+2024-12,General Surgery,Inpatient,Cancelled,12,13.9
+2024-12,General Surgery,Inpatient,No-Show,5,17.3
+2024-12,General Surgery,Diagnostic,Completed,72,7.8
+2024-12,General Surgery,Diagnostic,Cancelled,20,9.5
+2024-12,General Surgery,Diagnostic,No-Show,8,10.6
+2024-12,General Surgery,Emergency,Completed,28,1.4
+2024-12,General Surgery,Emergency,Cancelled,9,1.6
+2024-12,General Surgery,Emergency,No-Show,3,1.9
+2024-12,General Surgery,Elective,Completed,36,30.5
+2024-12,General Surgery,Elective,Cancelled,10,29.2
+2024-12,General Surgery,Elective,No-Show,4,37.6
+2024-12,Neurology,Outpatient,Completed,154,13.5
+2024-12,Neurology,Outpatient,Cancelled,42,15.8
+2024-12,Neurology,Outpatient,No-Show,15,15.7
+2024-12,Neurology,Inpatient,Completed,50,12.0
+2024-12,Neurology,Inpatient,Cancelled,13,12.2
+2024-12,Neurology,Inpatient,No-Show,6,16.5
+2024-12,Neurology,Diagnostic,Completed,90,7.8
+2024-12,Neurology,Diagnostic,Cancelled,27,12.0
+2024-12,Neurology,Diagnostic,No-Show,10,13.2
+2024-12,Neurology,Emergency,Completed,36,1.5
+2024-12,Neurology,Emergency,Cancelled,10,1.6
+2024-12,Neurology,Emergency,No-Show,4,1.7
+2024-12,Neurology,Elective,Completed,41,25.7
+2024-12,Neurology,Elective,Cancelled,12,33.5
+2024-12,Neurology,Elective,No-Show,4,33.3
+2025-01,Cardiology,Outpatient,Completed,192,12.5
+2025-01,Cardiology,Outpatient,Cancelled,55,15.9
+2025-01,Cardiology,Outpatient,No-Show,21,14.0
+2025-01,Cardiology,Inpatient,Completed,73,12.5
+2025-01,Cardiology,Inpatient,Cancelled,22,14.7
+2025-01,Cardiology,Inpatient,No-Show,9,16.3
+2025-01,Cardiology,Diagnostic,Completed,126,9.2
+2025-01,Cardiology,Diagnostic,Cancelled,32,11.5
+2025-01,Cardiology,Diagnostic,No-Show,15,11.3
+2025-01,Cardiology,Emergency,Completed,47,1.5
+2025-01,Cardiology,Emergency,Cancelled,13,1.7
+2025-01,Cardiology,Emergency,No-Show,5,1.8
+2025-01,Cardiology,Elective,Completed,61,25.3
+2025-01,Cardiology,Elective,Cancelled,17,31.3
+2025-01,Cardiology,Elective,No-Show,7,34.2
+2025-01,Orthopedics,Outpatient,Completed,186,13.6
+2025-01,Orthopedics,Outpatient,Cancelled,53,13.2
+2025-01,Orthopedics,Outpatient,No-Show,21,16.5
+2025-01,Orthopedics,Inpatient,Completed,61,10.3
+2025-01,Orthopedics,Inpatient,Cancelled,16,14.7
+2025-01,Orthopedics,Inpatient,No-Show,7,16.4
+2025-01,Orthopedics,Diagnostic,Completed,115,8.7
+2025-01,Orthopedics,Diagnostic,Cancelled,33,9.2
+2025-01,Orthopedics,Diagnostic,No-Show,13,10.3
+2025-01,Orthopedics,Emergency,Completed,47,1.5
+2025-01,Orthopedics,Emergency,Cancelled,14,1.9
+2025-01,Orthopedics,Emergency,No-Show,5,2.1
+2025-01,Orthopedics,Elective,Completed,56,31.0
+2025-01,Orthopedics,Elective,Cancelled,16,29.3
+2025-01,Orthopedics,Elective,No-Show,6,41.1
+2025-01,Pediatrics,Outpatient,Completed,221,10.9
+2025-01,Pediatrics,Outpatient,Cancelled,66,12.1
+2025-01,Pediatrics,Outpatient,No-Show,23,15.3
+2025-01,Pediatrics,Inpatient,Completed,83,11.6
+2025-01,Pediatrics,Inpatient,Cancelled,22,15.3
+2025-01,Pediatrics,Inpatient,No-Show,9,17.4
+2025-01,Pediatrics,Diagnostic,Completed,149,10.1
+2025-01,Pediatrics,Diagnostic,Cancelled,39,9.3
+2025-01,Pediatrics,Diagnostic,No-Show,16,11.4
+2025-01,Pediatrics,Emergency,Completed,62,1.6
+2025-01,Pediatrics,Emergency,Cancelled,19,1.7
+2025-01,Pediatrics,Emergency,No-Show,7,2.1
+2025-01,Pediatrics,Elective,Completed,68,25.8
+2025-01,Pediatrics,Elective,Cancelled,18,34.7
+2025-01,Pediatrics,Elective,No-Show,8,34.8
+2025-01,Radiology,Outpatient,Completed,220,13.0
+2025-01,Radiology,Outpatient,Cancelled,66,13.2
+2025-01,Radiology,Outpatient,No-Show,25,15.6
+2025-01,Radiology,Inpatient,Completed,69,13.4
+2025-01,Radiology,Inpatient,Cancelled,21,15.8
+2025-01,Radiology,Inpatient,No-Show,8,17.8
+2025-01,Radiology,Diagnostic,Completed,120,8.8
+2025-01,Radiology,Diagnostic,Cancelled,37,10.8
+2025-01,Radiology,Diagnostic,No-Show,14,11.1
+2025-01,Radiology,Emergency,Completed,53,1.5
+2025-01,Radiology,Emergency,Cancelled,14,2.0
+2025-01,Radiology,Emergency,No-Show,5,2.0
+2025-01,Radiology,Elective,Completed,64,25.6
+2025-01,Radiology,Elective,Cancelled,18,36.2
+2025-01,Radiology,Elective,No-Show,7,33.1
+2025-01,Oncology,Outpatient,Completed,135,13.3
+2025-01,Oncology,Outpatient,Cancelled,40,13.3
+2025-01,Oncology,Outpatient,No-Show,15,17.4
+2025-01,Oncology,Inpatient,Completed,47,13.2
+2025-01,Oncology,Inpatient,Cancelled,14,16.3
+2025-01,Oncology,Inpatient,No-Show,6,15.2
+2025-01,Oncology,Diagnostic,Completed,83,10.2
+2025-01,Oncology,Diagnostic,Cancelled,24,10.3
+2025-01,Oncology,Diagnostic,No-Show,9,11.9
+2025-01,Oncology,Emergency,Completed,32,1.5
+2025-01,Oncology,Emergency,Cancelled,8,1.7
+2025-01,Oncology,Emergency,No-Show,4,1.8
+2025-01,Oncology,Elective,Completed,39,24.4
+2025-01,Oncology,Elective,Cancelled,12,33.8
+2025-01,Oncology,Elective,No-Show,5,36.0
+2025-01,General Surgery,Outpatient,Completed,120,11.9
+2025-01,General Surgery,Outpatient,Cancelled,33,14.5
+2025-01,General Surgery,Outpatient,No-Show,13,15.6
+2025-01,General Surgery,Inpatient,Completed,40,11.4
+2025-01,General Surgery,Inpatient,Cancelled,12,15.4
+2025-01,General Surgery,Inpatient,No-Show,5,17.3
+2025-01,General Surgery,Diagnostic,Completed,67,9.6
+2025-01,General Surgery,Diagnostic,Cancelled,19,9.8
+2025-01,General Surgery,Diagnostic,No-Show,7,12.3
+2025-01,General Surgery,Emergency,Completed,28,1.4
+2025-01,General Surgery,Emergency,Cancelled,8,2.0
+2025-01,General Surgery,Emergency,No-Show,3,2.2
+2025-01,General Surgery,Elective,Completed,37,24.1
+2025-01,General Surgery,Elective,Cancelled,10,32.0
+2025-01,General Surgery,Elective,No-Show,4,40.4
+2025-01,Neurology,Outpatient,Completed,147,13.1
+2025-01,Neurology,Outpatient,Cancelled,42,15.1
+2025-01,Neurology,Outpatient,No-Show,16,15.5
+2025-01,Neurology,Inpatient,Completed,54,12.5
+2025-01,Neurology,Inpatient,Cancelled,14,16.2
+2025-01,Neurology,Inpatient,No-Show,5,14.4
+2025-01,Neurology,Diagnostic,Completed,84,8.3
+2025-01,Neurology,Diagnostic,Cancelled,22,10.6
+2025-01,Neurology,Diagnostic,No-Show,10,13.4
+2025-01,Neurology,Emergency,Completed,33,1.6
+2025-01,Neurology,Emergency,Cancelled,10,1.7
+2025-01,Neurology,Emergency,No-Show,4,1.9
+2025-01,Neurology,Elective,Completed,40,24.9
+2025-01,Neurology,Elective,Cancelled,12,32.0
+2025-01,Neurology,Elective,No-Show,5,40.7
+2025-02,Cardiology,Outpatient,Completed,191,11.4
+2025-02,Cardiology,Outpatient,Cancelled,52,13.2
+2025-02,Cardiology,Outpatient,No-Show,21,15.4
+2025-02,Cardiology,Inpatient,Completed,68,12.3
+2025-02,Cardiology,Inpatient,Cancelled,19,12.4
+2025-02,Cardiology,Inpatient,No-Show,8,17.2
+2025-02,Cardiology,Diagnostic,Completed,115,9.8
+2025-02,Cardiology,Diagnostic,Cancelled,34,9.7
+2025-02,Cardiology,Diagnostic,No-Show,13,10.6
+2025-02,Cardiology,Emergency,Completed,52,1.6
+2025-02,Cardiology,Emergency,Cancelled,13,1.9
+2025-02,Cardiology,Emergency,No-Show,5,1.7
+2025-02,Cardiology,Elective,Completed,63,29.7
+2025-02,Cardiology,Elective,Cancelled,19,34.8
+2025-02,Cardiology,Elective,No-Show,8,36.7
+2025-02,Orthopedics,Outpatient,Completed,189,11.3
+2025-02,Orthopedics,Outpatient,Cancelled,58,12.3
+2025-02,Orthopedics,Outpatient,No-Show,20,17.7
+2025-02,Orthopedics,Inpatient,Completed,64,13.8
+2025-02,Orthopedics,Inpatient,Cancelled,19,12.7
+2025-02,Orthopedics,Inpatient,No-Show,8,17.0
+2025-02,Orthopedics,Diagnostic,Completed,120,8.6
+2025-02,Orthopedics,Diagnostic,Cancelled,31,11.1
+2025-02,Orthopedics,Diagnostic,No-Show,14,11.7
+2025-02,Orthopedics,Emergency,Completed,46,1.3
+2025-02,Orthopedics,Emergency,Cancelled,12,1.8
+2025-02,Orthopedics,Emergency,No-Show,5,1.9
+2025-02,Orthopedics,Elective,Completed,53,28.3
+2025-02,Orthopedics,Elective,Cancelled,16,37.4
+2025-02,Orthopedics,Elective,No-Show,6,35.1
+2025-02,Pediatrics,Outpatient,Completed,255,13.8
+2025-02,Pediatrics,Outpatient,Cancelled,66,15.6
+2025-02,Pediatrics,Outpatient,No-Show,29,16.0
+2025-02,Pediatrics,Inpatient,Completed,86,13.0
+2025-02,Pediatrics,Inpatient,Cancelled,24,16.3
+2025-02,Pediatrics,Inpatient,No-Show,10,15.6
+2025-02,Pediatrics,Diagnostic,Completed,136,8.3
+2025-02,Pediatrics,Diagnostic,Cancelled,39,10.1
+2025-02,Pediatrics,Diagnostic,No-Show,14,12.5
+2025-02,Pediatrics,Emergency,Completed,59,1.7
+2025-02,Pediatrics,Emergency,Cancelled,15,1.9
+2025-02,Pediatrics,Emergency,No-Show,6,1.7
+2025-02,Pediatrics,Elective,Completed,67,28.8
+2025-02,Pediatrics,Elective,Cancelled,19,32.4
+2025-02,Pediatrics,Elective,No-Show,7,41.0
+2025-02,Radiology,Outpatient,Completed,208,13.6
+2025-02,Radiology,Outpatient,Cancelled,60,16.2
+2025-02,Radiology,Outpatient,No-Show,21,16.7
+2025-02,Radiology,Inpatient,Completed,75,12.9
+2025-02,Radiology,Inpatient,Cancelled,20,13.0
+2025-02,Radiology,Inpatient,No-Show,9,15.4
+2025-02,Radiology,Diagnostic,Completed,125,9.4
+2025-02,Radiology,Diagnostic,Cancelled,38,11.1
+2025-02,Radiology,Diagnostic,No-Show,15,10.9
+2025-02,Radiology,Emergency,Completed,53,1.5
+2025-02,Radiology,Emergency,Cancelled,14,1.7
+2025-02,Radiology,Emergency,No-Show,6,1.8
+2025-02,Radiology,Elective,Completed,62,24.3
+2025-02,Radiology,Elective,Cancelled,18,35.7
+2025-02,Radiology,Elective,No-Show,6,35.1
+2025-02,Oncology,Outpatient,Completed,131,11.4
+2025-02,Oncology,Outpatient,Cancelled,37,15.3
+2025-02,Oncology,Outpatient,No-Show,16,17.7
+2025-02,Oncology,Inpatient,Completed,48,11.8
+2025-02,Oncology,Inpatient,Cancelled,13,13.8
+2025-02,Oncology,Inpatient,No-Show,6,15.7
+2025-02,Oncology,Diagnostic,Completed,80,8.0
+2025-02,Oncology,Diagnostic,Cancelled,21,10.3
+2025-02,Oncology,Diagnostic,No-Show,9,11.9
+2025-02,Oncology,Emergency,Completed,36,1.5
+2025-02,Oncology,Emergency,Cancelled,9,1.5
+2025-02,Oncology,Emergency,No-Show,4,1.8
+2025-02,Oncology,Elective,Completed,39,27.2
+2025-02,Oncology,Elective,Cancelled,10,33.3
+2025-02,Oncology,Elective,No-Show,4,31.0
+2025-02,General Surgery,Outpatient,Completed,114,11.4
+2025-02,General Surgery,Outpatient,Cancelled,30,14.4
+2025-02,General Surgery,Outpatient,No-Show,13,14.3
+2025-02,General Surgery,Inpatient,Completed,38,10.7
+2025-02,General Surgery,Inpatient,Cancelled,12,12.7
+2025-02,General Surgery,Inpatient,No-Show,4,17.9
+2025-02,General Surgery,Diagnostic,Completed,71,7.9
+2025-02,General Surgery,Diagnostic,Cancelled,21,12.1
+2025-02,General Surgery,Diagnostic,No-Show,9,10.7
+2025-02,General Surgery,Emergency,Completed,30,1.7
+2025-02,General Surgery,Emergency,Cancelled,8,1.6
+2025-02,General Surgery,Emergency,No-Show,3,2.2
+2025-02,General Surgery,Elective,Completed,34,24.3
+2025-02,General Surgery,Elective,Cancelled,10,37.2
+2025-02,General Surgery,Elective,No-Show,4,37.1
+2025-02,Neurology,Outpatient,Completed,151,12.6
+2025-02,Neurology,Outpatient,Cancelled,40,14.0
+2025-02,Neurology,Outpatient,No-Show,17,14.0
+2025-02,Neurology,Inpatient,Completed,48,12.8
+2025-02,Neurology,Inpatient,Cancelled,15,16.3
+2025-02,Neurology,Inpatient,No-Show,5,13.3
+2025-02,Neurology,Diagnostic,Completed,83,9.2
+2025-02,Neurology,Diagnostic,Cancelled,24,11.2
+2025-02,Neurology,Diagnostic,No-Show,8,12.0
+2025-02,Neurology,Emergency,Completed,35,1.4
+2025-02,Neurology,Emergency,Cancelled,10,1.8
+2025-02,Neurology,Emergency,No-Show,4,2.2
+2025-02,Neurology,Elective,Completed,45,24.5
+2025-02,Neurology,Elective,Cancelled,12,30.5
+2025-02,Neurology,Elective,No-Show,5,31.1
+2025-03,Cardiology,Outpatient,Completed,231,10.8
+2025-03,Cardiology,Outpatient,Cancelled,50,13.2
+2025-03,Cardiology,Outpatient,No-Show,24,15.2
+2025-03,Cardiology,Inpatient,Completed,72,13.4
+2025-03,Cardiology,Inpatient,Cancelled,18,12.7
+2025-03,Cardiology,Inpatient,No-Show,8,16.9
+2025-03,Cardiology,Diagnostic,Completed,121,8.6
+2025-03,Cardiology,Diagnostic,Cancelled,30,9.5
+2025-03,Cardiology,Diagnostic,No-Show,12,10.0
+2025-03,Cardiology,Emergency,Completed,51,1.7
+2025-03,Cardiology,Emergency,Cancelled,13,1.6
+2025-03,Cardiology,Emergency,No-Show,5,2.0
+2025-03,Cardiology,Elective,Completed,62,26.2
+2025-03,Cardiology,Elective,Cancelled,14,33.8
+2025-03,Cardiology,Elective,No-Show,6,32.9
+2025-03,Orthopedics,Outpatient,Completed,197,13.6
+2025-03,Orthopedics,Outpatient,Cancelled,46,14.2
+2025-03,Orthopedics,Outpatient,No-Show,18,17.1
+2025-03,Orthopedics,Inpatient,Completed,70,13.4
+2025-03,Orthopedics,Inpatient,Cancelled,17,14.6
+2025-03,Orthopedics,Inpatient,No-Show,7,14.6
+2025-03,Orthopedics,Diagnostic,Completed,113,8.3
+2025-03,Orthopedics,Diagnostic,Cancelled,26,9.2
+2025-03,Orthopedics,Diagnostic,No-Show,10,11.9
+2025-03,Orthopedics,Emergency,Completed,47,1.6
+2025-03,Orthopedics,Emergency,Cancelled,11,1.7
+2025-03,Orthopedics,Emergency,No-Show,5,2.0
+2025-03,Orthopedics,Elective,Completed,60,25.6
+2025-03,Orthopedics,Elective,Cancelled,14,37.8
+2025-03,Orthopedics,Elective,No-Show,6,32.0
+2025-03,Pediatrics,Outpatient,Completed,266,12.9
+2025-03,Pediatrics,Outpatient,Cancelled,62,12.4
+2025-03,Pediatrics,Outpatient,No-Show,25,16.9
+2025-03,Pediatrics,Inpatient,Completed,92,12.9
+2025-03,Pediatrics,Inpatient,Cancelled,19,13.3
+2025-03,Pediatrics,Inpatient,No-Show,8,17.4
+2025-03,Pediatrics,Diagnostic,Completed,157,9.6
+2025-03,Pediatrics,Diagnostic,Cancelled,37,12.0
+2025-03,Pediatrics,Diagnostic,No-Show,15,10.3
+2025-03,Pediatrics,Emergency,Completed,63,1.6
+2025-03,Pediatrics,Emergency,Cancelled,14,1.8
+2025-03,Pediatrics,Emergency,No-Show,6,2.0
+2025-03,Pediatrics,Elective,Completed,75,31.0
+2025-03,Pediatrics,Elective,Cancelled,16,34.1
+2025-03,Pediatrics,Elective,No-Show,7,35.1
+2025-03,Radiology,Outpatient,Completed,240,11.0
+2025-03,Radiology,Outpatient,Cancelled,50,16.2
+2025-03,Radiology,Outpatient,No-Show,22,16.6
+2025-03,Radiology,Inpatient,Completed,82,12.5
+2025-03,Radiology,Inpatient,Cancelled,17,13.6
+2025-03,Radiology,Inpatient,No-Show,7,17.6
+2025-03,Radiology,Diagnostic,Completed,140,10.3
+2025-03,Radiology,Diagnostic,Cancelled,32,10.5
+2025-03,Radiology,Diagnostic,No-Show,15,12.2
+2025-03,Radiology,Emergency,Completed,60,1.3
+2025-03,Radiology,Emergency,Cancelled,13,1.8
+2025-03,Radiology,Emergency,No-Show,6,2.1
+2025-03,Radiology,Elective,Completed,69,25.1
+2025-03,Radiology,Elective,Cancelled,16,30.2
+2025-03,Radiology,Elective,No-Show,7,33.9
+2025-03,Oncology,Outpatient,Completed,145,13.4
+2025-03,Oncology,Outpatient,Cancelled,33,13.6
+2025-03,Oncology,Outpatient,No-Show,13,15.3
+2025-03,Oncology,Inpatient,Completed,49,11.8
+2025-03,Oncology,Inpatient,Cancelled,11,12.1
+2025-03,Oncology,Inpatient,No-Show,5,17.8
+2025-03,Oncology,Diagnostic,Completed,88,10.1
+2025-03,Oncology,Diagnostic,Cancelled,21,10.1
+2025-03,Oncology,Diagnostic,No-Show,9,12.1
+2025-03,Oncology,Emergency,Completed,37,1.3
+2025-03,Oncology,Emergency,Cancelled,8,1.9
+2025-03,Oncology,Emergency,No-Show,3,2.1
+2025-03,Oncology,Elective,Completed,45,27.6
+2025-03,Oncology,Elective,Cancelled,10,33.5
+2025-03,Oncology,Elective,No-Show,4,41.0
+2025-03,General Surgery,Outpatient,Completed,128,13.7
+2025-03,General Surgery,Outpatient,Cancelled,32,14.0
+2025-03,General Surgery,Outpatient,No-Show,14,13.5
+2025-03,General Surgery,Inpatient,Completed,41,10.8
+2025-03,General Surgery,Inpatient,Cancelled,9,16.1
+2025-03,General Surgery,Inpatient,No-Show,4,14.2
+2025-03,General Surgery,Diagnostic,Completed,79,9.5
+2025-03,General Surgery,Diagnostic,Cancelled,19,10.1
+2025-03,General Surgery,Diagnostic,No-Show,8,12.2
+2025-03,General Surgery,Emergency,Completed,29,1.4
+2025-03,General Surgery,Emergency,Cancelled,7,1.9
+2025-03,General Surgery,Emergency,No-Show,3,2.0
+2025-03,General Surgery,Elective,Completed,37,29.5
+2025-03,General Surgery,Elective,Cancelled,9,30.8
+2025-03,General Surgery,Elective,No-Show,3,33.9
+2025-03,Neurology,Outpatient,Completed,147,11.8
+2025-03,Neurology,Outpatient,Cancelled,32,12.8
+2025-03,Neurology,Outpatient,No-Show,14,14.2
+2025-03,Neurology,Inpatient,Completed,54,13.6
+2025-03,Neurology,Inpatient,Cancelled,12,13.8
+2025-03,Neurology,Inpatient,No-Show,5,17.5
+2025-03,Neurology,Diagnostic,Completed,88,9.7
+2025-03,Neurology,Diagnostic,Cancelled,18,11.7
+2025-03,Neurology,Diagnostic,No-Show,9,10.1
+2025-03,Neurology,Emergency,Completed,40,1.4
+2025-03,Neurology,Emergency,Cancelled,9,2.0
+2025-03,Neurology,Emergency,No-Show,4,1.7
+2025-03,Neurology,Elective,Completed,47,29.8
+2025-03,Neurology,Elective,Cancelled,11,36.6
+2025-03,Neurology,Elective,No-Show,5,32.9
+2025-04,Cardiology,Outpatient,Completed,209,10.6
+2025-04,Cardiology,Outpatient,Cancelled,41,12.8
+2025-04,Cardiology,Outpatient,No-Show,18,14.8
+2025-04,Cardiology,Inpatient,Completed,74,11.3
+2025-04,Cardiology,Inpatient,Cancelled,13,16.2
+2025-04,Cardiology,Inpatient,No-Show,7,17.8
+2025-04,Cardiology,Diagnostic,Completed,127,9.5
+2025-04,Cardiology,Diagnostic,Cancelled,25,9.3
+2025-04,Cardiology,Diagnostic,No-Show,12,10.6
+2025-04,Cardiology,Emergency,Completed,52,1.6
+2025-04,Cardiology,Emergency,Cancelled,10,1.9
+2025-04,Cardiology,Emergency,No-Show,5,2.2
+2025-04,Cardiology,Elective,Completed,70,26.9
+2025-04,Cardiology,Elective,Cancelled,12,28.1
+2025-04,Cardiology,Elective,No-Show,7,36.5
+2025-04,Orthopedics,Outpatient,Completed,221,10.8
+2025-04,Orthopedics,Outpatient,Cancelled,40,12.3
+2025-04,Orthopedics,Outpatient,No-Show,20,13.6
+2025-04,Orthopedics,Inpatient,Completed,74,11.2
+2025-04,Orthopedics,Inpatient,Cancelled,15,12.9
+2025-04,Orthopedics,Inpatient,No-Show,6,13.4
+2025-04,Orthopedics,Diagnostic,Completed,124,8.7
+2025-04,Orthopedics,Diagnostic,Cancelled,25,10.8
+2025-04,Orthopedics,Diagnostic,No-Show,12,10.3
+2025-04,Orthopedics,Emergency,Completed,48,1.7
+2025-04,Orthopedics,Emergency,Cancelled,10,2.0
+2025-04,Orthopedics,Emergency,No-Show,5,2.0
+2025-04,Orthopedics,Elective,Completed,66,24.3
+2025-04,Orthopedics,Elective,Cancelled,12,29.2
+2025-04,Orthopedics,Elective,No-Show,5,32.0
+2025-04,Pediatrics,Outpatient,Completed,256,12.3
+2025-04,Pediatrics,Outpatient,Cancelled,51,12.7
+2025-04,Pediatrics,Outpatient,No-Show,25,16.8
+2025-04,Pediatrics,Inpatient,Completed,92,11.4
+2025-04,Pediatrics,Inpatient,Cancelled,16,13.2
+2025-04,Pediatrics,Inpatient,No-Show,8,17.1
+2025-04,Pediatrics,Diagnostic,Completed,165,9.8
+2025-04,Pediatrics,Diagnostic,Cancelled,33,11.2
+2025-04,Pediatrics,Diagnostic,No-Show,14,10.6
+2025-04,Pediatrics,Emergency,Completed,68,1.3
+2025-04,Pediatrics,Emergency,Cancelled,13,1.8
+2025-04,Pediatrics,Emergency,No-Show,6,1.7
+2025-04,Pediatrics,Elective,Completed,76,26.2
+2025-04,Pediatrics,Elective,Cancelled,14,31.6
+2025-04,Pediatrics,Elective,No-Show,7,34.5
+2025-04,Radiology,Outpatient,Completed,246,11.3
+2025-04,Radiology,Outpatient,Cancelled,48,12.5
+2025-04,Radiology,Outpatient,No-Show,24,15.9
+2025-04,Radiology,Inpatient,Completed,79,11.9
+2025-04,Radiology,Inpatient,Cancelled,16,16.2
+2025-04,Radiology,Inpatient,No-Show,8,15.8
+2025-04,Radiology,Diagnostic,Completed,138,9.8
+2025-04,Radiology,Diagnostic,Cancelled,26,9.4
+2025-04,Radiology,Diagnostic,No-Show,11,11.0
+2025-04,Radiology,Emergency,Completed,61,1.6
+2025-04,Radiology,Emergency,Cancelled,11,1.5
+2025-04,Radiology,Emergency,No-Show,5,1.9
+2025-04,Radiology,Elective,Completed,70,30.2
+2025-04,Radiology,Elective,Cancelled,13,37.5
+2025-04,Radiology,Elective,No-Show,6,32.5
+2025-04,Oncology,Outpatient,Completed,157,12.8
+2025-04,Oncology,Outpatient,Cancelled,31,15.0
+2025-04,Oncology,Outpatient,No-Show,15,17.1
+2025-04,Oncology,Inpatient,Completed,52,10.6
+2025-04,Oncology,Inpatient,Cancelled,10,14.9
+2025-04,Oncology,Inpatient,No-Show,4,13.4
+2025-04,Oncology,Diagnostic,Completed,88,9.4
+2025-04,Oncology,Diagnostic,Cancelled,15,11.0
+2025-04,Oncology,Diagnostic,No-Show,7,11.4
+2025-04,Oncology,Emergency,Completed,35,1.6
+2025-04,Oncology,Emergency,Cancelled,7,1.8
+2025-04,Oncology,Emergency,No-Show,3,1.9
+2025-04,Oncology,Elective,Completed,43,28.0
+2025-04,Oncology,Elective,Cancelled,9,32.8
+2025-04,Oncology,Elective,No-Show,4,31.2
+2025-04,General Surgery,Outpatient,Completed,140,13.8
+2025-04,General Surgery,Outpatient,Cancelled,26,15.1
+2025-04,General Surgery,Outpatient,No-Show,12,13.5
+2025-04,General Surgery,Inpatient,Completed,43,10.5
+2025-04,General Surgery,Inpatient,Cancelled,8,16.0
+2025-04,General Surgery,Inpatient,No-Show,4,17.6
+2025-04,General Surgery,Diagnostic,Completed,79,7.8
+2025-04,General Surgery,Diagnostic,Cancelled,15,11.4
+2025-04,General Surgery,Diagnostic,No-Show,7,10.3
+2025-04,General Surgery,Emergency,Completed,31,1.5
+2025-04,General Surgery,Emergency,Cancelled,6,1.9
+2025-04,General Surgery,Emergency,No-Show,2,2.1
+2025-04,General Surgery,Elective,Completed,39,30.9
+2025-04,General Surgery,Elective,Cancelled,8,33.1
+2025-04,General Surgery,Elective,No-Show,3,33.4
+2025-04,Neurology,Outpatient,Completed,172,11.1
+2025-04,Neurology,Outpatient,Cancelled,31,13.6
+2025-04,Neurology,Outpatient,No-Show,14,14.9
+2025-04,Neurology,Inpatient,Completed,55,12.1
+2025-04,Neurology,Inpatient,Cancelled,11,13.5
+2025-04,Neurology,Inpatient,No-Show,5,17.1
+2025-04,Neurology,Diagnostic,Completed,92,9.5
+2025-04,Neurology,Diagnostic,Cancelled,16,11.6
+2025-04,Neurology,Diagnostic,No-Show,8,12.0
+2025-04,Neurology,Emergency,Completed,42,1.3
+2025-04,Neurology,Emergency,Cancelled,8,1.5
+2025-04,Neurology,Emergency,No-Show,3,1.8
+2025-04,Neurology,Elective,Completed,48,27.8
+2025-04,Neurology,Elective,Cancelled,9,34.8
+2025-04,Neurology,Elective,No-Show,4,38.2
+2025-05,Cardiology,Outpatient,Completed,221,12.3
+2025-05,Cardiology,Outpatient,Cancelled,41,13.4
+2025-05,Cardiology,Outpatient,No-Show,20,14.8
+2025-05,Cardiology,Inpatient,Completed,81,11.8
+2025-05,Cardiology,Inpatient,Cancelled,16,15.8
+2025-05,Cardiology,Inpatient,No-Show,7,13.4
+2025-05,Cardiology,Diagnostic,Completed,144,8.8
+2025-05,Cardiology,Diagnostic,Cancelled,26,9.1
+2025-05,Cardiology,Diagnostic,No-Show,13,13.2
+2025-05,Cardiology,Emergency,Completed,56,1.7
+2025-05,Cardiology,Emergency,Cancelled,12,2.0
+2025-05,Cardiology,Emergency,No-Show,5,2.0
+2025-05,Cardiology,Elective,Completed,65,31.7
+2025-05,Cardiology,Elective,Cancelled,13,32.4
+2025-05,Cardiology,Elective,No-Show,6,33.9
+2025-05,Orthopedics,Outpatient,Completed,194,10.3
+2025-05,Orthopedics,Outpatient,Cancelled,39,15.2
+2025-05,Orthopedics,Outpatient,No-Show,19,17.6
+2025-05,Orthopedics,Inpatient,Completed,69,12.5
+2025-05,Orthopedics,Inpatient,Cancelled,12,12.3
+2025-05,Orthopedics,Inpatient,No-Show,6,17.2
+2025-05,Orthopedics,Diagnostic,Completed,123,9.8
+2025-05,Orthopedics,Diagnostic,Cancelled,26,10.7
+2025-05,Orthopedics,Diagnostic,No-Show,12,10.8
+2025-05,Orthopedics,Emergency,Completed,53,1.3
+2025-05,Orthopedics,Emergency,Cancelled,9,1.8
+2025-05,Orthopedics,Emergency,No-Show,5,1.7
+2025-05,Orthopedics,Elective,Completed,61,30.4
+2025-05,Orthopedics,Elective,Cancelled,11,28.7
+2025-05,Orthopedics,Elective,No-Show,6,40.2
+2025-05,Pediatrics,Outpatient,Completed,281,11.6
+2025-05,Pediatrics,Outpatient,Cancelled,53,12.7
+2025-05,Pediatrics,Outpatient,No-Show,26,15.7
+2025-05,Pediatrics,Inpatient,Completed,86,13.2
+2025-05,Pediatrics,Inpatient,Cancelled,18,14.4
+2025-05,Pediatrics,Inpatient,No-Show,9,15.9
+2025-05,Pediatrics,Diagnostic,Completed,173,9.2
+2025-05,Pediatrics,Diagnostic,Cancelled,32,10.1
+2025-05,Pediatrics,Diagnostic,No-Show,14,11.1
+2025-05,Pediatrics,Emergency,Completed,62,1.4
+2025-05,Pediatrics,Emergency,Cancelled,12,1.5
+2025-05,Pediatrics,Emergency,No-Show,5,1.9
+2025-05,Pediatrics,Elective,Completed,84,30.2
+2025-05,Pediatrics,Elective,Cancelled,16,31.3
+2025-05,Pediatrics,Elective,No-Show,8,39.9
+2025-05,Radiology,Outpatient,Completed,245,10.3
+2025-05,Radiology,Outpatient,Cancelled,47,16.2
+2025-05,Radiology,Outpatient,No-Show,20,16.9
+2025-05,Radiology,Inpatient,Completed,88,13.1
+2025-05,Radiology,Inpatient,Cancelled,18,14.0
+2025-05,Radiology,Inpatient,No-Show,7,17.0
+2025-05,Radiology,Diagnostic,Completed,133,9.8
+2025-05,Radiology,Diagnostic,Cancelled,25,11.0
+2025-05,Radiology,Diagnostic,No-Show,12,11.0
+2025-05,Radiology,Emergency,Completed,57,1.5
+2025-05,Radiology,Emergency,Cancelled,12,1.8
+2025-05,Radiology,Emergency,No-Show,5,1.9
+2025-05,Radiology,Elective,Completed,71,31.4
+2025-05,Radiology,Elective,Cancelled,14,37.3
+2025-05,Radiology,Elective,No-Show,7,37.1
+2025-05,Oncology,Outpatient,Completed,146,12.2
+2025-05,Oncology,Outpatient,Cancelled,29,15.0
+2025-05,Oncology,Outpatient,No-Show,14,16.8
+2025-05,Oncology,Inpatient,Completed,53,12.0
+2025-05,Oncology,Inpatient,Cancelled,11,14.5
+2025-05,Oncology,Inpatient,No-Show,5,13.3
+2025-05,Oncology,Diagnostic,Completed,94,9.9
+2025-05,Oncology,Diagnostic,Cancelled,18,11.3
+2025-05,Oncology,Diagnostic,No-Show,8,12.6
+2025-05,Oncology,Emergency,Completed,36,1.5
+2025-05,Oncology,Emergency,Cancelled,7,1.5
+2025-05,Oncology,Emergency,No-Show,3,2.0
+2025-05,Oncology,Elective,Completed,46,30.6
+2025-05,Oncology,Elective,Cancelled,9,34.8
+2025-05,Oncology,Elective,No-Show,4,34.0
+2025-05,General Surgery,Outpatient,Completed,137,13.7
+2025-05,General Surgery,Outpatient,Cancelled,28,15.9
+2025-05,General Surgery,Outpatient,No-Show,14,16.8
+2025-05,General Surgery,Inpatient,Completed,47,13.0
+2025-05,General Surgery,Inpatient,Cancelled,8,14.2
+2025-05,General Surgery,Inpatient,No-Show,4,17.3
+2025-05,General Surgery,Diagnostic,Completed,75,8.8
+2025-05,General Surgery,Diagnostic,Cancelled,14,9.4
+2025-05,General Surgery,Diagnostic,No-Show,7,10.5
+2025-05,General Surgery,Emergency,Completed,35,1.3
+2025-05,General Surgery,Emergency,Cancelled,7,1.8
+2025-05,General Surgery,Emergency,No-Show,3,1.8
+2025-05,General Surgery,Elective,Completed,40,28.8
+2025-05,General Surgery,Elective,Cancelled,8,29.6
+2025-05,General Surgery,Elective,No-Show,3,34.3
+2025-05,Neurology,Outpatient,Completed,168,11.0
+2025-05,Neurology,Outpatient,Cancelled,33,13.4
+2025-05,Neurology,Outpatient,No-Show,16,15.5
+2025-05,Neurology,Inpatient,Completed,56,13.3
+2025-05,Neurology,Inpatient,Cancelled,12,15.7
+2025-05,Neurology,Inpatient,No-Show,5,15.8
+2025-05,Neurology,Diagnostic,Completed,94,9.8
+2025-05,Neurology,Diagnostic,Cancelled,18,10.6
+2025-05,Neurology,Diagnostic,No-Show,8,13.2
+2025-05,Neurology,Emergency,Completed,41,1.5
+2025-05,Neurology,Emergency,Cancelled,8,2.0
+2025-05,Neurology,Emergency,No-Show,4,1.8
+2025-05,Neurology,Elective,Completed,51,27.9
+2025-05,Neurology,Elective,Cancelled,10,36.4
+2025-05,Neurology,Elective,No-Show,5,34.3
+2025-06,Cardiology,Outpatient,Completed,245,11.8
+2025-06,Cardiology,Outpatient,Cancelled,38,13.4
+2025-06,Cardiology,Outpatient,No-Show,20,15.1
+2025-06,Cardiology,Inpatient,Completed,85,10.5
+2025-06,Cardiology,Inpatient,Cancelled,14,15.3
+2025-06,Cardiology,Inpatient,No-Show,8,17.0
+2025-06,Cardiology,Diagnostic,Completed,136,9.8
+2025-06,Cardiology,Diagnostic,Cancelled,24,10.3
+2025-06,Cardiology,Diagnostic,No-Show,13,11.6
+2025-06,Cardiology,Emergency,Completed,61,1.4
+2025-06,Cardiology,Emergency,Cancelled,10,1.9
+2025-06,Cardiology,Emergency,No-Show,5,1.7
+2025-06,Cardiology,Elective,Completed,64,31.2
+2025-06,Cardiology,Elective,Cancelled,12,37.5
+2025-06,Cardiology,Elective,No-Show,6,35.7
+2025-06,Orthopedics,Outpatient,Completed,210,11.0
+2025-06,Orthopedics,Outpatient,Cancelled,33,16.0
+2025-06,Orthopedics,Outpatient,No-Show,18,13.3
+2025-06,Orthopedics,Inpatient,Completed,72,11.0
+2025-06,Orthopedics,Inpatient,Cancelled,12,14.8
+2025-06,Orthopedics,Inpatient,No-Show,6,14.8
+2025-06,Orthopedics,Diagnostic,Completed,129,9.5
+2025-06,Orthopedics,Diagnostic,Cancelled,23,10.2
+2025-06,Orthopedics,Diagnostic,No-Show,11,10.5
+2025-06,Orthopedics,Emergency,Completed,51,1.4
+2025-06,Orthopedics,Emergency,Cancelled,9,1.7
+2025-06,Orthopedics,Emergency,No-Show,5,2.1
+2025-06,Orthopedics,Elective,Completed,65,29.4
+2025-06,Orthopedics,Elective,Cancelled,11,34.5
+2025-06,Orthopedics,Elective,No-Show,6,33.0
+2025-06,Pediatrics,Outpatient,Completed,256,11.7
+2025-06,Pediatrics,Outpatient,Cancelled,47,14.5
+2025-06,Pediatrics,Outpatient,No-Show,22,13.5
+2025-06,Pediatrics,Inpatient,Completed,101,12.1
+2025-06,Pediatrics,Inpatient,Cancelled,16,13.2
+2025-06,Pediatrics,Inpatient,No-Show,9,13.4
+2025-06,Pediatrics,Diagnostic,Completed,175,9.7
+2025-06,Pediatrics,Diagnostic,Cancelled,28,10.1
+2025-06,Pediatrics,Diagnostic,No-Show,13,11.3
+2025-06,Pediatrics,Emergency,Completed,66,1.4
+2025-06,Pediatrics,Emergency,Cancelled,12,1.7
+2025-06,Pediatrics,Emergency,No-Show,5,1.8
+2025-06,Pediatrics,Elective,Completed,82,27.3
+2025-06,Pediatrics,Elective,Cancelled,13,36.8
+2025-06,Pediatrics,Elective,No-Show,6,31.6
+2025-06,Radiology,Outpatient,Completed,231,12.6
+2025-06,Radiology,Outpatient,Cancelled,42,13.1
+2025-06,Radiology,Outpatient,No-Show,21,15.2
+2025-06,Radiology,Inpatient,Completed,83,12.3
+2025-06,Radiology,Inpatient,Cancelled,13,13.6
+2025-06,Radiology,Inpatient,No-Show,7,16.1
+2025-06,Radiology,Diagnostic,Completed,142,10.0
+2025-06,Radiology,Diagnostic,Cancelled,24,10.1
+2025-06,Radiology,Diagnostic,No-Show,13,12.0
+2025-06,Radiology,Emergency,Completed,60,1.4
+2025-06,Radiology,Emergency,Cancelled,9,1.7
+2025-06,Radiology,Emergency,No-Show,5,1.9
+2025-06,Radiology,Elective,Completed,71,31.8
+2025-06,Radiology,Elective,Cancelled,11,34.2
+2025-06,Radiology,Elective,No-Show,6,35.1
+2025-06,Oncology,Outpatient,Completed,144,12.2
+2025-06,Oncology,Outpatient,Cancelled,25,15.2
+2025-06,Oncology,Outpatient,No-Show,11,15.2
+2025-06,Oncology,Inpatient,Completed,53,11.7
+2025-06,Oncology,Inpatient,Cancelled,8,15.8
+2025-06,Oncology,Inpatient,No-Show,4,14.4
+2025-06,Oncology,Diagnostic,Completed,93,8.1
+2025-06,Oncology,Diagnostic,Cancelled,16,10.1
+2025-06,Oncology,Diagnostic,No-Show,7,12.3
+2025-06,Oncology,Emergency,Completed,38,1.6
+2025-06,Oncology,Emergency,Cancelled,7,2.0
+2025-06,Oncology,Emergency,No-Show,3,2.1
+2025-06,Oncology,Elective,Completed,48,30.5
+2025-06,Oncology,Elective,Cancelled,9,37.3
+2025-06,Oncology,Elective,No-Show,4,36.1
+2025-06,General Surgery,Outpatient,Completed,137,11.8
+2025-06,General Surgery,Outpatient,Cancelled,23,15.5
+2025-06,General Surgery,Outpatient,No-Show,12,17.0
+2025-06,General Surgery,Inpatient,Completed,50,12.9
+2025-06,General Surgery,Inpatient,Cancelled,8,16.0
+2025-06,General Surgery,Inpatient,No-Show,4,17.5
+2025-06,General Surgery,Diagnostic,Completed,82,10.3
+2025-06,General Surgery,Diagnostic,Cancelled,14,9.8
+2025-06,General Surgery,Diagnostic,No-Show,6,12.5
+2025-06,General Surgery,Emergency,Completed,35,1.4
+2025-06,General Surgery,Emergency,Cancelled,6,2.0
+2025-06,General Surgery,Emergency,No-Show,3,2.0
+2025-06,General Surgery,Elective,Completed,38,31.2
+2025-06,General Surgery,Elective,Cancelled,7,31.2
+2025-06,General Surgery,Elective,No-Show,3,33.1
+2025-06,Neurology,Outpatient,Completed,156,12.9
+2025-06,Neurology,Outpatient,Cancelled,26,14.0
+2025-06,Neurology,Outpatient,No-Show,13,14.9
+2025-06,Neurology,Inpatient,Completed,56,10.8
+2025-06,Neurology,Inpatient,Cancelled,9,16.2
+2025-06,Neurology,Inpatient,No-Show,5,14.8
+2025-06,Neurology,Diagnostic,Completed,95,9.8
+2025-06,Neurology,Diagnostic,Cancelled,15,10.7
+2025-06,Neurology,Diagnostic,No-Show,7,11.1
+2025-06,Neurology,Emergency,Completed,42,1.7
+2025-06,Neurology,Emergency,Cancelled,7,1.9
+2025-06,Neurology,Emergency,No-Show,4,2.1
+2025-06,Neurology,Elective,Completed,51,24.5
+2025-06,Neurology,Elective,Cancelled,9,35.6
+2025-06,Neurology,Elective,No-Show,5,41.4

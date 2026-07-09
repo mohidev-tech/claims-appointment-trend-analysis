@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claims &amp; Appointment Trend Analysis</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23334155'/%3E%3Crect x='3' y='8.5' width='2.4' height='4.5' rx='.5' fill='white'/%3E%3Crect x='6.8' y='5.5' width='2.4' height='7.5' rx='.5' fill='white'/%3E%3Crect x='10.6' y='3' width='2.4' height='10' rx='.5' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/dashboard.css">
+<style>:root{--accent:#0369a1;--c1:#0369a1;--c2:#0891b2;--c3:#f59e0b;--c4:#8b5cf6;--c5:#ef4444;--c6:#16a34a;}</style>
+</head>
+<body>
+<div class="app">
+  <header class="app-header">
+    <div>
+      <h1 class="title">Claims &amp; Appointment Trend Analysis</h1>
+      <div class="subtitle">Appointment completion, cancellation behavior, claims aging &amp; processing-bottleneck trends for hospital operations</div>
+    </div>
+    <div class="brand"><b>mohidev-tech</b><br>Healthcare / Hospital Operations<br><span id="asof"></span></div>
+  </header>
+
+  <div class="filters" id="filters">
+    <div class="filter"><label>Month from</label><select id="f-from"></select></div>
+    <div class="filter"><label>Month to</label><select id="f-to"></select></div>
+    <div class="filter"><label>Department</label><select id="f-dept"></select></div>
+    <div class="filter"><label>Service category</label><select id="f-svc"></select></div>
+    <div class="filter"><label>Claim status</label><select id="f-cstatus"></select></div>
+    <div class="spacer"></div>
+    <button class="btn-reset" id="reset">Reset filters</button>
+  </div>
+
+  <div class="section-title">Trend summary — latest month in range</div>
+  <div class="grid" style="margin-top:12px">
+    <div class="col-3" id="kpi-app"></div>
+    <div class="col-3" id="kpi-cancel"></div>
+    <div class="col-3" id="kpi-complete"></div>
+    <div class="col-3" id="kpi-claims"></div>
+    <div class="col-3" id="kpi-approval"></div>
+    <div class="col-3" id="kpi-proc"></div>
+    <div class="col-3" id="kpi-aged"></div>
+    <div class="col-3" id="kpi-billed"></div>
+  </div>
+
+  <div class="section-title">Appointment trends</div>
+  <div class="grid" style="margin-top:12px">
+    <div class="panel col-7"><h3>Appointment volume trend</h3><p class="hint">Total appointments per month across the selected filters</p><div class="chart-host" id="c-appttrend"></div></div>
+    <div class="panel col-5"><h3>Completed vs Cancelled vs No-Show</h3><p class="hint">Monthly appointment outcomes (stacked)</p><div class="chart-host" id="c-status"></div></div>
+    <div class="panel col-12"><h3>Department workload</h3><p class="hint">Appointments by department — latest month in range</p><div class="chart-host" id="c-dept"></div></div>
+  </div>
+
+  <div class="section-title">Claims trends &amp; aging</div>
+  <div class="grid" style="margin-top:12px">
+    <div class="panel col-4"><h3>Claims status distribution</h3><p class="hint">Share of claims by status — latest month in range</p><div class="chart-host" id="c-claimstatus"></div></div>
+    <div class="panel col-8"><h3>Claims aging trend by month</h3><p class="hint">Claim counts by aging bucket (days since submission)</p><div class="chart-host" id="c-aging"></div></div>
+    <div class="panel col-7"><h3>Avg claim processing days</h3><p class="hint">Monthly average processing time — the upward trend signals a growing bottleneck</p><div class="chart-host" id="c-proctrend"></div></div>
+    <div class="panel col-5"><h3>Avg processing days by department</h3><p class="hint">Latest month in range</p><div class="chart-host" id="c-procdept"></div></div>
+  </div>
+
+  <div class="section-title">Department scorecard</div>
+  <div class="grid" style="margin-top:12px">
+    <div class="panel col-12"><h3>Department trend scorecard</h3><p class="hint">Aggregated across the selected month range — cancellation, approval, processing and aging by department</p><div class="chart-host" id="c-score"></div></div>
+  </div>
+
+  <div class="notes">
+    <b>How to read this dashboard.</b>
+    <ul>
+      <li><b>Cancellation rate</b> = cancelled appointments ÷ total appointments; <b>completion rate</b> = completed ÷ total.</li>
+      <li><b>Claim approval rate</b> = (Approved + Paid) claims ÷ total claims.</li>
+      <li><b>Aging buckets</b> group claims by days since submission: 0-30, 31-60, 61-90 and 90+ days; Denied and In-Review claims skew toward the older buckets.</li>
+      <li><b>Avg processing days</b> = claim-count-weighted mean of processing time; the rising trend highlights a growing processing bottleneck.</li>
+      <li>KPI deltas compare the latest month in range against the prior month (month-over-month).</li>
+      <li>All figures are synthetic and reproducible (seed = 42). Dashboard totals reconcile exactly to the SQL queries in <code>/sql</code>.</li>
+    </ul>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="assets/charts.js"></script>
+<script>
+(function () {
+  const D = window.DATA, M = D.meta, A = D.appts, CL = D.claims, fmt = Charts.fmt;
+  const $ = (id) => document.getElementById(id);
+  $("asof").textContent = "As of " + M.latest_month;
+
+  // ---- populate filters ----
+  function opt(sel, values, allLabel) {
+    sel.innerHTML = `<option value="__all">${allLabel}</option>` + values.map(v => `<option value="${v}">${v}</option>`).join("");
+  }
+  opt($("f-dept"), M.departments, "All departments");
+  opt($("f-svc"), M.service_categories, "All service categories");
+  opt($("f-cstatus"), M.claim_statuses, "All claim statuses");
+  $("f-from").innerHTML = M.months.map(m => `<option value="${m}">${m}</option>`).join("");
+  $("f-to").innerHTML = M.months.map(m => `<option value="${m}">${m}</option>`).join("");
+  $("f-from").value = M.months[0];
+  $("f-to").value = M.months[M.months.length - 1];
+
+  const C = { c1: "#0369a1", c2: "#0891b2", c3: "#f59e0b", c4: "#8b5cf6", c5: "#ef4444", c6: "#16a34a" };
+  const STATUS_COLORS = { "Completed": C.c6, "Cancelled": C.c5, "No-Show": C.c3 };
+  const AGING_COLORS = { "0-30": C.c6, "31-60": C.c2, "61-90": C.c3, "90+": C.c5 };
+  const CLAIM_STATUS_COLORS = { "Submitted": C.c2, "In Review": C.c4, "Approved": C.c6, "Denied": C.c5, "Paid": C.c1 };
+
+  function currentFilter() {
+    const from = $("f-from").value, to = $("f-to").value;
+    const lo = from <= to ? from : to, hi = from <= to ? to : from;
+    return {
+      lo, hi,
+      dept: $("f-dept").value, svc: $("f-svc").value, cstatus: $("f-cstatus").value,
+    };
+  }
+  // appointments filter by month / department / service_category
+  function applyAppts(f) {
+    return A.filter(r =>
+      r.month >= f.lo && r.month <= f.hi &&
+      (f.dept === "__all" || r.department === f.dept) &&
+      (f.svc === "__all" || r.service_category === f.svc));
+  }
+  // claims filter by month / department / claim_status
+  function applyClaims(f) {
+    return CL.filter(r =>
+      r.month >= f.lo && r.month <= f.hi &&
+      (f.dept === "__all" || r.department === f.dept) &&
+      (f.cstatus === "__all" || r.claim_status === f.cstatus));
+  }
+  const sum = (arr, k) => arr.reduce((s, r) => s + (r[k] || 0), 0);
+
+  function apptByMonth(rows) {
+    const map = {};
+    rows.forEach(r => {
+      const m = (map[r.month] ||= { month: r.month, total: 0, completed: 0, cancelled: 0, noshow: 0, leadw: 0 });
+      m.total += r.appointments;
+      if (r.appointment_status === "Completed") m.completed += r.appointments;
+      else if (r.appointment_status === "Cancelled") m.cancelled += r.appointments;
+      else if (r.appointment_status === "No-Show") m.noshow += r.appointments;
+      m.leadw += r.avg_lead_time_days * r.appointments;
+    });
+    return Object.values(map).sort((a, b) => a.month < b.month ? -1 : 1);
+  }
+  function claimByMonth(rows) {
+    const map = {};
+    rows.forEach(r => {
+      const m = (map[r.month] ||= { month: r.month, count: 0, approved: 0, amount: 0, procw: 0, a1: 0, a2: 0, a3: 0, a4: 0 });
+      m.count += r.claim_count;
+      if (r.claim_status === "Approved" || r.claim_status === "Paid") m.approved += r.claim_count;
+      m.amount += r.claim_amount;
+      m.procw += r.avg_processing_days * r.claim_count;
+      m.a1 += r.aging_0_30; m.a2 += r.aging_31_60; m.a3 += r.aging_61_90; m.a4 += r.aging_90_plus;
+    });
+    return Object.values(map).sort((a, b) => a.month < b.month ? -1 : 1);
+  }
+
+  function render() {
+    const f = currentFilter();
+    const aRows = applyAppts(f), cRows = applyClaims(f);
+    const aMonths = apptByMonth(aRows), cMonths = claimByMonth(cRows);
+    if (!aMonths.length && !cMonths.length) return;
+
+    const aLast = aMonths.length ? aMonths[aMonths.length - 1] : null;
+    const aPrev = aMonths.length > 1 ? aMonths[aMonths.length - 2] : null;
+    const cLast = cMonths.length ? cMonths[cMonths.length - 1] : null;
+    const cPrev = cMonths.length > 1 ? cMonths[cMonths.length - 2] : null;
+
+    const cancelRate = m => m && m.total ? (m.cancelled / m.total) * 100 : 0;
+    const completeRate = m => m && m.total ? (m.completed / m.total) * 100 : 0;
+    const approvalRate = m => m && m.count ? (m.approved / m.count) * 100 : 0;
+    const procDays = m => m && m.count ? m.procw / m.count : 0;
+    const aged90 = m => m && m.count ? (m.a4 / m.count) * 100 : 0;
+
+    const delta = (cur, pv, unit, goodDown) => {
+      if (pv == null) return { d: "", g: null };
+      const diff = cur - pv;
+      const arrow = diff >= 0 ? "▲" : "▼";
+      const good = goodDown ? diff < 0 : diff > 0;
+      let txt;
+      if (unit === "%") txt = `${arrow} ${Math.abs(diff).toFixed(2)} pp MoM`;
+      else if (unit === "$") txt = `${arrow} ${fmt.money(Math.abs(diff))} MoM`;
+      else if (unit === "d") txt = `${arrow} ${Math.abs(diff).toFixed(1)} d MoM`;
+      else txt = `${arrow} ${fmt.int(Math.abs(diff))} MoM`;
+      return { d: txt, g: Math.abs(diff) < 1e-9 ? null : good };
+    };
+
+    // ---- KPIs ----
+    const dApp = delta(aLast ? aLast.total : 0, aPrev && aPrev.total, "n", false);
+    Charts.kpi($("kpi-app"), { label: "Total appointments", value: fmt.int(aLast ? aLast.total : 0), delta: dApp.d, deltaGood: dApp.g });
+    const dCancel = delta(cancelRate(aLast), aPrev && cancelRate(aPrev), "%", true);
+    Charts.kpi($("kpi-cancel"), { label: "Cancellation rate", value: fmt.pct(cancelRate(aLast), 1), delta: dCancel.d, deltaGood: dCancel.g });
+    const dComplete = delta(completeRate(aLast), aPrev && completeRate(aPrev), "%", false);
+    Charts.kpi($("kpi-complete"), { label: "Completion rate", value: fmt.pct(completeRate(aLast), 1), delta: dComplete.d, deltaGood: dComplete.g });
+    const dClaims = delta(cLast ? cLast.count : 0, cPrev && cPrev.count, "n", false);
+    Charts.kpi($("kpi-claims"), { label: "Total claims", value: fmt.int(cLast ? cLast.count : 0), delta: dClaims.d, deltaGood: dClaims.g });
+    const dAppr = delta(approvalRate(cLast), cPrev && approvalRate(cPrev), "%", false);
+    Charts.kpi($("kpi-approval"), { label: "Claim approval rate", value: fmt.pct(approvalRate(cLast), 1), delta: dAppr.d, deltaGood: dAppr.g });
+    const dProc = delta(procDays(cLast), cPrev && procDays(cPrev), "d", true);
+    Charts.kpi($("kpi-proc"), { label: "Avg processing days", value: fmt.num(procDays(cLast), 1), delta: dProc.d, deltaGood: dProc.g });
+    const dAged = delta(aged90(cLast), cPrev && aged90(cPrev), "%", true);
+    Charts.kpi($("kpi-aged"), { label: "% claims aged 90+", value: fmt.pct(aged90(cLast), 1), delta: dAged.d, deltaGood: dAged.g });
+    const dBilled = delta(cLast ? cLast.amount : 0, cPrev && cPrev.amount, "$", false);
+    Charts.kpi($("kpi-billed"), { label: "Total billed amount", value: fmt.money(cLast ? cLast.amount : 0), delta: dBilled.d, deltaGood: dBilled.g });
+
+    // ---- appointment volume trend ----
+    if (aMonths.length) {
+      const labels = aMonths.map(m => m.month.slice(2));
+      Charts.line($("c-appttrend"), { xLabels: labels, yFmt: fmt.int, area: true,
+        series: [{ name: "Appointments", color: C.c1, points: aMonths.map(m => m.total) }] });
+      Charts.stackedBars($("c-status"), {
+        labels, yFmt: fmt.int,
+        groups: [
+          { name: "Completed", color: STATUS_COLORS["Completed"], values: aMonths.map(m => m.completed) },
+          { name: "Cancelled", color: STATUS_COLORS["Cancelled"], values: aMonths.map(m => m.cancelled) },
+          { name: "No-Show", color: STATUS_COLORS["No-Show"], values: aMonths.map(m => m.noshow) },
+        ],
+      });
+    }
+
+    // ---- department workload (latest month in range) ----
+    const aLastRows = aRows.filter(r => r.month === f.hi);
+    const deptAppt = {};
+    aLastRows.forEach(r => { deptAppt[r.department] = (deptAppt[r.department] || 0) + r.appointments; });
+    const deptLabels = M.departments.filter(d => deptAppt[d]);
+    if (deptLabels.length) {
+      Charts.bars($("c-dept"), { labels: deptLabels, values: deptLabels.map(d => deptAppt[d]),
+        color: deptLabels.map((_, i) => `hsl(${200 - i * 6} 75% ${42 + i * 3}%)`), yFmt: fmt.int, horizontal: true });
+    }
+
+    // ---- claims status distribution (latest month in range) ----
+    const cLastRows = cRows.filter(r => r.month === f.hi);
+    const statusCount = {};
+    cLastRows.forEach(r => { statusCount[r.claim_status] = (statusCount[r.claim_status] || 0) + r.claim_count; });
+    const statusLabels = M.claim_statuses.filter(s => statusCount[s]);
+    if (statusLabels.length) {
+      Charts.donut($("c-claimstatus"), {
+        items: statusLabels.map(s => ({ label: s, value: statusCount[s], color: CLAIM_STATUS_COLORS[s] })),
+        centerValue: fmt.int(sum(cLastRows, "claim_count")), centerLabel: "Claims" });
+    }
+
+    // ---- claims aging trend by month ----
+    if (cMonths.length) {
+      const clabels = cMonths.map(m => m.month.slice(2));
+      Charts.stackedBars($("c-aging"), {
+        labels: clabels, yFmt: fmt.int,
+        groups: [
+          { name: "0-30", color: AGING_COLORS["0-30"], values: cMonths.map(m => m.a1) },
+          { name: "31-60", color: AGING_COLORS["31-60"], values: cMonths.map(m => m.a2) },
+          { name: "61-90", color: AGING_COLORS["61-90"], values: cMonths.map(m => m.a3) },
+          { name: "90+", color: AGING_COLORS["90+"], values: cMonths.map(m => m.a4) },
+        ],
+      });
+      Charts.line($("c-proctrend"), { xLabels: clabels, yFmt: v => v.toFixed(1) + " d", area: true,
+        series: [{ name: "Avg processing days", color: C.c5, points: cMonths.map(procDays) }] });
+    }
+
+    // ---- avg processing days by department (latest month in range) ----
+    const deptProcW = {}, deptProcN = {};
+    cLastRows.forEach(r => {
+      deptProcW[r.department] = (deptProcW[r.department] || 0) + r.avg_processing_days * r.claim_count;
+      deptProcN[r.department] = (deptProcN[r.department] || 0) + r.claim_count;
+    });
+    const procDeptLabels = M.departments.filter(d => deptProcN[d]);
+    if (procDeptLabels.length) {
+      Charts.bars($("c-procdept"), { labels: procDeptLabels, values: procDeptLabels.map(d => deptProcW[d] / deptProcN[d]),
+        color: C.c3, yFmt: v => v.toFixed(1) + " d" });
+    }
+
+    // ---- department scorecard (aggregated across selected range) ----
+    const scoreDepts = M.departments.filter(d => f.dept === "__all" || d === f.dept);
+    const rows = scoreDepts.map(d => {
+      const ar = aRows.filter(r => r.department === d);
+      const cr = cRows.filter(r => r.department === d);
+      const tot = sum(ar, "appointments");
+      const canc = sum(ar.filter(r => r.appointment_status === "Cancelled"), "appointments");
+      const ccount = sum(cr, "claim_count");
+      const appr = sum(cr.filter(r => r.claim_status === "Approved" || r.claim_status === "Paid"), "claim_count");
+      const procw = cr.reduce((s, r) => s + r.avg_processing_days * r.claim_count, 0);
+      const a90 = sum(cr, "aging_90_plus");
+      return {
+        department: d,
+        appointments: tot,
+        cancel_pct: tot ? (canc / tot) * 100 : 0,
+        claims: ccount,
+        approval_pct: ccount ? (appr / ccount) * 100 : 0,
+        proc_days: ccount ? procw / ccount : 0,
+        aged90_pct: ccount ? (a90 / ccount) * 100 : 0,
+      };
+    }).filter(r => r.appointments > 0 || r.claims > 0)
+      .sort((a, b) => b.appointments - a.appointments);
+
+    Charts.table($("c-score"), {
+      columns: [
+        { key: "department", label: "Department" },
+        { key: "appointments", label: "Appointments", align: "right", fmt: v => fmt.int(v) },
+        { key: "cancel_pct", label: "Cancel %", align: "right", fmt: v => fmt.pct(v, 1) },
+        { key: "claims", label: "Claims", align: "right", fmt: v => fmt.int(v) },
+        { key: "approval_pct", label: "Approval %", align: "right", fmt: v => fmt.pct(v, 1) },
+        { key: "proc_days", label: "Avg processing days", align: "right", fmt: v => fmt.num(v, 1) },
+        { key: "aged90_pct", label: "% aged 90+", align: "center",
+          badge: (v) => `<span class="badge ${v > 15 ? "red" : v > 8 ? "amber" : "green"}">${fmt.pct(v, 1)}</span>` },
+      ],
+      rows,
+    });
+  }
+
+  ["f-from", "f-to", "f-dept", "f-svc", "f-cstatus"].forEach(id => $(id).addEventListener("change", render));
+  $("reset").addEventListener("click", () => {
+    $("f-from").value = M.months[0]; $("f-to").value = M.months[M.months.length - 1];
+    ["f-dept", "f-svc", "f-cstatus"].forEach(id => $(id).value = "__all");
+    render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>
